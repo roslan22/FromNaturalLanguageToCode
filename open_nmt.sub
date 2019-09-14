@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#$ -S /bin/bash
+#$ -o $HOME/Thesis/Baselines/OpenNMT-py/cluster_output/transformer.out
+#$ -e $HOME/Thesis/Baselines/OpenNMT-py/cluster_output/transformer.err
+#$ -l tmem=5G
+#$ -l h_rt=00:40:00
+#$ -N openNMT
+#$ -P gpu
+
+source /share/apps/examples/source_files/python/python-3.7.2.source
+source /share/apps/examples/source_files/cuda/cuda-9.2.source
+
+LD_LIBRARY_PATH="/home/ribragim/miniconda3/envs/gpu-env/lib/python3.7/site-packages/torchtext:/share/apps/gcc-8.3/lib64:/share/apps/gcc-8.3/lib:/share/apps/python-3.7.2-shared/lib:/share/apps/cuda-9.2/lib64:${LD_LIBRARY_PATH}" /share/apps/libminc-2.0/lib/libminc2.so.5.2.0 $(command -v /share/apps/python-3.7.2-shared/bin/python3) $HOME/Thesis/Baselines/OpenNMT-py/train.py -data data/demo -save_model data/extra -layers 1 -rnn_size 256 -word_vec_size 256 -transformer_ff 512 -heads 8  -encoder_type transformer -decoder_type transformer -position_encoding -train_steps 100000  -max_generator_batches 2 -dropout 0.2 -batch_size 32 -batch_type tokens -normalization tokens  -accum_count 2 -optim adam -adam_beta2 0.998 -decay_method noam -warmup_steps 4000 -learning_rate 2 -max_grad_norm 0 -param_init 0  -param_init_glorot -label_smoothing 0.1 -valid_steps 2000 -save_checkpoint_steps 10000

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#$ -S /bin/bash
+#$ -o $HOME/Thesis/RL_From_Scratch/output/transformer_rl.out
+#$ -e $HOME/Thesis/RL_From_Scratch/output/transformer_rl.err
+#$ -l tmem=8G
+#$ -l h_rt=02:00:00
+#$ -l gpu=1
+#$ -N rl_rs
+
+date
+
+source /share/apps/examples/source_files/python/python-3.7.0.source
+source /share/apps/examples/source_files/cuda/cuda-9.0.source
+
+conda activate gpu-env
+
+date
+
+cd $HOME/Thesis/RL_From_Scratch/
+
+python3 seq2seqTransformerRL_fixes.py --testing 1 --local 0 --num_epochs 2 --lr 0.00001 --batch_size 32 --test_small_data 0 --epochs_rl -1 --rl_alpha 0.01 --load_from_model 'pre_trained_models/15.37_bleu_gold_labeled_trained.pt'

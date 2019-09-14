@@ -1,0 +1,2379 @@
+sum ( d * 10 ** i for i , d in enumerate ( x [ : : - 1 ] ) ) #NEWLINE#
+r = int ( '' . join ( map ( str , x ) ) ) #NEWLINE#
+datetime . strptime ( '2010-11-13#SPACE#10:33:54.227806' , '%Y-%m-%d#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+[ ( i , sum ( j ) / len ( j ) ) for i , j in list ( d . items ( ) ) ] #NEWLINE#
+zip ( [ 1 , 2 ] , [ 3 , 4 ] ) #NEWLINE#
+[ 'hello{0}' . format ( i ) for i in a ] #NEWLINE#
+re . sub ( '(?<!\\S)((\\S+)(?:\\s+\\2))(?:\\s+\\2)+(?!\\S)' , '\\1' , s ) #NEWLINE#
+df . div ( df . sum ( axis = 1 ) , axis = 0 ) #NEWLINE#
+map ( lambda t : ( t [ 1 ] , t [ 0 ] ) , mylist ) #NEWLINE#
+[ ( t [ 1 ] , t [ 0 ] ) for t in mylist ] #NEWLINE#
+driver . find_element_by_xpath ( "//p[@id,#SPACE#'one']/following-sibling::p" ) #NEWLINE#
+re . findall ( '\\[[^\\]]*\\]|\\([^\\)]*\\)|"[^"]*"|\\S+' , strs ) #NEWLINE#
+print ( list ( itertools . combinations ( { 1 , 2 , 3 , 4 } , 3 ) ) ) #NEWLINE#
+df [ [ 'hour' , 'weekday' , 'weeknum' ] ] = df . apply ( lambdafunc , axis = 1 ) #NEWLINE#
+soup . find_all ( 'a' , string = 'Elsie' ) #NEWLINE#
+my_datetime . strftime ( '%B#SPACE#%d,#SPACE#%Y' ) #NEWLINE#
+int ( '' . join ( c for c in s if c . isdigit ( ) ) ) #NEWLINE#
+dic [ 'Test' ] . update ( { 'class' : { 'section' : 5 } } ) #NEWLINE#
+dict ( map ( int , x . split ( ':' ) ) for x in s . split ( ',' ) ) #NEWLINE#
+driver . find_element_by_xpath ( "//div[@id='a']//a[@class='click']" ) #NEWLINE#
+np . where ( ( vals == ( 0 , 1 ) ) . all ( axis = 1 ) ) #NEWLINE#
+SomeModel . objects . filter ( id = id ) . delete ( ) #NEWLINE#
+dict ( [ [ 'two' , 2 ] , [ 'one' , 1 ] ] ) #NEWLINE#
+dict ( zip ( l [ : : 2 ] , l [ 1 : : 2 ] ) ) #NEWLINE#
+GRAVITY = 9.8 #NEWLINE#
+re . findall ( '(([0-9]+)([A-Z]))' , '20M10000N80M' ) #NEWLINE#
+re . findall ( '([0-9]+|[A-Z])' , '20M10000N80M' ) #NEWLINE#
+re . findall ( '([0-9]+)([A-Z])' , '20M10000N80M' ) #NEWLINE#
+re . compile ( '\\w+' ) . findall ( 'Hello#SPACE#world,#SPACE#my#SPACE#name#SPACE#is...James#SPACE#the#SPACE#2nd!' ) #NEWLINE#
+datetime . datetime . strptime ( '03:55' , '%H:%M' ) . time ( ) #NEWLINE#
+requests . get ( 'https://www.reporo.com/' , verify = False ) #NEWLINE#
+a [ a != 0 ] #NEWLINE#
+new_dict = { k : v for k , v in zip ( keys , values ) } #NEWLINE#
+dict ( ( k , v ) for k , v in zip ( keys , values ) ) #NEWLINE#
+dict ( [ ( k , v ) for k , v in zip ( keys , values ) ] ) #NEWLINE#
+m = re . search ( '\\[(\\w+)\\]' , s ) #NEWLINE#
+s . setsockopt ( SOL_SOCKET , SO_REUSEADDR , 1 ) #NEWLINE#
+list3 = [ ( a + b ) for a , b in zip ( list1 , list2 ) ] #NEWLINE#
+[ ord ( c ) for c in s . decode ( 'hex' ) ] #NEWLINE#
+print ( sorted ( student_tuples , key = lambda t : ( - t [ 2 ] , t [ 0 ] ) ) ) #NEWLINE#
+[ y for x in range ( 3 ) for y in [ x , x ] ] #NEWLINE#
+txt = open ( 'file.txt' ) . read ( ) #NEWLINE#
+myList [ : ] = [ ( x / myInt ) for x in myList ] #NEWLINE#
+"""Name:#SPACE#{0[person.name]}""" . format ( { 'person.name' : 'Joe' } ) #NEWLINE#
+df . replace ( '#SPACE#' , '_' , regex = True ) #NEWLINE#
+datetime . datetime . combine ( my_date , datetime . time . min ) #NEWLINE#
+tst2 = str ( tst ) #NEWLINE#
+time . ctime ( os . path . getmtime ( file ) ) #NEWLINE#
+time . ctime ( os . path . getctime ( file ) ) #NEWLINE#
+t = os . path . getmtime ( filename ) #NEWLINE#
+os . path . getmtime ( path ) #NEWLINE#
+print ( 'last#SPACE#modified:#SPACE#%s' % time . ctime ( os . path . getmtime ( file ) ) ) #NEWLINE#
+print ( 'created:#SPACE#%s' % time . ctime ( os . path . getctime ( file ) ) ) #NEWLINE#
+return os . path . getctime ( path_to_file ) #NEWLINE#
+os . system ( 'TASKKILL#SPACE#/F#SPACE#/IM#SPACE#firefox.exe' ) #NEWLINE#
+return ( x . group ( 0 ) for x in re . finditer ( "[A-Za-z']+" , string ) ) #NEWLINE#
+""",#SPACE#""" . join ( [ '%.2f' ] * len ( x ) ) #NEWLINE#
+print ( re . match ( '(\\d+(\\.\\d+)?)' , '3434.35353' ) . group ( 1 ) ) #NEWLINE#
+df [ 'name' ] . str . replace ( '\\(.*\\)' , '' ) #NEWLINE#
+result = [ x for x in list_a if x [ 0 ] in list_b ] #NEWLINE#
+print ( [ '' . join ( a ) for a in combinations ( [ 'hel' , 'lo' , 'bye' ] , 2 ) ] ) #NEWLINE#
+[ x for x in li if 'ar' in x [ 2 ] ] #NEWLINE#
+unsorted_list . sort ( key = lambda x : x [ 3 ] ) #NEWLINE#
+logging . info ( 'test' ) #NEWLINE#
+fig . add_subplot ( 1 , 1 , 1 ) #NEWLINE#
+sorted ( list ( x . items ( ) ) , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+sorted ( dict1 , key = dict1 . get ) #NEWLINE#
+sorted ( d , key = d . get , reverse = True ) #NEWLINE#
+sorted ( list ( d . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+np . einsum ( 'ijk,ikl->ijl' , A , B ) #NEWLINE#
+print ( 'I#SPACE#have:#SPACE#{0.price}' . format ( card ) ) #NEWLINE#
+f . write ( '##SPACE#Data#SPACE#for#SPACE#Class#SPACE#A\n' ) #NEWLINE#
+a = a [ - 1 : ] + a [ : - 1 ] #NEWLINE#
+datetimevariable . strftime ( '%Y-%m-%d' ) #NEWLINE#
+mixed . replace ( '\r\n' , '\n' ) . replace ( '\r' , '\n' ) #NEWLINE#
+os . path . expanduser ( '~user' ) #NEWLINE#
+T = [ L [ i ] for i in Idx ] #NEWLINE#
+words = open ( 'myfile' ) . read ( ) . split ( ) #NEWLINE#
+[ [ sum ( [ x [ 1 ] for x in i ] ) ] for i in data ] #NEWLINE#
+[ sum ( [ x [ 1 ] for x in i ] ) for i in data ] #NEWLINE#
+Article . objects . annotate ( like_count = Count ( 'likes' ) ) . order_by ( '-like_count' ) #NEWLINE#
+today = datetime . datetime . utcnow ( ) . date ( ) #NEWLINE#
+[ ( a * b ) for a , b in zip ( lista , listb ) ] #NEWLINE#
+re . findall ( '(?::|;|=)(?:-)?(?:\\)|\\(|D|P)' , s ) #NEWLINE#
+re . match ( '[:;][)(](?![)(])' , str ) #NEWLINE#
+json_string = json . dumps ( [ ob . __dict__ for ob in list_name ] ) #NEWLINE#
+listofzeros = [ 0 ] * n #NEWLINE#
+stringnamehere . decode ( 'utf-8' , 'ignore' ) #NEWLINE#
+re . findall ( '((?:A|B|C)D)' , 'BDE' ) #NEWLINE#
+dic . setdefault ( key , [ ] ) . append ( value ) #NEWLINE#
+a [ np . argmin ( a [ : , ( 1 ) ] ) ] #NEWLINE#
+a . update ( b ) #NEWLINE#
+[ { k : v for k , v in d . items ( ) if k != 'mykey1' } for d in mylist ] #NEWLINE#
+[ dict ( ( k , v ) for k , v in d . items ( ) if k != 'mykey1' ) for d in mylist ] #NEWLINE#
+numpy . random . random ( ( 3 , 3 ) ) #NEWLINE#
+df [ 'C' ] = df [ 'A' ] + df [ 'B' ] #NEWLINE#
+[ value for key , value in list ( programs . items ( ) ) if 'new#SPACE#york' in key . lower ( ) ] #NEWLINE#
+sys . path . append ( '/path/to/main_folder' ) #NEWLINE#
+re . findall ( '\\d+(?=[^[]+$)' , s ) #NEWLINE#
+pickle . load ( open ( 'afile' , 'rb' ) ) #NEWLINE#
+driver . find_element_by_xpath ( 'xpath' ) . click ( ) #NEWLINE#
+ex . groupby ( level = 'A' ) . agg ( lambda x : x . index . get_level_values ( 1 ) . nunique ( ) ) #NEWLINE#
+pd . concat ( map ( pd . DataFrame , iter ( d . values ( ) ) ) , keys = list ( d . keys ( ) ) ) . stack ( #NEWLINE# ) . unstack ( 0 ) #NEWLINE#
+sum ( 1 for i , j in zip ( a , b ) if i != j ) #NEWLINE#
+d = { ( a . lower ( ) , b ) : v for ( a , b ) , v in list ( d . items ( ) ) } #NEWLINE#
+list_ . sort ( key = lambda x : [ x [ 0 ] , len ( x [ 1 ] ) , x [ 1 ] ] ) #NEWLINE#
+s . strip ( ) #NEWLINE#
+s = s . lstrip ( ) #NEWLINE#
+s = s . rstrip ( ) #NEWLINE#
+s = s . strip ( '#SPACE#\t\n\r' ) #NEWLINE#
+print ( re . sub ( '[\\s+]' , '' , s ) ) #NEWLINE#
+Task . objects . exclude ( prerequisites__status__in = [ 'A' , 'P' , 'F' ] ) #NEWLINE#
+root . configure ( background = 'black' ) #NEWLINE#
+numpy . array ( [ ( key , val ) for key , val in result . items ( ) ] , dtype ) #NEWLINE#
+pd . concat ( [ df_1 , df_2 . sort_values ( 'y' ) ] ) #NEWLINE#
+re . sub ( '(.*)</div>' , '\\1</bad>' , s ) #NEWLINE#
+print ( max ( d , key = lambda x : ( d [ x ] [ 'salary' ] , d [ x ] [ 'bonus' ] ) ) ) #NEWLINE#
+Book . objects . filter ( author__id = 1 ) . filter ( author__id = 2 ) #NEWLINE#
+re . compile ( 'XYZ' , re . IGNORECASE ) . split ( 'fooxyzbar' ) #NEWLINE#
+[ sum ( map ( int , s ) ) for s in example . split ( ) ] #NEWLINE#
+[ i for i in y if y [ i ] == 1 ] #NEWLINE#
+c . decode ( 'unicode_escape' ) #NEWLINE#
+pd . melt ( x , id_vars = [ 'farm' , 'fruit' ] , var_name = 'year' , value_name = 'value' ) #NEWLINE#
+default_data [ 'item3' ] = 3 #NEWLINE#
+default_data . update ( { 'item3' : 3 } ) #NEWLINE#
+default_data . update ( { 'item4' : 4 , 'item5' : 5 } ) #NEWLINE#
+l [ : 3 ] + l [ - 3 : ] #NEWLINE#
+df = df . reset_index ( drop = True ) #NEWLINE#
+[ a [ x ] . append ( b [ x ] ) for x in range ( 3 ) ] #NEWLINE#
+os . path . realpath ( path ) #NEWLINE#
+set ( L [ 0 ] . f . items ( ) ) . issubset ( set ( a3 . f . items ( ) ) ) #NEWLINE#
+zip ( * np . where ( a == 1 ) ) #NEWLINE#
+np . where ( a == 1 ) #NEWLINE#
+df . columns = df . columns . get_level_values ( 0 ) #NEWLINE#
+x = scipy . matrix ( [ 1 , 2 , 3 ] ) . transpose ( ) #NEWLINE#
+text = re . sub ( '(\\bget\\b)' , '\\1@' , text ) #NEWLINE#
+np . array ( [ np . arange ( 3 ) , np . arange ( 2 , - 1 , - 1 ) , np . ones ( ( 3 , ) ) ] ) . min ( axis = 0 ) #NEWLINE#
+df [ 'new_col' ] = list ( range ( 1 , len ( df ) + 1 ) ) #NEWLINE#
+os . environ [ 'DEBUSSY' ] = '1' #NEWLINE#
+print ( os . environ [ 'DEBUSSY' ] ) #NEWLINE#
+os . environ [ 'DEBUSSY' ] = '1' #NEWLINE#
+b . update ( d ) #NEWLINE#
+df [ 'b' ] #NEWLINE#
+ebar = plt . errorbar ( x , y , yerr = err , ecolor = 'y' ) #NEWLINE#
+results += [ each for each in os . listdir ( folder ) if each . endswith ( '.c' ) ] #NEWLINE#
+print ( 'Â£' . decode ( 'utf8' ) + '1' ) #NEWLINE#
+re . sub ( '(?<=[a-z])([A-Z])' , '-\\1' , s ) . lower ( ) #NEWLINE#
+os . system ( 'ulimit#SPACE#-s#SPACE#unlimited;#SPACE#some_executable' ) #NEWLINE#
+"""{0:.3g}""" . format ( num ) #NEWLINE#
+numpy . append ( a , a [ 0 ] ) #NEWLINE#
+df . ix [ : , ( df . loc [ 0 ] == 38.15 ) ] . columns #NEWLINE#
+df2 [ 'revenue' ] = df2 . CET . map ( df1 . set_index ( 'date' ) [ 'revenue' ] ) #NEWLINE#
+json_data = json . loads ( json_string ) #NEWLINE#
+math . cos ( math . radians ( 1 ) ) #NEWLINE#
+sum ( isinstance ( x , int ) for x in a ) #NEWLINE#
+"""used​""" . replace ( '\u200b' , '*' ) #NEWLINE#
+threading . Thread ( target = SudsMove ) . start ( ) #NEWLINE#
+sum ( i * i for i in l ) #NEWLINE#
+sum ( map ( lambda x : x * x , l ) ) #NEWLINE#
+d = dict ( ( key , value ) for key , value in iterable ) #NEWLINE#
+d = { key : value for key , value in iterable } #NEWLINE#
+d = { k : v for k , v in iterable } #NEWLINE#
+df . round ( { 'Alabama_exp' : 2 , 'Credit_exp' : 3 } ) #NEWLINE#
+p . setopt ( pycurl . WRITEFUNCTION , lambda x : None ) #NEWLINE#
+print ( random . choice ( words ) ) #NEWLINE#
+max ( d , key = lambda x : d [ x ] [ 'count' ] ) #NEWLINE#
+[ ( int ( x ) if x else 0 ) for x in data . split ( ',' ) ] #NEWLINE#
+""",""" . join ( x or '0' for x in s . split ( ',' ) ) #NEWLINE#
+re . compile ( '$^' ) #NEWLINE#
+re . compile ( '.\\A|.\\A*|.\\A+' ) #NEWLINE#
+re . compile ( 'a^' ) #NEWLINE#
+df . columns [ df . max ( ) > 0 ] #NEWLINE#
+yourdatetime . date ( ) == datetime . today ( ) . date ( ) #NEWLINE#
+print ( '\x1b[1m' + 'Hello' ) #NEWLINE#
+re . sub ( '.{20}(.mkv)' , '\\1' , 'unique12345678901234567890.mkv' ) #NEWLINE#
+[ 'a' , 'c' , 'b' , 'obj' ] #NEWLINE#
+"""#SPACE#""" . join ( mystring . split ( ) ) #NEWLINE#
+print ( '{:.100f}' . format ( 2.345e-67 ) ) #NEWLINE#
+'key1' in dict #NEWLINE#
+'a' in d #NEWLINE#
+'c' in d #NEWLINE#
+if 'key1' in dict : #NEWLINE# #INDENT# pass #NEWLINE#
+if key in d : #NEWLINE# #INDENT# pass #NEWLINE#
+Blog . objects . filter ( pk__in = [ 1 , 4 , 7 ] ) #NEWLINE#
+f = open ( 'test/test.pdf' , 'rb' ) #NEWLINE#
+format ( 12345678.46 , ',' ) . replace ( ',' , '#SPACE#' ) . replace ( '.' , ',' ) #NEWLINE#
+pd . merge ( frame_1 , frame_2 , left_on = 'county_ID' , right_on = 'countyid' ) #NEWLINE#
+np . isnan ( a ) . sum ( ) / np . prod ( a . shape ) #NEWLINE#
+sorted ( iter ( cityPopulation . items ( ) ) , key = lambda k_v : k_v [ 1 ] [ 2 ] , reverse = True ) #NEWLINE#
+sorted ( list ( u . items ( ) ) , key = lambda v : v [ 1 ] ) #NEWLINE#
+sorted ( list ( d . items ( ) ) , key = lambda k_v : k_v [ 1 ] , reverse = True ) #NEWLINE#
+sorted ( list ( d . items ( ) ) , key = lambda k_v : k_v [ 1 ] ) #NEWLINE#
+f = open ( os . path . join ( __location__ , 'bundled-resource.jpg' ) ) #NEWLINE#
+f = open ( 'words.txt' , 'rU' ) #NEWLINE#
+{ k : ( float ( d2 [ k ] ) / d1 [ k ] ) for k in d2 } #NEWLINE#
+{ k : ( d2 [ k ] / d1 [ k ] ) for k in list ( d1 . keys ( ) ) & d2 } #NEWLINE#
+dict ( ( k , float ( d2 [ k ] ) / d1 [ k ] ) for k in d2 ) #NEWLINE#
+df . to_csv ( filename , date_format = '%Y%m%d' ) #NEWLINE#
+my_dict . pop ( 'key' , None ) #NEWLINE#
+b = np . where ( np . isnan ( a ) , 0 , a ) #NEWLINE#
+subprocess . call ( 'start#SPACE#command#SPACE#-flags#SPACE#arguments' , shell = True ) #NEWLINE#
+subprocess . call ( 'command#SPACE#-flags#SPACE#arguments#SPACE#&' , shell = True ) #NEWLINE#
+f = urllib . request . urlopen ( url , urllib . parse . unquote ( urllib . parse . urlencode #NEWLINE# ( params ) ) ) #NEWLINE#
+"""#SPACE##SPACE##SPACE##SPACE#xyz#SPACE##SPACE##SPACE##SPACE##SPACE#""" . rstrip ( ) #NEWLINE#
+urllib . parse . quote ( s . encode ( 'utf-8' ) ) #NEWLINE#
+urllib . parse . quote_plus ( 'a#SPACE#b' ) #NEWLINE#
+np . array ( map ( int , '100110' ) ) #NEWLINE#
+print ( np . array ( list ( mystr ) , dtype = int ) ) #NEWLINE#
+img = cv2 . imread ( 'messi5.jpg' , 0 ) #NEWLINE#
+lst . sort ( key = lambda x : x [ 2 ] , reverse = True ) #NEWLINE#
+indices = [ i for i , x in enumerate ( my_list ) if x == 'whatever' ] #NEWLINE#
+subprocess . call ( 'grep#SPACE#-r#SPACE#PASSED#SPACE#*.log#SPACE#|#SPACE#sort#SPACE#-u#SPACE#|#SPACE#wc#SPACE#-l' , shell = True ) #NEWLINE#
+len ( my_text ) - len ( my_text . rstrip ( '?' ) ) #NEWLINE#
+df [ df . columns [ 1 : ] ] . replace ( '[\\$,]' , '' , regex = True ) . astype ( float ) #NEWLINE#
+df1 . merge ( df2 , how = 'left' , on = 'word' ) #NEWLINE#
+print ( '' . join ( '' . join ( i ) for i in zip ( a2 , a1 ) ) + a [ - 1 ] if len ( a ) % 2 else '' ) #NEWLINE#
+root . attributes ( '-topmost' , True ) #NEWLINE#
+root . lift ( ) #NEWLINE#
+hex ( int ( '' . join ( [ str ( int ( b ) ) for b in walls ] ) , 2 ) ) #NEWLINE#
+hex ( sum ( b << i for i , b in enumerate ( reversed ( walls ) ) ) ) #NEWLINE#
+print ( ( 'Total#SPACE#score#SPACE#for' , name , 'is' , score ) ) #NEWLINE#
+print ( 'Total#SPACE#score#SPACE#for#SPACE#{}#SPACE#is#SPACE#{}' . format ( name , score ) ) #NEWLINE#
+print ( 'Total#SPACE#score#SPACE#for#SPACE#%s#SPACE#is#SPACE#%s#SPACE##SPACE#' % ( name , score ) ) #NEWLINE#
+print ( ( 'Total#SPACE#score#SPACE#for' , name , 'is' , score ) ) #NEWLINE#
+url ( '^$' , TemplateView . as_view ( template_name = 'your_template.html' ) ) #NEWLINE#
+df [ df [ 'A' ] . isin ( [ 3 , 6 ] ) ] #NEWLINE#
+instance . __class__ . __name__ #NEWLINE#
+system ( '/path/to/my/venv/bin/python#SPACE#myscript.py' ) #NEWLINE#
+Employees . objects . values_list ( 'eng_name' , flat = True ) #NEWLINE#
+re . findall ( '\\d|\\d,\\d\\)' , '6,7)' ) #NEWLINE#
+input ( 'Press#SPACE#Enter#SPACE#to#SPACE#continue...' ) #NEWLINE#
+"""ABC""" . encode ( 'hex' ) #NEWLINE#
+db . Doc . update ( { '_id' : b [ '_id' ] } , { '$set' : { 'geolocCountry' : myGeolocCountry } } ) #NEWLINE#
+re . sub ( 'l+' , 'l' , 'lollll' ) #NEWLINE#
+rows = soup . findAll ( 'tr' ) [ 4 : : 5 ] #NEWLINE#
+plt . gca ( ) . invert_xaxis ( ) #NEWLINE#
+plt . gca ( ) . invert_yaxis ( ) #NEWLINE#
+pd . concat ( [ GOOG , AAPL ] , keys = [ 'GOOG' , 'AAPL' ] , axis = 1 ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+myString . decode ( 'string_escape' ) #NEWLINE#
+hashlib . md5 ( open ( 'filename.exe' , 'rb' ) . read ( ) ) . hexdigest ( ) #NEWLINE#
+[ k for k , v in d . items ( ) if v == desired_value ] #NEWLINE#
+{ k for d in LoD for k in list ( d . keys ( ) ) } #NEWLINE#
+set ( [ i for s in [ list ( d . keys ( ) ) for d in LoD ] for i in s ] ) #NEWLINE#
+[ i for s in [ list ( d . keys ( ) ) for d in LoD ] for i in s ] #NEWLINE#
+keys , values = zip ( * list ( d . items ( ) ) ) #NEWLINE#
+int ( Decimal ( s ) ) #NEWLINE#
+int ( s . split ( '.' ) [ 0 ] ) #NEWLINE#
+numpy . in1d ( b , a ) . all ( ) #NEWLINE#
+numpy . array ( [ ( x in a ) for x in b ] ) #NEWLINE#
+networkx . draw_networkx_labels ( G , pos , labels ) #NEWLINE#
+y = [ row [ : ] for row in x ] #NEWLINE#
+X = numpy . loadtxt ( 'somefile.csv' , delimiter = ',' ) #NEWLINE#
+matching = [ s for s in some_list if 'abc' in s ] #NEWLINE#
+df . to_csv ( 'mydf.tsv' , sep = '\t' ) #NEWLINE#
+random . sample ( list ( range ( 100 ) ) , 10 ) #NEWLINE#
+s . rsplit ( ',' , 1 ) #NEWLINE#
+all ( isinstance ( x , int ) for x in lst ) #NEWLINE#
+all ( isinstance ( x , int ) for x in lst ) #NEWLINE#
+line . strip ( ) #NEWLINE#
+driver . execute_script ( 'window.scrollTo(0,#SPACE#Y)' ) #NEWLINE#
+driver . execute_script ( 'window.scrollTo(0,#SPACE#document.body.scrollHeight);' ) #NEWLINE#
+datetime . datetime . combine ( dateobject , datetime . time ( ) ) #NEWLINE#
+print ( any ( x in a for x in b ) ) #NEWLINE#
+scipy . misc . imsave ( 'outfile.jpg' , image_array ) #NEWLINE#
+item = re . sub ( '#SPACE#?\\([^)]+\\)' , '' , item ) #NEWLINE#
+item = re . sub ( '#SPACE#?\\(\\w+\\)' , '' , item ) #NEWLINE#
+item = re . sub ( '#SPACE#\\(\\w+\\)' , '' , item ) #NEWLINE#
+len ( set ( list1 ) . intersection ( list2 ) ) > 0 #NEWLINE#
+i = int ( s , 16 ) #NEWLINE#
+int ( '0xff' , 16 ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+ast . literal_eval ( '0xdeadbeef' ) #NEWLINE#
+int ( 'deadbeef' , 16 ) #NEWLINE#
+os . system ( 'screencapture#SPACE#screen.png' ) #NEWLINE#
+driver . set_window_size ( 1400 , 1000 ) #NEWLINE#
+unicodedata . normalize ( 'NFKD' , 'música' ) . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+pandas . concat ( [ df1 , df2 ] ) . drop_duplicates ( ) . reset_index ( drop = True ) #NEWLINE#
+a = numpy . fromfile ( 'filename' , dtype = numpy . float32 ) #NEWLINE#
+subprocess . call ( 'mv#SPACE#/home/somedir/subdir/*#SPACE#somedir/' , shell = True ) #NEWLINE#
+subprocess . call ( 'mv#SPACE#/home/somedir/subdir/*#SPACE#somedir/' , shell = True ) #NEWLINE#
+print ( '▲' . encode ( 'utf-8' ) ) #NEWLINE#
+difflib . SequenceMatcher ( None , file1 . read ( ) , file2 . read ( ) ) #NEWLINE#
+dict ( ( k , int ( v ) ) for k , v in ( e . split ( '#SPACE#-#SPACE#' ) for e in s . split ( ',' ) ) ) #NEWLINE#
+all ( i in ( 1 , 2 , 3 , 4 , 5 ) for i in ( 1 , 6 ) ) #NEWLINE#
+df [ 'Date' ] . map ( lambda t : t . date ( ) ) . unique ( ) #NEWLINE#
+"""{:>7s}""" . format ( mystring ) #NEWLINE#
+open ( 'ComponentReport-DJI.xls' , 'rb' ) . read ( 200 ) #NEWLINE#
+df . sort_values ( [ 'b' , 'c' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+df . sort_values ( [ 'a' , 'b' ] , ascending = [ True , False ] ) #NEWLINE#
+df1 . sort ( [ 'a' , 'b' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+df . sort ( [ 'a' , 'b' ] , ascending = [ True , False ] ) #NEWLINE#
+redirect ( 'Home.views.index' ) #NEWLINE#
+[ x for x in a if x not in [ 2 , 3 , 7 ] ] #NEWLINE#
+out = '' . join ( c for c in asking if c not in ( '!' , '.' , ':' ) ) #NEWLINE#
+soup . find ( 'meta' , { 'name' : 'City' } ) [ 'content' ] #NEWLINE#
+urllib . parse . unquote ( '%0a' ) #NEWLINE#
+urllib . parse . unquote ( url ) . decode ( 'utf8' ) #NEWLINE#
+del lst [ : ] #NEWLINE#
+del lst1 [ : ] #NEWLINE#
+lst [ : ] = [ ] #NEWLINE#
+alist [ : ] = [ ] #NEWLINE#
+s . reset_index ( 0 ) . reset_index ( drop = True ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+[ ( y - x ) for x , y in zip ( L , L [ 1 : ] ) ] #NEWLINE#
+print ( re . search ( '\\bLOG_ADDR\\s+(\\S+)' , line ) . group ( 1 ) ) #NEWLINE#
+globals ( ) . update ( importlib . import_module ( 'some.package' ) . __dict__ ) #NEWLINE#
+"""""" . join ( [ 'a' , 'b' , 'c' , 'd' ] ) #NEWLINE#
+url . split ( '&' ) #NEWLINE#
+od = collections . OrderedDict ( sorted ( d . items ( ) ) ) #NEWLINE#
+OrderedDict ( sorted ( list ( d . items ( ) ) , key = lambda t : t [ 0 ] ) ) #NEWLINE#
+response = requests . put ( url , data = json . dumps ( data ) , headers = headers ) #NEWLINE#
+re . sub ( '[\\W_]+' , '' , s ) #NEWLINE#
+[ ( x + y ) for x in l2 for y in l1 ] #NEWLINE#
+dict ( [ x . split ( '=' ) for x in s . split ( ) ] ) #NEWLINE#
+my_list . pop ( 2 ) #NEWLINE#
+s = s . replace ( 'M' , '' ) #NEWLINE#
+newstr = oldstr . replace ( 'M' , '' ) #NEWLINE#
+sum ( x * y for x , y in zip ( a , b ) ) #NEWLINE#
+list ( x * y for x , y in list ( zip ( a , b ) ) ) #NEWLINE#
+sum ( i * j for i , j in zip ( a , b ) ) #NEWLINE#
+sum ( x * y for x , y in list ( zip ( a , b ) ) ) #NEWLINE#
+f . write ( open ( 'xxx.mp4' , 'rb' ) . read ( ) ) #NEWLINE#
+new_list = [ ( x + 1 ) for x in my_list ] #NEWLINE#
+[ x for x in j if x >= 5 ] #NEWLINE#
+plt . plot ( list ( range ( 10 ) ) , '--bo' ) #NEWLINE#
+plt . plot ( list ( range ( 10 ) ) , linestyle = '--' , marker = 'o' , color = 'b' ) #NEWLINE#
+[ i . split ( '\t' , 1 ) [ 0 ] for i in l ] #NEWLINE#
+myList = [ i . split ( '\t' ) [ 0 ] for i in myList ] #NEWLINE#
+sum ( your_list ) #NEWLINE#
+ForkedPdb ( ) . set_trace ( ) #NEWLINE#
+result = { k : d2 . get ( v ) for k , v in list ( d1 . items ( ) ) } #NEWLINE#
+datetime . datetime . now ( ) + datetime . timedelta ( days = 1 , hours = 3 ) #NEWLINE#
+[ int ( s [ i : i + 3 ] , 2 ) for i in range ( 0 , len ( s ) , 3 ) ] #NEWLINE#
+dict ( ( v , k ) for k , v in my_dict . items ( ) ) #NEWLINE#
+print ( sorted ( L , key = lambda x : int ( x . split ( '.' ) [ 2 ] ) ) ) #NEWLINE#
+any ( d [ 'name' ] == 'Test' for d in label ) #NEWLINE#
+a [ : ] = [ x for x in a if x != [ 1 , 1 ] ] #NEWLINE#
+[ x for x in a if x != [ 1 , 1 ] ] #NEWLINE#
+b = { a [ i ] : a [ i + 1 ] for i in range ( 0 , len ( a ) , 2 ) } #NEWLINE#
+len ( set ( a ) ) == len ( a ) #NEWLINE#
+print ( hashlib . md5 ( open ( full_path , 'rb' ) . read ( ) ) . hexdigest ( ) ) #NEWLINE#
+sorted ( list ( data . items ( ) ) , key = lambda x : x [ 1 ] [ 0 ] ) #NEWLINE#
+"""""" . join ( x . upper ( ) if random . randint ( 0 , 1 ) else x for x in s ) #NEWLINE#
+os . system ( 'GREPDB="echo#SPACE#123";#SPACE#/bin/bash#SPACE#-c#SPACE#"$GREPDB"' ) #NEWLINE#
+os . system ( '/bin/bash#SPACE#-c#SPACE#"echo#SPACE#hello#SPACE#world"' ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+Image . open ( 'pathToFile' ) . show ( ) #NEWLINE#
+"""didn't""" . replace ( "'" , '' ) #NEWLINE#
+files . sort ( key = file_number ) #NEWLINE#
+sentence . replace ( '#SPACE#' , '' ) #NEWLINE#
+pattern = re . compile ( '\\s+' ) #NEWLINE# sentence = re . sub ( pattern , '' , sentence ) #NEWLINE#
+sentence . strip ( ) #NEWLINE#
+sentence = re . sub ( '\\s+' , '' , sentence , flags = re . UNICODE ) #NEWLINE#
+sentence = '' . join ( sentence . split ( ) ) #NEWLINE#
+sum ( my_counter . values ( ) ) #NEWLINE#
+np . sqrt ( ( ( A - B ) ** 2 ) . sum ( - 1 ) ) #NEWLINE#
+levels = [ { } , { } , { } ] #NEWLINE#
+weekly = [ sum ( visitors [ x : x + 7 ] ) for x in range ( 0 , len ( daily ) , 7 ) ] #NEWLINE#
+del d [ key ] #NEWLINE#
+{ i : a [ i ] for i in a if i != 0 } #NEWLINE#
+lol . pop ( 'hello' ) #NEWLINE#
+del r [ key ] #NEWLINE#
+np . linalg . solve ( np . dot ( a . T , a ) , np . dot ( a . T , b ) ) #NEWLINE#
+pd . concat ( [ df . drop ( 'b' , axis = 1 ) , pd . DataFrame ( df [ 'b' ] . tolist ( ) ) ] , axis = 1 ) #NEWLINE#
+for i in range ( 0 , 10 , 2 ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for i in mylist [ : : 2 ] : #NEWLINE# #INDENT# pass #NEWLINE#
+[ { 'content' : x [ 'content' ] . lower ( ) } for x in messages ] #NEWLINE#
+"""#SPACE#""" . join ( my_list ) #NEWLINE#
+re . sub ( '(http://\\S+|\\S*[^\\w\\s]\\S*)' , '' , a ) #NEWLINE#
+str ( n ) == str ( n ) [ : : - 1 ] #NEWLINE#
+ftp . storbinary ( 'STOR#SPACE#myfile.txt' , open ( 'myfile.txt' , 'rb' ) ) #NEWLINE#
+re . sub ( '.*I' , 'I' , stri ) #NEWLINE#
+int ( '1,000,000' . replace ( ',' , '' ) ) #NEWLINE#
+pd . merge ( df1 , df2 , left_index = True , right_index = True , how = 'outer' ) #NEWLINE#
+pandas . concat ( [ df1 , df2 ] , axis = 1 ) #NEWLINE#
+all ( dict . values ( ) ) #NEWLINE#
+df . c_contofficeID . str . replace ( '^12(?=.{4}$)' , '' ) #NEWLINE#
+L [ : : - 1 ] #NEWLINE#
+reversed ( array ) #NEWLINE#
+L . reverse ( ) #NEWLINE#
+list ( reversed ( array ) ) #NEWLINE#
+[ tup [ 0 ] for tup in A ] #NEWLINE#
+newcontents = contents . replace ( 'a' , 'e' ) . replace ( 's' , '3' ) #NEWLINE#
+json . dumps ( [ dict ( list ( row . items ( ) ) ) for row in rs ] ) #NEWLINE#
+config_file = os . path . expanduser ( '~/foo.ini' ) #NEWLINE#
+request . params . getall ( 'c' ) #NEWLINE#
+np . corrcoef ( x ) #NEWLINE#
+print ( max ( 1 , 2 , 3 ) ) #NEWLINE#
+self . request . get ( 'var_name' ) #NEWLINE#
+a [ 'x' ] . apply ( lambda x , y : x + y , args = ( 100 , ) ) #NEWLINE#
+User . objects . order_by ( '-pet__age' ) [ : 10 ] #NEWLINE#
+time . sleep ( 5 ) #NEWLINE#
+time . sleep ( 60 ) #NEWLINE#
+sleep ( 0.1 ) #NEWLINE#
+time . sleep ( 60 ) #NEWLINE#
+time . sleep ( 0.1 ) #NEWLINE#
+[ x for x in my_list if not any ( c . isdigit ( ) for c in x ) ] #NEWLINE#
+df [ 'state' ] . apply ( lambda x : x [ len ( x ) / 2 - 1 : len ( x ) / 2 + 1 ] ) #NEWLINE#
+plt . grid ( True ) #NEWLINE#
+sorted ( lst , key = lambda x : ( - 1 * c [ x ] , lst . index ( x ) ) ) #NEWLINE#
+[ max ( len ( str ( x ) ) for x in line ) for line in zip ( * foo ) ] #NEWLINE#
+df . Country . value_counts ( ) . reset_index ( name = 'Sum#SPACE#of#SPACE#Accidents' ) #NEWLINE#
+data . set_index ( 'Date' ) . diff ( ) #NEWLINE#
+a . update ( [ 3 , 4 ] ) #NEWLINE#
+a [ 1 : : 2 ] = - 1 #NEWLINE#
+df . groupby ( 'group' ) [ 'value' ] . rank ( ascending = False ) #NEWLINE#
+datetime . strptime ( 'Tue,#SPACE#22#SPACE#Nov#SPACE#2011#SPACE#06:00:00#SPACE#GMT' , '%a,#SPACE#%d#SPACE#%b#SPACE#%Y#SPACE#%H:%M:%S#SPACE#%Z' ) #NEWLINE#
+struct . pack ( '<I' , 1633837924 ) #NEWLINE#
+list . append ( 'foo' ) #NEWLINE#
+list . insert ( 0 , 'foo' ) #NEWLINE#
+theset = set ( k . lower ( ) for k in thedict ) #NEWLINE#
+"""{s:{c}^{n}}""" . format ( s = 'dog' , n = 5 , c = 'x' ) #NEWLINE#
+isinstance ( s , str ) #NEWLINE#
+isinstance ( s , str ) #NEWLINE#
+dict ( pair for d in L for pair in list ( d . items ( ) ) ) #NEWLINE#
+{ k : v for d in L for k , v in list ( d . items ( ) ) } #NEWLINE#
+df . sort_values ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+df . sort ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+eval ( "print('Hello')" ) #NEWLINE#
+[ { 'A' : 1 , 'C' : 4 , 'B' : 2 , 'D' : 4 } , { 'A' : 1 , 'C' : 4 , 'B' : 1 , 'D' : 5 } ] #NEWLINE#
+[ { 'A' : 1 , 'C' : 4 , 'B' : 2 , 'D' : 4 } , { 'A' : 1 , 'C' : 4 , 'B' : 1 , 'D' : 5 } ] #NEWLINE#
+list ( itertools . product ( * a ) ) #NEWLINE#
+df . groupby ( [ 'Country' , 'Item_Code' ] ) [ [ 'Y1961' , 'Y1962' , 'Y1963' ] ] . sum ( ) #NEWLINE#
+done = [ ( el , x ) for el in [ a , b , c , d ] ] #NEWLINE#
+x = x [ numpy . logical_not ( numpy . isnan ( x ) ) ] #NEWLINE#
+os . path . join ( * x . split ( os . path . sep ) [ 2 : ] ) #NEWLINE#
+line = line . replace ( ';' , ':' ) #NEWLINE#
+subprocess . call ( 'tar#SPACE#c#SPACE#my_dir#SPACE#|#SPACE#md5sum' , shell = True ) #NEWLINE#
+"""437c2123""" . decode ( 'hex' ) #NEWLINE#
+[ k for k , v in User . _fields . items ( ) if v . required ] #NEWLINE#
+df = df . ix [ : , 0 : 2 ] #NEWLINE#
+x = map ( int , x . split ( ) ) #NEWLINE#
+x = [ int ( i ) for i in x . split ( ) ] #NEWLINE#
+driver . find_element_by_css_selector ( "input[onclick*='1#SPACE#Bedroom#SPACE#Deluxe']" ) #NEWLINE#
+re . sub ( '[^a-zA-Z0-9-_*.]' , '' , my_string ) #NEWLINE#
+webbrowser . open ( 'file:///my_pdf.pdf' ) #NEWLINE#
+result = result . replace ( '\\' , '' ) #NEWLINE#
+result . replace ( '\\' , '' ) #NEWLINE#
+df . replace ( '-' , 'NaN' ) #NEWLINE#
+datetime . datetime . now ( ) . date ( ) #NEWLINE#
+datetime . datetime . now ( ) . date ( ) #NEWLINE#
+[ elem . tag for elem in a . iter ( ) ] #NEWLINE#
+[ elem . tag for elem in a . iter ( ) if elem is not a ] #NEWLINE#
+"""2.7.0_bf4fda703454""" . split ( '_' ) #NEWLINE#
+sorted ( lst , key = lambda x : x [ 'language' ] != 'en' ) #NEWLINE#
+all ( value == 0 for value in list ( your_dict . values ( ) ) ) #NEWLINE#
+df . pivot_table ( 'Y' , rows = 'X' , cols = 'X2' ) #NEWLINE#
+try : #NEWLINE# #INDENT# doSomething ( ) #NEWLINE# except : #NEWLINE# #INDENT# pass #NEWLINE#
+try : #NEWLINE# #INDENT# doSomething ( ) #NEWLINE# except Exception : #NEWLINE# #INDENT# pass #NEWLINE#
+M . sum ( axis = 0 ) . sum ( axis = 0 ) #NEWLINE#
+time . mktime ( dt . timetuple ( ) ) + dt . microsecond / 1000000.0 #NEWLINE#
+df [ ( x <= df [ 'columnX' ] ) & ( df [ 'columnX' ] <= y ) ] #NEWLINE#
+sorted ( L , key = itemgetter ( 2 ) ) #NEWLINE#
+l . sort ( key = lambda x : x [ 2 ] ) #NEWLINE#
+sorted ( l , key = lambda x : x [ 2 ] ) #NEWLINE#
+sorted_list = sorted ( list_to_sort , key = itemgetter ( 2 , 0 , 1 ) ) #NEWLINE#
+np . argwhere ( np . all ( arr == [ [ 0 , 3 ] , [ 3 , 0 ] ] , axis = ( 1 , 2 ) ) ) #NEWLINE#
+data . loc [ : , ( list ( itertools . product ( [ 'one' , 'two' ] , [ 'a' , 'c' ] ) ) ) ] #NEWLINE#
+data . loc [ : , ( [ ( 'one' , 'a' ) , ( 'one' , 'c' ) , ( 'two' , 'a' ) , ( 'two' , 'c' ) ] ) ] #NEWLINE#
+hashtags = re . findall ( '#(\\w+)' , str1 , re . UNICODE ) #NEWLINE#
+os . rename ( src , dst ) #NEWLINE#
+print ( etree . tostring ( some_tag . find ( 'strong' ) ) ) #NEWLINE#
+json . dumps ( { str ( k ) : v for k , v in data . items ( ) } ) #NEWLINE#
+soup = BeautifulSoup ( response . read ( ) . decode ( 'utf-8' ) ) #NEWLINE#
+os . remove ( filename ) #NEWLINE#
+min ( [ x for x in num_list if x > 2 ] ) #NEWLINE#
+df [ 'prod_type' ] = 'responsive' #NEWLINE#
+sorted ( lst , key = lambda x : ( x < 0 , x ) ) #NEWLINE#
+six_months = date . today ( ) + relativedelta ( months = + 6 ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 2 ) #NEWLINE#
+print ( ( datetime . date . today ( ) + datetime . timedelta ( 6 * 365 / 12 ) ) . isoformat ( ) ) #NEWLINE#
+sorted ( list ( things . keys ( ) ) , key = lambda x : things [ x ] [ 'weight' ] , reverse = True ) #NEWLINE#
+a [ np . arange ( len ( a ) ) != 3 ] #NEWLINE#
+[ x for x in lst if fn ( x ) != 0 ] #NEWLINE#
+df . set_index ( 'month' ) #NEWLINE#
+arr = [ line . split ( ',' ) for line in open ( './urls-eu.csv' ) ] #NEWLINE#
+[ i for i in range ( 100 ) if i > 10 if i < 20 ] #NEWLINE#
+"""""" . join ( [ c for c in strs if c . isdigit ( ) ] ) #NEWLINE#
+re . split ( '\\t+' , yas . rstrip ( '\t' ) ) #NEWLINE#
+( a . T * b ) . T #NEWLINE#
+"""test#SPACE#string#NEWLINE#""" . rstrip ( ) #NEWLINE#
+"""test#SPACE#string#SPACE##NEWLINE##NEWLINE#""" . rstrip ( '\n' ) #NEWLINE#
+s . strip ( ) #NEWLINE#
+s . rstrip ( ) #NEWLINE#
+s . lstrip ( ) #NEWLINE#
+'Mac#SPACE#EOL\r' . rstrip ( '\r\n' ) #NEWLINE#
+'Windows#SPACE#EOL\r\n' . rstrip ( '\r\n' ) #NEWLINE#
+"""Unix#SPACE#EOL#NEWLINE#""" . rstrip ( '\r\n' ) #NEWLINE#
+"""Hello#NEWLINE##NEWLINE##NEWLINE#""" . rstrip ( '\n' ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+[ [ X [ i ] [ j ] for j in range ( len ( X [ i ] ) ) ] for i in range ( len ( X ) ) ] #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+df . groupby ( ( df . a == 'B' ) . shift ( 1 ) . fillna ( 0 ) . cumsum ( ) ) #NEWLINE#
+urllib . request . urlretrieve ( 'http://search.twitter.com/search.json?q=hi' , #NEWLINE# 'hi.json' ) #NEWLINE#
+numpy . where ( x == 0 ) [ 0 ] #NEWLINE#
+sys . stdout . flush ( ) #NEWLINE#
+str ( i ) #NEWLINE#
+a . __str__ ( ) #NEWLINE#
+str ( a ) #NEWLINE#
+L . sort ( key = operator . itemgetter ( 1 ) ) #NEWLINE#
+print ( str ( count ) + '#SPACE##SPACE##SPACE##SPACE#' + str ( conv ) ) #NEWLINE#
+df . fillna ( method = 'ffill' , inplace = True ) #NEWLINE#
+text . config ( state = DISABLED ) #NEWLINE#
+sum ( map ( ord , string ) ) #NEWLINE#
+list ( itertools . product ( * arrays ) ) #NEWLINE#
+"""{:,}""" . format ( value ) #NEWLINE#
+locale . setlocale ( locale . LC_ALL , 'en_US' ) #NEWLINE# locale . format ( '%d' , 1255000 , grouping = True ) #NEWLINE#
+df [ df . Col1 . isin ( [ 'men' , 'rocks' , 'mountains' ] ) ] #NEWLINE#
+[ x [ 1 ] for x in L ] #NEWLINE#
+"""раз#SPACE#два#SPACE#три""" . split ( ) #NEWLINE#
+MyModel . objects . extra ( select = { 'length' : 'Length(name)' } ) . order_by ( 'length' ) #NEWLINE#
+min ( dicts , key = lambda x : ( abs ( 1.77672955975 - x [ 'ratio' ] ) , - x [ 'pixels' ] ) ) #NEWLINE#
+m [ ~ m . mask ] #NEWLINE#
+re . findall ( '\\b[A-Z]' , formula ) #NEWLINE#
+matrix = [ ( [ 0 ] * 5 ) for i in range ( 5 ) ] #NEWLINE#
+np . vstack ( np . meshgrid ( x_p , y_p , z_p ) ) . reshape ( 3 , - 1 ) . T #NEWLINE#
+arr [ arr != 0 ] . min ( ) #NEWLINE#
+browser . find_elements_by_xpath ( "//*[@type='submit']/@value" ) . text #NEWLINE#
+browser . find_elements_by_xpath ( "//*[@type='submit']" ) . get_attribute ( 'value' ) #NEWLINE#
+with open ( 'example.yaml' , 'r' ) as stream : #NEWLINE# #INDENT# try : #NEWLINE# #INDENT# #INDENT# print ( yaml . load ( stream ) ) #NEWLINE# #INDENT# except yaml . YAMLError as exc : #NEWLINE# #INDENT# #INDENT# print ( exc ) #NEWLINE#
+with open ( 'example.yaml' ) as stream : #NEWLINE# #INDENT# try : #NEWLINE# #INDENT# #INDENT# print ( yaml . load ( stream ) ) #NEWLINE# #INDENT# except yaml . YAMLError as exc : #NEWLINE# #INDENT# #INDENT# print ( exc ) #NEWLINE#
+pd . DataFrame ( df . columns [ np . argsort ( df . values ) ] , df . index , np . unique ( df . values ) ) #NEWLINE#
+datetime . datetime . today ( ) . strftime ( '%Y-%m-%d' ) #NEWLINE#
+urllib . parse . quote_plus ( 'string_of_characters_like_these:$#@=?%^Q^$' ) #NEWLINE#
+print ( '#SPACE#' . join ( sorted ( d , key = lambda k : len ( d [ k ] ) , reverse = True ) ) ) #NEWLINE#
+map ( list , zip ( * [ ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) ] ) ) #NEWLINE#
+map ( list , zip ( * [ ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) ] ) ) #NEWLINE#
+zip ( * [ ( 1 , 2 ) , ( 3 , 4 ) , ( 5 , 6 ) ] ) #NEWLINE#
+[ ( x , y ) for x , y in zip ( myList , myList [ 1 : ] ) if y == 9 ] #NEWLINE#
+driver . get ( 'http://www.google.com.br' ) #NEWLINE#
+b = a . decode ( 'utf8' ) [ : : - 1 ] . encode ( 'utf8' ) #NEWLINE#
+dparser . parse ( 'monkey#SPACE#2010-07-32#SPACE#love#SPACE#banana' , fuzzy = True ) #NEWLINE#
+dparser . parse ( 'monkey#SPACE#20/01/1980#SPACE#love#SPACE#banana' , fuzzy = True ) #NEWLINE#
+dparser . parse ( 'monkey#SPACE#10/01/1980#SPACE#love#SPACE#banana' , fuzzy = True ) #NEWLINE#
+dict ( map ( lambda s : s . split ( ':' ) , [ 'A:1' , 'B:2' , 'C:3' , 'D:4' ] ) ) #NEWLINE#
+re . search ( '[a-zA-Z]' , the_string ) #NEWLINE#
+DataFrame ( { 'count' : df1 . groupby ( [ 'Name' , 'City' ] ) . size ( ) } ) . reset_index ( ) #NEWLINE#
+re . sub ( '[^0-9]' , '' , 'sdkjh987978asd098as0980a98sd' ) #NEWLINE#
+[ y for y in a if y not in b ] #NEWLINE#
+df . groupby ( 'ID' ) . head ( 4 ) #NEWLINE#
+zip ( * l ) #NEWLINE#
+dict ( zip ( [ 1 , 2 , 3 , 4 ] , [ 'a' , 'b' , 'c' , 'd' ] ) ) #NEWLINE#
+dict ( zip ( [ 1 , 2 , 3 , 4 ] , [ 'a' , 'b' , 'c' , 'd' ] ) ) #NEWLINE#
+request . url #NEWLINE#
+somestring . replace ( '\\r' , '' ) #NEWLINE#
+simplejson . dumps ( dict ( [ ( '%d,%d' % k , v ) for k , v in list ( d . items ( ) ) ] ) ) #NEWLINE#
+datetime . strptime ( 'Jun#SPACE#1#SPACE#2005#SPACE##SPACE#1:33PM' , '%b#SPACE#%d#SPACE#%Y#SPACE#%I:%M%p' ) #NEWLINE#
+parser . parse ( 'Aug#SPACE#28#SPACE#1999#SPACE#12:00AM' ) #NEWLINE#
+os . path . split ( os . path . abspath ( existGDBPath ) ) #NEWLINE#
+os . path . dirname ( os . path . abspath ( existGDBPath ) ) #NEWLINE#
+requests . post ( 'http://httpbin.org/post' , json = { 'test' : 'cheers' } ) #NEWLINE#
+a = [ x for x in a if x [ 'link' ] not in b ] #NEWLINE#
+{ { request . args . get ( 'a' ) } } #NEWLINE#
+list ( range ( 11 , 17 ) ) #NEWLINE#
+data_df [ 'grade' ] = data_df [ 'grade' ] . astype ( float ) . astype ( int ) #NEWLINE#
+max ( alkaline_earth_values , key = lambda x : x [ 1 ] ) #NEWLINE#
+your_string . strip ( '0' ) #NEWLINE#
+list ( permutations ( list ( range ( 9 ) ) , 2 ) ) #NEWLINE#
+re . compile ( '^(.+)(?:\\n|\\r\\n?)((?:(?:\\n|\\r\\n?).+)+)' , re . MULTILINE ) #NEWLINE#
+re . compile ( '^(.+)\\n((?:\\n.+)+)' , re . MULTILINE ) #NEWLINE#
+call ( [ 'path/to/python' , 'test2.py' , 'neededArgumetGoHere' ] ) #NEWLINE#
+a . sort ( key = operator . itemgetter ( 2 , 3 ) ) #NEWLINE#
+final_choices = ( another_choice , ) + my_choices #NEWLINE#
+final_choices = ( another_choice , ) + my_choices #NEWLINE#
+os . getcwd ( ) #NEWLINE#
+os . path . realpath ( __file__ ) #NEWLINE#
+os . path . dirname ( path ) #NEWLINE#
+os . path . realpath ( path ) #NEWLINE#
+dir_path = os . path . dirname ( os . path . realpath ( __file__ ) ) #NEWLINE#
+cwd = os . getcwd ( ) #NEWLINE#
+full_path = os . path . realpath ( __file__ ) #NEWLINE#
+arr [ arr [ : , ( 2 ) ] . argsort ( ) ] #NEWLINE#
+numpy . sort ( arr , axis = 0 ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+shutil . copy ( 'file.txt' , 'file2.txt' ) #NEWLINE#
+print ( '' . join ( choice ( ascii_uppercase ) for i in range ( 12 ) ) ) #NEWLINE#
+[ '' . join ( seq ) for seq in zip ( lst , lst [ 1 : ] ) ] #NEWLINE#
+data . rename ( columns = { 'gdp' : 'log(gdp)' } , inplace = True ) #NEWLINE#
+print ( soup . get_text ( ) ) #NEWLINE#
+sorted ( li , key = operator . itemgetter ( 1 ) , reverse = True ) #NEWLINE#
+data [ 'sex' ] . replace ( [ 0 , 1 ] , [ 'Female' , 'Male' ] , inplace = True ) #NEWLINE#
+re . split ( '\\W+' , 'Words,#SPACE#words,#SPACE#words.' ) #NEWLINE#
+re . match ( '(.*?[.?!](?:\\s+.*?[.?!]){0,1})' , phrase ) . group ( 1 ) #NEWLINE#
+print ( [ a for a , b in re . findall ( '((\\w)\\2*)' , s ) ] ) #NEWLINE#
+print ( '#SPACE#' . join ( OrderedDict . fromkeys ( s ) ) ) #NEWLINE#
+print ( '#SPACE#' . join ( set ( s ) ) ) #NEWLINE#
+[ x for x in file . namelist ( ) if x . endswith ( '/' ) ] #NEWLINE#
+input_string . count ( 'Hello' ) #NEWLINE#
+print ( '.' . join ( [ item [ 0 ] for item in data ] ) ) #NEWLINE#
+fh1 . seek ( 2 ) #NEWLINE#
+print ( zip ( my_list [ 0 : : 2 ] , my_list [ 1 : : 2 ] ) ) #NEWLINE#
+my_new_list = zip ( my_list [ 0 : : 2 ] , my_list [ 1 : : 2 ] ) #NEWLINE#
+sys . setdefaultencoding ( 'utf8' ) #NEWLINE#
+datetime . datetime . now ( ) . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' ) #NEWLINE#
+print ( re . findall ( '[\\u0600-\\u06FF]+' , my_string ) ) #NEWLINE#
+df . groupby ( df . index . map ( lambda t : t . minute ) ) #NEWLINE#
+dict [ 'Apple' ] [ 'American' ] #NEWLINE#
+df2 . dropna ( subset = [ 'three' , 'four' , 'five' ] , how = 'all' ) #NEWLINE#
+a . insert ( 0 , k ) #NEWLINE#
+a = a [ : n ] + k + a [ n : ] #NEWLINE#
+np . flatnonzero ( x ) . mean ( ) #NEWLINE#
+df [ 'just_date' ] = df [ 'dates' ] . dt . date #NEWLINE#
+[ x for x in a if x not in b ] #NEWLINE#
+[ '' . join ( x ) for x in a ] #NEWLINE#
+list ( map ( '' . join , a ) ) #NEWLINE#
+re . split ( '\n\\s*\n' , s ) #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda x , y : 10 * x + y , [ 1 , 2 , 3 , 4 , 5 ] ) #NEWLINE#
+"""{0:,.2f}""" . format ( 24322.34 ) #NEWLINE#
+my_function ( ** data ) #NEWLINE#
+sum ( 1 for line in open ( 'myfile.txt' ) ) #NEWLINE#
+def bufcount ( filename ) : #NEWLINE# #INDENT# f = open ( filename ) #NEWLINE# #INDENT# lines = 0 #NEWLINE# #INDENT# buf_size = 1024 * 1024 #NEWLINE# #INDENT# read_f = f . read #NEWLINE# #INDENT# buf = read_f ( buf_size ) #NEWLINE# #INDENT# while buf : #NEWLINE# #INDENT# #INDENT# lines += buf . count ( '\n' ) #NEWLINE# #INDENT# #INDENT# buf = read_f ( buf_size ) #NEWLINE# #INDENT# return lines #NEWLINE#
+print ( round ( 1123.456789 , - 1 ) ) #NEWLINE#
+[ x for y , x in sorted ( zip ( Y , X ) ) ] #NEWLINE#
+[ x for y , x in sorted ( zip ( Y , X ) ) ] #NEWLINE#
+datetime . date ( 2010 , 6 , 16 ) . isocalendar ( ) [ 1 ] #NEWLINE#
+df . iloc [ : , ( np . r_ [ 1 : 10 , ( 15 ) , ( 17 ) , 50 : 100 ] ) ] #NEWLINE#
+df . groupby ( 'dummy' ) . agg ( { 'returns' : [ np . mean , np . sum ] } ) #NEWLINE#
+s . lower ( ) #NEWLINE#
+s . decode ( 'utf-8' ) . lower ( ) #NEWLINE#
+ftp . retrbinary ( 'RETR#SPACE#%s' % filename , file . write ) #NEWLINE#
+urlfetch . fetch ( url , deadline = 10 * 60 ) #NEWLINE#
+print ( my_string [ 0 : 100 ] ) #NEWLINE#
+legend ( numpoints = 1 ) #NEWLINE#
+dict ( ( x , set ( y ) & set ( d1 . get ( x , ( ) ) ) ) for x , y in d2 . items ( ) ) #NEWLINE#
+numpy . loadtxt ( open ( 'test.csv' , 'rb' ) , delimiter = ',' , skiprows = 1 ) #NEWLINE#
+Sample . objects . filter ( date__range = [ '2011-01-01' , '2011-01-31' ] ) #NEWLINE#
+Sample . objects . filter ( date__year = '2011' , date__month = '01' ) #NEWLINE#
+d [ 'dict3' ] = { 'spam' : 5 , 'ham' : 6 } #NEWLINE#
+numpy . apply_along_axis ( numpy . linalg . norm , 1 , a ) #NEWLINE#
+dict ( ( k , v ) for d in dicts for k , v in list ( d . items ( ) ) ) #NEWLINE#
+print ( 'your#SPACE#string' . decode ( 'string_escape' ) ) #NEWLINE#
+sum ( [ True , True , False , False , False , True ] ) #NEWLINE#
+fig . set_size_inches ( w , h , forward = True ) #NEWLINE#
+'hello#SPACE#there#SPACE#%(5)s' % { '5' : 'you' } #NEWLINE#
+map ( int , example_string . split ( ',' ) ) #NEWLINE#
+[ int ( s ) for s in example_string . split ( ',' ) ] #NEWLINE#
+x = [ i [ 0 ] for i in x ] #NEWLINE#
+y = map ( operator . itemgetter ( 0 ) , x ) #NEWLINE#
+y = [ i [ 0 ] for i in x ] #NEWLINE#
+results = [ item [ 'value' ] for item in test_data ] #NEWLINE#
+datetime . datetime . now ( ) . isoformat ( ) #NEWLINE#
+datetime . datetime . utcnow ( ) . isoformat ( ) #NEWLINE#
+df . apply ( '#SPACE#' . join , axis = 0 ) #NEWLINE#
+pd . DataFrame ( df . values - df2 . values , columns = df . columns ) #NEWLINE#
+print ( open ( 'myfile.txt' , 'U' ) . read ( ) ) #NEWLINE#
+print ( line . decode ( 'utf-16-le' ) . split ( ) ) #NEWLINE#
+file = io . open ( 'data.txt' , 'r' , encoding = 'utf-16-le' ) #NEWLINE#
+s1 = pd . merge ( df1 , df2 , how = 'inner' , on = [ 'user_id' ] ) #NEWLINE#
+foo . decode ( 'utf8' ) . encode ( 'utf8' ) #NEWLINE#
+a . shape #NEWLINE#
+N . shape ( a ) #NEWLINE#
+N . shape ( a ) #NEWLINE#
+a . shape #NEWLINE#
+[ i for i , v in enumerate ( L ) if v [ 0 ] == 53 ] #NEWLINE#
+struct . unpack ( '<L' , 'yÌ¦»' ) [ 0 ] #NEWLINE#
+arr [ [ 0 , 1 , 1 ] , [ 1 , 0 , 2 ] ] #NEWLINE#
+list ( powerset ( 'abcd' ) ) #NEWLINE#
+s in [ 'true' , '1' , 't' , 'y' , 'yes' , 'yeah' , 'yup' , 'certainly' , 'uh-huh' ] #NEWLINE#
+urllib . parse . quote ( 'http://spam.com/go/' ) #NEWLINE#
+plt . savefig ( 'test.svg' ) #NEWLINE#
+len ( myArray ) #NEWLINE#
+sys . path . insert ( 0 , './path/to/your/modules/' ) #NEWLINE#
+ax . xaxis . set_ticks_position ( 'top' ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#OR#SPACE#REPLACE#SPACE#INTO#SPACE#master.table1#SPACE#SELECT#SPACE#*#SPACE#FROM#SPACE#table1' ) #NEWLINE#
+re . match ( '[a-zA-Z][\\w-]*\\Z' , 'A\n' ) #NEWLINE#
+re . match ( '[a-zA-Z][\\w-]*$' , '!A_B' ) #NEWLINE#
+int ( 'deadbeef' , 16 ) #NEWLINE#
+int ( 'a' , 16 ) #NEWLINE#
+int ( '0xa' , 16 ) #NEWLINE#
+int ( s , 16 ) #NEWLINE#
+int ( hexString , 16 ) #NEWLINE#
+print ( 'Value#SPACE#is#SPACE#"' + str ( value ) + '"' ) #NEWLINE#
+print ( 'Value#SPACE#is#SPACE#"{}"' . format ( value ) ) #NEWLINE#
+{ { tags | join ( '#SPACE#' ) } } #NEWLINE#
+help ( 'modules' ) #NEWLINE#
+[ [ [ x [ 0 ] ] for x in listD [ i ] ] for i in range ( len ( listD ) ) ] #NEWLINE#
+sorted ( s , key = str . upper ) #NEWLINE#
+sorted ( sorted ( s ) , key = str . upper ) #NEWLINE#
+sorted ( s , key = str . lower ) #NEWLINE#
+pd . merge ( df1 , df2 , on = [ 'A' , 'B' , 'C' , 'D' ] , how = 'inner' ) #NEWLINE#
+dict ( ( v , k ) for k , v in map . items ( ) ) #NEWLINE#
+s . decode ( 'unicode_escape' ) #NEWLINE#
+[ int ( i ) for i in str_list ] #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+list ( map ( int , [ '1' , '2' , '3' ] ) ) #NEWLINE#
+soup . find_all ( 'a' , href = re . compile ( 'http://www\\.iwashere\\.com/' ) ) #NEWLINE#
+soup . find_all ( 'a' , href = re . compile ( '^(?!(?:[a-zA-Z][a-zA-Z0-9+.-]*:|//))' ) ) #NEWLINE#
+subprocess . call ( [ 'java' , '-jar' , 'Blender.jar' ] ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#INTO#SPACE#table#SPACE#(`column1`)#SPACE#VALUES#SPACE#(%s)' , ( value , ) ) #NEWLINE#
+if url . endswith ( '.com' ) : #NEWLINE# #INDENT# url = url [ : - 4 ] #NEWLINE#
+url = re . sub ( '\\.com$' , '' , url ) #NEWLINE#
+print ( url . replace ( '.com' , '' ) ) #NEWLINE#
+if not text . endswith ( suffix ) : #NEWLINE# #INDENT# return text #NEWLINE# return text [ : len ( text ) - len ( suffix ) ] #NEWLINE#
+print ( ',#SPACE#,' . join ( [ str ( i [ 0 ] ) for i in mytuple ] ) ) #NEWLINE#
+max ( min ( my_value , max_value ) , min_value ) #NEWLINE#
+re . findall ( '\\w+|[^\\w\\s]' , text , re . UNICODE ) #NEWLINE#
+result = db . engine . execute ( '<sql#SPACE#here>' ) #NEWLINE#
+sys . exit ( 0 ) #NEWLINE#
+"""""" . join ( c for c in my_string if c . isdigit ( ) ) #NEWLINE#
+re . split ( '#SPACE#+' , str1 ) #NEWLINE#
+re . findall ( '\\S+' , str1 ) #NEWLINE#
+getattr ( getattr ( myobject , 'id' , None ) , 'number' , None ) #NEWLINE#
+{ i : ( i * 2 ) for i in range ( 10 ) } #NEWLINE#
+dict ( ( i , i * 2 ) for i in range ( 10 ) ) #NEWLINE#
+plt . cla ( ) #NEWLINE#
+total = sum ( float ( item ) for item in s . split ( ',' ) ) #NEWLINE#
+bin ( ord ( 'P' ) ) #NEWLINE#
+print ( my_string . split ( ',#SPACE#' , 1 ) [ 1 ] ) #NEWLINE#
+print ( data [ 'places' ] [ 0 ] [ 'post#SPACE#code' ] ) #NEWLINE#
+word = re . sub ( '([aeiou]):(([aeiou][^aeiou]*){3})$' , '\\1\\2' , word ) #NEWLINE#
+json . loads ( '{"foo":#SPACE#42,#SPACE#"bar":#SPACE#"baz"}' ) [ 'bar' ] #NEWLINE#
+data = json . loads ( array ) #NEWLINE#
+data = json . loads ( array ) #NEWLINE#
+re . findall ( '#(\\w+)' , 'http://example.org/#comments' ) #NEWLINE#
+any ( e in lestring for e in lelist ) #NEWLINE#
+df . plot ( x = 'col_name_1' , y = 'col_name_2' , style = 'o' ) #NEWLINE#
+parsed_html = BeautifulSoup ( html ) #NEWLINE# print ( parsed_html . body . find ( 'div' , attrs = { 'class' : 'container' } ) . text ) #NEWLINE#
+page = urllib . request . urlopen ( 'http://www.google.com/' ) #NEWLINE# soup = BeautifulSoup ( page ) #NEWLINE#
+plt . figure ( figsize = ( 3 , 4 ) ) #NEWLINE#
+s . translate ( None , string . punctuation ) #NEWLINE#
+base64 . urlsafe_b64decode ( uenc . encode ( 'ascii' ) ) #NEWLINE#
+len ( dict_test ) + sum ( len ( v ) for v in dict_test . values ( ) ) #NEWLINE#
+hex ( d ) . split ( 'x' ) [ 1 ] #NEWLINE#
+list ( str ( 123 ) ) #NEWLINE#
+[ int ( x ) for x in str ( num ) ] #NEWLINE#
+br . select_form ( nr = 0 ) #NEWLINE#
+json . load ( codecs . open ( 'sample.json' , 'r' , 'utf-8-sig' ) ) #NEWLINE#
+json . loads ( open ( 'sample.json' ) . read ( ) . decode ( 'utf-8-sig' ) ) #NEWLINE#
+server = smtplib . SMTP ( 'smtp.gmail.com' , 587 ) #NEWLINE#
+int ( '{:08b}' . format ( n ) [ : : - 1 ] , 2 ) #NEWLINE#
+df . set_index ( [ 'd' ] , append = True ) #NEWLINE#
+for key , value in d . items ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for key , value in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for letter , number in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for k , v in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+list ( d . items ( ) ) #NEWLINE#
+list ( d . items ( ) ) #NEWLINE#
+for k , v in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for letter , number in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for letter , number in list ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+session . query ( Task ) . filter ( Task . time_spent > timedelta ( hours = 3 ) ) . all ( ) #NEWLINE#
+os . system ( 'msbuild#SPACE#project.sln#SPACE#/p:Configuration=Debug' ) #NEWLINE#
+max ( list ( MyCount . keys ( ) ) , key = int ) #NEWLINE#
+os . system ( 'source#SPACE#.bashrc;#SPACE#shopt#SPACE#-s#SPACE#expand_aliases;#SPACE#nuke#SPACE#-x#SPACE#scriptPath' ) #NEWLINE#
+my_function . __name__ #NEWLINE#
+my_function . __name__ #NEWLINE#
+np . all ( a == a [ ( 0 ) , : ] , axis = 0 ) #NEWLINE#
+sorted ( a , key = lambda x : ( sum ( x [ 1 : 3 ] ) , x [ 0 ] ) ) #NEWLINE#
+sorted ( a , key = lambda x : ( sum ( x [ 1 : 3 ] ) , x [ 0 ] ) , reverse = True ) #NEWLINE#
+sorted ( lst , key = lambda x : ( sum ( x [ 1 : ] ) , x [ 0 ] ) ) #NEWLINE#
+sorted ( lst , key = lambda x : ( sum ( x [ 1 : ] ) , x [ 0 ] ) , reverse = True ) #NEWLINE#
+response . headers [ 'WWW-Authenticate' ] = 'Basic#SPACE#realm="test"' #NEWLINE#
+del request . session [ 'mykey' ] #NEWLINE#
+datetime . datetime . strptime ( '24052010' , '%d%m%Y' ) . date ( ) #NEWLINE#
+re . sub ( '[^\\x00-\\x7F]+' , '#SPACE#' , text ) #NEWLINE#
+numpy . array ( [ [ 1 , 2 ] , [ 3 , 4 ] ] ) #NEWLINE#
+myList = [ i for i in range ( 10 ) ] #NEWLINE#
+[ m [ 0 ] for m in re . compile ( '((.+?)\\2+)' ) . findall ( '44442(2)2(2)44' ) ] #NEWLINE#
+[ i [ 0 ] for i in re . findall ( '((\\d)(?:[()]*\\2*[()]*)*)' , s ) ] #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+x [ : : - 1 ] #NEWLINE#
+json . dumps ( { 'apple' : 'cat' , 'banana' : 'dog' , 'pear' : 'fish' } ) #NEWLINE#
+csvwriter . writerow ( row ) #NEWLINE#
+{ { ( item . date | date ) : 'Y#SPACE#M#SPACE#d' } } #NEWLINE#
+re . split ( '(?<=[\\.\\?!])#SPACE#' , text ) #NEWLINE#
+re . compile ( 'â\x80\x93' ) #NEWLINE#
+variable = [ ] #NEWLINE#
+intarray = array ( 'i' ) #NEWLINE#
+[ sublist [ : : - 1 ] for sublist in to_reverse [ : : - 1 ] ] #NEWLINE#
+re . sub ( '[^0-9a-zA-Z]+' , '*' , 'h^&ell`.,|o#SPACE#w]{+orld' ) #NEWLINE#
+"""""" . join ( [ 'I#SPACE#' , '<' , '3s#SPACE#U#SPACE#' , '&' , '#SPACE#you#SPACE#luvz#SPACE#me' ] ) #NEWLINE#
+logging . disable ( logging . CRITICAL ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#INTO#SPACE#index(url)#SPACE#VALUES(%s)' , ( url , ) ) #NEWLINE#
+df [ 'DateStr' ] = df [ 'DateObj' ] . dt . strftime ( '%d%m%Y' ) #NEWLINE#
+s . split ( '@' ) [ 0 ] #NEWLINE#
+df . query ( 'index#SPACE#<#SPACE#@start_remove#SPACE#or#SPACE#index#SPACE#>#SPACE#@end_remove' ) #NEWLINE#
+df . loc [ ( df . index < start_remove ) | ( df . index > end_remove ) ] #NEWLINE#
+df . isnull ( ) . sum ( ) #NEWLINE#
+df . reset_index ( inplace = True ) #NEWLINE#
+[ x [ 'value' ] for x in list_of_dicts ] #NEWLINE#
+[ d [ 'value' ] for d in l ] #NEWLINE#
+[ d [ 'value' ] for d in l if 'value' in d ] #NEWLINE#
+np . array ( [ [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ] ) . tolist ( ) #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+dataList . sort ( key = lambda x : x [ 1 ] ) #NEWLINE#
+list ( map ( list , set ( map ( lambda i : tuple ( i ) , testdata ) ) ) ) #NEWLINE#
+[ list ( i ) for i in set ( tuple ( i ) for i in testdata ) ] #NEWLINE#
+return user . groups . filter ( name = 'Member' ) . exists ( ) #NEWLINE#
+return user . groups . filter ( name__in = [ 'group1' , 'group2' ] ) . exists ( ) #NEWLINE#
+logging . getLogger ( ) . setLevel ( logging . DEBUG ) #NEWLINE#
+"""""" . join ( str ( i ) for i in ( 34.2424 , - 64.2344 , 76.3534 , 45.2344 ) ) #NEWLINE#
+"""""" . join ( [ s [ x : x + 2 ] [ : : - 1 ] for x in range ( 0 , len ( s ) , 2 ) ] ) #NEWLINE#
+plt . savefig ( 'graph.png' , dpi = 1000 ) #NEWLINE#
+my_list = [ [ x for x in sublist if x not in to_del ] for sublist in my_list ] #NEWLINE#
+[ item for item in a if 1 in item ] #NEWLINE#
+[ item for item in a if item [ 0 ] == 1 ] #NEWLINE#
+{ p . id : { 'id' : p . id , 'position' : ind } for ind , p in enumerate ( p_list ) } #NEWLINE#
+[ dict ( y ) for y in set ( tuple ( x . items ( ) ) for x in d ) ] #NEWLINE#
+exec ( compile ( open ( 'file.py' ) . read ( ) , 'file.py' , 'exec' ) ) #NEWLINE#
+rows = session . query ( Congress ) . count ( ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+dfs = pd . read_excel ( file_name , sheetname = None ) #NEWLINE#
+struct . unpack ( 'd' , binascii . unhexlify ( '4081637ef7d0424a' ) ) #NEWLINE#
+a [ tuple ( b ) ] #NEWLINE#
+map ( list , permutations ( [ 2 , 3 , 4 ] ) ) #NEWLINE#
+sorted ( unsorted_list , key = presorted_list . index ) #NEWLINE#
+datetime . datetime . now ( ) - datetime . timedelta ( days = 1 ) #NEWLINE#
+d = pd . DataFrame ( 0 , index = np . arange ( len ( data ) ) , columns = feature_list ) #NEWLINE#
+x . find ( 'World' ) #NEWLINE#
+x . find ( 'Aloha' ) #NEWLINE#
+"""sdfasdf""" . index ( 'cc' ) #NEWLINE#
+"""sdfasdf""" . index ( 'df' ) #NEWLINE#
+str . find ( 'a' ) #NEWLINE#
+str . find ( 'g' ) #NEWLINE#
+str . find ( 's' , 11 ) #NEWLINE#
+str . find ( 's' , 15 ) #NEWLINE#
+str . find ( 's' , 16 ) #NEWLINE#
+str . find ( 's' , 11 , 14 ) #NEWLINE#
+sorted ( d , key = lambda x : datetime . datetime . strptime ( x , '%m-%Y' ) ) #NEWLINE#
+re . split ( '\\.\\s' , text ) #NEWLINE#
+re . split ( '\\.\\s' , re . sub ( '\\.\\s*$' , '' , text ) ) #NEWLINE#
+"""foobar""" [ : 4 ] #NEWLINE#
+s . rfind ( '&' ) #NEWLINE#
+s [ : s . rfind ( '&' ) ] #NEWLINE#
+driver . find_element_by_xpath ( "//option[@value='" + state + "']" ) . click ( ) #NEWLINE#
+with open ( 'test.txt' , 'a' ) as myfile : #NEWLINE# #INDENT# myfile . write ( 'appended#SPACE#text' ) #NEWLINE#
+with open ( 'foo' , 'a' ) as f : #NEWLINE# #INDENT# f . write ( 'cool#SPACE#beans...' ) #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+open ( 'test' , 'a+b' ) . write ( 'koko' ) #NEWLINE#
+print ( [ i for i in re . split ( '([\\d.]+|\\W+)' , 'x+13.5*10x-4e1' ) if i ] ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+s . split ( 's' ) #NEWLINE#
+subprocess . Popen ( [ 'rm' , '-r' , 'some.file' ] ) #NEWLINE#
+dict ( ( d [ 'name' ] , d ) for d in listofdict ) #NEWLINE#
+datetime . datetime . now ( ) . strftime ( '%Y-%m-%d#SPACE#%H:%M' ) #NEWLINE#
+time . strftime ( '%Y-%m-%d#SPACE#%H:%M' ) #NEWLINE#
+re . findall ( '[bcdfghjklmnpqrstvwxyz]+' , 'CONCERTATION' , re . IGNORECASE ) #NEWLINE#
+[ i for i , e in enumerate ( a ) if e != 0 ] #NEWLINE#
+map ( int , re . findall ( '\\d+' , string1 ) ) #NEWLINE#
+os . path . dirname ( sys . executable ) #NEWLINE#
+ax . xaxis . set_label_position ( 'top' ) #NEWLINE#
+ax . xaxis . tick_top ( ) #NEWLINE#
+ax . xaxis . set_ticks_position ( 'top' ) #NEWLINE#
+datetime . strptime ( '2015/01/01#SPACE#12:12am' , '%Y/%m/%d#SPACE#%I:%M%p' ) #NEWLINE#
+img = Image . open ( 'picture.jpg' ) #NEWLINE# img . show ( ) #NEWLINE#
+img = Image . open ( 'picture.jpg' ) #NEWLINE# Img . show #NEWLINE#
+sys . exit ( 0 ) #NEWLINE#
+sys . exit ( 'aa!#SPACE#errors!' ) #NEWLINE#
+sys . exit ( ) #NEWLINE#
+[ max ( abs ( x ) for x in arr [ i : i + 4 ] ) for i in range ( 0 , len ( arr ) , 4 ) ] #NEWLINE#
+os . chdir ( 'c:\\Users\\uname\\desktop\\python' ) #NEWLINE#
+os . chdir ( path ) #NEWLINE#
+no_integers = [ x for x in mylist if not isinstance ( x , int ) ] #NEWLINE#
+tree . xpath ( ".//a[text()='Example']" ) [ 0 ] . tag #NEWLINE#
+""",#SPACE#""" . join ( [ ( str ( k ) + '#SPACE#' + str ( v ) ) for k , v in list ( a . items ( ) ) ] ) #NEWLINE#
+print ( set ( re . sub ( '[\x00-\x7f]' , '' , '£€£€' ) ) ) #NEWLINE#
+print ( re . sub ( '[\x00-\x7f]' , '' , '£100#SPACE#is#SPACE#worth#SPACE#more#SPACE#than#SPACE#€100' ) ) #NEWLINE#
+ast . literal_eval ( "{'muffin'#SPACE#:#SPACE#'lolz',#SPACE#'foo'#SPACE#:#SPACE#'kitty'}" ) #NEWLINE#
+print ( t . decode ( 'unicode_escape' ) ) #NEWLINE#
+print ( str . encode ( 'cp1252' ) . decode ( 'utf-8' ) . encode ( 'cp1252' ) . decode ( 'utf-8' ) ) #NEWLINE#
+zip ( list_a , list_b ) #NEWLINE#
+list ( zip ( a , b ) ) #NEWLINE#
+df . set_index ( 'id' ) . to_dict ( ) #NEWLINE#
+df . set_index ( 'id' ) [ 'value' ] . to_dict ( ) #NEWLINE#
+sorted ( list ( mydict . items ( ) ) , key = lambda a : map ( int , a [ 0 ] . split ( '.' ) ) ) #NEWLINE#
+re . sub ( '\\([^)]*\\)' , '' , filename ) #NEWLINE#
+"""a#SPACE#b""" . replace ( '#SPACE#' , '' ) . isalpha ( ) #NEWLINE#
+[ ( x + y ) for x , y in zip ( first , second ) ] #NEWLINE#
+sorted ( list ( a_dict . items ( ) ) , key = lambda item : item [ 1 ] [ 1 ] ) #NEWLINE#
+re . compile ( '[^a-zA-Z0-9-]+' ) #NEWLINE#
+sorted ( list ( range ( len ( a ) ) ) , key = lambda i : a [ i ] ) [ - 2 : ] #NEWLINE#
+zip ( * sorted ( enumerate ( a ) , key = operator . itemgetter ( 1 ) ) ) [ 0 ] [ - 2 : ] #NEWLINE#
+sorted ( list ( range ( len ( a ) ) ) , key = lambda i : a [ i ] , reverse = True ) [ : 2 ] #NEWLINE#
+list ( x . keys ( ) ) . index ( 'c' ) #NEWLINE#
+print ( '{0:+d}' . format ( score ) ) #NEWLINE#
+[ k for k , g in itertools . groupby ( [ 1 , 2 , 2 , 3 , 2 , 2 , 4 ] ) ] #NEWLINE#
+"""0,1,2""" . split ( ',' ) #NEWLINE#
+[ int ( x ) for x in '0,1,2' . split ( ',' ) ] #NEWLINE#
+dict ( [ ( 'A' , 1 ) , ( 'B' , 2 ) , ( 'C' , 3 ) ] ) #NEWLINE#
+np . savetxt ( 'test.txt' , x ) #NEWLINE#
+direct_output = subprocess . check_output ( 'ls' , shell = True ) #NEWLINE#
+df [ df . columns - [ 'T1_V6' ] ] #NEWLINE#
+( ( 25 < a ) & ( a < 100 ) ) . sum ( ) #NEWLINE#
+date . today ( ) . strftime ( '%A' ) #NEWLINE#
+re . search ( '\\bis\\b' , your_string ) #NEWLINE#
+{ { car . date_of_manufacture | datetime } } #NEWLINE#
+{ { car . date_of_manufacture . strftime ( '%Y-%m-%d' ) } } #NEWLINE#
+[ item for sublist in l for item in sublist ] #NEWLINE#
+list ( itertools . chain ( * list2d ) ) #NEWLINE#
+list ( itertools . chain . from_iterable ( list2d ) ) #NEWLINE#
+ord ( 'a' ) #NEWLINE#
+re . sub ( '(?m)^[^\\S\\n]+' , '' , '#SPACE##SPACE#a\n#SPACE#b\n#SPACE#c\nd#SPACE##SPACE#e' ) #NEWLINE#
+re . sub ( '(?m)^\\s+' , '' , 'a\n#SPACE#b\n#SPACE#c' ) #NEWLINE#
+a , b , c = [ 1 , 2 , 3 ] #NEWLINE#
+[ list ( v ) for k , v in itertools . groupby ( mylist , key = lambda x : x [ : 5 ] ) ] #NEWLINE#
+line = re . sub ( '\\(+as#SPACE#.*?\\)#SPACE#' , '' , line ) #NEWLINE#
+print ( line . rstrip ( '\n' ) ) #NEWLINE#
+df . index . values . tolist ( ) #NEWLINE#
+if not a : #NEWLINE# #INDENT# pass #NEWLINE#
+if not seq : #NEWLINE# #INDENT# pass #NEWLINE#
+if len ( li ) == 0 : #NEWLINE# #INDENT# pass #NEWLINE#
+[ i for i , v in enumerate ( a ) if v > 4 ] #NEWLINE#
+sorted ( yourdata , reverse = True ) #NEWLINE#
+sorted ( yourdata , key = lambda d : d . get ( 'key' , { } ) . get ( 'subkey' ) , reverse = True ) #NEWLINE#
+yourdata . sort ( key = lambda e : e [ 'key' ] [ 'subkey' ] , reverse = True ) #NEWLINE#
+df . round ( ) #NEWLINE#
+gca ( ) . get_lines ( ) [ n ] . get_xydata ( ) #NEWLINE#
+A [ : , - 2 : ] #NEWLINE#
+request . GET . get ( 'username' , '' ) #NEWLINE#
+pprint ( dict ( list ( o . items ( ) ) ) ) #NEWLINE#
+url ( '^$' , include ( 'sms.urls' ) ) , #NEWLINE#
+url ( '^' , include ( 'sms.urls' ) ) , #NEWLINE#
+max_item = max ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+max ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+s . resample ( '3M' , how = 'sum' ) #NEWLINE#
+[ a [ i ] for i in ( 1 , 2 , 5 ) ] #NEWLINE#
+[ line for line in open ( 'textfile' ) if 'apple' in line ] #NEWLINE#
+datetime . datetime . strptime ( s , '%Y-%m-%dT%H:%M:%SZ' ) #NEWLINE#
+pandas . read_csv ( filename , sep = '\t' , lineterminator = '\r' ) #NEWLINE#
+"""longlongTESTstringTEST""" . replace ( 'TEST' , '?' , 1 ) #NEWLINE#
+archive . write ( pdffile , os . path . basename ( pdffile ) ) #NEWLINE#
+dict ( x [ 1 : ] for x in reversed ( myListOfTuples ) ) #NEWLINE#
+[ ( x1 - x2 ) for x1 , x2 in zip ( List1 , List2 ) ] #NEWLINE#
+string [ 0 ] . isdigit ( ) #NEWLINE#
+strg . startswith ( ( '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9' ) ) #NEWLINE#
+print ( os . path . dirname ( os . path . realpath ( __file__ ) ) ) #NEWLINE#
+re . split ( '(?<=\\?|!|\\.)\\s{0,2}(?=[A-Z]|$)' , text ) #NEWLINE#
+plt . scatter ( * zip ( * li ) ) #NEWLINE#
+tuple ( zip ( * t ) ) #NEWLINE#
+df . groupby ( np . arange ( len ( df . columns ) ) // 3 , axis = 1 ) . mean ( ) #NEWLINE#
+"""""" . join ( chr ( i ) for i in L ) #NEWLINE#
+sum ( x == chosen_value for x in list ( d . values ( ) ) ) #NEWLINE#
+sum ( 1 for x in list ( d . values ( ) ) if some_condition ( x ) ) #NEWLINE#
+struct . unpack ( 'f' , struct . pack ( 'f' , 0.00582811585976 ) ) #NEWLINE#
+timestamp = ( dt - datetime ( 1970 , 1 , 1 ) ) . total_seconds ( ) #NEWLINE#
+df . sort ( 'm' ) #NEWLINE#
+a = sorted ( a , key = lambda x : x . modified , reverse = True ) #NEWLINE#
+print ( bool ( a ) ) #NEWLINE#
+df = df . rename ( index = { last : 'a' } ) #NEWLINE#
+km . fit ( x . reshape ( - 1 , 1 ) ) #NEWLINE#
+sorted ( words , key = lambda x : 'a' + x if x . startswith ( 's' ) else 'b' + x ) #NEWLINE#
+webbrowser . open ( 'http://somesite.com/adminpanel/index.php' ) #NEWLINE#
+dict ( ( k , v ) for k , v in parent_dict . items ( ) if 2 < k < 4 ) #NEWLINE#
+dict ( ( k , v ) for k , v in parent_dict . items ( ) if k > 2 and k < 4 ) #NEWLINE#
+[ list ( x ) for x in zip ( * sorted ( zip ( list1 , list2 ) , key = lambda pair : pair [ 0 ] ) ) ] #NEWLINE#
+sum ( i > 5 for i in j ) #NEWLINE#
+len ( [ ( 1 ) for i in j if i > 5 ] ) #NEWLINE#
+j = np . array ( j ) #NEWLINE# sum ( j > i ) #NEWLINE#
+[ ( x + tuple ( y ) ) for x , y in zip ( zip ( a , b ) , c ) ] #NEWLINE#
+os . chmod ( path , stat . S_IRUSR | stat . S_IRGRP | stat . S_IROTH ) #NEWLINE#
+parser . add_argument ( 'file' , nargs = '*' ) #NEWLINE#
+z = [ ( i == j ) for i , j in zip ( x , y ) ] #NEWLINE#
+[ ( x [ i ] == y [ i ] ) for i in range ( len ( x ) ) ] #NEWLINE#
+[ int ( s ) for s in re . findall ( '\\b\\d+\\b' , "he33llo#SPACE#42#SPACE#I'm#SPACE#a#SPACE#32#SPACE#string#SPACE#30" ) ] #NEWLINE#
+df2 = pd . DataFrame ( index = df1 . index ) #NEWLINE#
+struct . unpack ( 'h' , pS [ 0 : 2 ] ) #NEWLINE#
+print ( '\n' . join ( '#SPACE##SPACE#' . join ( map ( str , row ) ) for row in t ) ) #NEWLINE#
+df . sort_values ( by = 'Date' ) #NEWLINE#
+driver . find_element_by_name ( '<check_box_name>' ) . is_selected ( ) #NEWLINE#
+driver . find_element_by_id ( '<check_box_id>' ) . is_selected ( ) #NEWLINE#
+[ ( a if a else 2 ) for a in [ 0 , 1 , 0 , 3 ] ] #NEWLINE#
+"""M\\N{AMPERSAND}M\\N{APOSTROPHE}s""" . encode ( ) . decode ( 'unicode-escape' ) #NEWLINE#
+"""M\\N{AMPERSAND}M\\N{APOSTROPHE}s""" . decode ( 'unicode-escape' ) #NEWLINE#
+chr ( int ( 'fd9b' , 16 ) ) . encode ( 'utf-8' ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+cleaned = [ x for x in your_list if x ] #NEWLINE#
+slice ( * [ ( int ( i . strip ( ) ) if i else None ) for i in string_slice . split ( ':' ) ] ) #NEWLINE#
+soup . find_all ( [ 'a' , 'div' ] ) #NEWLINE#
+print ( func . __name__ ) #NEWLINE#
+"""""" . join ( '{}{}' . format ( key , val ) for key , val in sorted ( adict . items ( ) ) ) #NEWLINE#
+"""""" . join ( '{}{}' . format ( key , val ) for key , val in list ( adict . items ( ) ) ) #NEWLINE#
+new_list = old_list [ : ] #NEWLINE#
+new_list = list ( old_list ) #NEWLINE#
+new_list = copy . copy ( old_list ) #NEWLINE#
+new_list = copy . deepcopy ( old_list ) #NEWLINE#
+[ i for i in old_list ] #NEWLINE#
+plt . legend ( frameon = False ) #NEWLINE#
+"""\\ud83d\\ude4f""" . encode ( 'utf-16' , 'surrogatepass' ) . decode ( 'utf-16' ) #NEWLINE#
+globals ( ) [ 'myfunction' ] ( ) #NEWLINE#
+urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) #NEWLINE#
+conn = httplib . HTTPConnection ( 'www.python.org' ) #NEWLINE# conn . request ( 'HEAD' , '/' ) #NEWLINE# r1 = conn . getresponse ( ) #NEWLINE# print ( r1 . status , r1 . reason ) #NEWLINE#
+r = requests . head ( url ) #NEWLINE# return r . status_code == 200 #NEWLINE#
+print ( urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) ) #NEWLINE#
+driver . find_element_by_css_selector ( "a[href^='javascript']" ) . click ( ) #NEWLINE#
+df . to_pickle ( file_name ) #NEWLINE#
+df . groupby ( by = df . columns , axis = 1 ) . mean ( ) #NEWLINE#
+bar . sort ( key = lambda x : ( x . attrb1 , x . attrb2 ) , reverse = True ) #NEWLINE#
+alpha = img . split ( ) [ - 1 ] #NEWLINE#
+[ len ( x ) for x in s . split ( ) ] #NEWLINE#
+soup . findAll ( 'div' , style = 'width=300px;' ) #NEWLINE#
+cursor . execute ( sql , list ( myDict . values ( ) ) ) #NEWLINE#
+df . to_csv ( 'Result.csv' , index = False , sep = '#SPACE#' ) #NEWLINE#
+globals ( ) . update ( vars ( args ) ) #NEWLINE#
+re . findall ( '\\[(.*?)\\]' , mystring ) #NEWLINE#
+print ( '%.2f#SPACE#kg#SPACE#=#SPACE#%.2f#SPACE#lb#SPACE#=#SPACE#%.2f#SPACE#gal#SPACE#=#SPACE#%.2f#SPACE#l' % ( var1 , var2 , var3 , var4 ) ) #NEWLINE#
+d = dict ( ( k , v ) for k , v in d . items ( ) if v > 0 ) #NEWLINE#
+d = { k : v for k , v in list ( d . items ( ) ) if v > 0 } #NEWLINE#
+pd . to_datetime ( pd . Series ( date_stngs ) ) #NEWLINE#
+df . iloc [ 2 , 0 ] #NEWLINE#
+matplotlib . rcParams . update ( { 'font.size' : 22 } ) #NEWLINE#
+pd . DataFrame ( list ( d . items ( ) ) , columns = [ 'Date' , 'DateValue' ] ) #NEWLINE#
+pd . DataFrame ( df . values * df2 . values , columns = df . columns , index = df . index ) #NEWLINE#
+re . findall ( '\\d+\\.\\d+' , 'Current#SPACE#Level:#SPACE#13.4#SPACE#db.' ) #NEWLINE#
+re . findall ( '[-+]?\\d*\\.\\d+|\\d+' , 'Current#SPACE#Level:#SPACE#-13.2#SPACE#db#SPACE#or#SPACE#14.2#SPACE#or#SPACE#3' ) #NEWLINE#
+zip ( it , it , it ) #NEWLINE#
+df [ 'x' ] . str . lower ( ) #NEWLINE#
+jsobj [ 'a' ] [ 'b' ] [ 'e' ] . append ( { 'f' : var6 , 'g' : var7 , 'h' : var8 } ) #NEWLINE#
+"""""" . join ( lst ) #NEWLINE#
+sum ( v for v in list ( d . values ( ) ) if v > 0 ) #NEWLINE#
+app . run ( debug = True ) #NEWLINE#
+df . drop ( df . index [ [ 1 , 3 ] ] , inplace = True ) #NEWLINE#
+df . apply ( lambda x : x . fillna ( x . mean ( ) ) , axis = 0 ) #NEWLINE#
+[ o . my_attr for o in my_list ] #NEWLINE#
+time . strftime ( '%m/%d/%Y' , time . gmtime ( os . path . getmtime ( file ) ) ) #NEWLINE#
+all ( item in list ( superset . items ( ) ) for item in list ( subset . items ( ) ) ) #NEWLINE#
+[ str ( wi ) for wi in wordids ] #NEWLINE#
+df2 = df . reset_index ( ) #NEWLINE#
+dt . strftime ( '%m/%d/%Y' ) #NEWLINE#
+print ( 'Total#SPACE#cost#SPACE#is:#SPACE#${:,.2f}' . format ( TotalAmount ) ) #NEWLINE#
+df . groupby ( np . arange ( len ( df . columns ) ) // 2 + 1 , axis = 1 ) . sum ( ) . add_prefix ( 's' ) #NEWLINE#
+randomList = [ random . random ( ) for _ in range ( 10 ) ] #NEWLINE#
+print ( soup . find ( 'a' , href = re . compile ( '.*follow\\?page.*' ) ) ) #NEWLINE#
+sys . stdout . flush ( ) #NEWLINE#
+country , capital = random . choice ( list ( d . items ( ) ) ) #NEWLINE#
+list ( 'Word#SPACE#to#SPACE#Split' ) #NEWLINE#
+[ w for w in open ( 'file.txt' ) if not re . search ( '[aeiou]{2}' , w ) ] #NEWLINE#
+pat = re . compile ( '^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$' ) #NEWLINE#
+exec ( compile ( open ( 'filename.py' ) . read ( ) , 'filename.py' , 'exec' ) ) #NEWLINE#
+session . query ( Tag ) . distinct ( Tag . name ) . group_by ( Tag . name ) . count ( ) #NEWLINE#
+df = df . dropna ( axis = 1 , how = 'all' ) #NEWLINE#
+all ( x . count ( 1 ) == 3 for x in L ) #NEWLINE#
+[ x [ 0 ] for x in l1 if any ( x [ 0 ] == y [ 0 ] for y in l2 ) ] #NEWLINE#
+tex . delete ( '1.0' , END ) #NEWLINE#
+datetime . datetime . fromtimestamp ( myNumber ) . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' ) #NEWLINE#
+system ( 'python#SPACE#myscript.py' ) #NEWLINE#
+your_list . sort ( key = operator . attrgetter ( 'anniversary_score' ) ) #NEWLINE#
+your_list . sort ( key = lambda x : x . anniversary_score ) #NEWLINE#
+print ( type ( tf . Session ( ) . run ( tf . constant ( [ 1 , 2 , 3 ] ) ) ) ) #NEWLINE#
+list ( itertools . chain ( * a ) ) #NEWLINE#
+count . setdefault ( 'a' , 0 ) #NEWLINE#
+df . groupby ( [ 'cluster' ] ) . mean ( ) #NEWLINE#
+min ( myList , key = lambda x : abs ( x - myNumber ) ) #NEWLINE#
+any ( x in string for x in search ) #NEWLINE#
+print ( pattern . search ( url ) . group ( 1 ) ) #NEWLINE#
+( s . factorize ( ) [ 0 ] + 1 ) . astype ( 'float' ) #NEWLINE#
+C = [ ( a - b ) for a , b in zip ( A , B ) ] #NEWLINE#
+datetime . datetime . strptime ( '2011,#SPACE#4,#SPACE#0' , '%Y,#SPACE#%U,#SPACE#%w' ) #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+datetime . datetime . strptime ( '16Sep2012' , '%d%b%Y' ) #NEWLINE#
+Book . objects . filter ( pk = pk ) . update ( ** d ) #NEWLINE#
+Book . objects . create ( ** d ) #NEWLINE#
+print ( '{0:.2f}' . format ( your_number ) ) #NEWLINE#
+random . randint ( 100000000000 , 999999999999 ) #NEWLINE#
+int ( '' . join ( str ( random . randint ( 0 , 9 ) ) for _ in range ( 12 ) ) ) #NEWLINE#
+"""""" . join ( str ( random . randint ( 0 , 9 ) ) for _ in range ( 12 ) ) #NEWLINE#
+'%0.12d' % random . randint ( 0 , 999999999999 ) #NEWLINE#
+numpy . delete ( a , index ) #NEWLINE#
+sorted ( trial_list , key = lambda x : trial_dict [ x ] ) #NEWLINE#
+sys . stdin . read ( 1 ) #NEWLINE#
+print ( re . findall ( pattern , x ) ) #NEWLINE#
+k = soup . find ( text = re . compile ( 'My#SPACE#keywords' ) ) . parent . text #NEWLINE#
+df . apply ( lambda x : x . tolist ( ) , axis = 1 ) #NEWLINE#
+B = np . reshape ( A , ( - 1 , 2 ) ) #NEWLINE#
+app . run ( host = '192.168.0.58' , port = 9000 , debug = False ) #NEWLINE#
+print ( 'ÅÄÖ' . encode ( 'UTF8' ) ) #NEWLINE#
+[ x [ 0 ] for x in G ] #NEWLINE#
+re . findall ( '-(?!aa-|bb-)([^-]+)' , string ) #NEWLINE#
+re . findall ( '-(?!aa|bb)([^-]+)' , string ) #NEWLINE#
+{ k : v for k , v in list ( hand . items ( ) ) if v } #NEWLINE#
+dict ( ( k , v ) for k , v in hand . items ( ) if v ) #NEWLINE#
+sorted ( L , key = operator . itemgetter ( 'resultType' ) ) #NEWLINE#
+s . sort ( key = operator . attrgetter ( 'resultType' ) ) #NEWLINE#
+somelist . sort ( key = lambda x : x . resultType ) #NEWLINE#
+df1 . merge ( df2 , on = 'name' ) . merge ( df3 , on = 'name' ) #NEWLINE#
+decimal . Decimal ( random . randrange ( 10000 ) ) / 100 #NEWLINE#
+onlyfiles = [ f for f in listdir ( mypath ) if isfile ( join ( mypath , f ) ) ] #NEWLINE#
+f = [ ] #NEWLINE# for dirpath , dirnames , filenames in walk ( mypath ) : #NEWLINE# #INDENT# f . extend ( filenames ) #NEWLINE# #INDENT# break #NEWLINE#
+print ( glob . glob ( '/home/adam/*.txt' ) ) #NEWLINE#
+os . listdir ( 'somedirectory' ) #NEWLINE#
+cur . executemany ( 'INSERT#SPACE#INTO#SPACE#table#SPACE#VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)' , tup ) #NEWLINE#
+print ( [ key for key in d if d [ key ] == 1 ] ) #NEWLINE#
+print ( [ key for key , value in d . items ( ) if value == 1 ] ) #NEWLINE#
+print ( [ key for key , value in list ( d . items ( ) ) if value == 1 ] ) #NEWLINE#
+strs = [ '' for x in range ( size ) ] #NEWLINE#
+with open ( input_filename , 'r' ) as f : #NEWLINE# #INDENT# html_text = markdown ( f . read ( ) , output_format = 'html4' ) #NEWLINE# pdfkit . from_string ( html_text , output_filename ) #NEWLINE#
+[ dict ( t ) for t in set ( [ tuple ( d . items ( ) ) for d in l ] ) ] #NEWLINE#
+TIME_ZONE = 'Europe/Istanbul' #NEWLINE#
+dates_dict . setdefault ( key , [ ] ) . append ( date ) #NEWLINE#
+Article . objects . values ( 'pub_date' ) . annotate ( article_count = Count ( 'title' ) ) #NEWLINE#
+canvas . delete ( 'all' ) #NEWLINE#
+s = pd . Series ( [ 'A' , 'B' , 'A1R' , 'B2' , 'AABB4' ] ) #NEWLINE#
+datetime . datetime . strptime ( '2007-03-04T21:08:12' , '%Y-%m-%dT%H:%M:%S' ) #NEWLINE#
+a . sort ( key = lambda x : b . index ( x [ 0 ] ) ) #NEWLINE#
+a . sort ( key = lambda x_y : b . index ( x_y [ 0 ] ) ) #NEWLINE#
+plt . savefig ( 'filename.png' ) #NEWLINE#
+plt . savefig ( 'filename.png' , dpi = 300 ) #NEWLINE#
+p1 . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+soup . body . findAll ( text = 'Python' ) #NEWLINE#
+soup . body . findAll ( text = 'Python#SPACE#Jobs' ) #NEWLINE#
+sorted ( list ( d . items ( ) ) , key = lambda name_num : ( name_num [ 0 ] . rsplit ( None , 1 ) [ 0 #NEWLINE# ] , name_num [ 1 ] ) ) #NEWLINE#
+set ( [ 1 , 2 , 3 ] ) ^ set ( [ 3 , 4 , 5 ] ) #NEWLINE#
+request . POST . getlist ( 'pass_id' ) #NEWLINE#
+list ( dict ( ( x [ 'id' ] , x ) for x in L ) . values ( ) ) #NEWLINE#
+df . groupby ( df . columns , axis = 1 ) . sum ( ) #NEWLINE#
+dict ( zip ( list ( range ( 1 , 5 ) ) , list ( range ( 7 , 11 ) ) ) ) #NEWLINE#
+numpy . where ( mask ) #NEWLINE#
+if string1 . lower ( ) == string2 . lower ( ) : #NEWLINE# #INDENT# print ( 'The#SPACE#strings#SPACE#are#SPACE#the#SPACE#same#SPACE#(case#SPACE#insensitive)' ) #NEWLINE# else : #NEWLINE# #INDENT# print ( 'The#SPACE#strings#SPACE#are#SPACE#not#SPACE#the#SPACE#same#SPACE#(case#SPACE#insensitive)' ) #NEWLINE#
+if string1 . lower ( ) == string2 . lower ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+string1 . lower ( ) == string2 . lower ( ) #NEWLINE#
+first . lower ( ) == second . lower ( ) #NEWLINE#
+first . upper ( ) == second . upper ( ) #NEWLINE#
+os . system ( "awk#SPACE#'{print#SPACE#$10,#SPACE#$11}'#SPACE#test.txt#SPACE#>#SPACE#test2.txt" ) #NEWLINE#
+del my_list [ 2 : 6 ] #NEWLINE#
+int ( s . encode ( 'hex' ) , 16 ) #NEWLINE#
+re . findall ( 'TAA(?:[ATGC]{3})+?TAA' , seq ) #NEWLINE#
+sorted ( s , key = float ) #NEWLINE#
+hex ( 65 ) #NEWLINE#
+a . append ( b ) . reset_index ( drop = True ) #NEWLINE#
+pd . concat ( [ a , b ] , ignore_index = True ) #NEWLINE#
+[ ( i , j ) for i in range ( 1 , 3 ) for j in range ( 1 , 5 ) ] #NEWLINE#
+sorted ( iter ( mydict . items ( ) ) , key = itemgetter ( 1 ) , reverse = True ) #NEWLINE#
+pd . date_range ( '1/1/2014' , periods = 12 , freq = 'BM' ) #NEWLINE#
+requests . get ( 'https://kennethreitz.com' , verify = False ) #NEWLINE#
+df . ix [ : - 1 ] #NEWLINE#
+if 'blah' not in somestring : #NEWLINE# #INDENT# pass #NEWLINE#
+if needle in haystack : #NEWLINE# #INDENT# pass #NEWLINE#
+string . find ( 'substring' ) #NEWLINE#
+if s . find ( 'is' ) == - 1 : #NEWLINE# #INDENT# print ( "No#SPACE#'is'#SPACE#here!" ) #NEWLINE# else : #NEWLINE# #INDENT# print ( "Found#SPACE#'is'#SPACE#in#SPACE#the#SPACE#string." ) #NEWLINE#
+pd . concat ( [ df . head ( 1 ) , df . tail ( 1 ) ] ) #NEWLINE#
+MyModel . objects . extra ( where = [ 'CHAR_LENGTH(text)#SPACE#>#SPACE#254' ] ) #NEWLINE#
+MyModel . objects . filter ( text__regex = '^.{254}.*' ) #NEWLINE#
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) . values ) , axis = 1 ) > 0 ) #NEWLINE#
+sorted ( enumerate ( a ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+canvas . create_text ( x , y , font = ( 'Purisa' , 12 ) , text = k ) #NEWLINE#
+[ y [ 'baz' ] for x in foos for y in x [ 'bar' ] ] #NEWLINE#
+df = pd . read_csv ( 'comma.csv' , quotechar = "'" ) #NEWLINE#
+df [ 'a' ] = df [ 'a' ] . str . replace ( 'in.' , '#SPACE#in.#SPACE#' ) #NEWLINE#
+[ i for i in range ( len ( a ) ) if a [ i ] > 2 ] #NEWLINE#
+'myVar' in locals ( ) #NEWLINE#
+'myVar' in globals ( ) #NEWLINE#
+hasattr ( obj , 'attr_name' ) #NEWLINE#
+if 'myVar' in locals ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+if 'myVar' in globals ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+sum ( 1 for i in it ) #NEWLINE#
+[ ( x , lst2 [ i ] ) for i , x in enumerate ( lst ) ] #NEWLINE#
+[ ( i , j ) for i , j in zip ( lst , lst2 ) ] #NEWLINE#
+[ ( lst [ i ] , lst2 [ i ] ) for i in range ( len ( lst ) ) ] #NEWLINE#
+struct . unpack ( 'BBB' , rgbstr . decode ( 'hex' ) ) #NEWLINE#
+3 not in [ 2 , 3 , 4 ] #NEWLINE#
+( 2 , 3 ) not in [ ( 2 , 3 ) , ( 5 , 6 ) , ( 9 , 1 ) ] #NEWLINE#
+( 2 , 3 ) not in [ ( 2 , 7 ) , ( 7 , 3 ) , 'hi' ] #NEWLINE#
+3 not in [ 4 , 5 , 6 ] #NEWLINE#
+[ value for pair in zip ( a , b [ : : - 1 ] ) for value in pair ] #NEWLINE#
+b = np . delete ( a , - 1 , 1 ) #NEWLINE#
+dbb . commit ( ) #NEWLINE#
+pd . merge ( a , b , on = [ 'A' , 'B' ] , how = 'outer' ) #NEWLINE#
+setStyleSheet ( 'QPushButton#SPACE#{background-color:#SPACE##A3C1DA;#SPACE#color:#SPACE#red;}' ) #NEWLINE#
+sum ( l ) / float ( len ( l ) ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+k = hashlib . md5 ( 'thecakeisalie' ) . hexdigest ( ) #NEWLINE#
+os . path . basename ( os . path . normpath ( '/folderA/folderB/folderC/folderD/' ) ) #NEWLINE#
+birthdays . sort ( key = lambda d : ( d . month , d . day ) ) #NEWLINE#
+[ [ td . findNext ( text = True ) for td in tr . findAll ( 'td' ) ] for tr in rows ] #NEWLINE#
+"""Boat.txt.txt""" . replace ( '.txt' , '' ) #NEWLINE#
+list ( df . index ) #NEWLINE#
+df . index #NEWLINE#
+"""""" . join ( list ( OrderedDict . fromkeys ( 'aaabcabccd' ) . keys ( ) ) ) #NEWLINE#
+list ( set ( 'aaabcabccd' ) ) #NEWLINE#
+"""""" . join ( set ( 'aaabcabccd' ) ) #NEWLINE#
+df . loc [ ( df . loc [ : , ( df . dtypes != object ) ] != 0 ) . any ( 1 ) ] #NEWLINE#
+br . form . add_file ( open ( filename ) , 'text/plain' , filename ) #NEWLINE#
+all ( word in d for word in [ 'somekey' , 'someotherkey' , 'somekeyggg' ] ) #NEWLINE#
+subprocess . check_output ( [ 'espeak' , text ] , stderr = subprocess . STDOUT ) #NEWLINE#
+df . fillna ( method = 'ffill' , inplace = True ) #NEWLINE#
+print ( np . linspace ( 1 , 3 , num = 4 , endpoint = False ) ) #NEWLINE#
+print ( np . linspace ( 1 , 3 , num = 5 ) ) #NEWLINE#
+kdll . CreateSymbolicLinkW ( 'D:\\testdirLink' , 'D:\\testdir' , 1 ) #NEWLINE#
+slice = [ arr [ i ] [ 0 : 2 ] for i in range ( 0 , 2 ) ] #NEWLINE#
+upload_url = blobstore . create_upload_url ( '/upload' , gs_bucket_name = 'my_bucket' ) #NEWLINE#
+os . chdir ( os . path . dirname ( __file__ ) ) #NEWLINE#
+func ( * args ) #NEWLINE#
+df [ 'AB' ] . str . split ( '#SPACE#' , 1 , expand = True ) #NEWLINE#
+df [ 'A' ] , df [ 'B' ] = df [ 'AB' ] . str . split ( '#SPACE#' , 1 ) . str #NEWLINE#
+print ( sorted ( xs , key = len ) ) #NEWLINE#
+xs . sort ( lambda x , y : cmp ( len ( x ) , len ( y ) ) ) #NEWLINE#
+xs . sort ( key = lambda s : len ( s ) ) #NEWLINE#
+ts . plot ( marker = '.' ) #NEWLINE#
+lst = list ( itertools . product ( [ 0 , 1 ] , repeat = n ) ) #NEWLINE#
+lst = map ( list , itertools . product ( [ 0 , 1 ] , repeat = n ) ) #NEWLINE#
+bin = [ 0 , 1 ] #NEWLINE# [ ( x , y , z ) for x in bin for y in bin for z in bin ] #NEWLINE#
+lst = list ( itertools . product ( [ 0 , 1 ] , repeat = 3 ) ) #NEWLINE#
+df [ 'col' ] = 'str' + df [ 'col' ] . astype ( str ) #NEWLINE#
+dict ( ( name , eval ( name ) ) for name in [ 'some' , 'list' , 'of' , 'vars' ] ) #NEWLINE#
+plt . colorbar ( im , ax = ax ) #NEWLINE#
+[ a for c in Cards for b in c for a in b ] #NEWLINE#
+sorted ( d , key = d . get ) #NEWLINE#
+print ( len ( [ x for x in lst if x is not None ] ) ) #NEWLINE#
+{ { json . key1 } } #NEWLINE#
+mynewlist = list ( myset ) #NEWLINE#
+set ( [ 'a' , 'b' , 'c' , 'd' ] ) #NEWLINE#
+figure ( figsize = ( 11.69 , 8.27 ) ) #NEWLINE#
+url . rsplit ( '/' , 1 ) #NEWLINE#
+url . rsplit ( '/' , 1 ) [ - 1 ] #NEWLINE#
+x_file = open ( os . path . join ( direct , '5_1.txt' ) , 'r' ) #NEWLINE#
+list ( '5+6' ) #NEWLINE#
+np . concatenate ( input_list ) . ravel ( ) . tolist ( ) #NEWLINE#
+print ( [ y for x in list ( dict . items ( ) ) for y in x ] ) #NEWLINE#
+[ y for x in list ( dict . items ( ) ) for y in x ] #NEWLINE#
+MyModel . objects . order_by ( '?' ) . first ( ) #NEWLINE#
+os . chdir ( 'chapter3' ) #NEWLINE#
+os . chdir ( 'C:\\Users\\username\\Desktop\\headfirstpython\\chapter3' ) #NEWLINE#
+os . chdir ( '.\\chapter3' ) #NEWLINE#
+dict ( ( key , sum ( d [ key ] for d in dictList ) ) for key in dictList [ 0 ] ) #NEWLINE#
+df . sort ( [ 'c1' , 'c2' ] , ascending = [ True , True ] ) #NEWLINE#
+floats = [ float ( x ) for x in s . split ( ) ] #NEWLINE#
+floats = map ( float , s . split ( ) ) #NEWLINE#
+plt . xticks ( [ 1 , 2 , 3 , 4 , 5 ] ) #NEWLINE#
+for line in fileinput . input ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for line in sys . stdin : #NEWLINE# #INDENT# pass #NEWLINE#
+'one' in list ( d . values ( ) ) #NEWLINE#
+'one' in iter ( d . values ( ) ) #NEWLINE#
+super ( Instructor , self ) . __init__ ( name , year ) #NEWLINE#
+dict ( zip ( x , y ) ) #NEWLINE#
+sorted ( a , key = lambda i : list ( i . values ( ) ) [ 0 ] , reverse = True ) #NEWLINE#
+sorted ( a , key = dict . values , reverse = True ) #NEWLINE#
+df . groupby ( level = 0 ) . agg ( [ 'sum' , 'count' , 'std' ] ) #NEWLINE#
+a . setdefault ( 'somekey' , [ ] ) . append ( 'bob' ) #NEWLINE#
+sum ( item [ 'gold' ] for item in example_list ) #NEWLINE#
+sum ( [ item [ 'gold' ] for item in example_list ] ) #NEWLINE#
+sum ( item [ 'gold' ] for item in myLIst ) #NEWLINE#
+f . write ( 'text#SPACE#to#SPACE#write\n' ) #NEWLINE#
+file . write ( 'My#SPACE#String\n' ) #NEWLINE#
+df . reset_index ( ) . groupby ( 'A' ) [ 'index' ] . apply ( np . array ) #NEWLINE#
+fn = os . path . join ( os . path . dirname ( __file__ ) , 'my_file' ) #NEWLINE#
+e = next ( iter ( s ) ) #NEWLINE#
+os . system ( 'dir#SPACE#c:\\' ) #NEWLINE#
+self . treeview . connect ( 'size-allocate' , self . treeview_changed ) #NEWLINE#
+3 in [ 1 , 2 , 3 ] #NEWLINE#
+datetime . datetime . strptime ( '10/05/2012' , '%d/%m/%Y' ) . strftime ( '%Y-%m-%d' ) #NEWLINE#
+s = s . replace ( '\\' , '\\\\' ) #NEWLINE#
+print ( proc . communicate ( ) [ 0 ] ) #NEWLINE#
+pd . concat ( [ pd . DataFrame ( l ) for l in my_list ] , axis = 1 ) . T #NEWLINE#
+df . loc [ : , ( ( df != 0 ) . any ( axis = 0 ) ) ] #NEWLINE#
+sorted ( a , key = lambda x : x [ 1 ] ) #NEWLINE#
+[ x . strip ( ) for x in s . split ( ',' ) ] #NEWLINE#
+items = [ item for item in container if item . attribute == value ] #NEWLINE#
+open ( 'filename' , 'w' ) . write ( '\n' . join ( '%s#SPACE#%s' % x for x in mylist ) ) #NEWLINE#
+pattern = re . compile ( '(?:review:#SPACE#)?(http://url.com/(\\d+))\\s?' , re . IGNORECASE ) #NEWLINE#
+str = open ( 'very_Important.txt' , 'r' ) . read ( ) #NEWLINE#
+df . groupby ( [ 'A' , 'B' ] ) [ 'C' ] . unique ( ) #NEWLINE#
+with open ( fname ) as f : #NEWLINE# #INDENT# content = f . readlines ( ) #NEWLINE#
+with open ( 'filename' ) as f : #NEWLINE# #INDENT# lines = f . readlines ( ) #NEWLINE#
+lines = [ line . rstrip ( '\n' ) for line in open ( 'filename' ) ] #NEWLINE#
+with open ( 'file.txt' , 'r' ) as ins : #NEWLINE# #INDENT# array = [ ] #NEWLINE# #INDENT# for line in ins : #NEWLINE# #INDENT# #INDENT# array . append ( line ) #NEWLINE#
+df [ 'col' ] = pd . to_datetime ( df [ 'col' ] ) #NEWLINE#
+[ k for d in list ( foo . values ( ) ) for k in d ] #NEWLINE#
+print ( 'Hello,#SPACE#{0},#SPACE#how#SPACE#do#SPACE#you#SPACE#do?' . format ( input ( 'Enter#SPACE#name#SPACE#here:#SPACE#' ) ) ) #NEWLINE#
+df = pd . read_csv ( 'filename.txt' , sep = ';' , names = [ 'Region#SPACE#Name' ] ) #NEWLINE#
+df [ 'a' ] = df [ 'a' ] . apply ( lambda x : x + 1 ) #NEWLINE#
+platform . system ( ) #NEWLINE#
+a = sorted ( a , key = lambda x : float ( x ) ) #NEWLINE#
+re . search ( 'name#SPACE#(.*)' , s ) #NEWLINE#
+db . collection . find ( { } , { '_id' : False } ) #NEWLINE#
+[ row [ 1 ] for row in A ] #NEWLINE#
+[ row [ 0 ] for row in a ] #NEWLINE#
+sorted ( [ '10' , '3' , '2' ] , key = int ) #NEWLINE#
+os . path . commonprefix ( [ '/the/dir/' , os . path . realpath ( filename ) ] ) == '/the/dir/' #NEWLINE#
+any ( substring in string for substring in substring_list ) #NEWLINE#
+df = pandas . DataFrame ( data , columns = [ 'R_Number' , 'C_Number' , 'Avg' , 'Std' ] ) #NEWLINE#
+re . sub ( '^((?:(?!cat).)*cat(?:(?!cat).)*)cat' , '\\1Bull' , s ) #NEWLINE#
+re . sub ( '^((.*?cat.*?){1})cat' , '\\1Bull' , s ) #NEWLINE#
+sorted ( the_list , key = lambda k : int ( k . split ( '_' ) [ 1 ] ) ) #NEWLINE#
+sorted ( the_list , key = lambda x : int ( x . split ( '_' ) [ 1 ] ) ) #NEWLINE#
+[ list ( g ) for _ , g in itertools . groupby ( test , lambda x : x . split ( '_' ) [ 0 ] ) ] #NEWLINE#
+[ list ( g ) for _ , g in itertools . groupby ( test , lambda x : x . partition ( '_' ) [ 0 ] ) ] #NEWLINE#
+driver . get ( 'http://www.google.com' ) #NEWLINE#
+( datetime . datetime . utcnow ( ) - datetime . timedelta ( hours = 11 ) ) . year #NEWLINE#
+Counter ( [ 1 , 2 , 2 , 2 , 3 ] ) - Counter ( [ 1 , 2 ] ) #NEWLINE#
+re . sub ( '<[^>]*>' , '' , mystring ) #NEWLINE#
+data . encode ( 'hex' ) #NEWLINE#
+User . objects . filter ( userprofile__level__gte = 0 ) #NEWLINE#
+soup . findAll ( id = re . compile ( 'para$' ) ) #NEWLINE#
+soup . select ( 'div[id^="value_xxx_c_1_f_8_a_"]' ) #NEWLINE#
+cleaned_list = [ x for x in some_list if x is not thing ] #NEWLINE#
+var = input ( 'Please#SPACE#enter#SPACE#something:#SPACE#' ) #NEWLINE#
+foo . append ( 4 ) #NEWLINE#
+foo . append ( [ 8 , 7 ] ) #NEWLINE#
+x . insert ( 2 , 77 ) #NEWLINE#
+plt . savefig ( 'test.png' , bbox_inches = 'tight' ) #NEWLINE#
+listone + listtwo #NEWLINE#
+for item in itertools . chain ( listone , listtwo ) : #NEWLINE# #INDENT# pass #NEWLINE#
+males = df [ ( df [ Gender ] == 'Male' ) & ( df [ Year ] == 2014 ) ] #NEWLINE#
+print ( '\\' ) #NEWLINE#
+df . replace ( '-' , np . nan ) #NEWLINE#
+df = df . drop ( 'column_name' , 1 ) #NEWLINE#
+df . drop ( df . columns [ [ 0 , 1 , 3 ] ] , axis = 1 ) #NEWLINE#
+df . drop ( 'column_name' , axis = 1 , inplace = True ) #NEWLINE#
+parser = argparse . ArgumentParser ( allow_abbrev = False ) #NEWLINE#
+feature3 = [ d . get ( 'Feature3' ) for d in df . dic ] #NEWLINE#
+df . loc [ gb . groups [ 'foo' ] , ( 'A' , 'B' ) ] #NEWLINE#
+print ( '[%s,#SPACE#%s,#SPACE#%s]' % ( 1 , 2 , 3 ) ) #NEWLINE#
+print ( '[{0},#SPACE#{1},#SPACE#{2}]' . format ( 1 , 2 , 3 ) ) #NEWLINE#
+[ v for k , v in list ( my_dict . items ( ) ) if 'Date' in k ] #NEWLINE#
+"""{0.month}/{0.day}/{0.year}""" . format ( my_date ) #NEWLINE#
+df . drop ( ( 'col1' , 'a' ) , axis = 1 ) #NEWLINE#
+df . drop ( 'a' , level = 1 , axis = 1 ) #NEWLINE#
+{ _key : _value ( _key ) for _key in _container } #NEWLINE#
+browser . find_element_by_class_name ( 'section-select-all' ) . click ( ) #NEWLINE#
+dict ( ( k , d . get ( k , '' ) + d1 . get ( k , '' ) ) for k in keys ) #NEWLINE#
+hash ( pformat ( a ) ) == hash ( pformat ( b ) ) #NEWLINE#
+list ( map ( tuple , [ [ 'tom' , 'cat' ] , [ 'jerry' , 'mouse' ] , [ 'spark' , 'dog' ] ] ) ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] , as_index = False ) [ 'positions' ] . sum ( ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+s . upper ( ) #NEWLINE#
+dict ( item . split ( '=' ) for item in s . split ( ';' ) ) #NEWLINE#
+br . addheaders = [ ( 'Cookie' , 'cookiename=cookie#SPACE#value' ) ] #NEWLINE#
+df [ 'value' ] = df [ 'value' ] . str [ 0 ] #NEWLINE#
+df [ 'value' ] = df [ 'value' ] . str . get ( 0 ) #NEWLINE#
+df [ 'value' ] = df [ 'value' ] . str . strip ( '[]' ) #NEWLINE#
+""",#SPACE#""" . join ( [ '{}_{}' . format ( k , v ) for k , v in d . items ( ) ] ) #NEWLINE#
+sum ( sum ( x ) for x in lists ) #NEWLINE#
+any ( np . equal ( a , [ 1 , 2 ] ) . all ( 1 ) ) #NEWLINE#
+len ( set ( mylist ) ) == 1 #NEWLINE#
+[ map ( int , x . split ( '\t' ) ) for x in s . rstrip ( ) . split ( '\r\n' ) ] #NEWLINE#
+t = sorted ( list ( a . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+if 'blabla' in open ( 'example.txt' ) . read ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+f = open ( 'example.txt' ) #NEWLINE# s = mmap . mmap ( f . fileno ( ) , 0 , access = mmap . ACCESS_READ ) #NEWLINE# if s . find ( 'blabla' ) != - 1 : #NEWLINE# #INDENT# pass #NEWLINE#
+datafile = file ( 'example.txt' ) #NEWLINE# found = False #NEWLINE# for line in datafile : #NEWLINE# #INDENT# if blabla in line : #NEWLINE# #INDENT# #INDENT# return True #NEWLINE# return False #NEWLINE#
+string2 . replace ( '' , string1 ) [ len ( string1 ) : - len ( string1 ) ] #NEWLINE#
+list ( itertools . combinations ( [ 1 , 2 , 3 , 4 , 5 , 6 ] , 2 ) ) #NEWLINE#
+"""x#SPACE#=#SPACE#{}""" . format ( x . decode ( 'utf8' ) ) . encode ( 'utf8' ) #NEWLINE#
+isinstance ( x , int ) #NEWLINE#
+type ( x ) == int #NEWLINE#
+winsound . PlaySound ( 'sound.wav' , winsound . SND_FILENAME ) #NEWLINE#
+[ next ( it ) for _ in range ( n ) ] #NEWLINE#
+list ( itertools . islice ( it , 0 , n , 1 ) ) #NEWLINE#
+set ( a ) . intersection ( b ) #NEWLINE#
+[ i for i , j in zip ( a , b ) if i == j ] #NEWLINE#
+print ( '' . join ( map ( str , data ) ) ) #NEWLINE#
+re . match ( '\\$[0-9]+[^\\$]*$' , '$1#SPACE#off#SPACE#delicious#SPACE#$5#SPACE#ham.' ) #NEWLINE#
+importlib . import_module ( '.c' , 'a.b' ) #NEWLINE#
+importlib . import_module ( 'a.b.c' ) #NEWLINE#
+a = np . array ( a ) #NEWLINE#
+soup . find_all ( 'div' , class_ = re . compile ( 'comment-' ) ) #NEWLINE#
+[ [ ] for _ in range ( n ) ] #NEWLINE#
+dict ( ( k , globals ( ) [ k ] ) for k in ( 'foo' , 'bar' ) ) #NEWLINE#
+MyModel . objects . order_by ( '?' ) [ : 2 ] #NEWLINE#
+"""Hello#SPACE#{user[name]}""" . format ( ** { 'user' : { 'name' : 'Markus' } } ) #NEWLINE#
+list_dict = { t [ 0 ] : t for t in tuple_list } #NEWLINE#
+randint ( 0 , 9 ) #NEWLINE#
+random . randint ( a , b ) #NEWLINE#
+print ( random . randint ( 0 , 9 ) ) #NEWLINE#
+"""""" . join ( reversed ( [ a [ i : i + 2 ] for i in range ( 0 , len ( a ) , 2 ) ] ) ) #NEWLINE#
+pd . pivot_table ( df , index = df . index . date , columns = df . index . time , values = 'Close' ) #NEWLINE#
+any ( item [ 2 ] == 0 for item in items ) #NEWLINE#
+[ x for x in items if x [ 2 ] == 0 ] #NEWLINE#
+sorted ( list ( dic . items ( ) ) , key = lambda x : x [ 1 ] [ 'Fisher' ] , reverse = True ) #NEWLINE#
+plt . yscale ( 'log' , nonposy = 'clip' ) #NEWLINE#
+map ( int , re . findall ( '\\d+' , s ) ) #NEWLINE#
+os . listdir ( '/home/username/www/' ) #NEWLINE#
+os . listdir ( 'path' ) #NEWLINE#
+pd . concat ( [ distancesDF , datesDF . dates ] , axis = 1 ) #NEWLINE#
+[ x [ 0 ] for x in a ] #NEWLINE#
+[ i [ 0 ] for i in a ] #NEWLINE#
+re . sub ( '(?<=[a-z])\\r?\\n' , '#SPACE#' , textblock ) #NEWLINE#
+gzip . open ( 'file.gz' , 'rt' , encoding = 'utf-8' ) #NEWLINE#
+set ( [ 'a' , 'b' ] ) . issubset ( [ 'b' , 'a' , 'foo' , 'bar' ] ) #NEWLINE#
+all ( x in [ 'b' , 'a' , 'foo' , 'bar' ] for x in [ 'a' , 'b' ] ) #NEWLINE#
+line . translate ( None , '!@#$' ) #NEWLINE#
+line = re . sub ( '[!@#$]' , '' , line ) #NEWLINE#
+string . replace ( '1' , '' ) #NEWLINE#
+a = a . replace ( char , '' ) #NEWLINE#
+a = a . replace ( char , '' ) #NEWLINE#
+line = line . translate ( string . maketrans ( '' , '' ) , '!@#$' ) #NEWLINE#
+pd . concat ( [ df , pd . get_dummies ( df , '' , '' ) . astype ( int ) ] , axis = 1 ) [ order ] #NEWLINE#
+[ 3 , 4 , 1 , 2 ] #NEWLINE#
+globals ( ) [ 'something' ] = 'bob' #NEWLINE#
+re . sub ( '([a-z](?=[A-Z])|[A-Z](?=[A-Z][a-z]))' , '\\1#SPACE#' , text ) #NEWLINE#
+print ( 'exámple' . upper ( ) ) #NEWLINE#
+[ l . split ( '\\' ) [ - 1 ] for l in list_dirs ] #NEWLINE#
+dict ( zip ( keys , values ) ) #NEWLINE#
+formatter = logging . Formatter ( '%(asctime)s;%(levelname)s;%(message)s' ) #NEWLINE#
+new_string = re . sub ( '"(\\d+),(\\d+)"' , '\\1.\\2' , original_string ) #NEWLINE#
+subprocess . call ( 'test.sh#SPACE#otherfunc' ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+"""#SPACE#""" . join ( foo . split ( ) ) #NEWLINE#
+list ( '{0:0b}' . format ( 8 ) ) #NEWLINE#
+[ int ( x ) for x in list ( '{0:0b}' . format ( 8 ) ) ] #NEWLINE#
+[ int ( x ) for x in bin ( 8 ) [ 2 : ] ] #NEWLINE#
+dict ( zip ( my_list , map ( my_dictionary . get , my_list ) ) ) #NEWLINE#
+numpy . dstack ( numpy . meshgrid ( x , y ) ) . reshape ( - 1 , 2 ) #NEWLINE#
+driver . implicitly_wait ( 60 ) #NEWLINE#
+driver . switch_to_frame ( 'frameName' ) #NEWLINE#
+time . strftime ( '{%Y-%m-%d#SPACE#%H:%M:%S}' ) #NEWLINE#
+sorted ( [ '14:10:01' , '03:12:08' ] ) #NEWLINE#
+re . findall ( '(?:\\w+(?:\\s+\\w+)*,\\s)+(?:\\w+(?:\\s\\w+)*)' , x ) #NEWLINE#
+df1 . groupby ( [ 'key' , 'year' ] ) . size ( ) . reset_index ( ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+sorted ( iter ( d . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+np . split ( a , [ - 1 ] ) #NEWLINE#
+df . pivot ( index = 'order' , columns = 'sample' ) #NEWLINE#
+df [ ( df [ 'A' ] > 1 ) | ( df [ 'B' ] < - 1 ) ] #NEWLINE#
+[ list ( a ) for a in zip ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] , [ 7 , 8 , 9 ] ) ] #NEWLINE#
+print ( df . loc [ df [ 'A' ] == 'foo' ] ) #NEWLINE#
+df . loc [ df [ 'column_name' ] != some_value ] #NEWLINE#
+df . loc [ ~ df [ 'column_name' ] . isin ( some_values ) ] #NEWLINE#
+df . loc [ df [ 'column_name' ] == some_value ] #NEWLINE#
+print ( df . loc [ df [ 'B' ] . isin ( [ 'one' , 'three' ] ) ] ) #NEWLINE#
+"""""" . join ( map ( lambda x : x * 7 , 'map' ) ) #NEWLINE#
+os . rmdir ( ) #NEWLINE#
+shutil . rmtree ( path , ignore_errors = False , onerror = None ) #NEWLINE#
+os . removedirs ( name ) #NEWLINE#
+df . loc [ len ( df ) ] = [ '8/19/2014' , 'Jun' , 'Fly' , '98765' ] #NEWLINE#
+glob . glob ( '*' ) #NEWLINE#
+glob . glob ( '[!hello]*.txt' ) #NEWLINE#
+glob . glob ( 'hello*.txt' ) #NEWLINE#
+eval ( '20<30' ) #NEWLINE#
+new_list = [ x [ : ] for x in old_list ] #NEWLINE#
+"""{:.50f}""" . format ( float ( a [ 0 ] / a [ 1 ] ) ) #NEWLINE#
+df . to_sparse ( 0 ) #NEWLINE#
+print ( [ obj . attr for obj in my_list_of_objs ] ) #NEWLINE#
+sum ( 1 if d [ 'success' ] else 0 for d in s ) #NEWLINE#
+sum ( d [ 'success' ] for d in s ) #NEWLINE#
+imp . find_module ( 'os' ) [ 1 ] #NEWLINE#
+bool ( a ) != bool ( b ) #NEWLINE#
+a and not b or not a and b #NEWLINE#
+bool ( a ) ^ bool ( b ) #NEWLINE#
+xor ( bool ( a ) , bool ( b ) ) #NEWLINE#
+return bool ( str1 ) ^ bool ( str2 ) #NEWLINE#
+my_list . sort ( key = operator . itemgetter ( 'name' ) ) #NEWLINE#
+re . split ( '\\s*,\\s*|\\s*;\\s*' , 'a#SPACE#,#SPACE#b;#SPACE#cdf' ) #NEWLINE#
+[ t . strip ( ) for s in string . split ( ',' ) for t in s . split ( ';' ) ] #NEWLINE#
+f = lambda x , y : x + y #NEWLINE#
+instancelist = [ MyClass ( ) for i in range ( 29 ) ] #NEWLINE#
+{ f [ i + 1 ] : [ f [ i ] , f [ i + 2 ] ] for i in range ( 0 , len ( f ) , 3 ) } #NEWLINE#
+struct . unpack ( '>q' , s ) [ 0 ] #NEWLINE#
+pd . concat ( [ students , pd . DataFrame ( marks ) ] , axis = 1 ) #NEWLINE#
+alist . sort ( key = lambda x : x . foo ) #NEWLINE#
+soup . select ( 'div[id$=_answer]' ) #NEWLINE#
+linsolve ( Matrix ( ( [ 1 , 1 , 1 , 1 ] , [ 1 , 1 , 2 , 3 ] ) ) , ( x , y , z ) ) #NEWLINE#
+{ k : bigdict [ k ] for k in list ( bigdict . keys ( ) ) & { 'l' , 'm' , 'n' } } #NEWLINE#
+dict ( ( k , bigdict [ k ] ) for k in ( 'l' , 'm' , 'n' ) ) #NEWLINE#
+{ k : bigdict . get ( k , None ) for k in ( 'l' , 'm' , 'n' ) } #NEWLINE#
+{ k : bigdict [ k ] for k in ( 'l' , 'm' , 'n' ) } #NEWLINE#
+driver . page_source #NEWLINE#
+data [ : , ( [ 1 , 9 ] ) ] #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+root . geometry ( '500x500' ) #NEWLINE#
+re . findall ( '\\b(?:b+a)+b+\\b' , mystring ) #NEWLINE#
+str_list = [ tuple ( '{0:.8e}' . format ( flt ) for flt in sublist ) for sublist in lst ] #NEWLINE#
+str_list = [ [ '{0:.8e}' . format ( flt ) for flt in sublist ] for sublist in lst ] #NEWLINE#
+t = tuple ( x [ 0 ] for x in s ) #NEWLINE#
+datetime . datetime . now ( ) . strftime ( '%a' ) #NEWLINE#
+ord ( 'a' ) #NEWLINE#
+ord ( 'あ' ) #NEWLINE#
+ord ( ) #NEWLINE#
+json . load ( u ) #NEWLINE#
+yourdf . drop ( [ 'columnheading1' , 'columnheading2' ] , axis = 1 , inplace = True ) #NEWLINE#
+[ s . strip ( ) for s in input ( ) . split ( ',' ) ] #NEWLINE#
+[ int ( d ) for d in str ( bin ( x ) ) [ 2 : ] ] #NEWLINE#
+max ( len ( word ) for word in i ) #NEWLINE#
+len ( max ( i , key = len ) ) #NEWLINE#
+os . system ( my_cmd ) #NEWLINE#
+mylist . sort ( key = lambda x : x . lower ( ) ) #NEWLINE#
+mylist . sort ( key = str . lower ) #NEWLINE#
+mylist . sort ( ) #NEWLINE#
+list . sort ( ) #NEWLINE#
+df . set_index ( [ 'Company' , 'date' ] , inplace = True ) #NEWLINE#
+getattr ( your_obj , x ) #NEWLINE#
+s . split ( '#SPACE#' , 1 ) [ 1 ] #NEWLINE#
+workbook = xlsxwriter . Workbook ( 'app/smth1/smth2/Expenses01.xlsx' ) #NEWLINE#
+workbook = xlsxwriter . Workbook ( 'C:/Users/Steven/Documents/demo.xlsx' ) #NEWLINE#
+pyplot . legend ( loc = 2 , fontsize = 'x-small' ) #NEWLINE#
+plot . legend ( loc = 2 , prop = { 'size' : 6 } ) #NEWLINE#
+[ l [ i : i + n ] for i in range ( 0 , len ( l ) , n ) ] #NEWLINE#
+[ l [ i : i + n ] for i in range ( 0 , len ( l ) , n ) ] #NEWLINE#
+df [ 'a' ] . str . contains ( '-' ) #NEWLINE#
+re . sub ( "[^\\w'#SPACE#]" , '' , "doesn't#SPACE#this#SPACE#mean#SPACE#it#SPACE#-technically-#SPACE#works?" ) #NEWLINE#
+print ( re . findall ( '\\d+' , '\n' . join ( re . findall ( '«([\\s\\S]*?)»' , text ) ) ) ) #NEWLINE#
+monthly_mean . reset_index ( ) . plot ( x = 'index' , y = 'A' ) #NEWLINE#
+subprocess . check_output ( 'echo#SPACE#"foo"' , shell = True ) #NEWLINE#
+[ x . encode ( 'UTF8' ) for x in EmployeeList ] #NEWLINE#
+pandas . concat ( [ df [ 'foo' ] . dropna ( ) , df [ 'bar' ] . dropna ( ) ] ) . reindex_like ( df ) #NEWLINE#
+list ( range ( 9 ) ) #NEWLINE#
+"""""" . join ( chr ( i ) for i in myintegers ) #NEWLINE#
+super ( Executive , self ) . __init__ ( * args ) #NEWLINE#
+[ item for item in my_sequence if item != 'item' ] #NEWLINE#
+random . choice ( foo ) #NEWLINE#
+set ( [ 'a' , 'b' ] ) . issubset ( [ 'a' , 'b' , 'c' ] ) #NEWLINE#
+set ( [ 'a' , 'b' ] ) . issubset ( set ( l ) ) #NEWLINE#
+p = Popen ( [ 'grep' , 'f' ] , stdout = PIPE , stdin = PIPE , stderr = STDOUT ) #NEWLINE# grep_stdout = p . communicate ( input = """one#NEWLINE#two#NEWLINE#three#NEWLINE#four#NEWLINE#five#NEWLINE#six#NEWLINE#""" ) [ 0 ] #NEWLINE#
+p = subprocess . Popen ( [ 'grep' , 'f' ] , stdout = subprocess . PIPE , stdin = #NEWLINE# subprocess . PIPE ) #NEWLINE# p . stdin . write ( """one#NEWLINE#two#NEWLINE#three#NEWLINE#four#NEWLINE#five#NEWLINE#six#NEWLINE#""" ) #NEWLINE# p . communicate ( ) [ 0 ] #NEWLINE# p . stdin . close ( ) #NEWLINE#
+[ list ( t ) for t in zip ( * list_of_tuples ) ] #NEWLINE#
+zip ( * list_of_tuples ) #NEWLINE#
+pd . merge ( y , x , on = 'k' ) [ [ 'a' , 'b' , 'y' ] ] #NEWLINE#
+[ item . strip ( ) for item in my_string . split ( ',' ) ] #NEWLINE#
+print ( obj . __dict__ ) #NEWLINE#
+dir ( ) #NEWLINE#
+dir ( ) #NEWLINE#
+window . set_position ( Gtk . WindowPosition . CENTER ) #NEWLINE#
+plt . rc ( 'font' , ** { 'size' : '30' } ) #NEWLINE#
+df . isnull ( ) . values . any ( ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+urllib . parse . unquote ( h . path . encode ( 'utf-8' ) ) . decode ( 'utf-8' ) #NEWLINE#
+( trace_df [ 'ratio' ] > 0 ) . mean ( ) #NEWLINE#
+emaillist = '\n' . join ( item [ 0 ] for item in queryresult ) #NEWLINE#
+[ item [ 0 ] for item in queryresult ] #NEWLINE#
+emaillist = '\n' . join ( [ item [ 0 ] for item in queryresult ] ) #NEWLINE#
+print ( ( 'focus#SPACE#object#SPACE#class:' , window2 . focus_get ( ) . __class__ ) ) #NEWLINE#
+a = [ 0 ] * 10000 #NEWLINE#
+print ( '#SPACE#' . join ( sorted ( set ( words ) , key = words . index ) ) ) #NEWLINE#
+random . sample ( range ( 1 , 50 ) , 6 ) #NEWLINE#
+random . sample ( range ( 1 , 50 ) , 6 ) #NEWLINE#
+{ k . lower ( ) : v . lower ( ) for k , v in list ( { 'My#SPACE#Key' : 'My#SPACE#Value' } . items ( ) ) } #NEWLINE#
+dict ( ( k . lower ( ) , v ) for k , v in { 'My#SPACE#Key' : 'My#SPACE#Value' } . items ( ) ) #NEWLINE#
+dict ( ( k . lower ( ) , v . lower ( ) ) for k , v in { 'My#SPACE#Key' : 'My#SPACE#Value' } . items ( ) ) #NEWLINE#
+[ sorted ( item ) for item in data ] #NEWLINE#
+names = list ( map ( lambda x : x [ 0 ] , cursor . description ) ) #NEWLINE#
+os . path . abspath ( __file__ ) #NEWLINE#
+sorted ( matrix , key = itemgetter ( 1 ) ) #NEWLINE#
+[ index for index , letter in enumerate ( word ) if letter == 'e' ] #NEWLINE#
+print ( str ( x ) . decode ( 'raw_unicode_escape' ) ) #NEWLINE#
+re . findall ( '\\w' , 'abcdefg' ) #NEWLINE#
+os . path . isfile ( fname ) #NEWLINE#
+my_file = Path ( '/path/to/file' ) #NEWLINE# if my_file . is_file ( ) : #NEWLINE# #INDENT# pass #NEWLINE#
+os . path . exists ( file_path ) #NEWLINE#
+print ( os . path . isfile ( '/etc/password.txt' ) ) #NEWLINE#
+print ( os . path . isfile ( '/etc' ) ) #NEWLINE#
+print ( os . path . exists ( '/does/not/exist' ) ) #NEWLINE#
+print ( os . path . isfile ( '/does/not/exist' ) ) #NEWLINE#
+print ( os . path . exists ( '/etc' ) ) #NEWLINE#
+print ( os . path . exists ( '/etc/password.txt' ) ) #NEWLINE#
+"""a;bcd,ef#SPACE#g""" . replace ( ';' , '#SPACE#' ) . replace ( ',' , '#SPACE#' ) . split ( ) #NEWLINE#
+list ( i for i in range ( 3 ) ) #NEWLINE#
+writer . writeheader ( ) #NEWLINE#
+[ ( a , b , c ) for a , ( b , c ) in l ] #NEWLINE#
+"""0x{0:08X}""" . format ( 3652458 ) #NEWLINE#
+[ ( v , k ) for k , v in list ( d . items ( ) ) ] #NEWLINE#
+[ ( v , k ) for k , v in d . items ( ) ] #NEWLINE#
+[ ( v , k ) for k , v in a . items ( ) ] #NEWLINE#
+[ ( k , v ) for k , v in a . items ( ) ] #NEWLINE#
+[ int ( x , 16 ) for x in [ 'BB' , 'A7' , 'F6' , '9E' ] ] #NEWLINE#
+[ int ( x , 16 ) for x in L ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+Test . objects . filter ( actions__contains = [ { 'fixed_key_1' : 'foo2' } ] ) #NEWLINE#
+itertools . product ( list ( range ( 2 ) ) , repeat = 4 ) #NEWLINE#
+( datetime . now ( ) - timedelta ( 1 ) ) . strftime ( '%Y-%m-%d' ) #NEWLINE#
+np . dot ( [ 1 , 0 , 0 , 1 , 0 , 0 ] , [ [ 0 , 1 ] , [ 1 , 1 ] , [ 1 , 0 ] , [ 1 , 0 ] , [ 1 , 1 ] , [ 0 , 1 ] ] ) #NEWLINE#
+df [ 'date' ] = pd . to_datetime ( df [ 'date' ] , format = '%d%b%Y' ) #NEWLINE#
+sys . path . insert ( 0 , '/path/to/application/app/folder' ) #NEWLINE# import file #NEWLINE#
+x . reset_index ( ) . merge ( y , how = 'left' , on = 'state' , sort = False ) . sort ( 'index' ) #NEWLINE#
+json . loads ( request . POST . get ( 'mydata' , '{}' ) ) #NEWLINE#
+list ( zip ( * ( ( iter ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) , ) * 3 ) ) ) #NEWLINE#
+list ( grouper ( 2 , [ 1 , 2 , 3 , 4 , 5 , 6 , 7 ] ) ) #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( input ) , n ) ] #NEWLINE#
+keys . sort ( key = lambda x : map ( int , x . split ( '.' ) ) ) #NEWLINE#
+keys . sort ( key = lambda x : [ int ( y ) for y in x . split ( '.' ) ] ) #NEWLINE#
+img . transpose ( 2 , 0 , 1 ) . reshape ( 3 , - 1 ) #NEWLINE#
+df [ 'BrandName' ] . replace ( [ 'ABC' , 'AB' ] , 'A' ) #NEWLINE#
+df [ 'BrandName' ] = df [ 'BrandName' ] . replace ( [ 'ABC' , 'AB' ] , 'A' ) #NEWLINE#
+df . sub ( df . mean ( axis = 1 ) , axis = 0 ) #NEWLINE#
+"""""" . join ( [ i for i in s if i . isalpha ( ) ] ) #NEWLINE#
+l = ( int ( x ) for x in s . split ( ) ) #NEWLINE#
+"""42#SPACE#0""" . split ( ) #NEWLINE#
+map ( int , '42#SPACE#0' . split ( ) ) #NEWLINE#
+[ i for i , elem in enumerate ( bool_list , 1 ) if elem ] #NEWLINE#
+data . groupby ( data [ 'date' ] . map ( lambda x : x . year ) ) #NEWLINE#
+np . in1d ( b , a ) . nonzero ( ) [ 0 ] #NEWLINE#
+time . strftime ( '%l:%M%p#SPACE#%z#SPACE#on#SPACE#%b#SPACE#%d,#SPACE#%Y' ) #NEWLINE#
+ax . set_xticklabels ( ax . xaxis . get_majorticklabels ( ) , rotation = 45 ) #NEWLINE#
+"""""" . join ( [ 'x' , 'x' , 'x' ] ) #NEWLINE#
+x [ ( np . arange ( x . shape [ 0 ] ) != 1 ) , : , : ] #NEWLINE#
+print ( item [ 'name' ] ) #NEWLINE#
+result = sys . stdin . read ( ) #NEWLINE#
+"""""" . join ( soup . findAll ( text = True ) ) #NEWLINE#
+data [ data [ 'Value' ] == True ] #NEWLINE#
+"""""" . join ( set ( foo ) ) #NEWLINE#
+sorted ( Profile . objects . all ( ) , key = lambda p : p . reputation ) #NEWLINE#
+df . values . flatten ( ) #NEWLINE#
+users . sort ( key = lambda x : order . index ( x [ 'id' ] ) ) #NEWLINE#
+users . sort ( key = lambda x : order . index ( x [ 'id' ] ) ) #NEWLINE#
+r = requests . get ( '<MY_URI>' , headers = { 'Authorization' : 'TOK:<MY_TOKEN>' } ) #NEWLINE#
+print ( '"Hello,\\nworld!"' . decode ( 'string_escape' ) ) #NEWLINE#
+re . findall ( 'a*?bc*?' , 'aabcc' , re . DOTALL ) #NEWLINE#
+a . shape [ 1 ] #NEWLINE#
+d . apply ( lambda row : min ( [ row [ 'A' ] , row [ 'B' ] ] ) - row [ 'C' ] , axis = 1 ) #NEWLINE#
+"""abcdabcva""" . count ( 'ab' ) #NEWLINE#
+[ d [ 'key' ] for d in l if 'key' in d ] #NEWLINE#
+[ d [ 'key' ] for d in l ] #NEWLINE#
+[ d [ 'key' ] for d in l ] #NEWLINE#
+l1 . sort ( key = lambda x : int ( x [ 0 ] ) ) #NEWLINE#
+sorted ( [ [ 1 , 'mike' ] , [ 1 , 'bob' ] ] ) #NEWLINE#
+"""Abc""" . translate ( maketrans ( 'abcABC' , 'defDEF' ) ) #NEWLINE#
+"""<br/>""" . join ( [ ( '%s::#SPACE#%s' % ( key , value ) ) for key , value in list ( d . items ( ) ) ] #NEWLINE# ) #NEWLINE#
+self . writer . writerow ( [ str ( s ) . encode ( 'utf-8' ) for s in row ] ) #NEWLINE#
+os . system ( 'cls' ) #NEWLINE#
+os . system ( 'clear' ) #NEWLINE#
+os . system ( 'tcsh#SPACE#your_own_script' ) #NEWLINE#
+os . system ( "zsh#SPACE#-c#SPACE#'echo#SPACE#$0'" ) #NEWLINE#
+[ dict ( d , count = n ) for d , n in zip ( l1 , l2 ) ] #NEWLINE#
+[ sum ( x ) for x in zip ( * l ) ] #NEWLINE#
+map ( sum , zip ( * l ) ) #NEWLINE#
+np . count_nonzero ( ~ np . isnan ( data ) ) #NEWLINE#
+map ( list , zip ( * main_list ) ) #NEWLINE#
+request . POST . get ( 'title' , '' ) #NEWLINE#
+"""test.mp3""" . endswith ( ( '.mp3' , '.avi' ) ) #NEWLINE#
+re . findall ( '\\[[^\\]]*\\]|"[^"]*"|\\S+' , s ) #NEWLINE#
+data . apply ( lambda x : sorted ( x , 3 ) ) #NEWLINE#
+os . chdir ( 'C:/Users/Name/Desktop' ) #NEWLINE#
+re . findall ( '\\$([^$]*)\\$' , string ) #NEWLINE#
+re . findall ( '\\$(.*?)\\$' , '$sin#SPACE#(x)$#SPACE#is#SPACE#an#SPACE#function#SPACE#of#SPACE#x' ) #NEWLINE#
+datetime . datetime . strptime ( str_date , '%m/%d/%Y' ) . date ( ) . isoformat ( ) #NEWLINE#
+A [ [ 0 , 1 ] , [ 0 , 1 ] ] #NEWLINE#
+a [ np . arange ( 3 ) , ( 0 , 1 , 0 ) ] #NEWLINE#
+[ k for k , v in dictA . items ( ) if v . count ( 'duck' ) > 1 ] #NEWLINE#
+[ [ 2 , 3 , 4 ] , [ 2 , 3 , 4 ] , [ 2 , 3 , 4 ] ] #NEWLINE#
+print ( arr [ 1 , 1 ] ) #NEWLINE#
+quadmesh . set_clim ( vmin = 0 , vmax = 15 ) #NEWLINE#
+my_data = genfromtxt ( 'my_file.csv' , delimiter = ',' ) #NEWLINE#
+df = pd . read_csv ( 'myfile.csv' , sep = ',' , header = None ) #NEWLINE#
+np . genfromtxt ( 'myfile.csv' , delimiter = ',' ) #NEWLINE#
+np . genfromtxt ( 'myfile.csv' , delimiter = ',' , dtype = None ) #NEWLINE#
+my_string . splitlines ( ) [ 0 ] #NEWLINE#
+my_string . split ( '\n' , 1 ) [ 0 ] #NEWLINE#
+df . values . tolist ( ) #NEWLINE#
+re . sub ( '\\*\\*+' , '*' , text ) #NEWLINE#
+re . sub ( '\\*+' , '*' , text ) #NEWLINE#
+dict ( ( k , v * dict2 [ k ] ) for k , v in list ( dict1 . items ( ) ) if k in dict2 ) #NEWLINE#
+return '' . join ( random . choice ( string . lowercase ) for i in range ( length ) ) #NEWLINE#
+sum ( len ( x ) for x in list ( food_colors . values ( ) ) ) #NEWLINE#
+sum ( len ( v ) for v in food_colors . values ( ) ) #NEWLINE#
+all ( a_list ) #NEWLINE#
+"""""" . join ( c for c in text if c not in 'aeiouAEIOU' ) #NEWLINE#
+[ ( x / y ) for x , y in zip ( a , b ) ] #NEWLINE#
+re . findall ( 'abc(de)fg(123)' , 'abcdefg123#SPACE#and#SPACE#again#SPACE#abcdefg123' ) #NEWLINE#
+df . groupby ( 'type' ) . apply ( lambda x : np . mean ( np . log2 ( x [ 'v' ] ) ) ) #NEWLINE#
+[ key for key , value in list ( my_dict . items ( ) ) if set ( value ) . intersection ( lst ) ] #NEWLINE#
+[ key for item in lst for key , value in list ( my_dict . items ( ) ) if item in value ] #NEWLINE#
+c = [ [ ( i + j ) for i , j in zip ( e , b ) ] for e in a ] #NEWLINE#
+os . path . commonprefix ( [ '/usr/var' , '/usr/var2/log' ] ) #NEWLINE#
+print ( os . path . relpath ( '/usr/var/log/' , '/usr/var' ) ) #NEWLINE#
+grouped . filter ( lambda x : len ( x ) > 1 ) #NEWLINE#
+sorted ( list ( myDict . items ( ) ) , key = lambda e : e [ 1 ] [ 2 ] ) #NEWLINE#
+"""hello#SPACE#{name},#SPACE#how#SPACE#are#SPACE#you#SPACE#{name},#SPACE#welcome#SPACE#{name}""" . format ( name = 'john' ) #NEWLINE#
+df . reindex ( [ 'Z' , 'C' , 'A' ] ) #NEWLINE#
+any ( isinstance ( el , list ) for el in input_list ) #NEWLINE#
+len ( items ) #NEWLINE#
+len ( [ 1 , 2 , 3 ] ) #NEWLINE#
+items . __len__ ( ) #NEWLINE#
+len ( ) #NEWLINE#
+len ( s ) #NEWLINE#
+df . sort ( axis = 1 , ascending = False ) #NEWLINE#
+df . sort ( df . columns , axis = 1 , ascending = False ) #NEWLINE#
+df . groupby ( [ 'col5' , 'col2' ] ) . size ( ) . groupby ( level = 1 ) . max ( ) #NEWLINE#
+'x' in [ 'x' , 'd' , 'a' , 's' , 'd' , 's' ] #NEWLINE#
+mydict . pop ( 'key' , None ) #NEWLINE#
+del mydict [ key ] #NEWLINE#
+try : #NEWLINE# #INDENT# del mydict [ key ] #NEWLINE# except KeyError : #NEWLINE# #INDENT# pass #NEWLINE# try : #NEWLINE# #INDENT# del mydict [ key ] #NEWLINE# except KeyError : #NEWLINE# #INDENT# pass #NEWLINE#
+parser . add_argument ( 'input' , nargs = '+' ) #NEWLINE#
+pyplot . plot ( x , y , color = '#112233' ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+a [ np . in1d ( a , b ) ] #NEWLINE#
+"""jvm.args=#SPACE#-Dappdynamics.com=true,#SPACE#-Dsomeotherparam=false,""" . split ( '=' , 1 ) #NEWLINE#
+print ( '[%s]' % ',#SPACE#' . join ( '%.3f' % val for val in list ) ) #NEWLINE#
+print ( '[' + ',#SPACE#' . join ( '%5.3f' % v for v in l ) + ']' ) #NEWLINE#
+print ( [ ( '%5.3f' % val ) for val in l ] ) #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+print ( text . encode ( 'windows-1252' ) ) #NEWLINE#
+struct . unpack ( 'd' , struct . pack ( 'Q' , int ( s2 , 0 ) ) ) [ 0 ] #NEWLINE#
+float ( int ( '-0b1110' , 0 ) ) #NEWLINE#
+struct . unpack ( 'd' , b8 ) [ 0 ] #NEWLINE#
+df . colour . value_counts ( ) . plot ( kind = 'bar' ) #NEWLINE#
+df . groupby ( 'colour' ) . size ( ) . plot ( kind = 'bar' ) #NEWLINE#
+line . strip ( ) . split ( '#SPACE#' ) #NEWLINE#
+df . groupby ( lambda idx : 0 ) . agg ( [ 'mean' , 'std' ] ) #NEWLINE#
+sorted ( list ( tag_weight . items ( ) ) , key = lambda x : int ( x [ 1 ] ) , reverse = True ) #NEWLINE#
+int ( math . ceil ( x ) ) - 1 #NEWLINE#
+if not myString : #NEWLINE# #INDENT# pass #NEWLINE#
+if not some_string : #NEWLINE# #INDENT# pass #NEWLINE#
+if not my_string : #NEWLINE# #INDENT# pass #NEWLINE#
+if some_string : #NEWLINE# #INDENT# pass #NEWLINE#
+it = iter ( sorted ( d . items ( ) ) ) #NEWLINE#
+for key , value in sorted ( d . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+return sorted ( dict . items ( ) ) #NEWLINE#
+return iter ( sorted ( dict . items ( ) ) ) #NEWLINE#
+for k , v in sorted ( foo . items ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for k in sorted ( foo . keys ( ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+last = len ( s ) - s [ : : - 1 ] . index ( x ) - 1 #NEWLINE#
+str1 = '' . join ( list1 ) #NEWLINE#
+"""#SPACE#""" . join ( str ( x ) for x in L ) #NEWLINE#
+str1 = '' . join ( str ( e ) for e in list1 ) #NEWLINE#
+makeitastring = '' . join ( map ( str , L ) ) #NEWLINE#
+[ x for x in L if x is not None ] #NEWLINE#
+random . choice ( [ 1 , 2 , 3 ] ) #NEWLINE#
+x = [ [ None for _ in range ( 5 ) ] for _ in range ( 6 ) ] #NEWLINE#
+A [ ( np . random . choice ( A . shape [ 0 ] , 2 , replace = False ) ) , : ] #NEWLINE#
+A [ ( np . random . randint ( A . shape [ 0 ] , size = 2 ) ) , : ] #NEWLINE#
+df . groupby ( df . index ) . sum ( ) #NEWLINE#
+root . findall ( '{http://www.w3.org/2002/07/owl#}Class' ) #NEWLINE#
+"""""" . join ( random . choice ( string . lowercase ) for x in range ( X ) ) #NEWLINE#
+sys . path . append ( '/path/to/2014_07_13_test' ) #NEWLINE#
+int ( round ( x ) ) #NEWLINE#
+h = int ( round ( h ) ) #NEWLINE#
+round ( 32.268907563 , 3 ) #NEWLINE#
+round ( value , significantDigit ) #NEWLINE#
+round ( 1.0005 , 3 ) #NEWLINE#
+round ( 2.0005 , 3 ) #NEWLINE#
+round ( 3.0005 , 3 ) #NEWLINE#
+round ( 4.0005 , 3 ) #NEWLINE#
+round ( 8.005 , 2 ) #NEWLINE#
+round ( 7.005 , 2 ) #NEWLINE#
+round ( 6.005 , 2 ) #NEWLINE#
+round ( 1.005 , 2 ) #NEWLINE#
+df [ 'Cat1' ] . fillna ( df [ 'Cat2' ] ) #NEWLINE#
+logging . info ( 'date=%s' , date ) #NEWLINE#
+logging . info ( 'date={}' . format ( date ) ) #NEWLINE#
+{ k : int ( v ) for k , v in d . items ( ) } #NEWLINE#
+map ( sum , zip ( * lists ) ) #NEWLINE#
+s . decode ( 'hex' ) #NEWLINE#
+binascii . a2b_hex ( s ) #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#established\r\n\r\n' ) #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n\r\n' ) #NEWLINE#
+df [ 'x' ] [ 'C' ] = 10 #NEWLINE#
+np . sqrt ( np . square ( df ) . sum ( axis = 1 ) ) #NEWLINE#
+sorted ( set ( my_list ) ) #NEWLINE#
+max ( enumerate ( a ) , key = lambda x : x [ 1 ] ) [ 0 ] #NEWLINE#
+[ d [ 'Name' ] for d in thisismylist ] #NEWLINE#
+[ ( d [ 'Name' ] , d [ 'Age' ] ) for d in thisismylist ] #NEWLINE#
+model . objects . all ( ) . order_by ( '?' ) [ 0 ] #NEWLINE#
+os . system ( 'script2.py#SPACE#1' ) #NEWLINE#
+re . findall ( '\\w+(?:-\\w+)+' , text ) #NEWLINE#
+parser . add_argument ( '--conf' , nargs = 2 , action = 'append' ) #NEWLINE#
+random . sample ( list ( range ( 1 , 16 ) ) , 3 ) #NEWLINE#
+strings . sort ( key = lambda str : re . sub ( '.*%(.).*' , '\\1' , str ) ) #NEWLINE#
+strings . sort ( key = lambda str : re . sub ( '.*%' , '' , str ) ) #NEWLINE#
+listy = [ [ ] for i in range ( 3 ) ] #NEWLINE#
+A = np . array ( sorted ( A , key = tuple ) ) #NEWLINE#
+[ ( x + y ) for x in '12345' for y in 'ab' ] #NEWLINE#
+"""#SPACE#Hello#SPACE#""" . strip ( ) #NEWLINE#
+myString . strip ( ) #NEWLINE#
+"""#SPACE#Hello#SPACE#""" . strip ( ) #NEWLINE#
+"""#SPACE#Hello""" . strip ( ) #NEWLINE#
+"""Bob#SPACE#has#SPACE#a#SPACE#cat""" . strip ( ) #NEWLINE#
+"""#SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE#Hello#SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE##SPACE#""" . strip ( ) #NEWLINE#
+str . strip ( ) #NEWLINE#
+myString . strip ( '\n' ) #NEWLINE#
+myString . lstrip ( '\n\r' ) #NEWLINE#
+myString . rstrip ( '\n\t' ) #NEWLINE#
+"""#SPACE##SPACE#Hello#NEWLINE#""" . strip ( '#SPACE#' ) #NEWLINE#
+sorted ( unsorted , key = lambda element : ( element [ 1 ] , element [ 2 ] ) ) #NEWLINE#
+print ( content . decode ( 'utf8' ) ) #NEWLINE#
+np . ma . array ( np . tile ( arr , 2 ) . reshape ( 2 , 3 ) , mask = ~ cond ) . argmax ( axis = 1 ) #NEWLINE#
+pd . to_datetime ( df . ID . str [ 1 : - 3 ] ) #NEWLINE#
+df = pd . read_csv ( 'my.csv' , dtype = { 'my_column' : np . float64 } , na_values = [ 'n/a' ] ) #NEWLINE#
+df = pd . read_csv ( 'my.csv' , na_values = [ 'n/a' ] ) #NEWLINE#
+list ( itertools . product ( * a ) ) #NEWLINE#
+re . sub ( '[^A-Z]' , '' , s ) #NEWLINE#
+datetime . strptime ( '2011221' , '%Y%W%w' ) #NEWLINE#
+codecs . open ( 'myfile' , 'r' , 'iso-8859-1' ) . read ( ) #NEWLINE#
+[ f ( x ) for x in list ] #NEWLINE#
+re . findall ( '(?<!\\d)\\d{5}(?!\\d)' , s ) #NEWLINE#
+[ item for item in a if sum ( item ) > 10 ] #NEWLINE#
+cents_int = int ( round ( float ( dollars . strip ( '$' ) ) * 100 ) ) #NEWLINE#
+"""""" . join ( dropwhile ( lambda x : x in bad_chars , example_line [ : : - 1 ] ) ) [ : : - 1 ] #NEWLINE#
+l = [ ] #NEWLINE#
+l = list ( ) #NEWLINE#
+list ( ) #NEWLINE#
+[ ] #NEWLINE#
+sys . exit ( 0 ) #NEWLINE#
+s [ : 4 ] + '-' + s [ 4 : ] #NEWLINE#
+[ [ ] for i in range ( 3 ) ] #NEWLINE#
+a = [ [ ] for i in range ( 3 ) ] #NEWLINE#
+requests . get ( url , headers = { 'referer' : my_referer } ) #NEWLINE#
+pylab . ylim ( [ 0 , 1000 ] ) #NEWLINE#
+pd . get_dummies ( s . apply ( pd . Series ) . stack ( ) ) . sum ( level = 0 ) #NEWLINE#
+max ( abs ( x - y ) for x , y in zip ( values [ 1 : ] , values [ : - 1 ] ) ) #NEWLINE#
+y = str ( int ( x , 16 ) ) #NEWLINE#
+a . isdigit ( ) #NEWLINE#
+isdigit ( ) #NEWLINE#
+b . isdigit ( ) #NEWLINE#
+pd . read_csv ( StringIO ( s ) , sep = ',' , comment = '#' ) #NEWLINE#
+df [ 'Date' ] = df [ 'Date' ] . apply ( lambda x : int ( str ( x ) [ - 4 : ] ) ) #NEWLINE#
+sum ( list_of_nums ) #NEWLINE#
+max ( lst , key = lambda x : x [ 'score' ] ) #NEWLINE#
+soup . findAll ( attrs = { 'name' : 'description' } ) #NEWLINE#
+str ( { 'a' : 1 , 'b' : 'as#SPACE#df' } ) . replace ( ':#SPACE#' , ':' ) . replace ( ',#SPACE#' , ',' ) #NEWLINE#
+'{' + ',' . join ( '{0!r}:{1!r}' . format ( * x ) for x in list ( dct . items ( ) ) ) + '}' #NEWLINE#
+"""""" . join ( parts [ 1 : ] ) #NEWLINE#
+""",+""" . join ( c . rsplit ( '+' , 1 ) ) #NEWLINE#
+a [ np . all ( a != 0 , axis = 1 ) ] #NEWLINE#
+"""#SPACE#""" . join ( re . split ( '[^a-zA-Z]*' , 'your#SPACE#string' ) ) #NEWLINE#
+re . split ( '[^a-zA-Z]*' , 'your#SPACE#string' ) #NEWLINE#
+results_union = set ( ) . union ( * results_list ) #NEWLINE#
+return list ( set ( itertools . chain ( * result_list ) ) ) #NEWLINE#
+np . any ( np . in1d ( a1 , a2 ) ) #NEWLINE#
+return '' . join ( ch for ch in s if unicodedata . category ( ch ) [ 0 ] != 'C' ) #NEWLINE#
+all ( i < j for i , j in zip ( a , b ) ) #NEWLINE#
+driver . find_element_by_css_selector ( '.button.c_button.s_button' ) . click ( ) #NEWLINE#
+driver . find_element_by_css_selector ( '.button#SPACE#.c_button#SPACE#.s_button' ) . click ( ) #NEWLINE#
+os . system ( 'taskkill#SPACE#/im#SPACE#make.exe' ) #NEWLINE#
+print ( select ( [ my_table , func . current_date ( ) ] ) . execute ( ) ) #NEWLINE#
+re . sub ( '([a-z])\\1+' , '\\1' , 'ffffffbbbbbbbqqq' ) #NEWLINE#
+re . sub ( '(?<!\\w)([A-Z])\\.' , '\\1' , s ) #NEWLINE#
+split_list = [ the_list [ i : i + n ] for i in range ( 0 , len ( the_list ) , n ) ] #NEWLINE#
+re . sub ( '\\b(this|string)\\b' , '<markup>\\1</markup>' , 'this#SPACE#is#SPACE#my#SPACE#string' ) #NEWLINE#
+pandas . set_option ( 'display.max_columns' , 7 ) #NEWLINE#
+pandas . set_option ( 'display.max_columns' , None ) #NEWLINE#
+df . ix [ df . A == 0 , 'B' ] = np . nan #NEWLINE#
+driver . find_element_by_xpath ( "//li/label/input[contains(..,'polishpottery')]" ) #NEWLINE#
+mylist . sort ( key = operator . itemgetter ( 'weight' , 'factor' ) ) #NEWLINE#
+mylist . sort ( key = lambda d : ( d [ 'weight' ] , d [ 'factor' ] ) ) #NEWLINE#
+{ x [ 1 ] : x for x in lol } #NEWLINE#
+sorted ( d , key = lambda k : d [ k ] [ 1 ] ) #NEWLINE#
+int ( round ( 123 , - 2 ) ) #NEWLINE#
+fd = os . open ( 'x' , os . O_WRONLY | os . O_CREAT | os . O_EXCL ) #NEWLINE#
+new_list = [ x . split ( ) [ - 1 ] for x in Original_List ] #NEWLINE#
+"""hello#SPACE#world""" [ : : - 1 ] #NEWLINE#
+s [ : : - 1 ] #NEWLINE#
+"""""" . join ( reversed ( 'foo' ) ) #NEWLINE#
+"""""" . join ( reversed ( string ) ) #NEWLINE#
+"""foo""" [ : : - 1 ] #NEWLINE#
+a_string [ : : - 1 ] #NEWLINE#
+def reversed_string ( a_string ) : #NEWLINE# #INDENT# return a_string [ : : - 1 ] #NEWLINE#
+"""""" . join ( reversed ( s ) ) #NEWLINE#
+""",""" . join ( str ( i ) for i in range ( 100 ) if i % 4 in ( 1 , 2 ) ) #NEWLINE#
+dict ( [ ( e [ 0 ] , int ( e [ 1 ] ) ) for e in lst ] ) #NEWLINE#
+sorted ( list_of_tuples , key = lambda tup : tup [ : : - 1 ] ) #NEWLINE#
+sorted ( list_of_tuples , key = lambda tup : tup [ 1 ] ) #NEWLINE#
+numpy . concatenate ( [ a , b ] ) #NEWLINE#
+for item in thelist : #NEWLINE# #INDENT# thefile . write ( '%s\n' % item ) #NEWLINE#
+for item in thelist : #NEWLINE# #INDENT# pass #NEWLINE#
+pickle . dump ( itemlist , outfile ) #NEWLINE#
+outfile . write ( '\n' . join ( itemlist ) ) #NEWLINE#
+session . query ( User ) . filter_by ( id = 123 ) . update ( { 'name' : 'Bob#SPACE#Marley' } ) #NEWLINE#
+r = requests . post ( 'http://wikipedia.org' , cookies = cookie ) #NEWLINE#
+sys . path . insert ( 0 , 'libs' ) #NEWLINE#
+datetime . datetime . now ( ) #NEWLINE#
+datetime . datetime . now ( ) . time ( ) #NEWLINE#
+strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' , gmtime ( ) ) #NEWLINE#
+str ( datetime . now ( ) ) #NEWLINE#
+datetime . datetime . time ( datetime . datetime . now ( ) ) #NEWLINE#
+ord ( 'ÿ' ) #NEWLINE#
+df . groupby ( [ 'PplNum' , 'RoomNum' ] ) . cumcount ( ) + 1 #NEWLINE#
+datetime . utcnow ( ) #NEWLINE#
+a [ - 1 : ] + a [ : - 1 ] #NEWLINE#
+df . set_index ( [ 'year' , 'month' , 'item' ] ) . unstack ( level = - 1 ) #NEWLINE#
+df . pivot_table ( values = 'value' , index = [ 'year' , 'month' ] , columns = 'item' ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+li1 . sort ( key = lambda x : not x . startswith ( 'b.' ) ) #NEWLINE#
+range ( 10 , 0 , - 1 ) #NEWLINE#
+name [ 0 ] . firstChild . nodeValue #NEWLINE#
+thread . start_new_thread ( myfunction , ( 'MyStringHere' , 1 ) ) #NEWLINE#
+thread . start_new_thread ( myfunction , ( 'MyStringHere' , 1 ) ) #NEWLINE#
+a . index ( max ( a ) ) #NEWLINE#
+re . sub ( '\\.(?=[^#SPACE#.])' , '.#SPACE#' , para ) #NEWLINE#
+[ i . split ( ) for i in re . findall ( '\\[([^\\[\\]]+)\\]' , a ) ] #NEWLINE#
+[ d for d in a if d [ 'name' ] == 'pluto' ] #NEWLINE#
+[ d for d in a if d [ 'name' ] == 'pluto' ] #NEWLINE#
+list ( d . values ( ) ) #NEWLINE#
+re . sub ( '#SPACE#+' , '#SPACE#' , s ) #NEWLINE#
+os . chmod ( 'my_script.sh' , 484 ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+re . sub ( '\\w*\\d\\w*' , '' , words ) . strip ( ) #NEWLINE#
+dogtail . rawinput . click ( 100 , 100 ) #NEWLINE#
+datetime . strptime ( '2009/05/13#SPACE#19:19:30#SPACE#-0400' , '%Y/%m/%d#SPACE#%H:%M:%S#SPACE#%z' ) #NEWLINE#
+re . search ( '\\bis\\b' , String ) . start ( ) #NEWLINE#
+re . search ( 'is' , String ) . start ( ) #NEWLINE#
+tuple ( map ( int , input ( ) . split ( ',' ) ) ) #NEWLINE#
+tuple ( int ( x . strip ( ) ) for x in input ( ) . split ( ',' ) ) #NEWLINE#
+str . decode ( 'utf-8' ) . replace ( '•' , '*' ) . encode ( 'utf-8' ) #NEWLINE#
+str . decode ( 'utf-8' ) . replace ( '•' , '*' ) #NEWLINE#
+np . zeros ( ( 3 , 3 ) ) . ravel ( ) #NEWLINE#
+import platform #NEWLINE# platform . system ( ) #NEWLINE#
+import platform #NEWLINE# platform . release ( ) #NEWLINE#
+print ( os . name ) #NEWLINE#
+[ x for x in my_list if not x . startswith ( '#' ) ] #NEWLINE#
+"""Day#SPACE#old#SPACE#bread,#SPACE#50%#SPACE#sale#SPACE#{0}""" . format ( 'today' ) #NEWLINE#
+min ( list , key = lambda x : float ( 'inf' ) if math . isnan ( x [ 1 ] ) else x [ 1 ] ) #NEWLINE#
+a = [ ( sum ( x ) / len ( x ) ) for x in zip ( * a ) ] #NEWLINE#
+logging . info ( 'Log#SPACE#message' , extra = { 'app_name' : 'myapp' } ) #NEWLINE#
+df . applymap ( lambda x : isinstance ( x , ( int , float ) ) ) #NEWLINE#
+sorted ( l , key = lambda x : int ( re . search ( '\\d+' , x ) . group ( 0 ) ) ) #NEWLINE#
+self . root . destroy ( ) #NEWLINE#
+df . iloc [ : , ( [ 2 , 5 , 6 , 7 , 8 ] ) ] . mean ( axis = 1 ) #NEWLINE#
+df [ df . index . map ( lambda x : x [ 1 ] . endswith ( '0630' ) ) ] #NEWLINE#
+db . session . delete ( page ) #NEWLINE#
+"""""" . join ( chr ( ord ( c ) ) for c in 'AndrÃ©' ) #NEWLINE#
+"""""" . join ( chr ( ord ( c ) ) for c in 'AndrÃ©' ) . decode ( 'utf8' ) #NEWLINE#
+for dirname , dirnames , filenames in os . walk ( '.' ) : #NEWLINE# #INDENT# for subdirname in dirnames : #NEWLINE# #INDENT# #INDENT# print ( os . path . join ( dirname , subdirname ) ) #NEWLINE# #INDENT# for filename in filenames : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+os . listdir ( path ) #NEWLINE#
+os . rename ( dir , dir + '!' ) #NEWLINE#
+"""-""" . join ( a + b for a , b in zip ( s [ : : 2 ] , s [ 1 : : 2 ] ) ) #NEWLINE#
+print ( '%.3f' % 3.1415 ) #NEWLINE#
+data [ 0 ] [ 'f' ] = var #NEWLINE#
+print ( a_module . __file__ ) #NEWLINE#
+print ( os . getcwd ( ) ) #NEWLINE#
+path = os . path . abspath ( amodule . __file__ ) #NEWLINE#
+self . myList . extend ( [ 0 ] * ( 4 - len ( self . myList ) ) ) #NEWLINE#
+df [ ~ df . index . duplicated ( ) ] #NEWLINE#
+foo ( * i ) #NEWLINE#
+[ ( '%.2d' % i ) for i in range ( 16 ) ] #NEWLINE#
+sorted ( iter ( mydict . items ( ) ) , key = lambda tup : sum ( tup [ 1 ] ) , reverse = True ) [ : 3 ] #NEWLINE#
+heapq . nlargest ( 3 , iter ( mydict . items ( ) ) , key = lambda tup : sum ( tup [ 1 ] ) ) #NEWLINE#
+[ 'a' , 'b' ] . index ( 'b' ) #NEWLINE#
+plt . setp ( legend . get_title ( ) , fontsize = 'xx-small' ) #NEWLINE#
+int ( '#SPACE##SPACE#23#SPACE##SPACE#' ) #NEWLINE#
+[ x [ 1 ] for x in elements ] #NEWLINE#
+np . diag ( np . rot90 ( array ) ) #NEWLINE#
+list ( chain . from_iterable ( a ) ) #NEWLINE#
+re . sub ( '\\s{2,}' , '|' , line . strip ( ) ) #NEWLINE#
+print ( '%.2f' % a ) #NEWLINE#
+print ( '{0:.2f}' . format ( a ) ) #NEWLINE#
+print ( '{0:.2f}' . format ( round ( a , 2 ) ) ) #NEWLINE#
+print ( '%.2f' % round ( a , 2 ) ) #NEWLINE#
+'%.2f' % 13.9499999 #NEWLINE#
+'%.2f' % 3.14159 #NEWLINE#
+float ( '{0:.2f}' . format ( 13.95 ) ) #NEWLINE#
+"""{0:.2f}""" . format ( 13.95 ) #NEWLINE#
+DataFrame . from_csv ( 'c:/~/trainSetRel3.txt' , sep = '\t' ) #NEWLINE#
+dateutil . parser . parse ( '2013/09/11#SPACE#00:17#SPACE#+0900' ) #NEWLINE#
+cur . mogrify ( 'SELECT#SPACE#*#SPACE#FROM#SPACE#table#SPACE#WHERE#SPACE#column#SPACE#IN#SPACE#%s;' , ( ( 1 , 2 , 3 ) , ) ) #NEWLINE#
+sum ( [ sum ( x ) for x in [ [ 1 , 2 , 3 , 4 ] , [ 2 , 4 , 5 , 6 ] ] ] ) #NEWLINE#
+next ( iter ( dict . values ( ) ) ) #NEWLINE#
+next ( iter ( list ( dict . values ( ) ) ) ) #NEWLINE#
+df . groupby ( [ 'Month' , 'Fruit' ] ) . sum ( ) . unstack ( level = 0 ) #NEWLINE#
+sorted ( mylist , key = lambda x : order . index ( x [ 1 ] ) ) #NEWLINE#
+sorted ( persons , key = lambda x : x [ 'passport' ] [ 'birth_info' ] [ 'date' ] ) #NEWLINE#
+urlparse . urldefrag ( 'http://www.address.com/something#something' ) #NEWLINE#
+urllib . request . urlretrieve ( 'http://example.com/file.ext' , #NEWLINE# '/path/to/dir/filename.ext' ) #NEWLINE#
+list ( set ( frozenset ( item ) for item in L ) ) #NEWLINE#
+[ set ( item ) for item in set ( frozenset ( item ) for item in L ) ] #NEWLINE#
+p . terminate ( ) #NEWLINE#
+del mylist [ : ] #NEWLINE#
+ctypes . windll . user32 . MessageBoxW ( 0 , 'Error' , 'Error' , 0 ) #NEWLINE#
+str_list = list ( [ _f for _f in str_list if _f ] ) #NEWLINE#
+re . sub ( '[\\#SPACE#\\n]{2,}' , '' , yourstring ) #NEWLINE#
+re . sub ( '\\.[^.]+$' , '' , s ) #NEWLINE#
+A [ np . all ( np . any ( A - B [ : , ( None ) ] , axis = 2 ) , axis = 0 ) ] #NEWLINE#
+a . to_csv ( 'test.csv' , cols = [ 'sum' ] ) #NEWLINE#
+exec ( compile ( open ( 'test2.py' ) . read ( ) , 'test2.py' , 'exec' ) ) #NEWLINE#
+subprocess . call ( 'test1.py' , shell = True ) #NEWLINE#
+sorted ( zipped , key = lambda x : x [ 1 ] ) #NEWLINE#
+zipped . sort ( key = lambda t : t [ 1 ] ) #NEWLINE#
+sorted ( list ( y . items ( ) ) , key = lambda x : ( x [ 1 ] , x [ 0 ] ) , reverse = True ) #NEWLINE#
+soup . find_all ( 'div' , class_ = 'crBlock#SPACE#' ) #NEWLINE#
+[ element for i , element in enumerate ( centroids ) if i not in index ] #NEWLINE#
+list ( set ( listA ) & set ( listB ) ) #NEWLINE#
+testfile = urllib . request . URLopener ( ) #NEWLINE# testfile . retrieve ( 'http://randomsite.com/file.gz' , 'file.gz' ) #NEWLINE#
+urllib . request . urlretrieve ( 'http://randomsite.com/file.gz' , 'file.gz' ) #NEWLINE#
+file_name = wget . download ( file_url ) #NEWLINE#
+ax . set_yticklabels ( [ 'é' , 'ã' , 'â' ] ) #NEWLINE#
+list ( itertools . product ( list ( range ( - x , y ) ) , repeat = dim ) ) #NEWLINE#
+print ( s . encode ( 'unicode_escape' ) ) #NEWLINE#
+'Hello#SPACE#%s' % ',#SPACE#' . join ( my_args ) #NEWLINE#
+re . split ( '(ddd)' , 'aaa#SPACE#bbb#SPACE#ccc#SPACE#ddd#SPACE#eee#SPACE#fff' , 1 ) #NEWLINE#
+re . split ( '(d(d)d)' , 'aaa#SPACE#bbb#SPACE#ccc#SPACE#ddd#SPACE#eee#SPACE#fff' , 1 ) #NEWLINE#
+pd . DataFrame ( d ) #NEWLINE#
+"""This#SPACE#is#SPACE#a#SPACE#string""" . split ( ) #NEWLINE#
+"""This#SPACE##SPACE##SPACE##SPACE##SPACE#is#SPACE#a#SPACE##SPACE##SPACE##SPACE##SPACE#string""" . split ( ) #NEWLINE#
+my_series . apply ( your_function , args = ( 2 , 3 , 4 ) , extra_kw = 1 ) #NEWLINE#
+woduplicates = list ( set ( lseperatedOrblist ) ) #NEWLINE#
+sum ( [ ( i * j ) for i , j in list ( itertools . combinations ( l , 2 ) ) ] ) #NEWLINE#
+re . compile ( '{}-\\d*' . format ( user ) ) #NEWLINE#
+[ float ( i ) for i in lst ] #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda x , y : x * y , [ 1 , 2 , 3 , 4 , 5 , 6 ] ) #NEWLINE#
+writer . writerow ( A ) #NEWLINE#
+writer . writerows ( A ) #NEWLINE#
+"""{}#SPACE#%s#SPACE#{}""" . format ( 'foo' , 'bar' ) #NEWLINE#
+example = [ x . replace ( '\r\n' , '' ) for x in example ] #NEWLINE#
+[ i . partition ( '\t' ) [ - 1 ] for i in l if '\t' in i ] #NEWLINE#
+re . search ( 'Test(.*)print' , testStr , re . DOTALL ) #NEWLINE#
+next = driver . find_element_by_css_selector ( 'li.next>a' ) #NEWLINE#
+os . stat ( 'C:\\Python27\\Lib\\genericpath.py' ) . st_size #NEWLINE#
+imtag = re . match ( '<img.*?>' , line ) . group ( 0 ) #NEWLINE#
+os . rename ( 'Joe#SPACE#Blow' , 'Blow,#SPACE#Joe' ) #NEWLINE#
+re . findall ( '(?=(\\w\\w))' , 'hello' ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+int ( '01010101111' , 2 ) #NEWLINE#
+int ( '010101' , 2 ) #NEWLINE#
+int ( '0b0010101010' , 2 ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+int ( '11111111' , 2 ) #NEWLINE#
+re . sub ( '$\\d+\\W+|\\b\\d+\\b|\\W+\\d+$' , '' , s ) #NEWLINE#
+re . sub ( '\\b\\d+\\b' , '' , s ) #NEWLINE#
+s = re . sub ( '^\\d+\\s|\\s\\d+\\s|\\s\\d+$' , '#SPACE#' , s ) #NEWLINE#
+s . split ( ':' , 1 ) [ 1 ] #NEWLINE#
+print ( s . split ( ',' ) ) #NEWLINE#
+mystring . split ( ',' ) #NEWLINE#
+re . sub ( '\\((\\w+)\\)' , '\\1' , s ) #NEWLINE#
+webbrowser . open_new ( url ) #NEWLINE#
+webbrowser . open ( 'http://example.com' ) #NEWLINE#
+self . pushButton . setStyleSheet ( 'background-color:#SPACE#red' ) #NEWLINE#
+[ x ( y ) for x , y in zip ( functions , values ) ] #NEWLINE#
+wx . TextCtrl ( self , - 1 , size = ( 300 , - 1 ) ) #NEWLINE#
+imshow ( imageArray , cmap = 'Greys_r' ) #NEWLINE#
+df . fillna ( 0 ) #NEWLINE#
+df . toPandas ( ) . to_csv ( 'mycsv.csv' ) #NEWLINE#
+df . write . csv ( 'mycsv.csv' ) #NEWLINE#
+sum ( x [ 1 ] for x in structure ) #NEWLINE#
+df . groupby ( 'STNAME' ) [ 'COUNTY_POP' ] . agg ( lambda x : x . nlargest ( 3 ) . sum ( ) ) #NEWLINE#
+datetime . strptime ( '21/11/06#SPACE#16:30' , '%d/%m/%y#SPACE#%H:%M' ) #NEWLINE#
+os . path . dirname ( os . path . abspath ( __file__ ) ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+"""""" . join ( ( 'a' , 'b' , 'c' , 'd' , 'g' , 'x' , 'r' , 'e' ) ) #NEWLINE#
+os . path . dirname ( os . path . abspath ( __file__ ) ) #NEWLINE#
+"""{0:.{1}%}""" . format ( value , digits ) #NEWLINE#
+self . request . url #NEWLINE#
+random_choice = random . choice ( choices ) #NEWLINE#
+length = sum ( len ( s ) for s in strings ) #NEWLINE#
+s = sorted ( s , key = lambda x : ( x [ 1 ] , x [ 2 ] ) ) #NEWLINE#
+s . sort ( key = operator . itemgetter ( 1 , 2 ) ) #NEWLINE#
+con . commit ( ) #NEWLINE#
+[ k for k in lst if 'ab' in k ] #NEWLINE#
+output = '' . join ( item [ 0 ] . upper ( ) for item in input . split ( ) ) #NEWLINE#
+CustomPK . _meta . pk . name #NEWLINE#
+len ( s . split ( ) ) #NEWLINE#
+np . einsum ( 'ji,i->j' , a , b ) #NEWLINE#
+sys . version #NEWLINE#
+sys . version_info #NEWLINE#
+print ( '\\num{{{0:.2g}}}' . format ( 1000000000.0 ) ) #NEWLINE#
+x = [ [ ] for i in range ( 3 ) ] #NEWLINE#
+{ { my_variable | forceescape | linebreaks } } #NEWLINE#
+zip ( * [ ( 1 , 4 ) , ( 2 , 5 ) , ( 3 , 6 ) ] ) #NEWLINE#
+[ list ( group ) for key , group in itertools . groupby ( data , operator . itemgetter ( 1 ) ) ] #NEWLINE#
+list ( 'hello' ) #NEWLINE#
+df [ 'A_perc' ] = df [ 'A' ] / df [ 'sum' ] #NEWLINE#
+os . walk ( directory ) #NEWLINE#
+[ x [ 0 ] for x in os . walk ( directory ) ] #NEWLINE#
+{ i : 'updated' for i , j in list ( d . items ( ) ) if j != 'None' } #NEWLINE#
+dict ( ( k , 'updated' ) for k , v in d . items ( ) if v is None ) #NEWLINE#
+dict ( ( k , 'updated' ) for k , v in d . items ( ) if v != 'None' ) #NEWLINE#
+df . groupby ( key_columns ) . size ( ) #NEWLINE#
+result = [ sum ( b ) for b in a ] #NEWLINE#
+any ( d [ 'site' ] == 'Superuser' for d in data ) #NEWLINE#
+nodes = [ [ Node ( ) for j in range ( cols ) ] for i in range ( rows ) ] #NEWLINE#
+print ( os . path . splitext ( '/home/user/somefile.txt' ) [ 0 ] + '.jpg' ) #NEWLINE#
+pygame . display . set_mode ( ( 0 , 0 ) , pygame . FULLSCREEN ) #NEWLINE#
+ax . set_title ( '$%s#SPACE#\\times#SPACE#10^{%s}$' % ( '3.5' , '+20' ) ) #NEWLINE#
+print ( os . path . getmtime ( '/tmp' ) ) #NEWLINE#
+today . strftime ( '%B' ) #NEWLINE#
+today . strftime ( '%B' ) #NEWLINE#
+[ j for i in x for j in i ] #NEWLINE#
+print ( list ( itertools . chain . from_iterable ( a ) ) ) #NEWLINE#
+datetime . datetime . strptime ( 'January#SPACE#11,#SPACE#2010' , '%B#SPACE#%d,#SPACE#%Y' ) . strftime ( '%A' ) #NEWLINE#
+datetime . datetime . strptime ( 'January#SPACE#11,#SPACE#2010' , '%B#SPACE#%d,#SPACE#%Y' ) . strftime ( '%a' ) #NEWLINE#
+a . remove ( 'b' ) #NEWLINE#
+a . remove ( c ) #NEWLINE#
+a . remove ( 6 ) #NEWLINE#
+a . remove ( 6 ) #NEWLINE#
+if c in a : #NEWLINE# #INDENT# a . remove ( c ) #NEWLINE#
+try : #NEWLINE# #INDENT# a . remove ( c ) #NEWLINE# except ValueError : #NEWLINE# #INDENT# pass #NEWLINE#
+re . findall ( '(?=(a.*?a))' , 'a#SPACE#1#SPACE#a#SPACE#2#SPACE#a#SPACE#3#SPACE#a#SPACE#4#SPACE#a' ) #NEWLINE#
+np . einsum ( 'ij,kj->jik' , X , X ) #NEWLINE#
+some_list [ - 1 ] #NEWLINE#
+some_list [ - 2 ] #NEWLINE#
+some_list [ - n ] #NEWLINE#
+alist [ - 1 ] #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+print ( [ u for v in [ [ i , i ] for i in range ( 5 ) ] for u in v ] ) #NEWLINE#
+[ 0 , 0 , 1 , 1 , 2 , 2 , 3 , 3 , 4 , 4 ] #NEWLINE#
+[ ( i // 2 ) for i in range ( 10 ) ] #NEWLINE#
+s [ s . find ( '\n' ) + 1 : s . rfind ( '\n' ) ] #NEWLINE#
+{ ( x ** 2 ) for x in range ( 100 ) } #NEWLINE#
+zip ( * [ [ 1 , 2 ] , [ 3 , 4 ] , [ 5 , 6 ] ] ) #NEWLINE#
+zip ( * [ [ 1 , 2 ] , [ 3 , 4 ] , [ 5 , 6 ] ] ) #NEWLINE#
+requests . get ( 'https://www.mysite.com/' , auth = ( 'username' , 'pwd' ) ) #NEWLINE#
+x [ 2 : ] #NEWLINE#
+x [ : 2 ] #NEWLINE#
+x [ : - 2 ] #NEWLINE#
+x [ - 2 : ] #NEWLINE#
+x [ 2 : - 2 ] #NEWLINE#
+some_string [ : : - 1 ] #NEWLINE#
+"""H-e-l-l-o-#SPACE#-W-o-r-l-d""" [ : : 2 ] #NEWLINE#
+s = s [ beginning : beginning + LENGTH ] #NEWLINE#
+sys . exit ( ) #NEWLINE#
+quit ( ) #NEWLINE#
+sys . exit ( 'some#SPACE#error#SPACE#message' ) #NEWLINE#
+data [ 'City' ] . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+psutil . cpu_percent ( ) #NEWLINE# psutil . virtual_memory ( ) #NEWLINE#
+pid = os . getpid ( ) #NEWLINE# py = psutil . Process ( pid ) #NEWLINE# memoryUse = py . memory_info ( ) [ 0 ] / 2.0 ** 30 #NEWLINE#
+print ( psutil . cpu_percent ( ) ) #NEWLINE# print ( psutil . virtual_memory ( ) ) #NEWLINE#
+pd . read_csv ( 'D:/Temp/tt.csv' , names = list ( 'abcdef' ) ) #NEWLINE#
+df . stack ( ) . groupby ( level = 0 ) . first ( ) #NEWLINE#
+"""{0}#SPACE#{1}""" . format ( 10 , 20 ) #NEWLINE#
+"""{1}#SPACE#{ham}#SPACE#{0}#SPACE#{foo}#SPACE#{1}""" . format ( 10 , 20 , foo = 'bar' , ham = 'spam' ) #NEWLINE#
+changed_list = [ ( int ( f ) if f . isdigit ( ) else f ) for f in original_list ] #NEWLINE#
+dict ( zip ( keys , zip ( * data ) ) ) #NEWLINE#
+apple . decode ( 'iso-8859-1' ) . encode ( 'utf8' ) #NEWLINE#
+df . to_csv ( 'filename.csv' , header = False ) #NEWLINE#
+print ( '{0}:<15}}{1}:<15}}{2}:<8}}' . format ( '1' , '2' , '3' ) ) #NEWLINE#
+max ( ld , key = lambda d : d [ 'size' ] ) #NEWLINE#
+"""{0}\\w{{2}}b{1}\\w{{2}}quarter""" . format ( 'b' , 'a' ) #NEWLINE#
+user = models . ForeignKey ( 'User' , unique = True ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+b = np . concatenate ( ( a , a ) , axis = 0 ) #NEWLINE#
+sorted ( l , key = lambda x : x . replace ( '0' , 'Z' ) ) #NEWLINE#
+ax . set_yscale ( 'log' ) #NEWLINE#
+os . environ [ 'HOME' ] #NEWLINE#
+os . environ [ 'HOME' ] #NEWLINE#
+print ( os . environ ) #NEWLINE#
+os . environ #NEWLINE#
+print ( os . environ . get ( 'KEY_THAT_MIGHT_EXIST' ) ) #NEWLINE#
+print ( os . getenv ( 'KEY_THAT_MIGHT_EXIST' , default_value ) ) #NEWLINE#
+print ( os . environ . get ( 'HOME' , '/home/username/' ) ) #NEWLINE#
+print ( dict ( [ s . split ( '=' ) for s in my_list ] ) ) #NEWLINE#
+min ( enumerate ( a ) , key = lambda x : abs ( x [ 1 ] - 11.5 ) ) #NEWLINE#
+e = root . xpath ( './/a[contains(text(),"TEXT#SPACE#A")]' ) #NEWLINE#
+e = root . xpath ( './/a[starts-with(text(),"TEXT#SPACE#A")]' ) #NEWLINE#
+e = root . xpath ( './/a[text()="TEXT#SPACE#A"]' ) #NEWLINE#
+c = [ b [ i ] for i in index ] #NEWLINE#
+np . dot ( a [ : , ( None ) ] , b [ ( None ) , : ] ) #NEWLINE#
+np . outer ( a , b ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df [ [ 'value' ] ] . fillna ( df . groupby ( 'group' ) . transform ( 'mean' ) ) #NEWLINE#
+re . sub ( '(.)(?=.)' , '\\1-' , s ) #NEWLINE#
+re . sub ( '(?<=.)(?=.)' , '-' , str ) #NEWLINE#
+i , j = np . where ( a == value ) #NEWLINE#
+print ( collections . Counter ( s ) . most_common ( 1 ) [ 0 ] ) #NEWLINE#
+float ( re . findall ( '(?:^|_)' + par + '(\\d+\\.\\d*)' , dir ) [ 0 ] ) #NEWLINE#
+re . findall ( '[^a]' , 'abcd' ) #NEWLINE#
+print ( [ item for item in dir ( adfix ) if not item . startswith ( '__' ) ] ) #NEWLINE#
+[ x [ 0 ] for x in rows ] #NEWLINE#
+res_list = [ x [ 0 ] for x in rows ] #NEWLINE#
+pd . concat ( [ x ] * 5 , ignore_index = True ) #NEWLINE#
+pd . concat ( [ x ] * 5 ) #NEWLINE#
+sorted_list_of_keyvalues = sorted ( list ( ips_data . items ( ) ) , key = item [ 1 ] [ #NEWLINE# 'data_two' ] ) #NEWLINE#
+pd . read_json ( elevations ) #NEWLINE#
+numpy . random . choice ( numpy . arange ( 1 , 7 ) , p = [ 0.1 , 0.05 , 0.05 , 0.2 , 0.4 , 0.2 ] ) #NEWLINE#
+df . loc [ df [ 'Value' ] . idxmax ( ) ] #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+np . fromstring ( '\x00\x00\x80?\x00\x00\x00@\x00\x00@@\x00\x00\x80@' , dtype = '<f4' ) #NEWLINE#
+np . fromstring ( '\x00\x00\x80?\x00\x00\x00@\x00\x00@@\x00\x00\x80@' , dtype = '>f4' ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#INTO#SPACE#table#SPACE#VALUES#SPACE#(?,#SPACE#?,#SPACE#?)' , ( var1 , var2 , var3 ) ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#INTO#SPACE#table#SPACE#VALUES#SPACE#(%s,#SPACE#%s,#SPACE#%s)' , ( var1 , var2 , var3 ) ) #NEWLINE#
+cursor . execute ( 'INSERT#SPACE#INTO#SPACE#table#SPACE#VALUES#SPACE#(%s,#SPACE#%s,#SPACE#%s)' , ( var1 , var2 , var3 ) ) #NEWLINE#
+df [ 'stats' ] . str [ 1 : - 1 ] . str . split ( ',' , expand = True ) . astype ( float ) #NEWLINE#
+df [ 'stats' ] . str [ 1 : - 1 ] . str . split ( ',' ) . apply ( pd . Series ) . astype ( float ) #NEWLINE#
+df [ 'stats' ] . apply ( pd . Series ) #NEWLINE#
+p . wait ( ) #NEWLINE#
+s . encode ( 'utf8' ) #NEWLINE#
+datetime . datetime . strptime ( '01-Jan-1995' , '%d-%b-%Y' ) #NEWLINE#
+copyfile ( src , dst ) #NEWLINE#
+shutil . copy2 ( '/dir/file.ext' , '/new/dir/newname.ext' ) #NEWLINE#
+shutil . copy2 ( '/dir/file.ext' , '/new/dir' ) #NEWLINE#
+print ( ',#SPACE#' . join ( str ( x ) for x in list_of_ints ) ) #NEWLINE#
+df [ [ 'A' , 'B' ] ] . multiply ( df [ 'C' ] , axis = 'index' ) #NEWLINE#
+hex ( ord ( 'a' ) ) #NEWLINE#
+sum ( j ** i for i , j in enumerate ( l , 1 ) ) #NEWLINE#
+"""#SPACE#""" . join ( s . split ( ) ) #NEWLINE#
+s = s . replace ( ',' , '' ) #NEWLINE#
+frame . resample ( '1H' ) . agg ( { 'radiation' : np . sum , 'tamb' : np . mean } ) #NEWLINE#
+root . destroy ( ) #NEWLINE#
+df = pd . DataFrame . from_dict ( { k : v for k , v in list ( nvalues . items ( ) ) if k != #NEWLINE# 'y3' } ) #NEWLINE#
+first_name = request . args . get ( 'firstname' ) #NEWLINE#
+first_name = request . form . get ( 'firstname' ) #NEWLINE#
+[ s [ : 5 ] for s in buckets ] #NEWLINE#
+the_list . sort ( key = lambda item : ( - len ( item ) , item ) ) #NEWLINE#
+df = df . set_index ( [ 'TRX_DATE' ] ) #NEWLINE#
+list ( accumulate ( list ( range ( 10 ) ) ) ) #NEWLINE#
+datetime . datetime . strptime ( '2013-1-25' , '%Y-%m-%d' ) . strftime ( '%m/%d/%y' ) #NEWLINE#
+datetime . datetime . strptime ( '2013-1-25' , '%Y-%m-%d' ) . strftime ( '%-m/%d/%y' ) #NEWLINE#
+df2 = df . ix [ : , ( ~ df . columns . str . endswith ( 'prefix' ) ) ] #NEWLINE#
+new_list = my_list [ - 10 : ] #NEWLINE#
+my_list [ - 10 : ] #NEWLINE#
+np . array ( x . _data ) . reshape ( x . size [ : : - 1 ] ) . T #NEWLINE#
+df . groupby ( level = 0 , as_index = False ) . nth ( 0 ) #NEWLINE#
+numpy . concatenate ( LIST , axis = 0 ) #NEWLINE#
+"""\\xc3\\x85あ""" . encode ( 'utf-8' ) . decode ( 'unicode_escape' ) #NEWLINE#
+"""\\xc3\\x85あ""" . encode ( 'utf-8' ) #NEWLINE#
+[ j for i in zip ( a , b ) for j in i ] #NEWLINE#
+[ j for i in zip ( a , b ) for j in i ] #NEWLINE#
+print ( [ s . replace ( '8' , '' ) for s in lst ] ) #NEWLINE#
+""",""" . join ( 'Hello' ) #NEWLINE#
+Content . objects . all ( ) . order_by ( '?' ) [ : 100 ] #NEWLINE#
+A [ np . arange ( A . shape [ 0 ] ) [ : , ( None ) ] , B ] #NEWLINE#
+df . pivot_table ( index = 'saleid' , columns = 'upc' , aggfunc = 'size' , fill_value = 0 ) #NEWLINE#
+re . findall ( '([a-z]*)' , 'f233op' ) #NEWLINE#
+re . findall ( '([a-z])*' , 'f233op' ) #NEWLINE#
+re . split ( '_for_' , 'happy_hats_for_cats' ) #NEWLINE#
+re . split ( '_(?:for|or|and)_' , 'sad_pandas_and_happy_cats_for_people' ) #NEWLINE#
+[ re . split ( '_(?:f?or|and)_' , s ) for s in l ] #NEWLINE#
+[ dict ( zip ( k , x ) ) for x in v ] #NEWLINE#
+sorted ( lst , reverse = True ) #NEWLINE#
+order_array . sort ( order = [ 'year' , 'month' , 'day' ] ) #NEWLINE#
+df . sort ( [ 'year' , 'month' , 'day' ] ) #NEWLINE#
+return my_list == list ( range ( my_list [ 0 ] , my_list [ - 1 ] + 1 ) ) #NEWLINE#
+df . groupby ( 'id' ) . agg ( lambda x : x . tolist ( ) ) #NEWLINE#
+"""XÃ¼YÃ""" . encode ( 'raw_unicode_escape' ) . decode ( 'utf-8' ) #NEWLINE#
+float ( a ) #NEWLINE#
+try : #NEWLINE# #INDENT# return int ( s ) #NEWLINE# except ValueError : #NEWLINE# #INDENT# return float ( s ) #NEWLINE#
+if hasattr ( a , 'property' ) : #NEWLINE# #INDENT# pass #NEWLINE#
+if hasattr ( a , 'property' ) : #NEWLINE# #INDENT# pass #NEWLINE#
+getattr ( a , 'property' , 'default#SPACE#value' ) #NEWLINE#
+np . delete ( a , list ( range ( 0 , a . shape [ 1 ] , 8 ) ) , axis = 1 ) #NEWLINE#
+datetime . datetime . fromtimestamp ( ms / 1000.0 ) #NEWLINE#
+np . einsum ( '...j,...j->...' , vf , vf ) #NEWLINE#
+r = requests . get ( url ) #NEWLINE#
+r = requests . get ( url , params = payload ) #NEWLINE#
+r = requests . post ( url , data = payload ) #NEWLINE#
+post_response = requests . post ( url = 'http://httpbin.org/post' , json = post_data ) #NEWLINE#
+{ { ( mylist | slice ) : '3:8' } } #NEWLINE#
+df1 = pd . read_hdf ( '/home/.../data.h5' , 'firstSet' ) #NEWLINE#
+max ( test_string . rfind ( i ) for i in '([{' ) #NEWLINE#
+print ( 'here#SPACE#is#SPACE#your#SPACE#checkmark:#SPACE#' + '✓' ) #NEWLINE#
+print ( 'Россия' ) #NEWLINE#
+print ( '{0}' . format ( '5' . zfill ( 2 ) ) ) #NEWLINE#
+sorted ( set ( itertools . chain . from_iterable ( sequences ) ) ) #NEWLINE#
+df [ 'a' ] . values . tolist ( ) #NEWLINE#
+df [ 'a' ] . tolist ( ) #NEWLINE#
+replace ( '"' , '\\"' ) #NEWLINE#
+print ( all ( word [ 0 ] . isupper ( ) for word in words ) ) #NEWLINE#
+myDict = { key : val for key , val in list ( myDict . items ( ) ) if val != 42 } #NEWLINE#
+{ key : val for key , val in list ( myDict . items ( ) ) if val != 42 } #NEWLINE#
+return len ( s . encode ( 'utf-8' ) ) #NEWLINE#
+os . kill ( process . pid , signal . SIGKILL ) #NEWLINE#
+df [ pd . isnull ( df ) . any ( axis = 1 ) ] #NEWLINE#
+url . split ( '&' ) [ - 1 ] . replace ( '=' , '' ) + '.html' #NEWLINE#
+parser . ParseFile ( open ( 'sample.xml' , 'rb' ) ) #NEWLINE#
+sys . exit ( ) #NEWLINE#
+setattr ( self , attr , group ) #NEWLINE#
+urllib . parse . unquote ( urllib . parse . unquote ( some_string ) ) #NEWLINE#
+urllib . parse . unquote ( urllib . parse . unquote ( 'FireShot3%2B%25282%2529.png' ) ) #NEWLINE#
+app . config [ 'SECURITY_REGISTER_URL' ] = '/create_account' #NEWLINE#
+output = open ( '/home/user/test/wsservice/data.pkl' , 'wb' ) #NEWLINE#
+del a [ - 1 ] #NEWLINE#
+a . pop ( 1 ) #NEWLINE#
+a . pop ( ) #NEWLINE#
+a . pop ( index ) #NEWLINE#
+del a [ index ] #NEWLINE#
+ax . set_xlabel ( 'Temperature#SPACE#(℃)' ) #NEWLINE#
+ax . set_xlabel ( 'Temperature#SPACE#($^\\circ$C)' ) #NEWLINE#
+[ '' . join ( l ) for l in list_of_lists ] #NEWLINE#
+pd . concat ( g for _ , g in df . groupby ( 'ID' ) if len ( g ) > 1 ) #NEWLINE#
+x = numpy . delete ( x , 2 , axis = 1 ) #NEWLINE#
+x = numpy . delete ( x , 0 , axis = 0 ) #NEWLINE#
+pd . concat ( ( df1 , df2 ) , axis = 1 ) . mean ( axis = 1 ) #NEWLINE#
+np . mean ( np . array ( [ old_set , new_set ] ) , axis = 0 ) #NEWLINE#
+scatter ( x , y , s = 500 , color = 'green' , marker = 'h' ) #NEWLINE#
+result = [ item for word in words for item in word . split ( ',' ) ] #NEWLINE#
+datetime . datetime . strptime ( '2012-05-29T19:30:03.283Z' , '%Y-%m-%dT%H:%M:%S.%fZ' ) #NEWLINE#
+sum ( item [ 'one' ] for item in list ( tadas . values ( ) ) ) #NEWLINE#
+a = open ( 'pdf_reference.pdf' , 'rb' ) . read ( ) . encode ( 'base64' ) #NEWLINE#
+a . rstrip ( ) . split ( '\n' ) #NEWLINE#
+a . split ( '\n' ) [ : - 1 ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+7 in a #NEWLINE#
+'a' in a #NEWLINE#
+sorted ( results , key = itemgetter ( 'year' ) ) #NEWLINE#
+print ( browser . current_url ) #NEWLINE#
+re . split ( ';#SPACE#|,#SPACE#' , str ) #NEWLINE#
+"""\\u003Cp\\u003E""" . decode ( 'unicode-escape' ) #NEWLINE#
+time . mktime ( datetime . datetime . strptime ( s , '%d/%m/%Y' ) . timetuple ( ) ) #NEWLINE#
+int ( datetime . datetime . strptime ( '01/12/2011' , '%d/%m/%Y' ) . strftime ( '%s' ) ) #NEWLINE#
+request . headers [ 'your-header-name' ] #NEWLINE#
+df . groupby ( 'User' ) [ 'X' ] . filter ( lambda x : x . sum ( ) == 0 ) #NEWLINE#
+df . loc [ df . groupby ( 'User' ) [ 'X' ] . transform ( sum ) == 0 ] #NEWLINE#
+df . groupby ( 'User' ) [ 'X' ] . transform ( sum ) == 0 #NEWLINE#
+driver . find_elements_by_xpath ( "//*[contains(text(),#SPACE#'My#SPACE#Button')]" ) #NEWLINE#
+df . set_index ( [ 'Name' , 'Destination' ] ) #NEWLINE#
+print ( re . sub ( '(\\W)\\1+' , '\\1' , a ) ) #NEWLINE#
+os . system ( 'start#SPACE#"$file"' ) #NEWLINE#
+unicodedata . normalize ( 'NFKD' , title ) . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+a . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+files = [ f for f in os . listdir ( '.' ) if re . match ( '[0-9]+.*\\.jpg' , f ) ] #NEWLINE#
+np . zeros ( ( 6 , 9 , 20 ) ) + np . array ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) [ ( None ) , : , ( None ) ] #NEWLINE#
+np . zeros ( ( 6 , 9 , 20 ) ) + np . array ( [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ] ) . reshape ( ( 1 , 9 , 1 ) ) #NEWLINE#
+os . system ( 'start#SPACE#excel.exe#SPACE#<path/to/file>' ) #NEWLINE#
+print ( max ( x , key = sum ) ) #NEWLINE#
+sum ( len ( y ) for y in x if len ( y ) > 1 ) #NEWLINE#
+re . sub ( '(\\d+)' , '"\\1"' , 'This#SPACE#is#SPACE#number#SPACE#1#SPACE#and#SPACE#this#SPACE#is#SPACE#number#SPACE#22' ) #NEWLINE#
+numpy . dot ( numpy . dot ( a , m ) , a ) #NEWLINE#
+Entry . objects . filter ( name = 'name' , title = 'title' ) . exists ( ) #NEWLINE#
+sorted ( l , key = lambda x : ( - int ( x [ 1 ] ) , x [ 0 ] ) ) #NEWLINE#
+request . META [ 'HTTP_HOST' ] #NEWLINE#
+re . findall ( "api\\('(.*?)'" , "api('randomkey123xyz987',#SPACE#'key',#SPACE#'text')" ) #NEWLINE#
+subprocess . call ( [ '/usr/bin/perl' , './uireplace.pl' , var ] ) #NEWLINE#
+print ( '\n' . join ( str ( p ) for p in myList ) ) #NEWLINE#
+mydic . update ( { i : o [ 'name' ] } ) #NEWLINE#
+list ( stru . decode ( 'utf-8' ) ) #NEWLINE#
+u = s . decode ( 'utf-8-sig' ) #NEWLINE#
+Entry . objects . filter ( ~ Q ( id = 3 ) ) #NEWLINE#
+getattr ( __builtins__ , 'range' ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/s' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/a#SPACE#' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/l#SPACE#' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' ] ) #NEWLINE#
+open ( 'filename' , 'w' ) . close ( ) #NEWLINE#
+open ( 'file.txt' , 'w' ) . close ( ) #NEWLINE#
+df . to_dict ( 'index' ) #NEWLINE#
+df . to_dict ( 'records' ) #NEWLINE#
+df . groupby ( pd . TimeGrouper ( freq = 'M' ) ) #NEWLINE#
+[ ( c / t ) for c , t in zip ( conversions , trials ) ] #NEWLINE#
+sorted ( data , key = data . get ) #NEWLINE#
+sorted ( data . values ( ) ) #NEWLINE#
+sorted ( list ( data . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+sorted ( list ( data . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+now = datetime . datetime . now ( ) . strftime ( '%H:%M:%S' ) #NEWLINE#
+"""foo#SPACE#bar#SPACE#bar#SPACE#bar""" . replace ( 'bar' , 'XXX' , 1 ) . find ( 'bar' ) #NEWLINE#
+set ( [ 'stackoverflow' , 'google' ] ) . issubset ( sites ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+np . savez ( tmp , * [ getarray [ 0 ] , getarray [ 1 ] , getarray [ 8 ] ] ) #NEWLINE#
+t = datetime . datetime . now ( ) #NEWLINE# t - datetime . timedelta ( hours = 1 , minutes = 10 ) #NEWLINE#
+t - datetime . timedelta ( hours = 1 , minutes = 10 ) #NEWLINE#
+dt = datetime . datetime . combine ( datetime . date . today ( ) , t ) #NEWLINE#
+dt -= datetime . timedelta ( hours = 5 ) #NEWLINE#
+print ( data . encode ( 'hex' ) ) #NEWLINE#
+print ( '#SPACE#' . join ( [ str ( ord ( a ) ) for a in data ] ) ) #NEWLINE#
+[ x for x in l if x [ 1 ] == 1 ] #NEWLINE#
+a . fromlist ( [ int ( val ) for val in stdin . read ( ) . split ( ) ] ) #NEWLINE#
+print ( re . sub ( '[_%^$]' , '\\\\\\g<0>' , line ) ) #NEWLINE#
+doc . xpath ( "//a[starts-with(text(),'some#SPACE#text')]" ) #NEWLINE#
+zip ( * a ) #NEWLINE#
+[ map ( int , sublist ) for sublist in lst ] #NEWLINE#
+[ [ int ( x ) for x in sublist ] for sublist in lst ] #NEWLINE#
+np . where ( np . in1d ( A , B ) ) [ 0 ] #NEWLINE#
+[ { 'key1' : a , 'key2' : b } for a , b in zip ( d [ 'key1' ] , d [ 'key2' ] ) ] #NEWLINE#
+map ( dict , zip ( * [ [ ( k , v ) for v in value ] for k , value in list ( d . items ( ) ) ] ) ) #NEWLINE#
+calendar . monthrange ( 2002 , 1 ) #NEWLINE#
+calendar . monthrange ( 2008 , 2 ) #NEWLINE#
+calendar . monthrange ( 2100 , 2 ) #NEWLINE#
+calendar . monthrange ( year , month ) [ 1 ] #NEWLINE#
+monthrange ( 2012 , 2 ) #NEWLINE#
+datetime . date ( 2000 , 2 , 1 ) - datetime . timedelta ( days = 1 ) #NEWLINE#
+from subprocess import call #NEWLINE#
+os . system ( 'some_command#SPACE#with#SPACE#args' ) #NEWLINE#
+os . system ( 'some_command#SPACE#<#SPACE#input_file#SPACE#|#SPACE#another_command#SPACE#>#SPACE#output_file' ) #NEWLINE#
+stream = os . popen ( 'some_command#SPACE#with#SPACE#args' ) #NEWLINE#
+print ( subprocess . Popen ( 'echo#SPACE#Hello#SPACE#World' , shell = True , stdout = subprocess . #NEWLINE# PIPE ) . stdout . read ( ) ) #NEWLINE#
+print ( os . popen ( 'echo#SPACE#Hello#SPACE#World' ) . read ( ) ) #NEWLINE#
+return_code = subprocess . call ( 'echo#SPACE#Hello#SPACE#World' , shell = True ) #NEWLINE#
+p = subprocess . Popen ( 'ls' , shell = True , stdout = subprocess . PIPE , stderr = #NEWLINE# subprocess . STDOUT ) #NEWLINE# for line in p . stdout . readlines ( ) : #NEWLINE# #INDENT# print ( line , end = '#SPACE#' ) #NEWLINE# retval = p . wait ( ) #NEWLINE#
+call ( [ 'ls' , '-l' ] ) #NEWLINE#
+print ( urllib . parse . unquote ( url ) . decode ( 'utf8' ) ) #NEWLINE#
+url = urllib . parse . unquote ( url ) . decode ( 'utf8' ) #NEWLINE#
+"""""" . join ( filter ( str . isdigit , '12454v' ) ) #NEWLINE#
+df [ 'Season' ] . str . split ( '-' ) . str [ 0 ] . astype ( int ) #NEWLINE#
+my_list . sort ( key = lambda x : x [ 1 ] ) #NEWLINE#
+[ m . start ( ) for m in re . finditer ( '(?=tt)' , 'ttt' ) ] #NEWLINE#
+[ m . start ( ) for m in re . finditer ( 'test' , 'test#SPACE#test#SPACE#test#SPACE#test' ) ] #NEWLINE#
+re . findall ( '\\s+|\\S+' , s ) #NEWLINE#
+rdata . set_index ( [ 'race_date' , 'track_code' , 'race_number' ] ) #NEWLINE#
+for root , subFolders , files in os . walk ( rootdir ) : #NEWLINE# #INDENT# pass #NEWLINE#
+list . sort ( key = lambda item : item [ 'date' ] , reverse = True ) #NEWLINE#
+"""{:.5}""" . format ( 'aaabbbccc' ) #NEWLINE#
+struct . unpack ( '11B' , s ) #NEWLINE#
+[ i for i , j in enumerate ( [ 'foo' , 'bar' , 'baz' ] ) if j == 'foo' ] #NEWLINE#
+print ( list ( itertools . product ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) ) #NEWLINE#
+itertools . permutations ( [ 1 , 2 , 3 ] ) #NEWLINE#
+return re . sub ( '\\p{P}+' , '' , text ) #NEWLINE#
+raise ValueError ( 'A#SPACE#very#SPACE#specific#SPACE#bad#SPACE#thing#SPACE#happened' ) #NEWLINE#
+raise Exception ( 'I#SPACE#know#SPACE#Python!' ) #NEWLINE#
+raise Exception ( 'I#SPACE#know#SPACE#python!' ) #NEWLINE#
+raise ValueError ( 'represents#SPACE#a#SPACE#hidden#SPACE#bug,#SPACE#do#SPACE#not#SPACE#catch#SPACE#this' ) #NEWLINE#
+raise Exception ( 'This#SPACE#is#SPACE#the#SPACE#exception#SPACE#you#SPACE#expect#SPACE#to#SPACE#handle' ) #NEWLINE#
+raise ValueError ( 'A#SPACE#very#SPACE#specific#SPACE#bad#SPACE#thing#SPACE#happened' ) #NEWLINE#
+raise RuntimeError ( 'specific#SPACE#message' ) #NEWLINE#
+raise AssertionError ( "Unexpected#SPACE#value#SPACE#of#SPACE#'distance'!" , distance ) #NEWLINE#
+driver . find_element_by_id ( 'foo' ) . clear ( ) #NEWLINE#
+driver . find_element_by_id ( 'foo' ) . clear ( ) #NEWLINE#
+socket . inet_ntoa ( struct . pack ( '!L' , 2130706433 ) ) #NEWLINE#
+df = df [ [ 'x' , 'y' , 'a' , 'b' ] ] #NEWLINE#
+super ( ChildClass , self ) . __init__ ( * args , ** kwargs ) #NEWLINE#
+sum ( d . values ( ) ) #NEWLINE#
+sum ( d . values ( ) ) #NEWLINE#
+json . dumps ( your_data , ensure_ascii = False ) #NEWLINE#
+values = np . array ( [ i for i in range ( 100 ) ] , dtype = np . float64 ) #NEWLINE#
+sorted ( list_of_dct , key = lambda x : order . index ( list ( x . values ( ) ) [ 0 ] ) ) #NEWLINE#
+return s [ 0 ] . upper ( ) + s [ 1 : ] #NEWLINE#
+"""""" . join ( [ 1 , 2 , 3 , 4 ] ) #NEWLINE#
+line = line . decode ( 'utf-8' , 'ignore' ) . encode ( 'utf-8' ) #NEWLINE#
+os . system ( command ) #NEWLINE#
+c . execute ( 'SELECT#SPACE#*#SPACE#FROM#SPACE#foo#SPACE#WHERE#SPACE#bar#SPACE#=#SPACE#%s#SPACE#AND#SPACE#baz#SPACE#=#SPACE#%s' , ( param1 , param2 ) ) #NEWLINE#
+dateobj = datetime . datetime . strptime ( datestr , '%Y-%m-%d' ) . date ( ) #NEWLINE#

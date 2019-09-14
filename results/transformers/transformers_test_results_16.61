@@ -1,0 +1,500 @@
+. system ( process . pid ( ) ) signal ) sigkill ) #newline#
+decode decode ( 'utf8' decode #newline# decode ( 'utf8' ) #newline#
+( x in y ) 0 ] for x in mylist ) )
+( '{0}:<15}}{1}:<15}}{2}:<8}}' ( ( 'foo' ) str ) #newline# ) stdout ) #newline# #newline#
+= decode ( 'utf8' encode #newline# encode ( 'utf8' ) #newline#
+#newline# { } : v for k , v in list ( my_dict ) items ( ) #newline# #newline# v . not none ) #newline#
+#newline# { ( x x , v ) for k , v in list ) items ( ) #newline# v . not none ) #newline#
+. popen ( [ , shell = true ) #newline#
+. join ( [ 'a' , 'b' , 'c' , ) #newline#
+. series ( [ ( level ( level ) ) apply ( date_stngs ( date_stngs , ) ) ) )
+) get ( 'http/1.0#space#200#space#established\r\n\r\n' ) #newline#
+) datetime . strptime . strptime ( datestr ( '%y-%m-%dt%h:%m:%sz' ) . strftime ( ) #newline#
+) split ( ',' ) #newline#
+split split ( '\n' , [
+#newline# sort ( 'http://randomsite.com/file.gz' [ y ) ) x in zip ] #newline#
+. objects . filter ( ~ . 0 ] ] #newline# order_by ( 0 #newline#
+) sum ( ) = 1 ) #newline#
+'&' replace ( '&' ) #newline#
+[ '#space#' . join ( [ ( str , l ) ) ) #newline#
+call call ( [ 'test.sh' , shell ) shell ) ) #newline#
+[ mktime ( '01-jan-1995' , values float #newline#
+',' [ ( ',' ) split ( ',' , '' ) ) )
+( x ) split ( ',' , '' ) ) #newline#
+stdout stdout #newline# stdout ( 2 2 #newline#
+findall split ( '(d(d)d)' ) '.' ) #newline#
+#newline# open ( '/home/user/test/wsservice/data.pkl' , 'rt' ) #newline#
+. request . urlretrieve ( 'http://randomsite.com/file.gz' . #newline# #newline# #newline#
+#newline# urllib . request . urlretrieve ( url ) #newline#
+= open . request . urlretrieve ( 'http://example.com/file.ext' . #newline#
+= requests . get ( url ) #newline#
+= requests . urlretrieve ( url ) params ) urllib ) #newline#
+. add_argument ( 'file' add_argument nargs = 'append' add_argument nargs #newline# 'append' #newline# #newline#
+k : ( . k ] } k in d . k 'c' 'c' : #newline#
+merge merge ( df1 , df2 merge df2 = 'k' 'name' , , none ) 'name' none ) none ) ) #newline#
+) split ( ',' ) 1 ) #newline#
+) ) ) #newline#
+run run ( debug = true ) #newline#
+. dump ( itemlist ) key ( 'filename' ) dpi ) #newline# #newline#
+. misc ( * . key ) t ) false 0 ) 2 ) ) #newline# t ) ) ) t ) #newline#
+. array ( ( ( , 2 ) 4 ) ) #newline#
+join join ( [ ) split ( ) ) ) 1 ] 1 ] ) #newline#
+= ( . t ( x ) . t ( x ) 2 1 ) #newline# ( x ] ] x t #newline#
+len x ) x ) for j ( l sum j ) for x sum j sum l ) for
+unpack unpack ( 'bbb' , 16 16 pack ( 'hex' ) ) #newline# 16 ] #newline#
+. items ( { { ) set ) [ ) ) x in 3 in zip ( [ . items ( ) ) ) )
+popen popen ( [ popen shell = true ) #newline#
+join join ( str ) #newline#
+) [ ) join ( str ( str ) 'ignore' ) ) )
+( i ( 10 ) 10 ( 10 ) ) ) ) #newline#
+( '#space#' . replace ( '\\' '#space#' '' ) ) #newline#
+. sort ( reversed [ split ( ) ) ) 0 ] ] 1 ] ) #newline#
+. fromtimestamp . fromtimestamp ( mynumber ) . strftime ( '{%y-%m-%d#space#%h:%m:%s}' ( #newline#
+strftime strftime ( '{%y-%m-%d#space#%h:%m:%s}' ) gmtime ( strftime ( '%y-%m-%d#space#%h:%m:%s' ) mynumber ) ) #newline#
+) datetime datetime . datetime ( ) ) datetime . strftime ( days = 1 ) #newline# #newline# strftime ( days #newline#
+sum '' ) x [ 0 x ) x in data ] ) ]
+] ( float [ : , for i in array ) ] j , array ( array ) array ) 0 , ) ) ] #newline#
+. urlsafe_b64decode encode 'ascii' encode 'ascii' ) encode ) ) #newline#
+( ( zip , v k [ k ] ) k in zip for ) ) k , list for k ] #newline# #newline#
+k : v k . k for for k in k for #newline# k in k for k ] #newline# #newline#
+. args #newline# 0 #newline# #newline#
+] for v in v in mylist ( mylist ( mylist ) ) items ( ) ) ] v ) 1 ) )
+path path #newline# insert ( 0 , './path/to/your/modules/' path path . insert ( 0 path insert ) insert ( os ) , './path/to/your/modules/' path #newline# #newline#
+. exit [ year ( year . getcwd . year ( d . getcwd . year ( d ) ) year ( ) #newline#
+. collection ( dict1 , stderr dict1 ) stderr ) #newline#
+] ] x , list list x ] list list #newline#
+] append ( [ ) #newline#
+] append ( [ ( [ [ ) #newline#
+. savetxt ( 'test.txt' ) 'rb' . split ) ) ) ) ) #newline#
+. to_csv ( 'result.csv' ) index = false ) : ) false ) : = false ) stdout ) false ) #newline#
+( str [ split [ x ) ) - ] ) #newline#
+( os . rsplit ( '/' , 1 ) ) - ] ) #newline#
+retrbinary retrbinary ( filename filename filename ) file ( filename ) filename , ) #newline#
+. find_elements_by_xpath ( 'window.scrollto(0,#space#document.body.scrollheight);' args #newline#
+[ array ( [ 1 , 3 , 4 ] , [ 2 , [ , 6 , ) ]
+( [ ) 0 ] ] ) x ) 0 ] ) ) #newline#
+in os os . path ( '.' ) : #newline# #indent# for f . join . join ( '.' ( #newline# #newline# #indent# for for #newline#
+in , subfolders in subfolders in os . walk ( rootdir : : #newline# #indent# for key in filenames : #newline# #indent# #indent# #indent# #newline#
+] ( random ] random . choice . i for for _ in range ( 10 #newline# ] #newline#
+. now . now ( ) . strftime ( '%y-%m-%d' ( #newline#
+. collection ( { ) { ) findall = lambda ) #newline#
+[ replace = replace . replace ( '-' '-' #newline#
+[ [ . join ( [ ) join ( [ ( [ ) ) x ) range in ) row in range ) ) #newline#
+. drop ( 'id' ( df , , . values ( df ( columns 1 df ) #newline# tolist ( df #newline#
+format format ( 24322.34 ) format ( - ) format ( #newline#
+format format ( '5' , format ( 'bar' ) format ( #newline#
+format format ( '5' , #newline#
+i ( i ) join ( i ( i ) for i in l ) ] ] i in l ) #newline#
+] . join ( map ( x ) for k in l in ] k in l ) #newline#
+) [ i ( i ) join ( i i ( i ) for i in l ) ) ] ] x ) l ] #newline#
+#newline# rstrip ( '\n' . join ( '\n' = ) #newline#
+x for x in list 'x' if d ] d ] d ] ) x ] in list ) ) ) in list ] #newline#
+re re . sub ( '\\w*\\d\\w*' , re , text ) #newline#
+. apply ( int ( #newline# sum ( int = 1 ) #newline#
+compile compile ( 'test(.*)print' compile 'c' ) #newline#
+#newline# split ( '#space#' #newline#
+re re . match ( '<img.*?>' . group ) ) group ( 1 ) ) #newline#
+, 'filename' ) 'w' ) . close ( ) #newline#
+. strptime . strptime ( '2012-05-29t19:30:03.283z' , '%y-%m-%dt%h:%m:%s.%fz' ) .
+x ] x ] item in thelist ( word : ] item [ 0 ] #newline# 0 1 #newline#
+sub sub ( '[^0-9a-za-z]+' , '' , text ) #newline# unicode ) ) #newline# unicode ( ) #newline#
+sub sub ( '[^0-9a-za-z]+' , '' , text ) #newline# sub ) ) #newline# sub ( ) #newline#
+savefig savefig ( x , y y y ) [ [ #newline#
+savefig savefig ( x , y y y ) [ [ #newline#
+] for x in mylist ] y ( mylist == ] 1 ] ==
+] [ i ) i ] i in range ( 100 ) ] #newline#
+] [ : ] ) for i in range ( 100 ] ] #newline#
+. treeview . find_element_by_xpath ( "input[onclick*='1#space#bedroom#space#deluxe']" ** . click ( 'value' ) #newline#
+df2 df2 ( df2 , df2 = [ df2 #newline#
+) decode str1 ) '' ) #newline#
+: : split ( ) ] x in s 1 split ( ',' 1 ] #newline#
+'myvar' in . path . exists ( file_path ) #newline# #newline#
+: #newline# #indent# #indent# . path ( path . #newline# #indent# path ( #newline# #indent# pass isfile os . path . dirname ( path ) #newline# #newline# #indent# pass pass path
+#newline# path ( path ( path ) #newline#
+: #newline# #indent# #indent# . path ( path . #newline# #indent# path ( path : #newline# #indent# pass isfile : path ( path #newline# path #newline# #newline# #indent# pass pass #newline#
+sub sub ( '\\*\\*+' , '' ) '' ) #newline#
+sub sub ( '([a-z])\\1+' , '' , yourstring ) #newline#
+join join ( str str . x in list if x . isdigit ( ) ) ) #newline#
+soup soup . find ( id : ) compile ) #newline#
+[ [ ( map lambda [ x , , inplace [ ) x in zip . #newline#
+. dot ( a a ) b ) , #newline#
+outer concatenate ( a a - b ) ) #newline#
+path path ( 'c:\\python27\\lib\\genericpath.py' path #newline# st_size #newline#
+) reverse ( 'hello' ) #newline#
+l l ) #newline#
+i i for y ) len ( 1 ) for #newline# x in l ( l ) ) #newline#
+( ( zip , y ) count ( 1 ) ) #newline# x in l ( 1 ) ) #newline#
+) reverse ( 'b' ) #newline#
+copy2 copy2 ( 'file.txt' copy2 'file2.txt' = #newline#
+key key , key , v in x . items ( ) ) v [ 0 ) ]
+) , x , v in x . items ( ) ) v [ 0 ) ]
+( key , key , v in x . items ( ) ) v [ 0 ) ]
+#newline# write ( 2 , #newline#
+[ [ ] . df . dropna [ df [ 'c' , , values ( 'b' [ 'b' ) ) 'c' [ 'c' ] ) ]
+d [ 'key' key #newline#
+objects objects . extra ( ** = { ) ** ( ) relativedelta ( { = 1 ) #newline# #newline#
+] ] #newline# map 'jerry' ] #newline# map 'jerry' ] #newline#
+x x ) x ) ) 1 ) #newline# isdigit ( x ( x ) ) #newline#
+. x . index . x x 1 ] ) df . values . : ) ] ) #newline#
+t t ) #newline#
+) x ) #newline#
+array [ ( int , x ) #newline#
+( insert ( ) ( 'rb' ) )
+. index [ df [ index ] . .
+. groupby [ : . arange ( x . : ( ) ] #newline#
+[ index [ index ] . true ] #newline# astype ] astype ( ) #newline#
+. index . index index . . index . tolist ( ) #newline#
+chdir chdir ( 'c:\\users\\username\\desktop\\headfirstpython\\chapter3' chdir #newline#
+= insert ( 'insert#space#into#space#table#space#values#space#(%s,#space#%s,#space#%s)' , b '&' , b ) #newline#
+) split ( 'string_escape' ) #newline#
+) split ( 'hex' ) #newline#
+) split ( 'hex' ) #newline#
+: ] start ( 0 ] for key in s . findall ( 0 1 s ] ] #newline#
+'x' xticks ( x , x . choice ( x ) ) ( . choice . choice ( ) ) ) ) ( ( ) #newline#
+savefig savefig ( list = scatter . choice = range ) ) ] . choice . choice = ) ) ) ] ) ) ) ) ) #newline#
+. find_all ( 'div' , class_ = compile 'div' #newline# compile } 'div' #newline#
+[ [ [ [ ] . index . endswith ( '-' ) ] #newline#
+. iloc ( 0 = 0 , inplace = true ) #newline#
+[ 'a' ] = df [ index =
+. index ( drop = 0 0 . inplace . , #newline#
+i for 'b' - - 1 ] for x in input ] #newline#
+. arange ( a x ( a , b ) , x , b in a ( a , b ) ] ) ]
+a array ( x ( a , zip ( ) ) b ) ) ( ) ) ) b = a ) #newline# tolist ( ) ) ) [ #newline#
+join join ( str join ( x ) for i in example_string ) ) #newline#
+data post ( data , data = data = data = data data data = data data data data data ) #newline#
+'unicode-escape' format ( '&' ) #newline#
+[ [ 1 [ 1 in [ 1 , 2 ] 3 ] ) ) )
+d d [ 1 ] , y ) 'c' , for for y in d ] #newline#
+os os . path . abspath ( '/home/user/somefile.txt' . path . path ( '/home/user/somefile.txt' path ) ) 1 ] ) #newline#
+( ( [ 2 + x + 2 ] for i in range ( len , len ( x . ) len ) ) ]
+) [ ( ) 'a' 'a' , 'b' , 'c' , , 'g' 'e' ] 'g' ] 'g' , ) 'g' 'e' , 'e' , 'e' ) ) ) 'e' 'e' ) #newline#
+[ df [ df x [ 'a' . . values . ] ( df [ 'one' ] #newline# df ) ] #newline#
+. replace ( '\\' 'authorization' ) x } ) '' = df ) #newline#
+. replace ( ',' 'my_column' ) str [ ) '' [ [ ) #newline#
+] x + y ) for x in y in zip ( first ) b ) 0 ] 2 ) ] #newline#
+( g . lambda x : y : x ) y #newline# y ) 1 x 1 ] ) y ) 1 ] x ) ) #newline#
+re re . findall ( '\\d+' ) '' ) ) #newline#
+re re . findall ( '[^a-za-z]*' ) mystring ) ) group ( 1 ) ) #newline#
+sub sub ( '<[^>]*>' , '' , mystring ) #newline#
+. dataframe ( '1/1/2014' date_range periods = 1 % 16 = 1 ) #newline#
+[ [ ( ( [ 2 [ [ 2 1 ) 2 [ ) 2 2 ) 2 ) ) )
+: replace ( '#space#and#space#' , '' ) #newline#
+path path . path ( __file__ path #newline#
+. join ( c . split ( '#space#' ) #newline#
+path path . path ( '/home/user/somefile.txt' ) #newline# 0 ] #newline#
+] ( i ) i i for for for i in j in j ( l ) ] #newline#
+) split ( ',' ) 1 ) #newline# split ( ',' ) #newline#
+. einsum ( choice ( numpy . choice ( , , , ,
+[ 'a' ] . true [ 'a' ] .
+( . . 'a' ] ) 'b' ] ) items ( ) ) #newline# 'c' ] ) 'c' 1 ) 'c' ] ) 1 ] )
+( isinstance [ isinstance in ) x in string . #newline#
+. system system getcwd ) #newline# sum #newline# 1 . path ) __file__ ) #newline# walk )
+. execute ( lambda #newline# 0 ] .
+) [ int ( x ) for i in list : split ( ',' ) ] #newline#
+] ( s . for s in example_string . split ( ',' ) ] #newline#
+key key key key = lambda x : x x [ 1 ] ) reverse len ) 1 ] ) ) #newline#
+#newline# sort ( key = lambda [ reverse = true ) #newline#
+#newline# sort ( key = lambda x : ( . foo ( 1 = true ) #newline#
+sort sort ( key = operator i : i [ split ( reverse = true ) #newline#
+. find_element_by_css_selector ( find_element_by_css_selector find_element_by_css_selector #newline# click ( ) #newline#
+. find_element_by_css_selector find_element_by_css_selector '.button#space#.c_button#space#.s_button' = find_element_by_css_selector ) ) ) ) #newline# click ( ) #newline#
+. find_element_by_css_selector ( find_element_by_css_selector find_element_by_css_selector #newline# click ( ) #newline#
+) ',' ) int ) #newline#
+. sort ( [ x ) key ) ) #newline#
+'componentreport-dji.xls' 'componentreport-dji.xls' ) 'componentreport-dji.xls' ) . read ) 'xxx.mp4' . ',#space#' ( 'componentreport-dji.xls' ) . read ( ) ) #newline#
+key sort ( key = lambda x : len ( x [ 1 ] ) ) x = true ) #newline#
+. split ( '\\d+' ) key ) #newline#
+[ [ . findall ( 'one' [ 2 ) ) #newline#
+set set map set ) ) for
+set set set frozenset set ) .
+set set . set set set set ) .
+array array ( a ) #newline# array ( a 1 , #newline# array ( ) #newline#
+array array ( [ ) #newline# 0 ] #newline# array ( ) #newline#
+( soup . find ( 'meta' = re ( ) parent ( id ) ) parent ) - ] ) #newline#
+join join ( map join x ) x ) for x in l ) ) #newline#
+join join ( x join x x ( x ) 0 ] ) x ) 1 ) ) ) ) x in l ) ) )
+execute_script execute_script ( 'window.scrollto(0,#space#document.body.scrollheight);' execute_script #newline#
+] ] i in re , re . dotall ( 'test(.*)print' [ re ] ] #newline#
+[ 'a' ] . 'b' 'b' [ 'b' ] > 'c' ] ] ( df [ 'c' ] > 'b' 'b' ] #newline#
+key list , items ( ) , ,
+key d , ,
+( d , get ( ) , #newline#
+'0xa' '0xa' , #newline#
+( x #newline#
+int map int ( int , x ) for x in x int #newline#
+call call ( [ 'test.sh' , ) #newline#
+call call ( [ 'test.sh' , ) #newline#
+] for key in zip ( l1 , l2 ) ] key in l1 in #newline#
+encode encode . encode ( 'utf8' encode .
+encode encode encode encode ( 'ascii' , #newline#
+, open ( 'hello' open to_csv ( 'mycsv.csv' ( 'mycsv.csv' , 'rb' ) ) delimiter = ',' ) #newline# #newline#
+, your_obj , 'property' ) #newline#
+( d ( d ( d , d ] ) d ( d d d ( d ) items ) ) ) ) d in data ) ) ) ) #newline# #newline#
+x x x [ 0 ] for x in zip 1 ) #newline#
+: { . literal_eval ( "{'muffin'#space#:#space#'lolz',#space#'foo'#space#:#space#'kitty'}" '&' #newline#
+] in x in re . split ( '.' if 'abc' in isdigit ( '.' ) ] #newline#
+re re . sub ( pattern , '' , text ) text re re . unicode ) #newline#
+argwhere all ( a . argwhere ( a , 2 1 , 2 , 4 , ) , all ( 2 , all [ , 4 , 4 , ,
+. sqrt ( a ) b = 1 ) #newline#
+. call ( [ 'test.sh' call shell ) shell ) ) #newline#
+popen call ( [ call shell = true ) #newline#
+#newline# writerow ( ) #newline#
+. groupby ( df . groupby ( axis = 1 ) ) ascending = 1 ) #newline#
+strftime strftime ( '{%y-%m-%d#space#%h:%m:%s}' ) gmtime ( strftime ( '{%y-%m-%d#space#%h:%m:%s}' key ) #newline#
+childclass childclass ) childclass ) #newline# __init__ ) childclass ) #newline#
+np 1 . arange ( np np == 1 , ( 1 , , ) 1 ) , 1 1 [ 1 1 1 1 ] ) ) 1 ] #newline# #newline# #newline#
+. sub ( '#space#+' , '#space#' ) #newline#
+word word , word ) key = words ) ) for
+[ 0 ] for 1 ] .
+] for open ( '\n' for line in open ( '.' ) ] #newline#
+key [ ( [ [ ) k ) for k , v in a . items ( ) ) ]
+show open ( '/home/user/test/wsservice/data.pkl' 'r' 'r' ) .
+. groupby ( 'id' 'stock' , key ] ) . 0 . . sum ) ) #newline# sum ( ) #newline#
+( x in { ( '0' { ) x , list . #newline#
+] ] x , value in list ( mydict . items ( ) if ] x ] endswith ( none ) ] )
+. dataframe ( list 'count' , , , columns ( columns , df1 . tolist , ) #newline#
+( list ) stdout ( ) ( ) . 1 ) ) ) )
+( 'åäö' . encode ( 'utf8' ) ) .
+encode encode ( 'utf8' ) #newline# encode ( 'utf8' ) #newline#
+. open . open ( open open , open ) ) open ) open ( #newline#
+, sub ( '[bcdfghjklmnpqrstvwxyz]+' , shell ) #newline#
+( '%.2f' . format ( 24322.34 ( 2 ) 2 ) ) )
+. sort ( key = lambda x : x [ 1 ) ) #newline#
+key sort ( key = lambda d : d [ 1 ) ) #newline#
+key sort ( key = lambda x : x x . 'id' ) ) x . 1 x ) x . 'id' ] ) ) #newline#
+, nlargest ( 3 , [ ( 10 ( 10 ) ) ) 10 = lambda x : int ( x ) 0 + ) int ) 0 + ) ) #newline#
+. find ( 'div' ) 'div' 'class' : 'city' ) ) .
+. groupby ( ) , 'a+b' . 'a+b' ) 'x' ) .
+[ [ . findall ( '\\b\\d+\\b' findall '' , s ) #newline#
+set set ( set set ) set ] ) [ ) ) x in set ) ) set ( ) ) )
+: : rstrip ( ) ) for line in open . #newline#
+1 ] i in 1 in range 1 1 1 if 1 + 1 ] #newline#
+1 ] i in 1 in range 1 1 1 if 1 + 1 ] #newline#
+in in enumerate 1 in i in 1 in range 1 1 1 ] 1 in 1 ] #newline# 1
+in in enumerate 1 in i in 1 in range 1 1 1 ) 1 in 1 : #newline# #newline#
+1 [ ) + i in 1 in range 1 1 1 ) 1 + 1 ) ]
+[ [ [ join ) x + ) #newline#
+: #newline# #indent# return ( x [ remove ( x + ) #newline#
+key key , key = lambda x [ x [ 1 ] ) #newline# 0 ] )
+key 1 , key = lambda ( 1 ) ) #newline# 1 ] #newline#
+. sleep ( 1 ) #newline#
+[ join ( [ [ join , join ( str ) ) join ) i in l ) #newline#
+= open . foreignkey ( where , 'name' , stderr #newline# { #newline# stderr #newline# { ) #newline#
+, y , key x : x x x x . , key . ) #newline#
+key list , key = lambda x [ x x [ x [ ) key [ ) [
+* ) i ) range i , 2 , 3 ] 4 , ) ]
+= [ x , k , j in range ( l ) if x not in list 'foo' #newline#
+= open ( '/home/user/test/wsservice/data.pkl' , 'r' ) .
+obj obj , 'attr_name' obj #newline#
+functools import reduce #newline#
+, lambda x : ( . ( , , ( x x , ( ) ( x , ( ) ( x ) reverse ) ) #newline#
+= 'datestr' ] #newline# apply ( '-' , '' , 'nan' = true ) #newline#
+( 1 [ ( 1 , 'b' , , 'b' 3 , 2 , , 3 3 , 3 , , 'd' 3 ] 'c' , ) ) #newline#
+( 1 [ ( 1 , 'b' , , 'b' 3 , 2 , , 3 3 , 3 , , 'd' 3 ] 'c' , ) ) #newline#
+) sum sum . key , b in zip ) #newline# reverse : ) i ) reverse ) zip ) #newline#
+) [ b ) b , b in range ) #newline# b b ) i ) b ) range ) #newline#
+( 1 [ ( 1 , 'b' , , 'b' 3 , 2 , , ( 3 , 3 , , 'd' 3 ] 'c' , ) 'd' 3 ) 'd' ] ) #newline#
+, , , 'b' [ ( int , 'b' , , 'b' 'b' , 2 , ] ( 'c' , 3 ) ] ( 'c' ] ( ) ] ( 'c' ) ( ] ) #newline#
+. dumps ( { ( list dumps ) #newline#
+] 'key' ] = { #newline#
+[ loc ( { 'a' , 1 , , #newline#
+[ loc ( { ( { [ { , [ [
+[ loc ( { [ { , [
+key enumerate key , enumerate , , i in enumerate key ) ]
+2 [ ( int ( 8.005 2 2 ) ) #newline#
+) re . findall ( '^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$' ) shell ) #newline#
+. groupby ( df > > sum ( 'b' x : len ( y ) > 1 ) #newline#
+] for line in open ] write ] ) ] x . open ) #newline#
+= [ ( int , lst2 ( i ) ) read ) ) ) #newline#
+savefig colorbar ( im im 'bar' ( linestyle ) 'bar' #newline# #newline#
+) 1 ) 1 ( 1 . 1 ) ) ) split ( ) ) #newline# most_common ( ) ) #newline#
+findall findall ( '(?=(\\w\\w))' findall re ) #newline#
+( permutations . permutations ( range range , 2 , 3 ) ) 3 ) ) #newline#
+. utcnow ( ) ) isoformat ( #newline#
+] [ ] [ x in list ] [ [ [ ] #newline# #newline#
+) [ ] for key in list ] not is #newline#
+data json json data data data json ) #newline#
+findall findall ( '\\[(.*?)\\]' findall 'abcd' ) #newline#
+sub sub ( '(?=(\\w\\w))' ) 'abcdefg123#space#and#space#again#space#abcdefg123' ) #newline#
+. sub ( '\\d+' , shell ) #newline#
+compile compile ( '(?:\\w+(?:\\s+\\w+)*,\\s)+(?:\\w+(?:\\s\\w+)*)' ) 'aaa#space#bbb#space#ccc#space#ddd#space#eee#space#fff' ) #newline#
+, findall ( '#(\\w+)' , key ) #newline#
+#newline# [ 0 . format ( 0 ) for i in list ] #newline#
+popen popen ( 'ls' 'mycmd' , shell , , #newline#
+x list key for for x in list list #newline#
+( ( ( ( , 'name' , , 'name' 9 ] ( ) ) ) #newline#
+= groupby ( ( 2 , 2 ) #newline# sum ( data = 2 ) #newline# sum ( data ) sum [ ( ) ) data 1 ) #newline#
+re re . replace ( 'hex' ) #newline# decode ( 'hex' , '\\"' ) #newline# #newline#
+. findall ( '\\.\\s' ) '#space#' ) #newline#
+. sort ( x = 'bar' = 'bar' = 'bar' ) #newline#
+: : i : : i + : } for i in range ( d ( values ( ) ) ) #newline#
+i ] i in j in enumerate ( l ) if j j enumerate > index ) ) ] not ) enumerate > index ) ) ] #newline#
+, str , 'attr_name' ) #newline#
+( ) , str ) #newline#
+) ) . . ) )
+( ) , str ) #newline#
+, str , str ) #newline#
+) append ( list1 ) [
+list2 list2 ( list2 list2 #newline#
+= append ( a ) #newline#
+in in list1 foo #newline# #indent# pass in intersection ( list2 ) #newline#
+[ append ( [ [ ) i ] ) 1 , ) [ ) 1 ] ) 1 ] ) ) #newline#
+in run [ 'security_register_url' ] #newline# #newline# #newline#
+dataframe dataframe ( df , index ( ) #newline# columns = 1 1 , index ) ) axis ) 1 ) astype ) #newline#
+] [ x in enumerate ( 0 ( listd ) ] ] x 1 1 [ #newline# 1 1 #newline#
+. set_xticklabels ( ax ) rotation = 45 ) #newline#
+sub sub ( '^\\d+\\s|\\s\\d+\\s|\\s\\d+$' , '' , '' ) #newline#
+path path . dirname ( os . path . path ( os . path . path ( __file__ ) ) ) #newline#
+re re . findall ( '\\d+' str '' ) ) #newline#
+findall findall ( '(?<=\\?|!|\\.)\\s{0,2}(?=[a-z]|$)' ) '(?<=\\?|!|\\.)\\s{0,2}(?=[a-z]|$)' ) )
+findall findall ( '\\.\\s' ) ',' ) )
+= requests . get ( url , data = requests = data = requests ) data = headers = #newline#
+'rb' 'myfile.txt' , 'w' ) #newline# read ( filename 2 #newline#
+] ] list ] for x , lst ] #newline#
+[ count ( 'name' ) [ 'name' 'name' 'name' 'name' 'id' #newline#
+, 4.0005 , 3 ) #newline#
+, li , key = lambda x : ( . get ( x , 1 ] ) reverse ) ) reverse = true ) #newline#
+. set_xticklabels ( '=' , #newline#
+path path . path path os path #newline#
+[ [ ) set ) values ( ) ) ) #newline#
+( ) ( [ ( ** ** ) read ( ) ) sum ( ) ) ) #newline#
+. groupby ( 'id' ) [ agg ( ) [
+. concat ( [ distancesdf . 'stock' , , split ( lambda . series ) , axis [ 1 , , , axis = 1 ) #newline#
+sub sub ( 'taa(?:[atgc]{3})+?taa' , 'mouse' [ #newline#
+( x , x ) x ) ) for x in [ '1' , x , [ '1' , 1 [ 'someotherkey' ) 'someotherkey' ) 'someotherkey' , ) some_condition
+call call ( ** 'espeak' , , #newline#
+: id ( id id 1 , 1 , , #newline#
+. index ] . tolist ( x = 'bar' ) ascending = 'bar' 'c' ) axis ) axis ) axis ) axis ) axis ) axis ) ) #newline#
+. findall ( 'taa(?:[atgc]{3})+?taa' , shell ) #newline#
+my_list my_list ) .
+[ l ) #newline#
+s s ) [
+) s ) #newline#
+) s ) [
+replace replace ( 'string_escape' ) #newline#
+( replace ( ',' , 'b' 'b' #newline# replace ( ',' , 'b' ) #newline# replace ( 'b' 'b' 'b' ) #newline#
+. rmtree ( path path #newline#
+[ : ] #newline# data [ : ] #newline# apply ( lambda x : x [ tolist [ x ) #newline#
+( l ) key = lambda ) values ( reverse = true ) #newline#
+key key ( range ) items ( ) ) ) key = lambda x : x [ 1 ] ) reverse = true ) )
+. array ( numpy numpy ) b ) ) #newline#
+( np ( a a ) b ) , b = 0 ) ) #newline#
+( np ( a a , b ) , a = 1 ) ) #newline#
+b [ . concatenate [ ( ( 0 a ) for b b #newline# b ] 0 b ) ] b : #newline# #newline#
+concatenate concatenate ( a a ) b ) , #newline#
+( '{0}:<15}}{1}:<15}}{2}:<8}}' . inet_ntoa . '.' ** columns ) ) #newline#
+[ set_index = ) ) shell = 0 ] inplace = 0 ) #newline#
+user ( status ) index ) 204 ) #newline#
+#newline# '&' ) #newline# #newline# os #newline# #newline#
+. query ( ) ( .
+[ sort ( key = lambda x : ( [ 0 ] ) #newline#
+[ sort ( key = lambda x : x item [ ] ] ) [ [ ] ] ) [ [ ] ] ) ) #newline#
+[ sort ( key = lambda x : x item [ ] ] ) [ [ ] ] ) ) #newline#
+. rcparams ( 'font' , { { 'name' } d2 } { } d2 } ) #newline#
+[ 'date' ] . apply ( lambda x : x . format ( x ) .
+) click ( ) ) #newline#
+[ index [ duplicated [ lambda ) #newline#
+system system ( command ) #newline#
+. items ( { 'apple' 1 [ , ) #newline#
+) [ ] #newline#
+) insert ( c ) #newline#
+) sort ( 0 , 'f' ) #newline#
+struct encode ( struct , struct ) #newline# encode ( 'utf8' ) #newline#
+. - . loc - - 1 ] . .
+. loc [ 1 [ 0 ( . 0 ] inplace ] . index . 0 ) #newline#
+zeros array ( [ [ 1 , 2 , 3 , , 4 4 , 5 , 6 ] ) ) #newline#
+i i ) -
+x x ) for
+x x ) for
+x x ) for
+x x ) for
+max str max str ) ) #newline#
+( i . islice ( i ( 10 ) ) 0 ) key ) 1 ) ) #newline#
+( str str format ( word ) ) #newline#
+join join ( str ) #newline#
+zip [ [ i for i in zip ( 10 ) ] #newline#
+: [ : : open ( ) , line in open ( '\n' , 'r' ) ] #newline#
+join join ( c 'a' , c , s 'i' str , #newline# ) #newline# #newline#
+sub sub ( '.*i' , stri , stri ) #newline#
+#newline# replace ( '-' ) '' ) #newline#
+join join ( [ x , x , re if x , #newline# ) #newline# #newline#
+. index ( axis = [ 1 ] , #newline#
+] for x in mylist if y [ startswith ] 1 #newline# #newline#
+) [ x ( x ) for x in original_list original_list #newline#
+int int , example_string ) ) ) ) ) ) ) #newline#
+#newline# stdout #newline# flush ( '\n' ) #newline#
+( round ( 123 ) ( ) ) #newline#
+path path ( __file__ path #newline#
+in in os . path ( '.' path #newline# #newline#
+in in subfolders in subfolders in os . walk ( '.' ) #newline# #newline# #indent# print subdirname ) os ] #newline# #indent# print print dirname #newline# path #newline# dirname ) #newline# #newline# #indent# print print print #newline#
+. legend ( legend , 2 ) #newline#
+, in range ( 1 , : #newline# #indent# #indent# i if range ( 1 ) , #newline# #indent# #indent# #indent# 1 false #newline# j 1 ] key if #newline# #indent# #indent# #indent# ( 1 1 #newline#
+, in j in zip 2 [ ( [ ( 1 ) ) ) len ( - ( 1 ) ) ) #newline# #newline# #indent# pass #newline#
+#newline# [ #newline# ) ) key ) key ) [ ) #newline#
+x x ) x ) i in j in zip ( x in ) i ) )
+. split ( 'my#space#string\n' ) ( '\n' ) shell ) shell ) ) #newline#
+] for x in data ] x in data data ] x ] data ] data ] ] x data ] ) for #newline#
+( str . replace ( 'ascii' ) ) #newline#
+join join ( s . replace ( ',' , 1 ) ) #newline#
+) ) 1 ] ] ) y / i ] 1 ] ) . 2 )
+/ 1 x 1 ] #newline# y x ) len ] ] ) 1 ) len ] 1 ] ) #newline# 2 )
+[ [ . array array ) . open ( ) ) 'rb' = 'utf-16-le' ) ) ) = none ) #newline#
+reverse sorted ( d , key = lambda ( 1 1 ) reverse = true ) #newline#
+reverse sorted ( list , key = lambda x : list [ 1 [ ) reverse = true ) #newline#
+. groupby [ ( [ ( ] . apply . endswith ( '-' ) #newline# #newline#
+sub sub ( '\\blog_addr\\s+(\\s+)' findall 2 ) #newline# group ( 1 ) #newline#
+] ] split ( '%m/%d/%y' ( ] index in zip ] date ( '%m/%d/%y' ( '%d%m%y' ] ] #newline#
+#newline# replace ( 's' ) #newline#
+load dumps ( '{"foo":#space#42,#space#"bar":#space#"baz"}' . dumps . #newline#
+. request . urlopen ( url ) . ) #newline#
+re split ( '.' #newline#
+. split ( ',' ) #newline#
+: strip ( '#space#' #newline#
+] sub sub ( '$\\d+\\w+|\\b\\d+\\b|\\w+\\d+$' , '' , s ] ] i in s ] #newline#
+key s , key = lambda x : x , sort ( '.' ) ) 1 ] ) #newline#
+call call call 'test.sh#space#otherfunc' , shell = true ) #newline#
+] for i in lst ] d ] lst [ lst ) ] #newline#
+] for i in enumerate ] i in ( x [ int ) ] )
+) sorted ( d key key = lambda x : d . d ] ) #newline#
+sort sorted ( list , key = lambda ( 1 ) ) reverse = true ) #newline#
+#newline# #newline# ( key = lambda . itemgetter ( 1 ) #newline# #newline#
+#newline# #newline# ( key = lambda . itemgetter ( 1 ) #newline# #newline#
+. sort ( by sort [ sort ( ) [ sort ( key ( key = [ ) #newline#
+join join ( str [ join key ) #newline#
+join join ( [ 'a' , 'b' , 'c' , 'd' ] ) #newline#
+. dumps ( [ . dumps . post ( [ ) ) #newline#
+] for x in re if not in : isdigit ( '#' ':' ] , in : isdigit ( '#' ) ] #newline#
+objects objects . filter ( ~ = ~ = #newline#
+. sort ( key = lambda x : ( x [ 0 0 ) x [ 0 0 ) ) #newline#
+) ) datetime . datetime . 1 , 1 , 1 , ) . time ( ) #newline#
+sub sub ( '\\.[^.]+$' , '' ) '' ) #newline#
+#newline# #newline#
+unpack unpack ( 'd' , ps . pack ( '!l' , ps ) ) #newline#
+float [ float ( float ) for x in lst float #newline#
+. to_csv ( 'result.csv' ) sep = open ) #newline#
+#newline# [ . dumps ( ) #newline# #newline#
+i int int ) for i in range ( 10 ord ] #newline#
+) encode ( pdffile . pack ( '<i' 'rb' 'rb' open ) ) #newline#
+. sub ( '\\w*\\d\\w*' , '' , string ) #newline#
+. dict . items ( ) ) #newline# - 1 ] )
+( os . 'r' ) os . #newline#
+write open ( write , 'r' ) .
+open read 'example.yaml' 'r' 'r' ) as stream as #newline# #indent# content load read ( 'my#space#string\n' ) #newline#
+encode encode ( 'unicode_escape' decode #newline#
+objects objects . create ( actions__contains ( { ( ) order_by ( 1 key #newline# key ] #newline#
+findall findall ( '\\d+' findall text ) #newline#
+findall findall ( '\\d+' findall findall ) #newline#
+system system ( "zsh#space#-c#space#'echo#space#$0'" ) domid ) #newline#
+= sort ( key = lambda x : ( [ 1 ] ) 1 ] ) #newline#
+. . . values ) ) ) values ( ) ) #newline#
+. now . now ( ) .
+iter lst ) i in j in enumerate ( lst ) ) i in ( lst , int ( ) , , 1 ) #newline#
+- : , + [ 1 - + 1 + + x in a - #newline#
+. choice ( os . arange ( 'path' path ) #newline#
+key key , key ( enumerate , key , key ( enumerate , key = lambda ( #newline#
+sub sub ( '\\w+(?:-\\w+)+' ) key ) key . sub ) #newline# #newline# sub ) #newline#
+sub sub ( '[-+]?\\d*\\.\\d+|\\d+' ) shell ) #newline#
+) split ( '\r\n' ) '' ) #newline# split ( ',' ) #newline#
+, '/home/user/test/wsservice/data.pkl' , 'r' , #newline#
+] ] ( x ) for item , data ( data data ) ] #newline# sum ) data ( ) data , ] #newline#
+= : , ( np . concatenate ) ] #newline#

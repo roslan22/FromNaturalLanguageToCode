@@ -1,0 +1,500 @@
+send a signal <VAR0> to the current process
+decode a hex string <STR0> ' to UTF-8 .
+check if all elements in list <VAR0> are identical
+format number of spaces between strings <VAR0> , ` : ` and <VAR1> Good` to be <VAR2>
+How to convert a string from CP-1251 to UTF-8 ?
+get rid of None values in dictionary <VAR0>
+get rid of None values in dictionary <VAR0>
+capture final output of a chain of system commands <VAR0> -ef | grep something | wc -l`
+concatenate a list of strings ` [ 'a ' , 'b ' , 'c ' ] `
+find intersection data between series <VAR0> and series <VAR1>
+sending http headers to <VAR0>
+Format a datetime string <VAR0> to extract date only
+split a multi-line string <VAR0> into separate strings
+Split a multi-line string ` a \n b \r\n c ` by new line character <VAR0>
+concatenate elements of list <VAR0> by a colon `` : ''
+get the first object from a queryset in django model <VAR0>
+Calculate sum over all rows of 2D numpy array
+enable warnings using action <STR0> '
+concatenate items of list <VAR0> with a space ' '
+run script <STR0> ' with argument <STR0> ' on terminal using python executable
+How can I parse a time string containing milliseconds in it with python ?
+convert a string <VAR0> with dot and comma into a float number <VAR1>
+convert a string <VAR0> with dot and comma into a floating number
+set pythonpath in python script .
+split string <STR0> , words , words . ' using a regex ' ( \\W+ ) '
+open a file <VAR0> in append mode
+download a file `` http : //www.example.com/songs/mp3.mp3 '' over HTTP and save to `` mp3.mp3 ''
+download a file <VAR0> over HTTP and save to <VAR1>
+download a file <STR0> : //www.example.com/ ' over HTTP
+download a file <VAR0> over HTTP
+download a file <VAR0> over HTTP and save to `` 10MB ''
+argparse add argument with flag ' -- version ' and version action of ' % ( prog ) s 2.0 ' to parser <VAR0>
+remove key 'c ' from dictionary <VAR0>
+Create new DataFrame object by merging columns `` key '' of dataframes <VAR0> and <VAR1> and rename the columns from dataframes <VAR2> and <VAR2> with suffix <VAR2> and <VAR3> respectively
+Split a string <VAR0> by space with <VAR1> splits
+read keyboard-input
+enable debug mode on Flask application <VAR0>
+python save list <VAR0> to file object <STR1> '
+Multiply a matrix <VAR0> with a 3d tensor <VAR1> in scipy
+Create 3d array of zeroes of size ` ( 3,3,3 ) `
+cut off the last word of a sentence <VAR0>
+convert scalar <VAR0> to array
+sum all elements of nested list <VAR0>
+convert hex string <STR0> ' to a float number
+Multiple each value by <VAR0> for all keys in a dictionary <VAR1>
+running bash script <STR0> '
+Join elements of list <VAR0> with a comma ` , `
+make a comma-separated string from a list <VAR0>
+reverse the list that contains 1 to 10
+remove substring <STR0> , ' from a string <STR0> , bag , mirror '
+Reverse the order of words , delimited by <VAR0> , in string <VAR1>
+convert epoch time represented as milliseconds <VAR0> to string using format ' % Y- % m- % d % H : % M : % S. % f '
+parse milliseconds epoch time <STR0> ' to format ' % Y- % m- % d % H : % M : % S '
+get the date 7 days before the current date
+sum elements at index <VAR0> of each list in list <VAR1>
+sum columns of a list <VAR0>
+encode binary string <STR0> string ' to base64 code
+combine list of dictionaries <VAR0> with the same keys in each list to a single dictionary
+Merge a nested dictionary <VAR0> into a flat dictionary by concatenating nested values with the same key <VAR1>
+How do I get the url parameter in a Flask view
+identify duplicate values in list <VAR0>
+Insert directory <STR0> ' into directory <VAR0>
+modify sys.path for python module <VAR0>
+Insert a <STR0> ' value into a SQLite3 table .
+flatten list <VAR0>
+append elements of a set <VAR0> to a list <VAR1>
+Append elements of a set to a list in Python
+write the data of dataframe <VAR0> into text file <VAR1>
+write content of DataFrame <VAR0> into text file 'c : \\data\\pandas.txt '
+Split a string <VAR0> by last occurrence of character <VAR1>
+get the last part of a string before the character '- '
+upload file using FTP
+add one to the hidden web element with id <STR0> ' with selenium python script
+create array containing the maximum value of respective elements of array ` [ 2 , 3 , 4 ] ` and array ` [ 1 , 5 , 2 ] `
+print a list <VAR0> and move first 3 elements to the end of the list
+loop over files in directory ' . '
+loop over files in directory <VAR0>
+create a random list of integers
+Using % f with strftime ( ) in Python to get microseconds
+Google App Engine execute GQL query <STR0> * FROM Schedule WHERE station = $ 1 ' with parameter <VAR0> ( ) `
+filter rows in pandas starting with alphabet 'f ' using regular expression .
+print a 2 dimensional list <VAR0> as a table with delimiters
+pandas : delete rows in dataframe <VAR0> based on multiple columns values
+format the variables <VAR0> and <VAR1> using string formatting
+format string `` ( { } goals , $ { } ) '' with variables <VAR0> and <VAR1>
+format string `` ( { 0.goals } goals , $ { 0.penalties } ) ''
+convert list of lists <VAR0> to list of integers
+combine elements of each list in list <VAR0> into digits of a single integer
+convert a list of lists <VAR0> to list of integers
+write the elements of list <VAR0> concatenated by special character <STR1> ' to file <VAR1>
+removing an element from a list based on a predicate 'X ' or 'N '
+Remove duplicate words from a string <VAR0> using regex
+count non zero values in each column in pandas data frame
+search for string that matches regular expression pattern ' ( ? < ! Distillr ) \\\\AcroTray\\.exe ' in string 'C : \\SomeDir\\AcroTray.exe '
+split string <STR0> QD JC KD JS ' into a list on white spaces
+search for occurrences of regex pattern ' > . * < ' in xml string <VAR0>
+erase all the contents of a file <VAR0>
+convert a string into datetime using the format ' % Y- % m- % d % H : % M : % S. % f '
+find the index of a list with the first element equal to <STR0> ' within the list of lists <VAR0>
+lower a string <VAR0> and remove non-alphanumeric characters aside from space
+remove all non-alphanumeric characters except space from a string <VAR0> and lower it
+subscript text <STR0> ' with '2 ' as subscripted in matplotlib labels for arrays 'x ' and 'y ' .
+subscript text <STR0> ' with '2 ' as subscripted in matplotlib labels for arrays 'x ' and 'y ' .
+loop over a list <VAR0> if sublists length equals 3
+initialize a list <VAR0> of 100 objects Object ( )
+create list <VAR0> containing 100 instances of object <VAR1>
+get the content of child tag with`href` attribute whose parent has css <VAR0>
+joining data from dataframe <VAR0> with data from dataframe <VAR1> based on matching values of column <STR2> ' in both dataframes
+use ` % s` operator to print variable values <VAR0> inside a string
+Split a string by a delimiter in python
+check if directory <VAR0> ` exists and create it if necessary
+check if a directory <VAR0> exists and create it if necessary
+check if a directory <VAR0> exists and create it if necessary
+check if a directory <VAR0> exists and create it if necessary
+Replace a separate word <STR0> ' by <STR0> ' in a string <STR0> '
+substitute ASCII letters in string <STR0> ' with empty string ''
+get digits only from a string <VAR0> using lambda function
+access a tag called `` name '' in beautifulsoup <VAR0>
+get a dictionary <VAR0> of key-value pairs in PyMongo cursor <VAR1>
+Create new matrix object by concatenating data from matrix A and matrix B
+concat two matrices <VAR0> and <VAR1> in numpy
+Get the characters count in a file <VAR0>
+count the occurrences of item `` a '' in list <VAR0>
+count the occurrences of items in list <VAR0>
+count the occurrences of items in list <VAR0>
+count the occurrences of items in list <VAR0>
+count the occurrences of item `` b '' in list <VAR0>
+copy file <VAR0> to directory <VAR1>
+find the key associated with the largest value in dictionary <VAR0> whilst key is non-zero value
+get the largest key whose not associated with value of 0 in dictionary <VAR0>
+get the largest key in a dictionary <VAR0> with non-zero value
+Put the curser at beginning of the file
+combine values from column 'b ' and column 'a ' of dataframe <VAR0> into column 'c ' of datafram <VAR1>
+remove key <STR0> ' from dictionary <VAR0>
+Update datetime field in <VAR0> to be the existing <VAR1> plus 100 years
+merge list ` [ <STR0> ' ] ` and list ` [ <STR0> ' ] ` and list ` [ <STR0> ' ] ` into one list
+increment a value with leading zeroes in a number <VAR0>
+check if a pandas dataframe <VAR0> 's index is sorted
+Convert tuple <VAR0> to list
+Convert list <VAR0> to tuple
+Convert tuple <VAR0> to list
+send the output of pprint object <VAR0> to file <VAR1>
+get index of rows in column <STR0> '
+Create a list containing the indexes of rows where the value of column <STR0> ' in dataframe <VAR0> are equal to True
+get list of indexes of rows where column <STR0> ' values match True
+get index of rows in dataframe <VAR0> which column <STR1> ' matches value True
+change working directory to the directory <VAR0>
+insert data from a string <VAR0> to sqlite db <VAR1>
+decode string `` \\x89\\n '' into a normal string
+convert a raw string <VAR0> into a normal string
+convert a raw string <VAR0> into a normal string
+split a string <VAR0> with into all strings of repeated characters
+scatter a plot with x , y position of <VAR0> ( 100 ) ` and face color equal to none
+do a scatter plot with empty circles
+remove a div with a id <VAR0> using beautifulsoup
+filter rows containing key word <VAR0> in column <VAR1>
+convert index at level 0 into a column in dataframe <VAR0>
+Add indexes in a data frame <VAR0> to a column <VAR1>
+convert pandas index in a dataframe to columns
+Get reverse of list items from list 'b ' using extended slicing
+join each element in array <VAR0> with element at the same index in array <VAR1> as a tuple
+zip two 2-d arrays <VAR0> and <VAR1>
+convert list <VAR0> into a comma separated string
+Send a post request with raw data <VAR0> and basic authentication with <VAR1> and <VAR2>
+Find last occurrence of character ' } ' in string `` abcd } def } ''
+Iterate ove list ` [ 1 , 2 , 3 ] ` using list comprehension
+extract all the values with keys 'x ' and 'y ' from a list of dictionaries <VAR0> to list of tuples
+get the filename without the extension from file <STR0> '
+create a dictionary by adding each two adjacent elements in tuple <VAR0> as key/value pair to it
+create a list containing flattened list ` [ [ 'A ' , 'B ' , 'C ' ] , [ 'D ' , 'E ' , 'F ' ] , [ 'G ' , 'H ' , 'I ' ] ] `
+select rows in a dataframe <VAR0> column <STR1> ' between two values 99 and 101
+replace all occurences of newlines <VAR0> with ` < br > ` in dataframe <VAR1>
+replace all occurrences of a string <VAR0> by string ` < br > ` in a pandas data frame <VAR1>
+create a list containing each two adjacent letters in string <VAR0> as its elements
+Get a list of pairs from a string <VAR0> using lambda function
+extract a url from a string <VAR0>
+extract a url from a string <VAR0>
+remove all special characters , punctuation and spaces from a string <VAR0> using regex
+create a DatetimeIndex containing 13 periods of the second friday of each month starting from date <STR0> '
+Create multidimensional array <VAR0> with 3 rows and 2 columns in python
+replace spaces with underscore
+get an absolute file path of file <STR0> '
+split string <VAR0> on white spaces
+get filename without extension from file <VAR0>
+get a list containing the sum of each element <VAR0> in list <VAR1> plus the previous elements
+split a string <VAR0> by <VAR1> keeping <VAR2> in the result
+shuffle columns of an numpy array 'r '
+copy all values in a column 'B ' to a new column 'D ' in a pandas data frame <STR0> '
+find a value within nested json <STR0> ' where the key inside another key 'B ' is unknown .
+check characters of string <VAR0> are true predication of function <VAR1>
+determine number of files on a drive with python
+how to get a single result from a SQLite query in python ?
+convert string <VAR0> into a list of integers <VAR1>
+Get a list of integers by splitting a string <VAR0> with comma
+Sorting a Python list by two criteria
+sort a list of objects <VAR0> , based on a function <VAR1> in descending order
+reverse list <VAR0> based on the <VAR1> attribute of each object
+sort a list of objects <VAR0> in reverse order by their <VAR1> property
+click a href button <STR0> ' with selenium
+click a href button having text <VAR0> InMail` with selenium
+click a href button with text <STR0> InMail ' with selenium
+cast an int <VAR0> to a string and concat to string <STR1> '
+Sorting data in DataFrame Pandas
+prepend the line ' # test firstline\n ' to the contents of file <STR0> ' and save as the file <STR0> '
+sort a list <VAR0> by length of value in tuple
+split string <VAR0> by words that ends with 'd '
+return <VAR0> if string <VAR1> contains regex <VAR2> [ rzd ] `
+Removing duplicates in list <VAR0>
+Removing duplicates in list <VAR0>
+Removing duplicates in list <VAR0>
+Convert array <VAR0> into a list
+Convert the first row of numpy matrix <VAR0> to a list
+In <VAR0> , get the content of the sibling of the <VAR1> tag with text content <VAR2> : `
+convert elements of each tuple in list <VAR0> into a string separated by character ` @ `
+convert each tuple in list <VAR0> to a string with ' @ ' separating the tuples ' elements
+get the html from the current web page of a Selenium driver
+Get all matches with regex pattern <VAR0> [ xX ] ` in list of string <VAR1>
+select values from column 'A ' for which corresponding values in column 'B ' will be greater than 50 , and in column 'C ' - equal 900 in dataframe <VAR0>
+Sort dictionary <VAR0> in ascending order based on its keys and items
+get sorted list of keys of dict <VAR0>
+How to sort dictionaries by keys in Python
+convert string `` 1 '' into integer
+function to convert strings into integers
+convert items in <VAR0> to integers
+call a shell script <VAR0> using subprocess
+call a shell script <VAR0> using subprocess
+combine lists <VAR0> and <VAR1> by alternating their elements
+encode string <STR0> to be encoded '
+encode a string <VAR0> to be encoded` to <VAR1> encoding
+parse tab-delimited CSV file <STR0> ' into a list
+Get attribute <VAR0> of object <VAR1>
+group a list of dicts <VAR0> into one dict by key
+How do I sum the first value in each tuple in a list of tuples in Python ?
+convert unicode string u '' { <STR0> , <STR0> } '' into dictionary
+find all words in a string <VAR0> that start with the ` $ ` sign
+remove any url within string <VAR0>
+replace all elements in array <VAR0> that are not present in array ` [ 1 , 3 , 4 ] ` with zeros
+calculate mean across dimension in a 2d array <VAR0>
+running r script <STR0> ' from python
+run r script <STR0> -- vanilla /pathto/MyrScript.r '
+add a header to a csv file
+replacing nan in the dataframe <VAR0> with row average
+Convert unix timestamp <STR0> ' to formatted string ' % Y- % m- % d % H : % M : % S '
+Call a base class 's class method <VAR0> from derived class <VAR1>
+selecting rows in Numpy ndarray 'a ' , where the value in the first column is 0 and value in the second column is 1
+separate words delimited by one or more spaces into a list
+length of longest element in list <VAR0>
+get the value associated with unicode key <STR0> ' of first dictionary in list <VAR0>
+Retrieve each line from a file <STR0> ' as a list
+swap keys with values in a dictionary <VAR0>
+Open a file <VAR0> in write mode
+How to count distinct values in a column of a pandas group by object ?
+Check if any key in the dictionary <VAR0> starts with the string <VAR1> $ $ `
+create list of values from dictionary <VAR0> that have a key that starts with <STR1> $ $ '
+convert a pandas series <VAR0> into a pandas dataframe <VAR1> with columns <VAR2> and <VAR3>
+print elements of list <VAR0> seperated by tabs <VAR1>
+print unicode string <STR0> ' with utf-8
+Encode a latin character in string <VAR0> properly
+resized image <VAR0> to width , height of ` ( x , y ) ` with filter of <VAR1>
+regex , find `` n '' s only in the middle of string <VAR0>
+display the float <VAR0> as a percentage
+sort a list of dictionary <VAR0> by the key <VAR1>
+sort a list <VAR0> of dicts by dict value <STR1> '
+sort a list of dictionaries by the value of keys <STR0> ' , <STR0> ' , <STR0> ' in ascending order .
+find 10 largest differences between each respective elements of list <VAR0> and list <VAR1>
+BeautifulSoup find all <STR0> ' elements in HTML string <VAR0> with class of <STR1> sp '
+write records in dataframe <VAR0> to table <STR1> ' in schema <STR1> '
+Extract brackets from string <VAR0>
+remove duplicate elements from list 'L '
+read a file <VAR0> without newlines
+get the position of item 1 in <VAR0>
+get the position of item 1 in <VAR0>
+get the position of item 1 in <VAR0>
+get the position of item 1 in <VAR0>
+get the position of item 1 in <VAR0>
+get the position of item <VAR0> in list <VAR1>
+get the position of item <VAR0> in list <VAR1>
+find the first element of the tuple with the maximum second element in a list of tuples <VAR0>
+get the item at index 0 from the tuple that has maximum value at index 1 in list <VAR0>
+Make a delay of 1 second
+convert list of tuples <VAR0> to a string
+Django set default value of field <VAR0> equal to <STR1> '
+Sort lis <VAR0> in ascending order based on the degrees value of its elements
+How do I perform secondary sorting in python ?
+convert a list into a generator object
+remove elements from list <VAR0> that have an index number mentioned in list <VAR1>
+Open a file <VAR0> in write mode
+get attribute <STR0> ' from object <VAR0>
+convert tuple of tuples ` ( ( <STR0> ' , ) , ( <STR0> ' , ) , ( <STR0> ' , ) ) ` to tuple
+convert tuple of tuples ` ( ( <STR0> ' , ) , ( <STR0> ' , ) , ( <STR0> ' , ) ) ` to list in one line
+Python Pandas : How to replace a characters in a column of a dataframe ?
+unzip the list ` [ ( 'a ' , 1 ) , ( 'b ' , 2 ) , ( 'c ' , 3 ) , ( 'd ' , 4 ) ] `
+unzip the list ` [ ( 'a ' , 1 ) , ( 'b ' , 2 ) , ( 'c ' , 3 ) , ( 'd ' , 4 ) ] `
+unzip list <VAR0>
+unzip list <VAR0> and return a generator
+unzip list ` [ ( 'a ' , 1 ) , ( 'b ' , 2 ) , ( 'c ' , 3 ) , ( 'd ' , 4 ) , ( 'e ' , ) ] `
+unzip list ` [ ( 'a ' , 1 ) , ( 'b ' , 2 ) , ( 'c ' , 3 ) , ( 'd ' , 4 ) , ( 'e ' , ) ] ` and fill empty results with None
+encode <VAR0> ( <STR1> ' ) ` to a JSON string
+Add key `` mynewkey '' to dictionary <VAR0> with value `` mynewvalue ''
+Add key 'a ' to dictionary <VAR0> with value 1
+Add key 'a ' to dictionary <VAR0> with value 1
+Add key 'a ' to dictionary <VAR0> with value 1
+find maximal value in matrix <VAR0>
+Round number <VAR0> to 2 precision after the decimal point
+extract ip address from an html string
+filter dataframe <VAR0> by values in column <VAR1> that appear more than once
+append each line in file <VAR0> into a list
+Get a list of integers <VAR0> from a file <VAR1>
+add color bar with image <VAR0> to plot <VAR1>
+count most frequent 100 words in column <STR0> ' of dataframe <VAR0>
+Python split a string using regex
+generate all 2-element subsets of tuple ` ( 1 , 2 , 3 ) `
+get a value of datetime.today ( ) in the UTC time zone
+Get a new list <VAR0> removing empty list from a list of lists <VAR1>
+Create <VAR0> to contain the lists from list <VAR1> excluding the empty lists from <VAR2>
+Django response with JSON <VAR0>
+get all text that is not enclosed within square brackets in string <VAR0>
+Use a regex to get all text in a string <VAR0> that is not surrounded by square brackets
+get whatever is between parentheses as a single match , and any char outside as an individual match in string ' ( zyx ) bc '
+match regex <STR0> ( ( .* ? ) \\ ) | ( \\w ) ' with string ' ( zyx ) bc '
+match multiple regex patterns with the alternation operator <VAR0> in a string ` ( zyx ) bc`
+formate each string cin list <VAR0> into pattern ' % { 0 } % '
+Open a background process <STR0> ' with arguments <STR0> '
+get list of values from dictionary <STR0> ' w.r.t . list of keys <STR0> '
+convert list ` [ ( <STR0> ' , <STR0> ' ) , ( <STR0> ' , 22 ) ] ` into a dictionary
+average each two columns of array <VAR0>
+double backslash escape all double quotes in string <VAR0>
+split a string into a list of words and whitespace
+plotting stacked barplots on a panda data frame
+reverse the keys and values in a dictionary <VAR0>
+finding the index of elements containing substring <STR0> ' and <STR0> ' in a list of strings <STR0> ' .
+check if object <VAR0> is a string
+check if object <VAR0> is a string
+check if object <VAR0> is a string
+check if object <VAR0> is a string
+check if <VAR0> is a string
+append list <VAR0> to <VAR1>
+append list <VAR0> to <VAR1>
+append list <VAR0> to <VAR1>
+append items in list <VAR0> to <VAR1>
+append a tuple of elements from list <VAR0> with indexes ' [ 0 ] [ 0 ] [ 0 ] [ 2 ] ' to list <VAR1>
+Initialize <VAR0> in flask config with <VAR1> `
+unpack a series of tuples in pandas into a DataFrame with column names <STR0> ' and <STR0> '
+find the index of an element <STR0> ' in a list <VAR0>
+rotate the xtick labels of matplotlib plot <VAR0> by <VAR1> degrees to make long labels readable
+remove symbols from a string <VAR0>
+Get the current directory of a script
+Find octal characters matches from a string <VAR0> using regex
+split string <VAR0> based on occurrences of regex pattern ' [ ] ( ? = [ A-Z ] +\\b ) '
+Split string <VAR0> at every space followed by an upper-case letter
+send multipart encoded file <VAR0> to url <VAR1> with headers <VAR2> and metadata <VAR3>
+write bytes <VAR0> to a file <VAR1> in python 3
+get a list from a list <VAR0> with values mapped into a dictionary <VAR1>
+find duplicate names in column <STR0> ' of the dataframe <VAR0>
+truncate float 1.923328437452 to 3 decimal places
+sort list <VAR0> in descending order based on the date value in second element of each list in list <VAR1>
+place the radial ticks in plot <VAR0> at 135 degrees
+check if path <VAR0> is an absolute path
+get number of keys in dictionary <VAR0>
+count the number of keys in dictionary <VAR0>
+pandas dataframe get first row of each group by <STR0> '
+split a list in first column into multiple columns keeping other columns as well in pandas data frame
+extract attributes <STR0> '' js/ ( [ ^ '' ] *\\bjquery\\b [ ^ '' ] * ) '' ' from string <VAR0>
+Sum integers contained in strings in list ` [ '' , <STR0> ' , '' , '' , <STR0> ' ] `
+Call a subprocess with arguments `c : \\Program Files\\VMware\\VMware Server\\vmware-cmd.bat` that may contain spaces
+reverse a priority queue <VAR0> in python without using classes
+make a barplot of data in column <VAR0> of dataframe <VAR1> colour-coded according to list <VAR2>
+find all matches of regex pattern ' ( [ a-fA-F\\d ] { 32 } ) ' in string <VAR0>
+Get the length of list <VAR0>
+Getting the length of array <VAR0>
+Getting the length of array <VAR0>
+Getting the length of <VAR0>
+Getting the length of <VAR0>
+remove escape character from string `` \\a ''
+replace each 'a ' with 'b ' and each 'b ' with 'a ' in the string <STR0> ' in a single pass .
+remove directory tree <STR0> '
+create a new column <VAR0> in pandas data frame <VAR1> based on the values in column <VAR2>
+reverse sort Counter <VAR0> by values
+reverse sort counter <VAR0> by value
+append a numpy array 'b ' to a numpy array 'a '
+numpy concatenate two arrays <VAR0> and <VAR1> along the first axis
+numpy concatenate two arrays <VAR0> and <VAR1> along the second axis
+numpy concatenate two arrays <VAR0> and <VAR1> along the first axis
+numpy concatenate two arrays <VAR0> and <VAR1> along the first axis
+fetch address information for host <STR0> ' ion port 80
+add a column <STR0> ' with value <STR0> ' to dataframe <VAR0>
+return a 401 unauthorized in django
+Flask set folder <STR0> ' as the default template folder
+How do I INSERT INTO t1 ( SELECT * FROM t2 ) in SQLAlchemy ?
+sort a list of lists <STR0> ' such that third row comes first
+Sorting a list of lists in Python
+Sorting a list of lists in Python
+set font <VAR0> to display non-ascii characters in matplotlib
+Convert DateTime column <STR0> ' of pandas dataframe <STR0> ' to ordinal
+get html source of Selenium WebElement <VAR0>
+Get the integer location of a key <VAR0> in a pandas data frame
+open a <STR0> ' terminal from python script and run <STR0> apt-get update ' command .
+add an item with key <STR0> ' and value 1 to an dictionary <VAR0>
+declare an array
+Insert item <VAR0> to a list <VAR1>
+add an entry <STR0> ' at the beginning of list <VAR0>
+convert a hex-string representation to actual bytes
+select the last column of dataframe <VAR0>
+get the first value from dataframe <VAR0> where column <STR1> ' is equal to 'C '
+converting two lists ` [ 1 , 2 , 3 ] ` and ` [ 4 , 5 , 6 ] ` into a matrix
+get the type of <VAR0>
+determine the type of variable <VAR0>
+determine the type of variable <VAR0>
+determine the type of variable <VAR0>
+determine the type of variable <VAR0>
+get the type of variable <VAR0>
+get the 5th item of a generator
+Print a string <VAR0> with string format
+join a list of strings <VAR0> using a space ' '
+create list <VAR0> containing two empty lists
+read a file 'C : /name/MyDocuments/numbers ' into a list <VAR0>
+delete all occurrences of character 'i ' in string <STR0> is icy '
+delete all instances of a character 'i ' in a string <STR0> is icy '
+delete all characters `` i '' in string `` it is icy ''
+How to delete all instances of a character in a string in python ?
+Drop rows of pandas dataframe <VAR0> having NaN in column at index `` 1 ''
+get elements from list <VAR0> , that have a field <VAR1> value 30
+converting list of strings <VAR0> to list of integer <VAR1>
+convert list of string numbers into list of integers
+print `` . '' without newline
+round off the float that is the product of <VAR0> * 100` and convert it to an int
+Find all files in directory `` /mydir '' with extension `` .txt ''
+Find all files in directory `` /mydir '' with extension `` .txt ''
+Find all files in directory `` /mydir '' with extension `` .txt ''
+plot dataframe <VAR0> without a legend
+loop through the IP address range `` 192.168.x.x ''
+loop through the IP address range `` 192.168.x.x ''
+loop through the IP address range `` 192.168.x.x ''
+Sum the corresponding decimal values for binary values of each boolean element in list <VAR0>
+write multiple strings <VAR0> , <VAR1> and <VAR2> in one line in a file <VAR3>
+Convert list of lists <VAR0> into a flat list
+Print new line character as <VAR0> in a string <VAR1>
+remove last comma character ' , ' in string <VAR0>
+calculate the mean of each element in array <VAR0> with the element previous to it
+get an array of the mean of each two consecutive values in numpy array <VAR0>
+load data containing <VAR0> from file <VAR1> into numpy array <VAR2>
+reverse sort list of dicts <VAR0> by value for key <VAR1>
+Sort a list of dictionary <VAR0> based on key <VAR1> in descending order
+get rows of dataframe <VAR0> that match regex ' ( Hel|Just ) '
+find the string in <VAR0> between two special characters `` [ `` and `` ] ''
+How to create a list of date string in <STR0> ' format with Python Pandas ?
+count number of times string <STR0> ' occurred in string <STR0> big brown fox is brown '
+decode json string <VAR0> to python dict
+download the file from url <VAR0> and save it under file <VAR1>
+split string <VAR0> by space
+split string <VAR0> by `` , ''
+Split string <VAR0> into a list by whitespace
+replace dot characters ' . ' associated with ascii letters in list <VAR0> with space ' '
+sort list <VAR0> based on second index of each string <VAR1>
+call multiple bash function ‘ vasp ’ and ‘ tee tee_output ’ using ‘ | ’
+eliminate all strings from list <VAR0>
+get all the elements except strings from the list <STR0> ' .
+Sort a list of dictionaries <VAR0> by the value of the dictionary key <VAR1>
+sort a list of dictionaries <VAR0> by values in key <VAR1> in descending order
+How do I sort a list of dictionaries by values of the dictionary in Python ?
+How do I sort a list of dictionaries by values of the dictionary in Python ?
+How to sort a Dataframe by the ocurrences in a column in Python ( pandas )
+join together with `` , '' elements inside a list indexed with <STR0> ' within a dictionary <VAR0>
+concatenate array of strings ` [ 'A ' , 'B ' , 'C ' , 'D ' ] ` into a string
+get json data from restful service <STR0> '
+Remove all strings from a list a strings <VAR0> where the values starts with ` @ $ \t` or ` # `
+django filter by hour
+sort a list of dictionary <VAR0> first by key <VAR1> and then by <VAR2>
+convert datetime object ` ( 1970 , 1 , 1 ) ` to seconds
+insert <VAR0> before the file extension in <VAR1> or replace <VAR2> with <VAR3> if it precedes the extension .
+reload a module <VAR0>
+Convert integer <VAR0> into an unassigned integer
+convert int values in list <VAR0> to float
+write dataframe <VAR0> , excluding index , to a csv file
+convert a urllib unquoted string <VAR0> to a json data <VAR1>
+Create a list containing all ascii characters as its elements
+write <VAR0> to a binary file <VAR1>
+python regex - check for a capital letter with a following lowercase in string <VAR0>
+get the last key of dictionary <VAR0>
+write line `` hi there '' to file <VAR0>
+write line `` hi there '' to file <VAR0>
+write line `` Hello '' to file <VAR0>
+convert unicode string <VAR0> to ascii
+Django get maximum value associated with field <STR0> ' in model <VAR0>
+Find all numbers and dots from a string <VAR0> using regex
+python regex to find all numbers and dots from <STR0> '
+execute script <STR0> ' using <STR0> ' shell
+Sort a list of tuples <VAR0> by third item in the tuple
+get a list of all keys in Cassandra database <VAR0> with pycassa
+create a datetime with the current date & time
+get the index of an integer <VAR0> from a list <VAR1> if the list also contains boolean items
+subtract 13 from every number in a list <VAR0>
+choose a random file from the directory contents of the C drive , `C : \\`
+get the highest element in absolute value in a numpy matrix <VAR0>
+Get all urls within text <VAR0>
+match urls whose domain does n't start with <VAR0> from string <VAR1> using regex
+split a string <VAR0> considering the spaces ' '
+open file <VAR0> with mode 'r '
+sum elements at the same index in list <VAR0>
+add a new axis to array <VAR0>

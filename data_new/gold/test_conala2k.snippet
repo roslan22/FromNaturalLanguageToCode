@@ -1,0 +1,500 @@
+os . kill ( os . getpid ( ) , signal . SIGUSR1 ) #NEWLINE#
+bytes . fromhex ( '4a4b4c' ) . decode ( 'utf-8' ) #NEWLINE#
+all ( x == myList [ 0 ] for x in myList ) #NEWLINE#
+print ( '%*s#SPACE#:#SPACE#%*s' % ( 20 , 'Python' , 20 , 'Very#SPACE#Good' ) ) #NEWLINE#
+d . decode ( 'cp1251' ) . encode ( 'utf8' ) #NEWLINE#
+res = { k : v for k , v in list ( kwargs . items ( ) ) if v is not None } #NEWLINE#
+res = dict ( ( k , v ) for k , v in kwargs . items ( ) if v is not None ) #NEWLINE#
+subprocess . check_output ( 'ps#SPACE#-ef#SPACE#|#SPACE#grep#SPACE#something#SPACE#|#SPACE#wc#SPACE#-l' , shell = True ) #NEWLINE#
+"""""" . join ( [ 'a' , 'b' , 'c' ] ) #NEWLINE#
+pd . Series ( list ( set ( s1 ) . intersection ( set ( s2 ) ) ) ) #NEWLINE#
+client . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n' ) #NEWLINE#
+then = datetime . datetime . strptime ( when , '%Y-%m-%d' ) . date ( ) #NEWLINE#
+inputString . split ( '\n' ) #NEWLINE#
+'#SPACE#a#SPACE#\n#SPACE#b#SPACE#\r\n#SPACE#c#SPACE#' . split ( '\n' ) #NEWLINE#
+""":""" . join ( str ( x ) for x in b ) #NEWLINE#
+Entry . objects . filter ( ) [ : 1 ] . get ( ) #NEWLINE#
+a . sum ( axis = 1 ) #NEWLINE#
+warnings . simplefilter ( 'always' ) #NEWLINE#
+print ( '#SPACE#' . join ( map ( str , l ) ) ) #NEWLINE#
+subprocess . call ( [ 'python.exe' , 'hello.py' , 'htmlfilename.htm' ] ) #NEWLINE#
+time . strptime ( '30/03/09#SPACE#16:31:32.123' , '%d/%m/%y#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+my_float = float ( my_string . replace ( ',' , '' ) ) #NEWLINE#
+float ( '123,456.908' . replace ( ',' , '' ) ) #NEWLINE#
+sys . path . append ( '/path/to/whatever' ) #NEWLINE#
+re . split ( '(\\W+)' , 'Words,#SPACE#words,#SPACE#words.' ) #NEWLINE#
+file = open ( 'Output.txt' , 'a' ) #NEWLINE#
+urllib . request . urlretrieve ( 'http://www.example.com/songs/mp3.mp3' , 'mp3.mp3' ) #NEWLINE#
+u = urllib . request . urlopen ( url ) #NEWLINE# f = open ( file_name , 'wb' ) #NEWLINE# meta = u . info ( ) #NEWLINE# file_size = int ( meta . getheaders ( 'Content-Length' ) [ 0 ] ) #NEWLINE# print ( 'Downloading:#SPACE#%s#SPACE#Bytes:#SPACE#%s' % ( file_name , file_size ) ) #NEWLINE# file_size_dl = 0 #NEWLINE# block_sz = 8192 #NEWLINE# while True : #NEWLINE# #INDENT# buffer = u . read ( block_sz ) #NEWLINE# #INDENT# if not buffer : #NEWLINE# #INDENT# #INDENT# break #NEWLINE# #INDENT# file_size_dl += len ( buffer ) #NEWLINE# #INDENT# f . write ( buffer ) #NEWLINE# #INDENT# status = '%10d#SPACE##SPACE#[%3.2f%%]' % ( file_size_dl , file_size_dl * 100.0 / #NEWLINE# file_size ) #NEWLINE# #INDENT# status = status + chr ( 8 ) * ( len ( status ) + 1 ) #NEWLINE# #INDENT# print ( status , end = '#SPACE#' ) #NEWLINE# f . close ( ) #NEWLINE#
+response = urllib . request . urlopen ( 'http://www.example.com/' ) #NEWLINE# html = response . read ( ) #NEWLINE#
+r = requests . get ( url ) #NEWLINE#
+response = requests . get ( url , stream = True ) #NEWLINE# with open ( '10MB' , 'wb' ) as handle : #NEWLINE# #INDENT# for data in tqdm ( response . iter_content ( ) ) : #NEWLINE# #INDENT# #INDENT# handle . write ( data ) #NEWLINE#
+parser . add_argument ( '--version' , action = 'version' , version = '%(prog)s#SPACE#2.0' ) #NEWLINE#
+{ i : d [ i ] for i in d if i != 'c' } #NEWLINE#
+pd . merge ( split_df , csv_df , on = [ 'key' ] , suffixes = ( '_left' , '_right' ) ) #NEWLINE#
+s . split ( '#SPACE#' , 4 ) #NEWLINE#
+input ( 'Enter#SPACE#your#SPACE#input:' ) #NEWLINE#
+app . run ( debug = True ) #NEWLINE#
+pickle . dump ( mylist , open ( 'save.txt' , 'wb' ) ) #NEWLINE#
+scipy . tensordot ( P , T , axes = [ 1 , 1 ] ) . swapaxes ( 0 , 1 ) #NEWLINE#
+numpy . zeros ( ( 3 , 3 , 3 ) ) #NEWLINE#
+"""#SPACE#""" . join ( content . split ( '#SPACE#' ) [ : - 1 ] ) #NEWLINE#
+x = np . asarray ( x ) . reshape ( 1 , - 1 ) [ ( 0 ) , : ] #NEWLINE#
+sum ( sum ( i ) if isinstance ( i , list ) else i for i in L ) #NEWLINE#
+struct . unpack ( '!f' , '470FC614' . decode ( 'hex' ) ) [ 0 ] #NEWLINE#
+my_dict . update ( ( x , y * 2 ) for x , y in list ( my_dict . items ( ) ) ) #NEWLINE#
+subprocess . call ( 'sleep.sh' , shell = True ) #NEWLINE#
+""",""" . join ( l ) #NEWLINE#
+myList = ',' . join ( map ( str , myList ) ) #NEWLINE#
+list ( reversed ( list ( range ( 10 ) ) ) ) #NEWLINE#
+print ( 'lamp,#SPACE#bag,#SPACE#mirror' . replace ( 'bag,' , '' ) ) #NEWLINE#
+""".""" . join ( s . split ( '.' ) [ : : - 1 ] ) #NEWLINE#
+datetime . datetime . fromtimestamp ( s ) . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+time . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' , time . gmtime ( 1236472051807 / 1000.0 ) ) #NEWLINE#
+( datetime . datetime . now ( ) - datetime . timedelta ( days = 7 ) ) . date ( ) #NEWLINE#
+print ( sum ( row [ column ] for row in data ) ) #NEWLINE#
+[ sum ( row [ i ] for row in array ) for i in range ( len ( array [ 0 ] ) ) ] #NEWLINE#
+base64 . b64encode ( bytes ( 'your#SPACE#string' , 'utf-8' ) ) #NEWLINE#
+dict ( ( k , [ d [ k ] for d in dicts ] ) for k in dicts [ 0 ] ) #NEWLINE#
+{ k : [ d [ k ] for d in dicts ] for k in dicts [ 0 ] } #NEWLINE#
+request . args [ 'myParam' ] #NEWLINE#
+[ k for k , v in list ( Counter ( mylist ) . items ( ) ) if v > 1 ] #NEWLINE#
+sys . path . insert ( 1 , os . path . join ( os . path . dirname ( __file__ ) , 'apps' ) ) #NEWLINE#
+sys . path . append ( os . path . join ( os . path . dirname ( __file__ ) , 'subdir' ) ) #NEWLINE#
+db . execute ( "INSERT#SPACE#INTO#SPACE#present#SPACE#VALUES('test2',#SPACE#?,#SPACE#10)" , ( None , ) ) #NEWLINE#
+[ image for menuitem in list_of_menuitems for image in menuitem ] #NEWLINE#
+a . extend ( b ) #NEWLINE#
+a . extend ( list ( b ) ) #NEWLINE#
+np . savetxt ( 'c:\\data\\np.txt' , df . values , fmt = '%d' ) #NEWLINE#
+df . to_csv ( 'c:\\data\\pandas.txt' , header = None , index = None , sep = '#SPACE#' , mode = 'a' ) #NEWLINE#
+print ( x . rpartition ( '-' ) [ 0 ] ) #NEWLINE#
+print ( x . rsplit ( '-' , 1 ) [ 0 ] ) #NEWLINE#
+ftp . storlines ( 'STOR#SPACE#' + filename , open ( filename , 'r' ) ) #NEWLINE#
+browser . execute_script ( "document.getElementById('XYZ').value+='1'" ) #NEWLINE#
+np . maximum ( [ 2 , 3 , 4 ] , [ 1 , 5 , 2 ] ) #NEWLINE#
+print ( l [ 3 : ] + l [ : 3 ] ) #NEWLINE#
+for fn in os . listdir ( '.' ) : #NEWLINE# #INDENT# if os . path . isfile ( fn ) : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+for root , dirs , filenames in os . walk ( source ) : #NEWLINE# #INDENT# for f in filenames : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+[ int ( 1000 * random . random ( ) ) for i in range ( 10000 ) ] #NEWLINE#
+datetime . datetime . now ( ) . strftime ( '%H:%M:%S.%f' ) #NEWLINE#
+db . GqlQuery ( 'SELECT#SPACE#*#SPACE#FROM#SPACE#Schedule#SPACE#WHERE#SPACE#station#SPACE#=#SPACE#$1' , foo . key ( ) ) #NEWLINE#
+df . b . str . contains ( '^f' ) #NEWLINE#
+print ( '\n' . join ( '\t' . join ( str ( col ) for col in row ) for row in tab ) ) #NEWLINE#
+df . set_index ( list ( 'BC' ) ) . drop ( tuples , errors = 'ignore' ) . reset_index ( ) #NEWLINE#
+"""({:d}#SPACE#goals,#SPACE#${:d})""" . format ( self . goals , self . penalties ) #NEWLINE#
+"""({}#SPACE#goals,#SPACE#${})""" . format ( self . goals , self . penalties ) #NEWLINE#
+"""({0.goals}#SPACE#goals,#SPACE#${0.penalties})""" . format ( self ) #NEWLINE#
+[ int ( '' . join ( str ( d ) for d in x ) ) for x in L ] #NEWLINE#
+[ '' . join ( str ( d ) for d in x ) for x in L ] #NEWLINE#
+L = [ int ( '' . join ( [ str ( y ) for y in x ] ) ) for x in L ] #NEWLINE#
+myfile . write ( '\n' . join ( lines ) ) #NEWLINE#
+[ x for x in [ 'AAT' , 'XAC' , 'ANT' , 'TTA' ] if 'X' not in x and 'N' not in x ] #NEWLINE#
+text = re . sub ( '\\b(\\w+)(#SPACE#\\1\\b)+' , '\\1' , text ) #NEWLINE#
+df . astype ( bool ) . sum ( axis = 1 ) #NEWLINE#
+re . search ( '(?<!Distillr)\\\\AcroTray\\.exe' , 'C:\\SomeDir\\AcroTray.exe' ) #NEWLINE#
+"""QH#SPACE#QD#SPACE#JC#SPACE#KD#SPACE#JS""" . split ( ) #NEWLINE#
+print ( re . search ( '>.*<' , line ) . group ( 0 ) ) #NEWLINE#
+open ( filename , 'w' ) . close ( ) #NEWLINE#
+datetime . datetime . strptime ( string_date , '%Y-%m-%d#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+[ index for index , item in enumerate ( thelist ) if item [ 0 ] == '332' ] #NEWLINE#
+re . sub ( '[^\\sa-zA-Z0-9]' , '' , text ) . lower ( ) . strip ( ) #NEWLINE#
+re . sub ( '(?!\\s)[\\W_]' , '' , text ) . lower ( ) . strip ( ) #NEWLINE#
+plt . plot ( x , y , label = 'H₂O' ) #NEWLINE#
+plt . plot ( x , y , label = '$H_2O$' ) #NEWLINE#
+[ x for x in mylist if len ( x ) == 3 ] #NEWLINE#
+lst = [ Object ( ) for _ in range ( 100 ) ] #NEWLINE#
+lst = [ Object ( ) for i in range ( 100 ) ] #NEWLINE#
+self . driver . find_element_by_css_selector ( '.someclass#SPACE#a' ) . get_attribute ( 'href' ) #NEWLINE#
+df1 . merge ( df2 , on = 'Date_Time' ) #NEWLINE#
+'first#SPACE#string#SPACE#is:#SPACE#%s,#SPACE#second#SPACE#one#SPACE#is:#SPACE#%s' % ( str1 , 'geo.tif' ) #NEWLINE#
+[ x . strip ( ) for x in '2.MATCHES#SPACE#$$TEXT$$#SPACE#STRING' . split ( '$$TEXT$$' ) ] #NEWLINE#
+if not os . path . exists ( directory ) : #NEWLINE# #INDENT# os . makedirs ( directory ) #NEWLINE#
+try : #NEWLINE# #INDENT# os . makedirs ( path ) #NEWLINE# except OSError : #NEWLINE# #INDENT# if not os . path . isdir ( path ) : #NEWLINE# #INDENT# #INDENT# raise #NEWLINE#
+distutils . dir_util . mkpath ( path ) #NEWLINE#
+try : #NEWLINE# #INDENT# os . makedirs ( path ) #NEWLINE# except OSError as exception : #NEWLINE# #INDENT# if exception . errno != errno . EEXIST : #NEWLINE# #INDENT# #INDENT# raise #NEWLINE#
+re . sub ( '\\bH3\\b' , 'H1' , text ) #NEWLINE#
+re . sub ( '\\D' , '' , 'aas30dsa20' ) #NEWLINE#
+"""""" . join ( [ x for x in 'aas30dsa20' if x . isdigit ( ) ] ) #NEWLINE#
+print ( soup . find ( 'name' ) . string ) #NEWLINE#
+records = dict ( ( record [ '_id' ] , record ) for record in cursor ) #NEWLINE#
+np . concatenate ( ( A , B ) ) #NEWLINE#
+np . vstack ( ( A , B ) ) #NEWLINE#
+os . stat ( filepath ) . st_size #NEWLINE#
+l . count ( 'a' ) #NEWLINE#
+Counter ( l ) #NEWLINE#
+[ [ x , l . count ( x ) ] for x in set ( l ) ] #NEWLINE#
+dict ( ( x , l . count ( x ) ) for x in set ( l ) ) #NEWLINE#
+l . count ( 'b' ) #NEWLINE#
+shutil . copy ( srcfile , dstdir ) #NEWLINE#
+max ( k for k , v in x . items ( ) if v != 0 ) #NEWLINE#
+( k for k , v in x . items ( ) if v != 0 ) #NEWLINE#
+max ( k for k , v in x . items ( ) if v != 0 ) #NEWLINE#
+file . seek ( 0 ) #NEWLINE#
+df [ 'c' ] = np . where ( df [ 'a' ] . isnull , df [ 'b' ] , df [ 'a' ] ) #NEWLINE#
+del d [ 'ele' ] #NEWLINE#
+MyModel . objects . update ( timestamp = F ( 'timestamp' ) + timedelta ( days = 36524.25 ) ) #NEWLINE#
+[ 'it' ] + [ 'was' ] + [ 'annoying' ] #NEWLINE#
+str ( int ( x ) + 1 ) . zfill ( len ( x ) ) #NEWLINE#
+all ( df . index [ : - 1 ] <= df . index [ 1 : ] ) #NEWLINE#
+list ( t ) #NEWLINE#
+tuple ( l ) #NEWLINE#
+level1 = map ( list , level1 ) #NEWLINE#
+pprint . pprint ( dataobject , logFile ) #NEWLINE#
+df . loc [ df [ 'BoolCol' ] ] #NEWLINE#
+df . iloc [ np . flatnonzero ( df [ 'BoolCol' ] ) ] #NEWLINE#
+df [ df [ 'BoolCol' ] == True ] . index . tolist ( ) #NEWLINE#
+df [ df [ 'BoolCol' ] ] . index . tolist ( ) #NEWLINE#
+os . chdir ( owd ) #NEWLINE#
+c . execute ( "INSERT#SPACE#INTO#SPACE#test#SPACE#VALUES#SPACE#(?,#SPACE#'bar')" , ( testfield , ) ) #NEWLINE#
+"""\\x89\\n""" . decode ( 'string_escape' ) #NEWLINE#
+raw_string . decode ( 'string_escape' ) #NEWLINE#
+raw_byte_string . decode ( 'unicode_escape' ) #NEWLINE#
+[ m . group ( 0 ) for m in re . finditer ( '(\\d)\\1*' , s ) ] #NEWLINE#
+plt . scatter ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , facecolors = 'none' ) #NEWLINE#
+plt . plot ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , 'o' , mfc = 'none' ) #NEWLINE#
+soup . find ( 'div' , id = 'main-content' ) . decompose ( ) #NEWLINE#
+df [ df [ 'ids' ] . str . contains ( 'ball' ) ] #NEWLINE#
+df . reset_index ( level = 0 , inplace = True ) #NEWLINE#
+df [ 'index1' ] = df . index #NEWLINE#
+df . reset_index ( level = [ 'tick' , 'obs' ] ) #NEWLINE#
+[ x [ : : - 1 ] for x in b ] #NEWLINE#
+np . array ( [ zip ( x , y ) for x , y in zip ( a , b ) ] ) #NEWLINE#
+np . array ( zip ( a . ravel ( ) , b . ravel ( ) ) , dtype = 'i4,i4' ) . reshape ( a . shape ) #NEWLINE#
+""",""" . join ( [ str ( i ) for i in list_of_ints ] ) #NEWLINE#
+requests . post ( url , data = DATA , headers = HEADERS_DICT , auth = ( username , password ) ) #NEWLINE#
+"""abcd}def}""" . rfind ( '}' ) #NEWLINE#
+print ( [ item for item in [ 1 , 2 , 3 ] ] ) #NEWLINE#
+[ ( x [ 'x' ] , x [ 'y' ] ) for x in d ] #NEWLINE#
+print ( os . path . splitext ( os . path . basename ( 'hemanth.txt' ) ) [ 0 ] ) #NEWLINE#
+dict ( x [ i : i + 2 ] for i in range ( 0 , len ( x ) , 2 ) ) #NEWLINE#
+values = sum ( [ [ 'A' , 'B' , 'C' ] , [ 'D' , 'E' , 'F' ] , [ 'G' , 'H' , 'I' ] ] , [ ] ) #NEWLINE#
+df = df [ ( df [ 'closing_price' ] >= 99 ) & ( df [ 'closing_price' ] <= 101 ) ] #NEWLINE#
+df . replace ( { '\n' : '<br>' } , regex = True ) #NEWLINE#
+df . replace ( { '\n' : '<br>' } , regex = True ) #NEWLINE#
+[ ( x + y ) for x , y in zip ( word , word [ 1 : ] ) ] #NEWLINE#
+list ( map ( lambda x , y : x + y , word [ : - 1 ] , word [ 1 : ] ) ) #NEWLINE#
+print ( re . findall ( '(https?://[^\\s]+)' , myString ) ) #NEWLINE#
+print ( re . search ( '(?P<url>https?://[^\\s]+)' , myString ) . group ( 'url' ) ) #NEWLINE#
+re . sub ( '[^A-Za-z0-9]+' , '' , mystring ) #NEWLINE#
+pd . date_range ( '2016-01-01' , freq = 'WOM-2FRI' , periods = 13 ) #NEWLINE#
+matrix = [ [ a , b ] , [ c , d ] , [ e , f ] ] #NEWLINE#
+mystring . replace ( '#SPACE#' , '_' ) #NEWLINE#
+os . path . abspath ( 'mydir/myfile.txt' ) #NEWLINE#
+"""#SPACE#""" . join ( my_string . split ( ) ) #NEWLINE#
+os . path . splitext ( filename ) [ 0 ] #NEWLINE#
+[ sum ( l [ : i ] ) for i , _ in enumerate ( l ) ] #NEWLINE#
+"""Docs/src/Scripts/temp""" . replace ( '/' , '/\x00/' ) . split ( '\x00' ) #NEWLINE#
+np . random . shuffle ( np . transpose ( r ) ) #NEWLINE#
+df [ 'D' ] = df [ 'B' ] #NEWLINE#
+list ( data [ 'A' ] [ 'B' ] . values ( ) ) [ 0 ] [ 'maindata' ] [ 0 ] [ 'Info' ] #NEWLINE#
+all ( predicate ( x ) for x in string ) #NEWLINE#
+os . statvfs ( '/' ) . f_files - os . statvfs ( '/' ) . f_ffree #NEWLINE#
+cursor . fetchone ( ) [ 0 ] #NEWLINE#
+user_list = [ int ( number ) for number in user_input . split ( ',' ) ] #NEWLINE#
+[ int ( s ) for s in user . split ( ',' ) ] #NEWLINE#
+sorted ( list , key = lambda x : ( x [ 0 ] , - x [ 1 ] ) ) #NEWLINE#
+ut . sort ( key = cmpfun , reverse = True ) #NEWLINE#
+ut . sort ( key = lambda x : x . count , reverse = True ) #NEWLINE#
+ut . sort ( key = lambda x : x . count , reverse = True ) #NEWLINE#
+driver . find_element_by_partial_link_text ( 'Send' ) . click ( ) #NEWLINE#
+driver . findElement ( By . linkText ( 'Send#SPACE#InMail' ) ) . click ( ) #NEWLINE#
+driver . find_element_by_link_text ( 'Send#SPACE#InMail' ) . click ( ) #NEWLINE#
+'ME' + str ( i ) #NEWLINE#
+df . sort_values ( [ 'System_num' , 'Dis' ] ) #NEWLINE#
+open ( 'outfile' , 'w' ) . write ( '#test#SPACE#firstline\n' + open ( 'infile' ) . read ( ) ) #NEWLINE#
+l . sort ( key = lambda t : len ( t [ 1 ] ) , reverse = True ) #NEWLINE#
+re . findall ( '\\b(\\w+)d\\b' , s ) #NEWLINE#
+bool ( re . search ( 'ba[rzd]' , 'foobarrrr' ) ) #NEWLINE#
+list ( set ( t ) ) #NEWLINE#
+list ( set ( source_list ) ) #NEWLINE#
+list ( OrderedDict . fromkeys ( 'abracadabra' ) ) #NEWLINE#
+numpy . array ( a ) . reshape ( - 1 ) . tolist ( ) #NEWLINE#
+numpy . array ( a ) [ 0 ] . tolist ( ) #NEWLINE#
+print ( soup . find ( text = 'Address:' ) . findNext ( 'td' ) . contents [ 0 ] ) #NEWLINE#
+"""#SPACE#""" . join ( [ ( '%d@%d' % t ) for t in l ] ) #NEWLINE#
+"""#SPACE#""" . join ( [ ( '%d@%d' % ( t [ 0 ] , t [ 1 ] ) ) for t in l ] ) #NEWLINE#
+driver . execute_script ( 'return#SPACE#document.documentElement.outerHTML;' ) #NEWLINE#
+[ i for i in teststr if re . search ( '\\d+[xX]' , i ) ] #NEWLINE#
+df [ 'A' ] [ ( df [ 'B' ] > 50 ) & ( df [ 'C' ] == 900 ) ] #NEWLINE#
+sorted ( o . items ( ) ) #NEWLINE#
+sorted ( d ) #NEWLINE#
+sorted ( d . items ( ) ) #NEWLINE#
+int ( '1' ) #NEWLINE#
+int ( ) #NEWLINE#
+T2 = [ map ( int , x ) for x in T1 ] #NEWLINE#
+subprocess . call ( [ './test.sh' ] ) #NEWLINE#
+subprocess . call ( [ 'notepad' ] ) #NEWLINE#
+[ val for pair in zip ( l1 , l2 ) for val in pair ] #NEWLINE#
+encoded = base64 . b64encode ( 'data#SPACE#to#SPACE#be#SPACE#encoded' ) #NEWLINE#
+encoded = 'data#SPACE#to#SPACE#be#SPACE#encoded' . encode ( 'ascii' ) #NEWLINE#
+lol = list ( csv . reader ( open ( 'text.txt' , 'rb' ) , delimiter = '\t' ) ) #NEWLINE#
+getattr ( my_object , my_str ) #NEWLINE#
+print ( dict ( zip ( LD [ 0 ] , zip ( * [ list ( d . values ( ) ) for d in LD ] ) ) ) ) #NEWLINE#
+sum ( [ pair [ 0 ] for pair in list_of_pairs ] ) #NEWLINE#
+d = ast . literal_eval ( "{'code1':1,'code2':1}" ) #NEWLINE#
+[ word for word in mystring . split ( ) if word . startswith ( '$' ) ] #NEWLINE#
+text = re . sub ( '^https?:\\/\\/.*[\\r\\n]*' , '' , text , flags = re . MULTILINE ) #NEWLINE#
+np . where ( np . in1d ( A , [ 1 , 3 , 4 ] ) . reshape ( A . shape ) , A , 0 ) #NEWLINE#
+np . mean ( a , axis = 1 ) #NEWLINE#
+subprocess . call ( [ '/usr/bin/Rscript' , '--vanilla' , '/pathto/MyrScript.r' ] ) #NEWLINE#
+subprocess . call ( '/usr/bin/Rscript#SPACE#--vanilla#SPACE#/pathto/MyrScript.r' , shell = True ) #NEWLINE#
+writer . writeheader ( ) #NEWLINE#
+df . fillna ( df . mean ( axis = 1 ) , axis = 1 ) #NEWLINE#
+time . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' , time . localtime ( 1347517370 ) ) #NEWLINE#
+super ( Derived , cls ) . do ( a ) #NEWLINE#
+a [ np . where ( ( a [ : , ( 0 ) ] == 0 ) * ( a [ : , ( 1 ) ] == 1 ) ) ] #NEWLINE#
+re . split ( '#SPACE#+' , 'hello#SPACE#world#SPACE#sample#SPACE#text' ) #NEWLINE#
+len ( max ( words , key = len ) ) #NEWLINE#
+result [ 0 ] [ 'from_user' ] #NEWLINE#
+[ line . split ( ) for line in open ( 'File.txt' ) ] #NEWLINE#
+res = dict ( ( v , k ) for k , v in a . items ( ) ) #NEWLINE#
+new_file = open ( 'path/to/FILE_NAME.ext' , 'w' ) #NEWLINE#
+df . groupby ( [ 'col1' , 'col2' ] ) [ 'col3' ] . nunique ( ) . reset_index ( ) #NEWLINE#
+any ( key . startswith ( 'EMP$$' ) for key in dict1 ) #NEWLINE#
+[ value for key , value in list ( dict1 . items ( ) ) if key . startswith ( 'EMP$$' ) ] #NEWLINE#
+pd . DataFrame ( { 'email' : sf . index , 'list' : sf . values } ) #NEWLINE#
+print ( '\t' . join ( map ( str , list ) ) ) #NEWLINE#
+print ( 'Ð¿Ñ\x80Ð¸' . encode ( 'raw_unicode_escape' ) ) #NEWLINE#
+"""SopetÃ³n""" . encode ( 'latin-1' ) . decode ( 'utf-8' ) #NEWLINE#
+image = image . resize ( ( x , y ) , Image . ANTIALIAS ) #NEWLINE#
+re . findall ( 'n(?<=[^n]n)n+(?=[^n])(?i)' , s ) #NEWLINE#
+print ( '{0:.0f}%' . format ( 1.0 / 3 * 100 ) ) #NEWLINE#
+mylist . sort ( key = lambda x : x [ 'title' ] ) #NEWLINE#
+l . sort ( key = lambda x : x [ 'title' ] ) #NEWLINE#
+l . sort ( key = lambda x : ( x [ 'title' ] , x [ 'title_url' ] , x [ 'id' ] ) ) #NEWLINE#
+heapq . nlargest ( 10 , range ( len ( l1 ) ) , key = lambda i : abs ( l1 [ i ] - l2 [ i ] ) ) #NEWLINE#
+soup . find_all ( 'span' , { 'class' : 'starGryB#SPACE#sp' } ) #NEWLINE#
+df . to_sql ( 'test' , engine , schema = 'a_schema' ) #NEWLINE#
+brackets = re . sub ( '[^(){}[\\]]' , '' , s ) #NEWLINE#
+list ( dict ( ( x [ 0 ] , x ) for x in L ) . values ( ) ) #NEWLINE#
+[ line . rstrip ( '\n' ) for line in file ] #NEWLINE#
+[ i for i , x in enumerate ( testlist ) if x == 1 ] #NEWLINE#
+[ i for i , x in enumerate ( testlist ) if x == 1 ] #NEWLINE#
+for i in [ i for i , x in enumerate ( testlist ) if x == 1 ] : #NEWLINE# #INDENT# pass #NEWLINE#
+for i in ( i for i , x in enumerate ( testlist ) if x == 1 ) : #NEWLINE# #INDENT# pass #NEWLINE#
+gen = ( i for i , x in enumerate ( testlist ) if x == 1 ) #NEWLINE# for i in gen : #NEWLINE# #INDENT# pass #NEWLINE#
+print ( testlist . index ( element ) ) #NEWLINE#
+try : #NEWLINE# #INDENT# print ( testlist . index ( element ) ) #NEWLINE# except ValueError : #NEWLINE# #INDENT# pass #NEWLINE#
+max ( lis , key = lambda item : item [ 1 ] ) [ 0 ] #NEWLINE#
+max ( lis , key = itemgetter ( 1 ) ) [ 0 ] #NEWLINE#
+time . sleep ( 1 ) #NEWLINE#
+""",#SPACE#""" . join ( '(' + ',#SPACE#' . join ( i ) + ')' for i in L ) #NEWLINE#
+b = models . CharField ( max_length = 7 , default = '0000000' , editable = False ) #NEWLINE#
+sorted ( list5 , lambda x : ( degree ( x ) , x ) ) #NEWLINE#
+sorted ( list5 , key = lambda vertex : ( degree ( vertex ) , vertex ) ) #NEWLINE#
+( n for n in [ 1 , 2 , 3 , 5 ] ) #NEWLINE#
+newlist = [ v for i , v in enumerate ( oldlist ) if i not in removelist ] #NEWLINE#
+f = open ( 'yourfile.txt' , 'w' ) #NEWLINE#
+getattr ( obj , 'attr' ) #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda a , b : a + b , ( ( 'aa' , ) , ( 'bb' , ) , ( 'cc' , ) ) ) #NEWLINE#
+map ( lambda a : a [ 0 ] , ( ( 'aa' , ) , ( 'bb' , ) , ( 'cc' , ) ) ) #NEWLINE#
+df [ 'range' ] . replace ( ',' , '-' , inplace = True ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) ] ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) ] ) #NEWLINE#
+result = [ a for a , b in original ] , [ b for a , b in original ] #NEWLINE#
+result = ( a for a , b in original ) , ( b for a , b in original ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) , ( 'e' , ) ] ) #NEWLINE#
+map ( None , * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) , ( 'e' , ) ] ) #NEWLINE#
+json . dumps ( Decimal ( '3.9' ) ) #NEWLINE#
+d [ 'mynewkey' ] = 'mynewvalue' #NEWLINE#
+data . update ( { 'a' : 1 } ) #NEWLINE#
+data . update ( dict ( a = 1 ) ) #NEWLINE#
+data . update ( a = 1 ) #NEWLINE#
+max ( [ max ( i ) for i in matrix ] ) #NEWLINE#
+answer = str ( round ( answer , 2 ) ) #NEWLINE#
+ip = re . findall ( '[0-9]+(?:\\.[0-9]+){3}' , s ) #NEWLINE#
+df . groupby ( 'A' ) . filter ( lambda x : len ( x ) > 1 ) #NEWLINE#
+[ x for x in myfile . splitlines ( ) if x != '' ] #NEWLINE#
+lst = map ( int , open ( 'filename.txt' ) . readlines ( ) ) #NEWLINE#
+plt . colorbar ( mappable = mappable , cax = ax3 ) #NEWLINE#
+Counter ( '#SPACE#' . join ( df [ 'text' ] ) . split ( ) ) . most_common ( 100 ) #NEWLINE#
+re . findall ( '(.+?):(.+?)\\b#SPACE#?' , text ) #NEWLINE#
+list ( itertools . combinations ( ( 1 , 2 , 3 ) , 2 ) ) #NEWLINE#
+datetime . now ( pytz . utc ) #NEWLINE#
+list2 = [ x for x in list1 if x != [ ] ] #NEWLINE#
+list2 = [ x for x in list1 if x ] #NEWLINE#
+return HttpResponse ( data , mimetype = 'application/json' ) #NEWLINE#
+re . findall ( '(.*?)\\[.*?\\]' , example_str ) #NEWLINE#
+re . findall ( '(.*?)(?:\\[.*?\\]|$)' , example_str ) #NEWLINE#
+re . findall ( '\\(.+?\\)|\\w' , '(zyx)bc' ) #NEWLINE#
+re . findall ( '\\((.*?)\\)|(\\w)' , '(zyx)bc' ) #NEWLINE#
+re . findall ( '\\(.*?\\)|\\w' , '(zyx)bc' ) #NEWLINE#
+elements = [ '%{0}%' . format ( element ) for element in elements ] #NEWLINE#
+subprocess . Popen ( [ 'background-process' , 'arguments' ] ) #NEWLINE#
+[ mydict [ x ] for x in mykeys ] #NEWLINE#
+dict ( [ ( 'Name' , 'Joe' ) , ( 'Age' , 22 ) ] ) #NEWLINE#
+data . reshape ( - 1 , j ) . mean ( axis = 1 ) . reshape ( data . shape [ 0 ] , - 1 ) #NEWLINE#
+print ( s . encode ( 'unicode-escape' ) . replace ( '"' , '\\"' ) ) #NEWLINE#
+re . split ( '(\\W+)' , s ) #NEWLINE#
+df . plot ( kind = 'barh' , stacked = True ) #NEWLINE#
+{ i [ 1 ] : i [ 0 ] for i in list ( myDictionary . items ( ) ) } #NEWLINE#
+[ i for i , j in enumerate ( myList ) if 'how' in j . lower ( ) or 'what' in j . lower ( ) ] #NEWLINE#
+isinstance ( obj , str ) #NEWLINE#
+isinstance ( o , str ) #NEWLINE#
+type ( o ) is str #NEWLINE#
+isinstance ( o , str ) #NEWLINE#
+isinstance ( obj_to_test , str ) #NEWLINE#
+list2 . extend ( list1 ) #NEWLINE#
+list1 . extend ( mylog ) #NEWLINE#
+c . extend ( a ) #NEWLINE#
+for line in mylog : #NEWLINE# #INDENT# list1 . append ( line ) #NEWLINE#
+b . append ( ( a [ 0 ] [ 0 ] , a [ 0 ] [ 2 ] ) ) #NEWLINE#
+app . config [ 'SECRET_KEY' ] = 'Your_secret_string' #NEWLINE#
+pd . DataFrame ( out . tolist ( ) , columns = [ 'out-1' , 'out-2' ] , index = out . index ) #NEWLINE#
+[ x for x in range ( len ( stocks_list ) ) if stocks_list [ x ] == 'MSFT' ] #NEWLINE#
+ax . set_xticklabels ( labels , rotation = 45 ) #NEWLINE#
+re . sub ( '[^\\w]' , '#SPACE#' , s ) #NEWLINE#
+os . path . basename ( os . path . dirname ( os . path . realpath ( __file__ ) ) ) #NEWLINE#
+print ( re . findall ( "'\\\\[0-7]{1,3}'" , str ) ) #NEWLINE#
+re . split ( '[#SPACE#](?=[A-Z]+\\b)' , input ) #NEWLINE#
+re . split ( '[#SPACE#](?=[A-Z])' , input ) #NEWLINE#
+r = requests . post ( url , files = files , headers = headers , data = data ) #NEWLINE#
+open ( 'filename' , 'wb' ) . write ( bytes_ ) #NEWLINE#
+[ dct [ k ] for k in lst ] #NEWLINE#
+x . set_index ( 'name' ) . index . get_duplicates ( ) #NEWLINE#
+round ( 1.923328437452 , 3 ) #NEWLINE#
+sorted ( li , key = lambda x : datetime . strptime ( x [ 1 ] , '%d/%m/%Y' ) , reverse = True ) #NEWLINE#
+ax . set_rlabel_position ( 135 ) #NEWLINE#
+os . path . isabs ( my_path ) #NEWLINE#
+len ( list ( yourdict . keys ( ) ) ) #NEWLINE#
+len ( set ( open ( yourdictfile ) . read ( ) . split ( ) ) ) #NEWLINE#
+df . groupby ( 'id' ) . first ( ) #NEWLINE#
+pd . concat ( [ df [ 0 ] . apply ( pd . Series ) , df [ 1 ] ] , axis = 1 ) #NEWLINE#
+re . findall ( 'src="js/([^"]*\\bjquery\\b[^"]*)"' , data ) #NEWLINE#
+sum ( int ( float ( item ) ) for item in [ _f for _f in [ '' , '3.4' , '' , '' , '1.0' ] if #NEWLINE# _f ] ) #NEWLINE#
+subprocess . Popen ( [ 'c:\\Program#SPACE#Files\\VMware\\VMware#SPACE#Server\\vmware-cmd.bat' ] ) #NEWLINE#
+q . put ( ( - n , n ) ) #NEWLINE#
+df [ 'group' ] . plot ( kind = 'bar' , color = [ 'r' , 'g' , 'b' , 'r' , 'g' , 'b' , 'r' ] ) #NEWLINE#
+re . findall ( '([a-fA-F\\d]{32})' , data ) #NEWLINE#
+len ( my_list ) #NEWLINE#
+len ( l ) #NEWLINE#
+len ( s ) #NEWLINE#
+len ( my_tuple ) #NEWLINE#
+len ( my_string ) #NEWLINE#
+"""\\a""" . decode ( 'string_escape' ) #NEWLINE#
+"""obama""" . replace ( 'a' , '%temp%' ) . replace ( 'b' , 'a' ) . replace ( '%temp%' , 'b' ) #NEWLINE#
+shutil . rmtree ( '/folder_name' ) #NEWLINE#
+data [ 'weekday' ] = data [ 'my_dt' ] . apply ( lambda x : x . weekday ( ) ) #NEWLINE#
+sorted ( x , key = x . get , reverse = True ) #NEWLINE#
+sorted ( list ( x . items ( ) ) , key = lambda pair : pair [ 1 ] , reverse = True ) #NEWLINE#
+np . vstack ( ( a , b ) ) #NEWLINE#
+print ( concatenate ( ( a , b ) , axis = 0 ) ) #NEWLINE#
+print ( concatenate ( ( a , b ) , axis = 1 ) ) #NEWLINE#
+c = np . r_ [ a [ ( None ) , : ] , b [ ( None ) , : ] ] #NEWLINE#
+np . array ( ( a , b ) ) #NEWLINE#
+print ( socket . getaddrinfo ( 'google.com' , 80 ) ) #NEWLINE#
+df . xs ( 'sat' , level = 'day' , drop_level = False ) #NEWLINE#
+return HttpResponse ( 'Unauthorized' , status = 401 ) #NEWLINE#
+Flask ( __name__ , template_folder = 'wherever' ) #NEWLINE#
+session . execute ( 'INSERT#SPACE#INTO#SPACE#t1#SPACE#(SELECT#SPACE#*#SPACE#FROM#SPACE#t2)' ) #NEWLINE#
+c2 . sort ( key = lambda row : row [ 2 ] ) #NEWLINE#
+c2 . sort ( key = lambda row : ( row [ 2 ] , row [ 1 ] , row [ 0 ] ) ) #NEWLINE#
+c2 . sort ( key = lambda row : ( row [ 2 ] , row [ 1 ] ) ) #NEWLINE#
+matplotlib . rc ( 'font' , ** { 'sans-serif' : 'Arial' , 'family' : 'sans-serif' } ) #NEWLINE#
+df [ 'date' ] . apply ( lambda x : x . toordinal ( ) ) #NEWLINE#
+element . get_attribute ( 'innerHTML' ) #NEWLINE#
+df . index . get_loc ( 'bob' ) #NEWLINE#
+os . system ( 'gnome-terminal#SPACE#-e#SPACE#\'bash#SPACE#-c#SPACE#"sudo#SPACE#apt-get#SPACE#update;#SPACE#exec#SPACE#bash"\'' ) #NEWLINE#
+my_dict . update ( { 'third_key' : 1 } ) #NEWLINE#
+my_list = [ ] #NEWLINE#
+my_list . append ( 12 ) #NEWLINE#
+myList . insert ( 0 , 'wuggah' ) #NEWLINE#
+"""\\xF3\\xBE\\x80\\x80""" . replace ( '\\x' , '' ) . decode ( 'hex' ) #NEWLINE#
+df [ df . columns [ - 1 ] ] #NEWLINE#
+df . loc [ df [ 'Letters' ] == 'C' , 'Letters' ] . values [ 0 ] #NEWLINE#
+np . column_stack ( ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) #NEWLINE#
+type ( i ) #NEWLINE#
+type ( v ) #NEWLINE#
+type ( v ) #NEWLINE#
+type ( v ) #NEWLINE#
+type ( v ) #NEWLINE#
+print ( type ( variable_name ) ) #NEWLINE#
+next ( itertools . islice ( range ( 10 ) , 5 , 5 + 1 ) ) #NEWLINE#
+print ( '"{}"' . format ( word ) ) #NEWLINE#
+"""#SPACE#""" . join ( list ) #NEWLINE#
+y = [ [ ] for n in range ( 2 ) ] #NEWLINE#
+data = [ line . strip ( ) for line in open ( 'C:/name/MyDocuments/numbers' , 'r' ) ] #NEWLINE#
+"""""" . join ( [ char for char in 'it#SPACE#is#SPACE#icy' if char != 'i' ] ) #NEWLINE#
+re . sub ( 'i' , '' , 'it#SPACE#is#SPACE#icy' ) #NEWLINE#
+"""it#SPACE#is#SPACE#icy""" . replace ( 'i' , '' ) #NEWLINE#
+"""""" . join ( [ char for char in 'it#SPACE#is#SPACE#icy' if char != 'i' ] ) #NEWLINE#
+df . dropna ( subset = [ 1 ] ) #NEWLINE#
+[ x for x in myList if x . n == 30 ] #NEWLINE#
+nums = [ int ( x ) for x in intstringlist ] #NEWLINE#
+map ( int , eval ( input ( 'Enter#SPACE#the#SPACE#unfriendly#SPACE#numbers:#SPACE#' ) ) ) #NEWLINE#
+sys . stdout . write ( '.' ) #NEWLINE#
+int ( round ( 2.51 * 100 ) ) #NEWLINE#
+os . chdir ( '/mydir' ) #NEWLINE# for file in glob . glob ( '*.txt' ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for file in os . listdir ( '/mydir' ) : #NEWLINE# #INDENT# if file . endswith ( '.txt' ) : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+for root , dirs , files in os . walk ( '/mydir' ) : #NEWLINE# #INDENT# for file in files : #NEWLINE# #INDENT# #INDENT# if file . endswith ( '.txt' ) : #NEWLINE# #INDENT# #INDENT# #INDENT# pass #NEWLINE#
+df . plot ( legend = False ) #NEWLINE#
+for i in range ( 256 ) : #NEWLINE# #INDENT# for j in range ( 256 ) : #NEWLINE# #INDENT# #INDENT# ip = '192.168.%d.%d' % ( i , j ) #NEWLINE# #INDENT# #INDENT# print ( ip ) #NEWLINE#
+for i , j in product ( list ( range ( 256 ) ) , list ( range ( 256 ) ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+generator = iter_iprange ( '192.168.1.1' , '192.168.255.255' , step = 1 ) #NEWLINE#
+sum ( 1 << i for i , b in enumerate ( x ) if b ) #NEWLINE#
+target . write ( '%r\n%r\n%r\n' % ( line1 , line2 , line3 ) ) #NEWLINE#
+[ y for x in data for y in ( x if isinstance ( x , list ) else [ x ] ) ] #NEWLINE#
+print ( 'foo\nbar' . encode ( 'string_escape' ) ) #NEWLINE#
+"""""" . join ( s . rsplit ( ',' , 1 ) ) #NEWLINE#
+( x [ 1 : ] + x [ : - 1 ] ) / 2 #NEWLINE#
+x [ : - 1 ] + ( x [ 1 : ] - x [ : - 1 ] ) / 2 #NEWLINE#
+arr = numpy . fromiter ( codecs . open ( 'new.txt' , encoding = 'utf-8' ) , dtype = '<U2' ) #NEWLINE#
+l = sorted ( l , key = itemgetter ( 'time' ) , reverse = True ) #NEWLINE#
+l = sorted ( l , key = lambda a : a [ 'time' ] , reverse = True ) #NEWLINE#
+df . loc [ df [ 0 ] . str . contains ( '(Hel|Just)' ) ] #NEWLINE#
+re . search ( '\\[(.*)\\]' , your_string ) . group ( 1 ) #NEWLINE#
+[ d . strftime ( '%Y%m%d' ) for d in pandas . date_range ( '20130226' , '20130302' ) ] #NEWLINE#
+"""The#SPACE#big#SPACE#brown#SPACE#fox#SPACE#is#SPACE#brown""" . count ( 'brown' ) #NEWLINE#
+json . loads ( request . body ) #NEWLINE#
+urllib . request . urlretrieve ( url , file_name ) #NEWLINE#
+text . split ( ) #NEWLINE#
+text . split ( ',' ) #NEWLINE#
+line . split ( ) #NEWLINE#
+[ re . sub ( '(?<!\\d)\\.(?!\\d)' , '#SPACE#' , i ) for i in s ] #NEWLINE#
+sorted ( list_of_strings , key = lambda s : s . split ( ',' ) [ 1 ] ) #NEWLINE#
+subprocess . check_call ( 'vasp#SPACE#|#SPACE#tee#SPACE#tee_output' , shell = True ) #NEWLINE#
+[ element for element in lst if isinstance ( element , int ) ] #NEWLINE#
+[ element for element in lst if not isinstance ( element , str ) ] #NEWLINE#
+newlist = sorted ( list_to_be_sorted , key = lambda k : k [ 'name' ] ) #NEWLINE#
+newlist = sorted ( l , key = itemgetter ( 'name' ) , reverse = True ) #NEWLINE#
+list_of_dicts . sort ( key = operator . itemgetter ( 'name' ) ) #NEWLINE#
+list_of_dicts . sort ( key = operator . itemgetter ( 'age' ) ) #NEWLINE#
+df . groupby ( 'prots' ) . sum ( ) . sort ( 'scores' , ascending = False ) #NEWLINE#
+""",""" . join ( trans [ 'category' ] ) #NEWLINE#
+"""""" . join ( [ 'A' , 'B' , 'C' , 'D' ] ) #NEWLINE#
+json . load ( urllib . request . urlopen ( 'url' ) ) #NEWLINE#
+[ x for x in sents if not x . startswith ( '@$\t' ) and not x . startswith ( '#' ) ] #NEWLINE#
+Entry . objects . filter ( pub_date__contains = '08:00' ) #NEWLINE#
+list . sort ( key = lambda item : ( item [ 'points' ] , item [ 'time' ] ) ) #NEWLINE#
+( t - datetime . datetime ( 1970 , 1 , 1 ) ) . total_seconds ( ) #NEWLINE#
+re . sub ( '(\\_a)?\\.([^\\.]*)$' , '_suff.\\2' , 'long.file.name.jpg' ) #NEWLINE#
+import imp #NEWLINE# imp . reload ( module ) #NEWLINE#
+struct . unpack ( 'H' , struct . pack ( 'h' , number ) ) #NEWLINE#
+numlist = [ float ( x ) for x in numlist ] #NEWLINE#
+df . to_csv ( filename , index = False ) #NEWLINE#
+json_data = json . loads ( unescaped ) #NEWLINE#
+[ chr ( i ) for i in range ( 127 ) ] #NEWLINE#
+newFile . write ( struct . pack ( '5B' , * newFileBytes ) ) #NEWLINE#
+re . sub ( '^[A-Z0-9]*(?![a-z])' , '' , string ) #NEWLINE#
+list ( dict . keys ( ) ) [ - 1 ] #NEWLINE#
+print ( 'hi#SPACE#there' , file = f ) #NEWLINE#
+f = open ( 'myfile' , 'w' ) #NEWLINE# f . write ( 'hi#SPACE#there\n' ) #NEWLINE# f . close ( ) #NEWLINE#
+with open ( 'somefile.txt' , 'a' ) as the_file : #NEWLINE# #INDENT# the_file . write ( 'Hello\n' ) #NEWLINE#
+s . encode ( 'iso-8859-15' ) #NEWLINE#
+AuthorizedEmail . objects . filter ( group = group ) . order_by ( '-added' ) [ 0 ] #NEWLINE#
+re . findall ( 'Test([0-9.]*[0-9]+)' , text ) #NEWLINE#
+re . findall ( 'Test([\\d.]*\\d+)' , text ) #NEWLINE#
+os . system ( 'powershell.exe' , 'script.ps1' ) #NEWLINE#
+b . sort ( key = lambda x : x [ 1 ] [ 2 ] ) #NEWLINE#
+list ( cf . get_range ( ) . get_keys ( ) ) #NEWLINE#
+datetime . datetime . now ( ) #NEWLINE#
+next ( i for i , x in enumerate ( lst ) if not isinstance ( x , bool ) and x == 1 ) #NEWLINE#
+a [ : ] = [ ( x - 13 ) for x in a ] #NEWLINE#
+random . choice ( os . listdir ( 'C:\\' ) ) #NEWLINE#
+max ( x . min ( ) , x . max ( ) , key = abs ) #NEWLINE#
+re . findall ( '"(http.*?)"' , s , re . MULTILINE | re . DOTALL ) #NEWLINE#
+re . findall ( 'http://[^t][^s"]+\\.html' , document ) #NEWLINE#
+mystring . replace ( '#SPACE#' , '!#SPACE#!' ) . split ( '!' ) #NEWLINE#
+open ( path , 'r' ) #NEWLINE#
+[ [ sum ( item ) for item in zip ( * items ) ] for items in zip ( * data ) ] #NEWLINE#
+a [ : , ( np . newaxis ) ] #NEWLINE#

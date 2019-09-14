@@ -1,0 +1,500 @@
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+locale . setlocale ( locale . LC_ALL , 'en_US' ) #NEWLINE# locale . format ( '%d' , 1255000 , grouping = True ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+dparser . parse ( 'monkey#SPACE#2010-07-32#SPACE#love#SPACE#banana' , fuzzy = True ) #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+[ m . start ( ) for m in re . finditer ( 'test' , 'test#SPACE#test#SPACE#test#SPACE#test' ) ] #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+re . sub ( 'hex' ) #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+datetime . datetime . strptime ( str_date , '%m/%d/%Y' ) . date ( ) . isoformat ( ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+set ( [ 'a' , 'b' ] ) . issubset ( [ 'a' , 'b' , 'c' ] ) #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+sum ( x * y ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+print ( re . sub ( '[\x00-\x7f]' , '' , '£100#SPACE#is#SPACE#worth#SPACE#more#SPACE#than#SPACE#€100' ) ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+"""foobar""" [ : 4 ] #NEWLINE#
+"""hello#SPACE#world""" [ : - 1 ] #NEWLINE#
+os . path . realpath ( __file__ ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+file = io . open ( 'data.txt' , 'r' , encoding = 'utf-16-le' ) #NEWLINE#
+url = re . sub ( '"(\\d+),(\\d+)"' , '\\1.\\2' , original_string ) #NEWLINE#
+urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) #NEWLINE#
+new_string = re . sub ( '"(\\d+),(\\d+)"' , '\\1.\\2' , original_string ) #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n\r\n' ) #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+db . collection . find ( { '_id' : False } ) #NEWLINE#
+[ re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+my_function . __name__ #NEWLINE#
+tuple ( map ( int , input ( ) . split ( ',' ) ) #NEWLINE#
+[ max ( alkaline_earth_values , key = lambda x : x [ 1 ] ) #NEWLINE#
+"""hello#SPACE#world""" [ : - 1 ] #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n\r\n' ) #NEWLINE#
+np . zeros ( ( 6 , 9 , 20 ) ) [ 1 , 2 , 3 , 3 ] #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+[ re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+df . groupby ( 'User' ) [ 'X' ] . filter ( lambda x : x . sum ( x [ 0 ] ) #NEWLINE#
+struct . unpack ( 'h' , pS [ 0 : 2 ] ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+item = re . sub ( '#SPACE#\\(\\w+\\)' , '' , item ) #NEWLINE#
+[ int ( s ) for s in string . replace ( ',' , '' ) ] #NEWLINE#
+dir ( ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+[ ( wi ) for wi in wordids ] #NEWLINE#
+sum ( 1 , 2 ) #NEWLINE#
+numpy . dstack ( numpy . meshgrid ( x , y ) . reshape ( 3 , - 1 , 2 ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+pd . merge ( df1 , df2 , left_index = True , right_index = True , how = 'outer' ) #NEWLINE#
+urlparse . urldefrag ( 'http://www.address.com/something#something' ) #NEWLINE#
+r = requests . post ( url , data = payload ) #NEWLINE#
+[ input ( ) [ i : , n ] #NEWLINE#
+os . environ #NEWLINE#
+a . pop ( 'key' , None ) #NEWLINE#
+getattr ( __builtins__ , 'range' ) #NEWLINE#
+img = Image . open ( 'picture.jpg' ) #NEWLINE# Img . show #NEWLINE#
+"""test#SPACE#string#NEWLINE#""" . rstrip ( ) #NEWLINE#
+list ( ) #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+print ( '%.2f#SPACE#kg#SPACE#=#SPACE#%.2f#SPACE#lb#SPACE#=#SPACE#%.2f#SPACE#gal#SPACE#=#SPACE#%.2f#SPACE#l' % ( var1 , var2 , var3 , var4 ) ) #NEWLINE#
+re . sub ( '([a-z](?=[A-Z])|[A-Z](?=[A-Z][a-z]))' , '\\1#SPACE#' , text ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+from subprocess import call #NEWLINE#
+print ( '%.2f#SPACE#kg#SPACE#=#SPACE#%.2f#SPACE#lb#SPACE#=#SPACE#%.2f#SPACE#gal#SPACE#=#SPACE#%.2f#SPACE#l' % ( var1 , var2 , var3 , var4 ) ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+newcontents = contents . replace ( 'a' , 'e' ) . replace ( 's' , '3' ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+re . sub ( __builtins__ , 'range' ) #NEWLINE#
+df [ 'a' , 'b' ] . issubset ( [ 'a' , 'b' ] ) #NEWLINE#
+print ( re . sub ( '[\x00-\x7f]' , '' , '£100#SPACE#is#SPACE#worth#SPACE#more#SPACE#than#SPACE#€100' ) ) #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+re . match ( '[a-zA-Z][\\w-]*$' , '!A_B' ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+re . sub ( '(?<!\\w)([A-Z])\\.' , '\\1' , s ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+[ input [ i . split ( '\t' , 1 ) [ 0 ] #NEWLINE#
+( trace_df [ 'ratio' ] > 0 ) . mean ( ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+print ( '\\num{{{0:.2g}}}' . format ( 1000000000.0 ) ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+datetime . date ( ) #NEWLINE#
+p . wait ( ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+br . select_form ( nr = 0 ) #NEWLINE#
+br . select_form ( nr = 0 ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+ast . literal_eval ( '0xdeadbeef' ) #NEWLINE#
+pat = re . compile ( '^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}$' ) #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+re . sub ( '^((?:(?!cat).)*cat(?:(?!cat).)*)cat' , '\\1Bull' , s ) #NEWLINE#
+os . path . basename ( os . path . normpath ( '/folderA/folderB/folderC/folderD/' ) ) #NEWLINE#
+os . system ( "zsh#SPACE#-c#SPACE#'echo#SPACE#$0'" ) #NEWLINE#
+os . path . basename ( os . path . normpath ( '/folderA/folderB/folderC/folderD/' ) ) #NEWLINE#
+os . system ( "zsh#SPACE#-c#SPACE#'echo#SPACE#$0'" ) #NEWLINE#
+re . sub ( '[^\\x00-\\x7F]+' , '#SPACE#' , text ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+print ( etree . tostring ( some_tag . find ( 'strong' ) ) #NEWLINE#
+[ dict ( t ) for t in [ 0 ] #NEWLINE#
+dir ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+dir ( ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+dict ( ( k , v ) for k , v in my_dict . items ( ) ) #NEWLINE#
+dir ( ) #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n\r\n' ) #NEWLINE#
+"""Unix#SPACE#EOL#NEWLINE#""" . rstrip ( '\r\n' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+"""Unix#SPACE#EOL#NEWLINE#""" . rstrip ( '\r\n' ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+re . compile ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+df . loc [ gb . groups [ 'foo' ] , ( 'A' , 'B' ) ] #NEWLINE#
+bin ( 173 ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+[ input [ i . split ( '\t' , 1 ) [ 0 ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+astr [ 0 ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 2 ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+quadmesh . set_clim ( vmin = 0 , vmax = 15 ) #NEWLINE#
+[ i . partition ( '\t' ) [ - 1 ] #NEWLINE#
+df . loc [ gb . groups [ 'foo' , 'bar' ] #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+df . plot ( x = 'col_name_1' , y = 'col_name_2' , style = 'o' ) #NEWLINE#
+df . reset_index ( ) . groupby ( 'A' ) [ 'index' ] . apply ( np . array ) #NEWLINE#
+re . sub ( '(?<=[a-z])\\r?\\n' , '#SPACE#' , textblock ) #NEWLINE#
+gzip . open ( 'file.gz' , 'rt' , encoding = 'utf-8' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+print ( '[%s,#SPACE#%s,#SPACE#%s]' % ( 1 , 2 , 3 ) ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+print ( os . path . splitext ( '/home/user/somefile.txt' ) [ 0 ] + '.jpg' ) #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+str . lower ( ) #NEWLINE#
+"""Boat.txt.txt""" . replace ( '.txt' , '' ) #NEWLINE#
+"""Boat.txt.txt""" . replace ( '.txt' , '' ) #NEWLINE#
+zip ( [ ( [ 1 , 2 , 3 , 4 ] , [ 5 , 6 ] ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+print ( 'Value#SPACE#is#SPACE#"' + str ( value ) + '"' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+re . sub ( '\\.(?=[^#SPACE#.])' , '.#SPACE#' , para ) #NEWLINE#
+set ( [ [ [ 'a' , 'b' , 'c' , 'd' ] ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+os . system ( 'start#SPACE#excel.exe#SPACE#<path/to/file>' ) #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+os . path . basename ( os . path . abspath ( existGDBPath ) ) #NEWLINE#
+db . collection . find ( { '_id' : False } ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+dbb . commit ( ) #NEWLINE#
+astr [ 0 ] #NEWLINE#
+[ i for i , j in enumerate ( [ 0 , 1 , 1 ] ) ] #NEWLINE#
+re . findall ( 'a*?bc*?' , 'aabcc' , re . DOTALL ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+socket . inet_ntoa ( struct . pack ( '!L' , 2130706433 ) ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+bin ( 21 ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+astr [ 0 ] #NEWLINE#
+os . system ( '/bin/bash#SPACE#-c#SPACE#"echo#SPACE#hello#SPACE#world"' ) #NEWLINE#
+[ the_list . sort ( key = lambda x : x [ 1 ] ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+[ input [ i . split ( '\t' , 1 ) [ 0 ] #NEWLINE#
+np . where ( np . in1d ( A , B ) ) [ 0 ] #NEWLINE#
+numpy . dot ( a , m ) #NEWLINE#
+print ( 'here#SPACE#is#SPACE#your#SPACE#checkmark:#SPACE#' + '✓' ) #NEWLINE#
+re . sub ( '\\[.*?\\]' , '' , 'abcd[e]yth[ac]ytwec' ) #NEWLINE#
+soup . find_all ( [ 'a' , 'div' ] ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+re . compile ( '^(.+)\\n((?:\\n.+)+)' , re . MULTILINE ) #NEWLINE#
+"""{0.month}/{0.day}/{0.year}""" . format ( my_date ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+yourdf . drop ( [ 'columnheading1' , 'columnheading2' ] , axis = 1 , inplace = True ) #NEWLINE#
+re . search ( '\\bis\\b' , String ) . start ( ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+lambda x , y : x + y #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+[ input . split ( ',' ) [ 0 ] #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+print ( select ( [ my_table , func . current_date ( ) ] ) . execute ( ) ) #NEWLINE#
+sum ( x * y for x , y in zip ( [ 0 , 1 , 2 , 3 , 4 ] ) #NEWLINE#
+re . findall ( '#(\\w+)' , 'http://example.org/#comments' ) #NEWLINE#
+re . split ( '_(?:f?or|and)_' , s ) #NEWLINE#
+[ input [ i . split ( '\t' , 1 ) [ 0 ] #NEWLINE#
+bin ( 173 ) #NEWLINE#
+redirect ( 'Home.views.index' ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+final_choices = ( another_choice , ) + my_choices #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+"""Hello#NEWLINE##NEWLINE##NEWLINE#""" . rstrip ( '\n' ) #NEWLINE#
+[ dict ( k , v ) for k , v in D . items ( ) ] #NEWLINE#
+"""hello#SPACE#world""" [ : - 1 ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+[ i for i , elem in enumerate ( [ 1 , 3 ] ) ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+print ( [ k , v ) for k , v in [ k , v ] ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+"""foobar""" [ : 4 ] #NEWLINE#
+gca ( ) . get_lines ( ) [ n ] . get_xydata ( ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+print ( '%.2f#SPACE#kg#SPACE#=#SPACE#%.2f#SPACE#lb#SPACE#=#SPACE#%.2f#SPACE#gal#SPACE#=#SPACE#%.2f#SPACE#l' % ( var1 , var2 , var3 , var4 ) ) #NEWLINE#
+[ ( x , y ) for x , y in zip ( functions , values ) ] #NEWLINE#
+[ ( x , y ) for x , y in zip ( functions , values ) ] #NEWLINE#
+[ int ( x , 16 ) for x in [ 'BB' , 'A7' , 'F6' , '9E' ] ] ] #NEWLINE#
+pylab . ylim ( [ 0 , 1000 ] ) #NEWLINE#
+window . set_position ( Gtk . WindowPosition . CENTER ) #NEWLINE#
+"""Ð¼Ð°ÑÐºÐ°""" . encode ( 'latin-1' ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+[ dict ( zip ( [ 1 , 2 , 3 , 4 ] ) #NEWLINE#
+br . form . add_file ( open ( filename ) , 'text/plain' , filename ) #NEWLINE#
+rdata . set_index ( [ 'race_date' , 'track_code' , 'race_number' ] ) #NEWLINE#
+rdata . set_index ( [ 'race_date' , 'track_code' , 'race_number' ] ) #NEWLINE#
+db . collection . find ( { '_id' : False } ) #NEWLINE#
+db . collection . find ( { '_id' : False } ) #NEWLINE#
+Test . objects . filter ( actions__contains = [ { 'fixed_key_1' : 'foo2' } ] ) #NEWLINE#
+print ( etree . tostring ( some_tag . find ( 'strong' ) ) #NEWLINE#
+tree . xpath ( ".//a[text()='Example']" ) [ 0 ] . tag #NEWLINE#
+split_list = [ the_list [ i : i + 3 ] for i in range ( 0 , 3 ) ] #NEWLINE#
+re . findall ( '#(\\w+)' , 'http://example.org/#comments' ) #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+re . sub ( '\\*+' , '*' , text ) #NEWLINE#
+"""a#SPACE#b""" . replace ( '#SPACE#' , '' ) . isalpha ( ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( input ) ] #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda x , y : 10 * x + y , [ 1 , 2 , 3 , 4 , 5 ] ) #NEWLINE#
+soup . findAll ( id = re . compile ( 'para$' ) ) #NEWLINE#
+"""hello#SPACE#world""" [ : - 1 ] #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+round ( 4.0005 , 3 ) #NEWLINE#
+br . addheaders = [ ( 'Cookie' , 'cookiename=cookie#SPACE#value' ) ] #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+zip ( [ ( [ 1 , 2 , 3 , 4 ] , [ 5 , 6 ] ) #NEWLINE#
+zip ( [ ( [ 1 , 2 , 3 , 4 ] , [ 5 , 6 ] ) #NEWLINE#
+ord ( ) #NEWLINE#
+unicodedata . normalize ( 'NFKD' , 'música' ) . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+zip ( [ ( [ 1 , 2 , 3 , 4 ] , [ 5 , 6 ] ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+struct . unpack ( 'BBB' , rgbstr . decode ( 'hex' ) ) #NEWLINE#
+re . compile ( '{}-\\d*' . format ( user ) ) #NEWLINE#
+"""{:,}""" . format ( value ) #NEWLINE#
+[ dict ( t ) for t in zip ( * list_of_tuples ) ] #NEWLINE#
+[ int ( d ) for d in zip ( * l ) ] #NEWLINE#
+numpy . where ( x == [ 0 , 1 ] , [ 1 ] ) [ 1 ] #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+re . split ( '#SPACE#+' , '#SPACE#' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+list ( itertools . chain ( * [ 1 , 2 , 3 ] ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( the_list ) , n ) ] #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( the_list ) , n ) ] #NEWLINE#
+[ input ( ) . split ( '_' ) [ 0 ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+[ re . findall ( '\\b[A-Z]' , formula ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+[ input ( ) . reset_index ( ) ] #NEWLINE#
+print ( etree . tostring ( some_tag . find ( 'strong' ) ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+ctypes . windll . user32 . MessageBoxW ( 0 , 'Error' , 'Error' , 0 ) #NEWLINE#
+[ 'a' , 'b' ] . index ( 'b' ) #NEWLINE#
+db . collection . find ( { '_id' : False } ) #NEWLINE#
+figure ( figsize = ( 11.69 , 8.27 ) ) #NEWLINE#
+figure ( figsize = ( 11.69 , 8.27 ) ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+figure ( figsize = ( 11.69 , 8.27 ) ) #NEWLINE#
+figure ( figsize = ( 11.69 , 8.27 ) ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+[ input ( ) . split ( '\t' , 1 ) [ 0 ] #NEWLINE#
+[ [ [ [ [ 1 , 2 , 3 , 4 ] ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+pylab . ylim ( [ 0 , 1000 ] ) #NEWLINE#
+re . sub ( '\\.(?=[^#SPACE#.])' , '.#SPACE#' , para ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+os . path . basename ( os . path . normpath ( '/folderA/folderB/folderC/folderD/' ) ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+tuple ( map ( int , input ( ) . split ( ',' ) ) #NEWLINE#
+tuple ( map ( int , input ( ) . split ( ',' ) ) #NEWLINE#
+gzip . open ( 'file.gz' , 'rt' , encoding = 'utf-8' ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+ForkedPdb ( ) . set_trace ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+os . system ( 'start#SPACE#excel.exe#SPACE#<path/to/file>' ) #NEWLINE#
+[ input ( ) . split ( ',' ) ] #NEWLINE#
+file = io . open ( 'data.txt' , 'r' , encoding = 'utf-16-le' ) #NEWLINE#
+df . colour . value_counts ( ) . plot ( kind = 'bar' ) #NEWLINE#
+df . groupby ( [ 'a' , 'b' , 'c' , 'd' ] ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+map ( int , [ '1' , '-1' , '1' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' , '/t' , '900' ] ) #NEWLINE#
+legend ( numpoints = 1 ) #NEWLINE#
+fig . subplots_adjust ( wspace = 0 , hspace = 0 ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+[ 0 , 1 ] #NEWLINE#
+[ ( x + y ) for x , y in zip ( first , second ) ] #NEWLINE#
+[ ( x + y ) for x , y in zip ( [ 1 , 2 , 3 ] ] ] #NEWLINE#
+df . sort_values ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+sum ( 1 , 0 ) #NEWLINE#
+sum ( 1 , 2 ) #NEWLINE#
+set ( [ 'a' , 'b' ] ) . issubset ( [ 'b' , 'a' , 'c' ] ) #NEWLINE#
+df . reset_index ( ) #NEWLINE#
+"""{:,}""" . format ( value ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( input ) ] #NEWLINE#
+[ w for w in open ( 'file.txt' ) if not re . search ( '[aeiou]{2}' , w ) ] #NEWLINE#
+my_function ( ** data ) #NEWLINE#
+bin ( 21 ) #NEWLINE#
+df . iloc [ 2 , 0 ] #NEWLINE#
+bin ( 173 ) #NEWLINE#
+struct . pack ( '<I' , 1633837924 ) #NEWLINE#
+df . groupby ( [ 'year' , 'month' , 'day' ] ) #NEWLINE#
+tex . delete ( '1.0' , END ) #NEWLINE#
+astr [ - 1 ] #NEWLINE#
+os . kill ( process . pid , signal . SIGKILL ) #NEWLINE#
+"""{:,}""" . format ( value ) #NEWLINE#
+re . sub ( '.{,16}\\b' , text ) #NEWLINE#
+"""foobar""" [ : 4 ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+df . ix [ df . A == [ 0 , 1 , 1 ] #NEWLINE#
+astr [ 0 ] #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda x , y : 10 * x + y , [ 1 , 2 , 3 , 4 , 5 , 6 ] ) #NEWLINE#
+webbrowser . open_new ( url ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+int ( 'FFFF' , 16 ) #NEWLINE#
+"""раз#SPACE#два#SPACE#три""" . split ( ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+print ( 'Value#SPACE#is#SPACE#"{}"' . format ( value ) ) #NEWLINE#
+[ '' . join ( item ) for item in re . sub ( '\\[([^\\[\\]]+)\\]' , a ) ] #NEWLINE#
+lst = map ( list , itertools . product ( [ 0 , 1 ] , repeat = n ) ) #NEWLINE#
+re . sub ( '\\([^)]*\\)' , '' , filename ) #NEWLINE#
+return re . sub ( '[_%^$]' , '\\\\\\g<0>' , line ) ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+return re . sub ( '[_%^$]' , '\\\\\\g<0>' , line ) ) #NEWLINE#
+df . set_index ( [ 'year' , 'month' , 'day' ] ) #NEWLINE#
+setattr ( self , attr , group ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+tuple ( map ( int , input ( ) . split ( ',' ) ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+round ( 8.005 , 2 ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+date ( 2010 , 12 , 31 ) + relativedelta ( months = + 1 ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+print ( select ( [ my_table , func . current_date ( ) ] ) . execute ( ) ) ) #NEWLINE#
+[ ( k , v ) for k , v in zip ( conversions , trials ) ] #NEWLINE#
+[ input ( ) for i in range ( 1 , 3 ) ] #NEWLINE#
+set ( [ 'stackoverflow' , 'google' ] ) . issubset ( sites ) #NEWLINE#
+elems [ 0 ] . getText ( ) . encode ( 'utf-8' ) #NEWLINE#
+[ [ [ ( x , y , color = '#112233' ) ] #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+re . sub ( '[^0-9]' , '' , 'sdkjh987978asd098as0980a98sd' ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+re . findall ( '[一-\u9fff]+' , ipath ) #NEWLINE#
+"""hello#SPACE#world""" [ : - 1 ] #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+bin ( 173 ) #NEWLINE#
+ast . literal_eval ( '(1,2,3,4)' ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+pd . merge ( df1 , df2 , left_index = True , right_index = True , how = 'outer' ) #NEWLINE#
+dir ( ) #NEWLINE#
+request . url #NEWLINE#
+url = urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) #NEWLINE#
+re . findall ( '.{,16}\\b' , text ) #NEWLINE#
+re . sub ( '.{,16}\\b' , text ) #NEWLINE#
+[ map ( int , '42#SPACE#0' . split ( ) ] ) #NEWLINE#
+importlib . import_module ( 'a.b.c' ) #NEWLINE#
+re . findall ( '\\S+' , str1 ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+bin = [ 0 , 1 ] #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+[ input ( ) . split ( '_' ) [ 1 ] #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+dateutil . parser . parse ( '2013/09/11#SPACE#00:17#SPACE#+0900' ) #NEWLINE#
+dateutil . parser . parse ( '2013/09/11#SPACE#00:17#SPACE#+0900' ) #NEWLINE#
+df . sort ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+re . sub ( '[^0-9a-zA-Z]+' , '*' , 'h^&ell`.,|o#SPACE#w]{+orld' ) #NEWLINE#
+re . sub ( '[^0-9a-zA-Z]+' , '*' , 'h^&ell`.,|o#SPACE#w]{+orld' ) #NEWLINE#
+url = urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) #NEWLINE#
+re . compile ( '^([^A]*)AA([^A]|AA)*$' ) #NEWLINE#
+[ int ( i ) for i in '([{' ) #NEWLINE#
+[ ( x , y ) for x in zip ( [ 'BB' , 'A7' , 'F6' , '9E' ] ] ] #NEWLINE#
+datetime . datetime . now ( ) . date ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+split_list = [ the_list [ i : i + n ] for i in range ( 0 , len ( the_list ) ] #NEWLINE#
+df . split ( '(?<=\\?|!|\\.)\\s{0,2}(?=[A-Z]|$)' , text ) #NEWLINE#
+struct . unpack ( 'h' , pS [ 0 : 2 ] ) #NEWLINE#
+pyplot . plot ( x , y , color = '#112233' ) #NEWLINE#
+"""Unix#SPACE#EOL#NEWLINE#""" . rstrip ( '\r\n' ) #NEWLINE#
+re . sub ( '[^a-zA-Z0-9-_*.]' , '' , my_string ) #NEWLINE#
+[ dict ( zip ( [ 1 , 2 , 3 , 4 ] ) #NEWLINE#
+print ( '\n\x1b[4m' + '3' + '\x1b[0m' + '\n2' ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+stuff . replace ( '#SPACE#and#SPACE#' , '/' ) #NEWLINE#
+some_func ( * params ) #NEWLINE#
+[ int ( x , 16 ) for x in zip ( conversions , trials ) ] #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+df . sort_values ( [ 'Peak' , 'Weeks' ] , ascending = [ True , False ] , inplace = True ) #NEWLINE#
+[ input [ i : i + n ] for i in range ( 0 , len ( input ) ] #NEWLINE#
+date . today ( ) . strftime ( '%A' ) #NEWLINE#
+subprocess . call ( [ 'test.sh' , str ( domid ) ] ) #NEWLINE#
+[ the_list . split ( '_' ) [ 1 ] #NEWLINE#
+gca ( ) . get_lines ( ) [ n ] . get_xydata ( ) #NEWLINE#
+[ max ( len ( word ) for word in zip ( test , lambda x : x [ 0 ] ) ] #NEWLINE#
+dir ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#
+os . path . basename ( os . path . normpath ( '/folderA/folderB/folderC/folderD/' ) ) #NEWLINE#
+map ( list , zip ( * main_list ) ) #NEWLINE#
+var1 , var2 = input ( 'Enter#SPACE#two#SPACE#numbers#SPACE#here:#SPACE#' ) . split ( ) #NEWLINE#

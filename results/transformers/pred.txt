@@ -1,0 +1,500 @@
+os . system ( '/bin/bash#SPACE#-c#SPACE#"echo#SPACE#hello#SPACE#world"' ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+print ( datetime . date . today ( ) . strftime ( '%A' ) #NEWLINE#
+urllib . parse . unquote ( '%0a' ) #NEWLINE#
+[ ( x for x , y in '12345' for y in 'ab' ] #NEWLINE#
+[ ( x for x , y in os . items ( ) if x == desired_value ] #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 ] #NEWLINE#
+dict ( ( x , set ( y ) & set ( d1 . get ( x , ( ) ) ) for x , axis = 1 ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ int ( x ) for x in '0,1,2' . split ( ',' ) ] #NEWLINE#
+model . objects . all ( ) . order_by ( '?' ) [ 0 ] #NEWLINE#
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) , axis = 1 ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+print ( [ key for key , value in list ( my_dict . items ( ) ) if set ( value ) . intersection ( lst ) ] #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+float ( re . findall ( '(?:^|_)' + par + '(\\d+\\.\\d*)' , dir ) [ 0 ] ) #NEWLINE#
+float ( re . findall ( '(?:^|_)' + par + '(\\d+\\.\\d*)' , dir ) [ 0 ] ) #NEWLINE#
+os . path . realpath ( __file__ ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+requests . post ( 'http://httpbin.org/post' , json = { 'test' : 'cheers' } ) #NEWLINE#
+urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) #NEWLINE#
+[ ( '%.2d' % i ) for i in range ( 16 ) if i ] #NEWLINE#
+requests . post ( 'http://httpbin.org/post' , json = { 'test' : 'cheers' } ) #NEWLINE#
+soup . find_all ( 'a' , href = re . compile ( 'http://www\\.iwashere\\.com/' ) ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . loc [ df [ df [ 'A' ] == df [ 'B' ] = df [ 'AB' ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+calendar . monthrange ( year , month ) [ 1 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+"""2.7.0_bf4fda703454""" . split ( '_' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+slice ( * [ ( int ( i . strip ( ) ) if i else 2 ) for i in string_slice . split ( ':' ) ] ) #NEWLINE#
+df . pivot_table ( df , index = [ 0 , 1 , 3 ] , ascending = [ 0 , 3 ] ) #NEWLINE#
+[ k for k , v in re . items ( ) if v . strip ( ) ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) . values ) , axis = 0 ) > 0 ) #NEWLINE#
+urllib . parse . unquote ( '%0a' ) #NEWLINE#
+[ ( i , j ) for i , j in zip ( [ i , j ] #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+[ ( '%.2d' % i ) for i in range ( 10 ) ] #NEWLINE#
+print ( ( 'focus#SPACE#object#SPACE#class:' , window2 . focus_get ( ) . __class__ ) ) #NEWLINE#
+[ k for k , v in re . items ( ) if v . strip ( ) ] #NEWLINE#
+datetime . datetime . strptime ( str_date , '%m/%d/%Y' ) . date ( ) . isoformat ( ) #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+( k , v ) for k , v in list ( hand . items ( ) if v ) #NEWLINE#
+print ( np . linspace ( 1 , 3 , num = 4 , endpoint = False ) ) #NEWLINE#
+np . zeros ( ( 6 , 9 , 20 ) ) , 20 ] #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+re . sub ( ld , d , d , columns = [ 'size' , '30' ] ) #NEWLINE#
+re . compile ( ld , d , d = lambda d : d [ 'size' ] ) #NEWLINE#
+response . headers [ 'WWW-Authenticate' ] = 'Basic#SPACE#realm="test"' #NEWLINE#
+[ k for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+sys . path . insert ( 0 , './path/to/your/modules/' ) #NEWLINE#
+"""""" . join ( [ c for c in my_string if c . isdigit ( ) ] ) #NEWLINE#
+re . findall ( '[-+]?\\d*\\.\\d+|\\d+' , 'Current#SPACE#Level:#SPACE#-13.2#SPACE#db#SPACE#or#SPACE#14.2#SPACE#or#SPACE#3' ) #NEWLINE#
+scipy . misc . imsave ( 'outfile.jpg' , image_array ) #NEWLINE#
+dir ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . groupby ( test , lambda x : x . split ( '_' ) [ 0 ] #NEWLINE#
+df . groupby ( [ 'Month' , 'Fruit' ] ) . sum ( ) . unstack ( level = 0 ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+[ 0 , 1 , 1 , 2 , 3 ] #NEWLINE#
+print ( subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+[ line for line in open ( 'file.txt' ) if not re . search ( '[aeiou]{2}' , w ) ] #NEWLINE#
+df . groupby ( np . arange ( len ( df . columns ) ) // 2 + 1 , axis = 0 ) . sum ( ) . add_prefix ( 's' ) #NEWLINE#
+datetime . datetime . strptime ( str_date , '%m/%d/%Y' ) . date ( ) . isoformat ( ) #NEWLINE#
+re . findall ( '[-+]?\\d*\\.\\d+|\\d+' , 'Current#SPACE#Level:#SPACE#-13.2#SPACE#db#SPACE#or#SPACE#14.2#SPACE#or#SPACE#3' ) #NEWLINE#
+df . apply ( lambda x : int ( re . search ( '\\d+' , x ) . group ( 0 ) ) #NEWLINE#
+print ( re . split ( '\\W+' , 'Words,#SPACE#words,#SPACE#words.' ) #NEWLINE#
+re . findall ( 'TAA(?:[ATGC]{3})+?TAA' , seq ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ x for x in a if x [ 1 , 2 ] #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+df . groupby ( test , lambda x : x . sum ( x . split ( '_' ) [ 0 ] ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+my_string . split ( '\n' , 1 ) [ 0 ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+{ p . id : { 'id' : p . id , 'position' : ind } for ind , p in enumerate ( p_list ) } #NEWLINE#
+re . findall ( '([a-z])*' , 'f233op' ) #NEWLINE#
+re . findall ( '([a-z])*' , 'f233op' ) #NEWLINE#
+int ( 'deadbeef' , 16 ) #NEWLINE#
+int ( 'deadbeef' , 16 ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+int ( 'deadbeef' , 16 ) #NEWLINE#
+np . savez ( tmp , * [ getarray [ 0 ] , getarray [ 1 ] , getarray [ 8 ] ] ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+os . system ( "zsh#SPACE#-c#SPACE#'echo#SPACE#$0'" ) #NEWLINE#
+os . path . commonprefix ( [ '/usr/var' , '/usr/var2/log' ] ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+print ( subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+re . findall ( '\\b[A-Z]' , formula ) #NEWLINE#
+re . findall ( '\\b[A-Z]' , formula ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+sum ( df . apply ( lambda x : x . isnull ( ) , axis = 1 ) ] #NEWLINE#
+sum ( df . apply ( lambda x : x . isnull ( ) , axis = 1 ) ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+shutil . rmtree ( path , ignore_errors = False , onerror = None ) #NEWLINE#
+max ( ld , key = lambda d : d [ 'size' ] ) #NEWLINE#
+[ i for i , v in range ( 12 ) if v . strip ( 100 ) ] #NEWLINE#
+max ( ld , key = lambda d : d [ 'size' ] ) #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+C = [ ( a - b ) for a , b in zip ( A , B ) ] #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+df . apply ( lambda x : x . fillna ( x . mean ( ) , axis = 1 ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+sys . stdin . read ( 1 ) #NEWLINE#
+sys . stdin . read ( 1 ) #NEWLINE#
+sys . stdin . read ( 1 ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+map ( int , '42#SPACE#0' . split ( ) ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . check_output ( 'echo#SPACE#"foo"' , shell = True ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] , as_index = False ) [ 'positions' ] . sum ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+[ i for i , elem in enumerate ( bool_list , 1 ) if elem ] #NEWLINE#
+np . outer ( a , b ) #NEWLINE#
+np . outer ( a , b ) #NEWLINE#
+[ '#SPACE#' . join ( df [ df [ 'A' , 1 ] ) ] #NEWLINE#
+requests . post ( 'http://httpbin.org/post' , json = { 'test' : 'cheers' } ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+print ( re . findall ( '(?=(a.*?a))' , 'a#SPACE#1#SPACE#a#SPACE#2#SPACE#a#SPACE#3#SPACE#a#SPACE#4#SPACE#a' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+print ( os . path . realpath ( __file__ ) ) #NEWLINE#
+df . groupby ( np . arange ( len ( df . columns ) ) // 3 , axis = 1 ) . mean ( ) #NEWLINE#
+sum ( [ ( x + 1 , 2 , 3 ] ) for x in [ 1 , 2 , 3 ] ) #NEWLINE#
+sorted ( [ '10' , '3' , '2' ] , key = int ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+re . sub ( '^((.*?cat.*?){1})cat' , '\\1Bull' , s ) #NEWLINE#
+sorted ( [ 1 , 'mike' ] , [ 1 , 'bob' ] ] ] ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+print ( subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+re . compile ( '^(.+)\\n((?:\\n.+)+)' , re . MULTILINE ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) . values ) , axis = 1 ) > 0 ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+return '' . join ( random . choice ( string . lowercase ) for i in range ( length ) ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+[ i for i , v in range ( 1 , 2 ) if v . items ( ) ] #NEWLINE#
+[ x . strip ( ) for x in string . split ( ',' ) ] #NEWLINE#
+subprocess . Popen ( [ 'rm' , '-r' , 'some.file' ] ) #NEWLINE#
+connection . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n\r\n' ) #NEWLINE#
+db . session . delete ( x , 2 , axis = 1 ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+sorted ( lst , key = lambda x : x [ 1 ] ) #NEWLINE#
+sorted ( list ( mydict . items ( ) ) , key = lambda x : map ( int , x ) ) #NEWLINE#
+sum ( df . sort ( key = lambda x : ( x . isnull ( ) ) , x ) #NEWLINE#
+sum ( df . sort ( key = lambda x : ( x . isnull ( ) ) , x ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . groupby ( df . a == 'B' ) . shift ( 1 ) . fillna ( 0 ) . cumsum ( ) ) ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+sorted ( list ( dic . items ( ) ) , key = lambda x : ( x [ 1 ] [ 'Fisher' ] , reverse = True ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+np . fromstring ( '\x00\x00\x80?\x00\x00\x00@\x00\x00@@\x00\x00\x80@' , dtype = '<f4' ) #NEWLINE#
+np . fromstring ( '\x00\x00\x80?\x00\x00\x00@\x00\x00@@\x00\x00\x80@' , dtype = '>f4' ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+[ k for k , v in re . items ( ) if v . strip ( ) ] #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+df . loc [ df [ df [ 'A' ] == df [ 'B' ] = np . arange ( df . shape [ 0 ] #NEWLINE#
+pd . pivot_table ( df , index = df . index . date , columns = df . index . date , values = 'Close' ) #NEWLINE#
+return sorted ( dict . items ( ) ) #NEWLINE#
+return sorted ( dict . items ( ) ) #NEWLINE#
+return sorted ( dict . items ( ) ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+ord ( ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/a#SPACE#' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/a#SPACE#' ] ) #NEWLINE#
+[ x [ i ] for i in range ( 100 ) if i > 1 ) ] #NEWLINE#
+unicodedata . normalize ( 'NFKD' , 'música' ) . encode ( 'ascii' , 'ignore' ) #NEWLINE#
+dir ( ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+sum ( [ i for i , v in enumerate ( a ) if v > 0 ] #NEWLINE#
+subprocess . Popen ( [ 'rm' , '-r' , 'some.file' ] ) #NEWLINE#
+re . split ( '\\bis\\b' , your_string ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+re . findall ( '\\b[A-Z]' , formula ) #NEWLINE#
+df . groupby ( 'User' ) [ 'X' ] . transform ( sum ) == 0 #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+df . groupby ( ( df . index ) . date ( ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+re . findall ( '\\w' , 'abcdefg' ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+max ( test_string . rfind ( i ) for i in '([{' ) #NEWLINE#
+br . select_form ( nr = 0 ) #NEWLINE#
+re . split ( '\\s*,\\s*|\\s*;\\s*' , 'a#SPACE#,#SPACE#b;#SPACE#cdf' ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+[ x for x in a if x [ 1 , 2 ] #NEWLINE#
+[ k for k , v in User . _fields . items ( ) if v . required ] #NEWLINE#
+print ( re . split ( '[^a-zA-Z]*' , 'your#SPACE#string' ) ) ) #NEWLINE#
+print ( a_module . __file__ ) #NEWLINE#
+urllib . parse . unquote ( '%0a' ) #NEWLINE#
+br . form . add_file ( open ( filename ) , 'text/plain' , filename ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+print ( re . search ( '\\bLOG_ADDR\\s+(\\S+)' , line ) . group ( 1 ) ) #NEWLINE#
+sorted ( list ( tag_weight . items ( ) ) , key = lambda x : int ( x [ 1 ] ) , reverse = True ) #NEWLINE#
+sorted ( list ( tag_weight . items ( ) ) , key = lambda x : int ( x [ 1 ] ) , reverse = True ) #NEWLINE#
+sorted ( list ( dic . items ( ) ) , key = lambda x : x [ 1 ] [ 'Fisher' ] , reverse = True ) #NEWLINE#
+[ item [ 'gold' ] for item in a ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . fromlist ( [ int ( val ) for val in stdin . read ( ) . split ( ) ] ) #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+[ ( d . get ( k , v ) for k , v in ( 12 ) ] #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+print ( df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+print ( df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+df . groupby ( df . columns - [ 'T1_V6' ] #NEWLINE#
+sum ( df . apply ( lambda x : x . isnull ( ) , axis = 1 ) > 0 ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+print ( [ x for x in a if x [ 1 ] == 0 ] ) #NEWLINE#
+max ( ld , key = lambda d : d [ 'size' ] ) #NEWLINE#
+driver . find_element_by_css_selector ( "input[onclick*='1#SPACE#Bedroom#SPACE#Deluxe']" ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+df . loc [ df [ df [ 'A' ] == df [ 'B' ] = df [ 'AB' ] . split ( '#SPACE#' , df [ 0 ] ) #NEWLINE#
+subprocess . Popen ( [ 'rm' , '-r' , 'some.file' ] ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+lst = list ( itertools . product ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+return user . groups . filter ( name = 'Member' ) . exists ( ) #NEWLINE#
+[ x for x in bin for x in [ 'BB' , 'A7' , 'F6' , '9E' ] ] ] #NEWLINE#
+df . groupby ( [ 'Month' , 'Fruit' ] ) . sum ( ) . unstack ( level = 0 ) #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 ] ] #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 ] ] #NEWLINE#
+br . addheaders = [ ( 'Cookie' , 'cookiename=cookie#SPACE#value' ) ] #NEWLINE#
+( ( k , v ) for k , v in zip ( a , b ) ) #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 ] ] #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 , 4 ] ) ] #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+[ i for i , j in zip ( a , b ) if i == j ] #NEWLINE#
+from subprocess import call #NEWLINE#
+df . groupby ( df . a == 'B' ) . shift ( 1 ) . fillna ( 0 ) . cumsum ( ) ) ) #NEWLINE#
+round ( value , significantDigit ) #NEWLINE#
+tree . xpath ( ".//a[text()='Example']" ) [ 0 ] . tag #NEWLINE#
+[ k for k , v in User . _fields . items ( ) if v . required ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+print ( list ( itertools . combinations ( [ 1 , 2 , 3 , 4 , 5 , 6 ] ) ) #NEWLINE#
+dir ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+print ( [ x for x in EmployeeList ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'rm' , '-r' , 'some.file' ] ) #NEWLINE#
+np . where ( df . a == 0 ) #NEWLINE#
+print ( df . loc [ df [ 'column_name' ] == some_value ] #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+map ( int , [ '1' , '2' , '3' ] ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+a . update ( [ 3 , 4 ] ) #NEWLINE#
+getattr ( __builtins__ , 'range' ) #NEWLINE#
+df . loc [ df [ 'Value' ] . idxmax ( ) ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+print ( re . split ( '[^a-zA-Z]*' , 'your#SPACE#string' ) ) ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+window . set_position ( Gtk . WindowPosition . CENTER ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+round ( 32.268907563 , 3 ) #NEWLINE#
+k = hashlib . md5 ( 'thecakeisalie' ) . hexdigest ( ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+os . chdir ( '..' ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+df . groupby ( 'colour' ) . size ( ) . plot ( kind = 'bar' ) #NEWLINE#
+np . einsum ( 'ij,kj->jik' , X , X ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+sum ( map ( ord , [ '1' , '2' , '3' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/a#SPACE#' ] ) #NEWLINE#
+lst = map ( list , itertools . product ( [ 0 , 1 ] , repeat = n ) ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+sys . stdin . read ( 1 ) #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( x , lst2 [ i ] ) for i , x in enumerate ( lst ) ] #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+[ x for x in sorted ( [ 1 , 2 , 3 ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+print ( select ( [ my_table , func . current_date ( ) ] ) . execute ( ) ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+np . outer ( a , b ) #NEWLINE#
+print ( '0x%X' % value ) #NEWLINE#
+sum ( df . apply ( lambda x : int ( x . isnull ( ) , axis = 1 ) #NEWLINE#
+return user . groups . filter ( name = 'Member' ) . exists ( ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' ] ) #NEWLINE#
+subprocess . call ( [ 'shutdown' , '/r' ] ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+sorted ( [ 1 , 2 , 3 ] ) #NEWLINE#
+sorted ( [ 1 , 2 , 3 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . apply ( lambda x : x + x + y : x + y , x ) ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+return HttpResponse ( json . dumps ( response_data ) , content_type = 'application/json' ) #NEWLINE#
+sys . stdout . flush ( ) #NEWLINE#
+br . form . add_file ( open ( filename ) , 'text/plain' , filename ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+for item in thelist : #NEWLINE# #INDENT# thefile . write ( '%s\n' % item ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+urllib . parse . unquote ( '%0a' ) #NEWLINE#
+df . apply ( lambda x : x . fillna ( x . mean ( ) , axis = 1 ) #NEWLINE#
+df . groupby ( [ 'Month' , 'Fruit' ] ) . sum ( ) . unstack ( level = 0 ) #NEWLINE#
+map ( list , permutations ( [ 1 , 2 , 3 , 4 ] ) #NEWLINE#
+df . apply ( lambda x : x . fillna ( x . mean ( ) ) , axis = 0 ) #NEWLINE#
+ftp . retrbinary ( 'RETR#SPACE#%s' % filename , file . write ) #NEWLINE#
+ftp . retrbinary ( 'RETR#SPACE#%s' % filename , file . write ) #NEWLINE#
+ftp . retrbinary ( 'RETR#SPACE#%s' % filename , file . write ) #NEWLINE#
+ftp . retrbinary ( 'RETR#SPACE#%s' % filename , file . write ) #NEWLINE#
+print ( urllib . request . urlopen ( 'http://www.stackoverflow.com' ) . getcode ( ) ) #NEWLINE#
+[ next ( it ) for _ in range ( n ) ] #NEWLINE#
+print ( subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+lst = map ( list , itertools . product ( [ 0 , 1 ] , repeat = n ) ) #NEWLINE#
+re . sub ( '<[^<]+?>' , '' , text ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+re . sub ( '(.)' , '\\1\\1' , text . read ( ) , 0 , re . S ) #NEWLINE#
+getattr ( test , a_string ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+round ( value , significantDigit ) #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+with open ( 'test1' , 'ab' ) as f : #NEWLINE# #INDENT# pass #NEWLINE#
+all ( open ( 'test1' , 'ab' ) #NEWLINE#
+df . to_csv ( 'c:\\data\\t.csv' , index = False ) #NEWLINE#
+print ( k , v ) for k , v in dictA . items ( ) if v . count ( ) . count ( ) #NEWLINE#
+np . savez ( tmp , * [ getarray [ 0 ] , getarray [ 1 ] , getarray [ 8 ] ) #NEWLINE#
+[ i for i in range ( 0 , 1 , 2 ) for i in range ( 0 , 2 ) ] #NEWLINE#
+sum ( df . apply ( lambda x : sum ( x . isnull ( ) . values ) , axis = 1 ) > 0 ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ x for x in a if x [ 1 , 2 ] #NEWLINE#
+print ( a_module . __file__ ) #NEWLINE#
+[ k for k , v in itertools . groupby ( [ 1 , 2 , 3 ] #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+print ( max ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+[ int ( x , 16 ) for x in [ 'BB' , 'A7' , 'F6' , '9E' ] ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+json . dumps ( { 'apple' : 'cat' , 'banana' : 'dog' , 'pear' : 'fish' } ) #NEWLINE#
+response = requests . put ( url , data = json . dumps ( data ) , headers = headers ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+df . groupby ( [ df . index . map ( lambda x : x . year ) ) #NEWLINE#
+sorted ( lst , key = lambda x : x [ 1 ] ) #NEWLINE#
+subprocess . call ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+print ( max ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+sorted ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+sorted ( a_list , key = operator . itemgetter ( 1 ) ) #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+re . split ( '\\s*,\\s*|\\s*;\\s*' , 'a#SPACE#,#SPACE#b;#SPACE#cdf' ) #NEWLINE#
+json . loads ( request . POST . get ( 'mydata' , '{}' ) ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+sorted ( l , key = lambda x : order . index ( x [ 1 ] ) ) #NEWLINE#
+dir ( ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+importlib . import_module ( 'a.b.c' ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( x + y ) for x in '12345' for y in 'ab' ] #NEWLINE#
+sum ( df . apply ( lambda x : int ( x . isnull ( ) . values ) , axis = 1 ) #NEWLINE#
+output = subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+df . groupby ( [ 'stock' , 'same1' , 'same2' ] ) [ 'positions' ] . sum ( ) . reset_index ( ) #NEWLINE#
+re . split ( '[#SPACE#.]' , 'a#SPACE#b.c' ) #NEWLINE#
+subprocess . Popen ( [ 'bash' , '-c' , '.#SPACE#foo.sh;#SPACE#go' ] ) #NEWLINE#
+[ i for i , v in enumerate ( a ) if v . items ( ) ] #NEWLINE#
+print ( hashlib . md5 ( open ( 'filename.exe' , 'rb' ) . read ( ) ) . hexdigest ( ) #NEWLINE#
+[ line . strip ( ) for line in zip ( Y , X ) ) ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+subprocess . check_output ( 'echo#SPACE#"foo"' , shell = True ) #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+sorted ( list ( dictionary . items ( ) ) , key = lambda x : x [ 1 ] ) #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+dir ( ) #NEWLINE#
+df . loc [ df [ 'column_name' ] == some_value ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+max ( ld , key = lambda d : d [ 'size' ] ) #NEWLINE#
+re . findall ( '^(.+?)((.+)\\3+)$' , '42344343434' ) [ 0 ] [ : - 1 ] #NEWLINE#
+subprocess . Popen ( [ 'mycmd' , 'myarg' ] , stdout = PIPE ) . communicate ( ) [ 0 ] #NEWLINE#
+[ ( k , v ) for k , v in D . items ( ) if 'Light' in k ] #NEWLINE#
+return HttpResponse ( status = 204 ) #NEWLINE#
+sum ( x [ 1 : ] for x in D . items ( ) if 'Light' in k ] #NEWLINE#
+subprocess . Popen ( [ './abc.py' , arg1 , arg2 ] ) #NEWLINE#

@@ -1,0 +1,500 @@
+. getpid ( ) . getpid ( ) ) signal . signal ) #newline#
+) decode ( <unk> ) #newline# decode ( <unk> ) #newline#
+not not not [ for not for for x in my_list for #newline#
+( <unk> . ( <unk> . <unk> . <unk> ) <unk> ) ) #newline#
+d decode ( 'utf-8' ) #newline# encode ( 'latin1' ) #newline#
+[ [ } : [ for k , v in list ( d . items ( ) if if k in not none } #newline#
+[ [ ( ( [ ) v ) for k , v in list . items ( ) ) k not not in ] #newline#
+popen check_output check_call cmd , shell = true ) #newline#
+join join ( [ ( join 'b' ] 'c' ] ) #newline#
+. to_datetime ( np ( range ( <unk> . ) timestamp ( * ( * ) ) ) ) #newline#
+) urllib ( response ) #newline#
+) datetime . datetime . strptime ( date . <unk> ) #newline# date ( ) .
+( close ( ) ) #newline#
+#newline# split ( ) ) #newline#
+[ join ( [ ( i [ [ x in s ( #newline#
+) objects . order_by ( id__in . <str0> ] ] . order_by ( pk #newline#
+= shape ( np = 1 ) #newline#
+<unk> 'error' ( 'error' ) #newline#
+( ( . join ( ( ( str ( s ( ) ) #newline#
+call call ( cmd 'ls' , <unk> , <unk> , ) #newline#
+mktime mktime ( <unk> - <unk> ) #newline#
+#newline# [ ( <unk> ( format ( <unk> , '' ) ) #newline#
+( <unk> ) format ( x , '' ) ) #newline#
+modules modules path modules ( path ) #newline#
+match findall ( <unk> , sentence ) .
+file open ( 'file.txt' ) file ) #newline#
+. request . urlopen ( url , filename ) #newline#
+) ( . request . urlopen ( req . #newline#
+= out . request . urlopen ( url ) #newline#
+r requests . get ( url ) #newline#
+out content . get ( url , files = open ) #newline#
+) write ( <unk> , <unk> = 'store_true' , ) ) parser ) #newline#
+: : : ( ( : for i in list ( i in d : #newline#
+. dataframe ( df1 , left_on , on = 'time' <unk> ] , suffixes = ( <unk> ) how ) , #newline#
+re findall ( ) ) ) ) #newline#
+) ) ) #newline#
+) app ( app ) true ) #newline#
+. dump ( favorite_color , f ( file , f ) ) #newline#
+. ndimage ( * . * , * [ ( - , <unk> , , #newline# reshape ( - , 1 , .
+. array ( ( ( , dtype , dtype ) , #newline#
+. join ( words . findall ( ) ) for : ] 1 ] for for
+( arr . ( ( arr ( [ dtype ( ( , 2 1 ) #newline# : 2 , ] np , #newline#
+for [ ( [ for for isinstance ( i , sum ) for i , i in l ) for
+unpack pack ( <unk> % <unk> pack pack ( 'hex' ) ) #newline# 0 ] #newline#
+) update ( { { ) y ) d ) ) y in y in list ( d . items ( ) ) ) #newline#
+subprocess popen ( cmd ) stdout = true ) #newline#
+. join ( [ ( #newline#
+) <unk> . join ( str ( str , lst , ) #newline#
+[ range [ [ [ [ ( [ ) ) [ [ #newline#
+( <unk> ( search ( <unk> ) '' ) ) #newline#
+) ) ) ) , ) ) ) ) ) : ] ] 1 ] ) #newline#
+. strptime ( strptime ( <unk> ) #newline# timedelta ( <unk> ) #newline#
+mktime strftime ( <unk> ) time . strftime ( ) . datetime ) ) #newline#
+- . datetime . datetime - ) - datetime . timedelta ( days = - - ) #newline# days ( ) )
+( ( ( ( [ ( ( ) row in [ ( ) #newline#
+] ( ) for ( ] for i in matrix ( if row in row ( len ( row ) i , ) ) ] #newline#
+base64 base64 ( base64 ( base64 base64 base64 ) ) #newline#
+( ( [ [ for k [ k ] for k in keys ( for for k in keys ( k ] for #newline#
+: : : <unk> : k : } d in d ( } d } list ( <unk> ] } #newline#
+form form form app ] #newline#
+] for k , v in list ( range ( [ . if items ( ) if for sum not 1 ] #newline#
+<str0> <str0> <str0> <str0> <str0> 0 , os . path . join ( os . path . dirname ( os ) ) os ) ) #newline#
+modules modules modules modules ( path . modules . modules ( dir . path . dirname ( __file__ ) ) sys . #newline# #newline#
+sqlite3 sqlite3 ( sql ) <unk> sql ) con ) #newline#
+] ] el ] lst for lst [ lst ] if
+) append ( [ ) #newline#
+[ b ( [ ( b ) for #newline#
+. array ( df , df , <unk> , df = <unk> ) #newline#
+) close ( <unk> , = = false , = = false ) header = '\t' ) header = [ ) #newline#
+( [ . match . <unk> ) ) ( ] ) #newline#
+( ( . format ( '#space#' , 1 ) [ 0 ] . #newline#
+ftp ftp retrbinary <unk> , <unk> ) <unk> ( filename ) 'rb' ) ) #newline#
+. webdriver ( <unk> ) #newline#
+[ array ( [ ( , [ , [ , , [ [ , [ , [ , , [
+[ [ ) [ ) [ ) [ ( ( ] ] ) #newline#
+in in glob . listdir ( <unk> ) #newline# #newline# #indent# if fn . path . isfile ( f ) #newline# #newline# #indent# #indent# #indent# #newline#
+in in in in files in files . f in ) . #newline# f #indent# f f in os ] #newline# #indent# f f #newline#
+] ( random , 1000 ( randint ( ( for for i in range ( n , ] #newline#
+. now ( now ( ) #newline# date ( <unk> ) #newline#
+. execute ( ) ) <unk> ) poll ) ) ) #newline#
+. . . . . contains ( . . .
+( [ ) join ( [ . join ( [ ( ) ) ) row in [ ) ) row in row . ) #newline#
+stores stores ( [ ( df ) ) #newline# unstack ( df ) axis = df ) #newline# all ( drop #newline#
+) format ( <unk> . <unk> ) <unk> . <unk> ) #newline#
+) format ( ) . <unk> ( <unk> . <unk> ) #newline#
+) format ( ) . #newline#
+for ( for for join ( [ ( [ [ for d in l for for for x in l for for
+1 , join ( [ ( i for for d in l if for x in l ( #newline#
+) [ [ ( [ ) join ( [ [ ( i ) for y in zip for for for for y in zip for #newline#
+) <unk> ( <unk> ) format ( ) ( ) #newline#
+] ] x in ( : ] - ] - ] - ] ] x ] in [ ] not ] in [ ] #newline#
+) re . re ( <unk> , '\\1' , s ) #newline#
+. loc ( df ) . sum ( ) = ( ) #newline#
+. compile ( <unk> , <unk> , #newline#
+#newline# <unk> ( ) #newline#
+( <unk> . match ( match . etree . ) group ( ) ) ) #newline#
+infile f , fd ) . writelines ( ) #newline#
+. strptime ( strptime ( d , <unk> ) #newline#
+] ] index ] index in enumerate ( list_1 for if item [ 1 ] == item ] #newline#
+sub sub ( <unk> , '' , '' , #newline# sub ( ) #newline# sub ( ) #newline#
+sub sub ( '' , '' , '' , #newline# sub ( ) #newline# split ( ) #newline#
+show show ( ax , y ) ax = <unk> , #newline#
+show show ( ax , y ) ax = <unk> , #newline#
+] ] x in l for x ( x for ] x ] #newline#
+( ( ( ( ) for object in range ( n ) ] #newline#
+( ( ( ( map for i in range ( n ) if #newline#
+. <unk> . <unk> ( <unk> ) . #newline# ( 'value' ) #newline#
+( 'df' ( df2 , df2 = 'time' , #newline#
+#newline# ( ) ( ) ) #newline#
+] ] split ( ) . split in [ ] split ( ) ] ] #newline#
+not in . not not exists ( os ) #newline# #newline# #indent# #indent# . not ( os ) #newline#
+: #newline# #indent# except . not ( os ) #newline#
+import not . <unk> ( ) ) #newline#
+: #newline# #indent# except . not ( os ) #newline#
+sub sub ( <unk> , <unk> , <unk> , #newline#
+sub sub ( <unk> , string , string sub #newline#
+( join ( ( ( [ x in ( ( not not isdigit ( ) ] #newline# #newline#
+soup soup . soup ( 'div' ) ) contents ) #newline#
+( [ ( [ [ [ <unk> ] , <unk> [ for <unk> [ <unk> ( #newline#
+. array ( ( ( , ( , , #newline#
+. array ( np np ( np , ) #newline#
+. urandom ( <unk> . . <unk> #newline#
+( most_common ( counter ) #newline#
+( [ ( #newline#
+] ] for count , count ( ) for for #newline# x in counter ( [ ) for #newline#
+( ( ( = count ( count ( ) = ) for x in counter ( [ ) ) #newline#
+( sum ( [ ) #newline#
+. rmtree ( src ( src , #newline#
+key key for k , key in list . items ( ) if k == v ] #newline#
+, , k , v , list . items ( ) ) k [ <unk> ) #newline#
+( key for k , key in list . items ( ) if k >= v ] #newline#
+file seek ( 0 ) #newline#
+#newline# <unk> ] . df . array ( df ) <unk> , ) diff ( df ) 'time' ] ) df = 'time' , ) #newline#
+[ [ ( ] #newline#
+( <unk> . create ( ) ) <unk> ) ) ) ) <unk> ( days = <unk> ) #newline# #newline#
+] ] [ [ ( ] #newline# [ 1 ] for
+( n ( n ) ) <unk> #newline# + zfill ( 2 ( 2 ) ) #newline#
+( ) ( ( ( ( ] 1 ] ) df ( ( ( - ] ] ) #newline#
+( chain ( #newline#
+[ [ [ #newline#
+) [ ( tuple ( list_of_tuples , )
+( data ( data ( ) ( )
+df index [ df [ df ] == .
+( ( [ ( . ( ( df ( [ [ ) for #newline#
+[ [ [ [ df == [ #newline# . index [ index ( ) #newline#
+( ( ( ( , ) . ( ( index ( ) #newline#
+. path ( os . #newline#
+) execute ( sql ) ( sql ) ) ) #newline#
+#newline# <unk> ( 'utf-8' ) #newline#
+( format ( ) ) #newline#
+( format ( ) ) .
+] ] start for ) ] for m in re . finditer ( '((\\w)\\2)+' , s , ] #newline#
+subplot show ( x . cos . colorbar ( 10 , , [ . random . randn ( 10 , , [ = true , #newline#
+gca plot ( ax . xlim . xlim ( 10 , , <unk> . plot . randn ( 10 , , np , ax , plt , #newline#
+beautifulsoup beautifulsoup ( 'h2' , id = re . #newline# find_all #newline# 'li' #newline#
+. 'count' . <unk> ] . groupby . replace ( <unk> ) . .
+( ( ( ) = [ ) drop = true ) #newline#
+( ( ( * df ( <unk> (
+df columns ( drop = [ df ] drop ] ) #newline#
+] ] - - - 1 ] #newline# x in ( ] #newline#
+. random ( [ [ ( * , y ) for x in y in zip ( * ( y ) ] ) #newline#
+. random ( [ ( a ( <unk> ( ) , <unk> ) ravel ( ) ) #newline# #newline# = np ) #newline# reshape ( - ) reshape [ #newline#
+. join ( map str ( lst ) for i in l . ) #newline#
+post post ( url , data = data ( data = headers ) headers = ( access_token ) headers ) #newline# #newline#
+#newline# format ( 'l' ) #newline#
+( [ ( [ item in [ ( [ [ [ [ ] ) ) #newline#
+] , for x ] for 'y' ] 'y' ] for for x in [ ( #newline#
+( <unk> . path . join ( os . path . join ( os ) ) ) 1 ] ) #newline#
+( ( ( ( for i [ ( ( for i in list ( len , len ( d ) ) list ) ) for
+) [ ( ) 0 0 ] 'b' ] 'c' ] ) [ 'b' ] 'd' ] 'f' ] ) [ 'd' ] 'h' ] 'i' ] ) ) 'j' 'j' ) #newline#
+( ( ( ( df ( ( ] ) df ) #newline# ( df ( 99 ] ) df ) #newline# #newline#
+#newline# <unk> ( <unk> <unk> , re } ) regex = true ) #newline#
+#newline# text ( <unk> <unk> , re } ) regex = true ) #newline#
+] , for [ for for x in y in zip ( * for x for iter : ] , if #newline#
+( range ( * x : [ : x * ( * [ ( ( ] 1 ] ) [ ( ( ] ] ) ) #newline#
+( <unk> . match ( <unk> ) re . ) #newline#
+( <unk> . match ( match ) re . ) group ( ) ) #newline# #newline#
+pat sub ( regex , '' , '' , #newline#
+. datetimeindex ( <unk> datetime datetime = <unk> ) freq = <unk> ) #newline#
+( np [ ( [ a , . a a ] a , ] a : ] np , ) )
+- encode ( '#space#' , unicodedata ) #newline#
+. path . path ( path . #newline#
+. join ( [ . findall ( ) for #newline#
+. path . splitext ( filename ) #newline# 1 ] #newline#
+] ( 1 ] 0 - ( for for i ( <unk> in range ( l ] ] #newline#
+#newline# split ( tzinfo , '' ) #newline# replace ( ) ) #newline#
+np random . random ( arr . random ( arr [ [ #newline#
+) 'a' , #newline# [ #newline# 'a' ] #newline#
+( <unk> ( ( [ , 'b' ] ) keys ( ) ) #newline# 'c' ] #newline# 'c' ] #newline# 'c' ] #newline# 'c' ] #newline#
+( isalpha == ) == for x in ( ( #newline#
+. path path path . #newline# path ( os . path . os ) #newline# path (
+execute execute ( ) #newline# 0 ] #newline#
+) [ ( ( <unk> = for num in numbers . split ( ) ) ] #newline#
+] ( s [ #newline# s in s ( split ( ) ] if #newline#
+( [ [ key = lambda : : [ [ [ : ] , reverse [ [ - ] ) ) #newline#
+) objects ( order = lambda ) reverse = true ) #newline#
+( <unk> ( ) = reverse x : ( . find ( reverse = true ) #newline#
+) objects ( ) = lambda x : ( . objects ( reverse = true ) #newline#
+webdriver find_element_by_id ( ) ) #newline# click ( ) #newline#
+. find_element_by_id ( <unk> . <unk> ) ) ) ) #newline# text ( ) #newline#
+webdriver find_element_by_id ( ) ) #newline# click ( ) #newline#
+) <unk> ( ) ) #newline#
+df sort ( [ [ ] df ] ) .
+fd 'test.txt' , . ) . write ( filename ) '\n' ( filename ) . close ( ) ) #newline#
+) [ ( ) = itemgetter x : t ( t [ 1 ] ) ) reverse = [ ) #newline#
+search findall ( <unk> , <unk> , #newline#
+re re . match ( re , s ) ) #newline#
+( range ( chain ( ) #newline#
+( range ( chain ( ) #newline#
+( range . fromkeys ( my_list ( ) #newline#
+array array ( [ ( #newline# array ( ( 1 , #newline# array ( ) #newline#
+array array ( [ ( [ [ , #newline# array ( ) [
+( . . match ( text . text . . text . <unk> . . text . 0 ] ) #newline#
+. join ( format ( format % ( for for t in s . ) #newline#
+join join ( format ( + % ( format ) ( ] ) [ [ t ] ) for for t in tuples ( #newline# #newline#
+webdriver quit ( <unk> ) #newline#
+] ] i in ( ] i . match ( <unk> , <unk> ] ] #newline#
+( df ) [ 'b' df ) 'b' ] ) 0 ) for ( df ) 'c' ] ) [ ] ] #newline#
+key [ , [ ( items , #newline#
+( [ ( #newline#
+key [ [ items [ items , #newline#
+( ) ) #newline#
+( eval #newline#
+) [ [ ( int , [ ) for x in [ ( #newline#
+popen popen ( cmd popen , ) #newline#
+popen popen ( cmd popen , ) #newline#
+: ] idx [ zip ( a ( <unk> , if val in zip [ #newline#
+base64 base64 . decode ( base64 ) #newline#
+#newline# #newline# #newline# decode ( 'utf-8' ) #newline#
+= [ ) myfile . reader ( myfile ( myfile , delimiter ) ) delimiter = ',' ) ) #newline#
+( <unk> , <unk> ( #newline#
+[ [ ( [ ( [ ( ( ] ) [ ( [ ( iter ( d . keys ( ) ) ) d in list ( ) ) ) #newline# #newline#
+( [ for [ ( for for pair in zip ( for #newline#
+d { . literal_eval ( <unk> ) #newline#
+] ] word in words for findall ( ) if word . isupper ( '#' ) ] #newline#
+urlparse re . urlparse ( pattern , re , re ) re = re . ignorecase ) #newline#
+[ where ( ( . all ( [ ( [ ( , [ , [ , , [ all ( ( ( shape [ [ ( ( [ ] #newline#
+np array ( np ( np = np ) [
+<str0> check_output ( [ <str0> , <unk> ] <unk> , ) #newline#
+. check_output ( [ , <unk> = <str0> ) #newline#
+f writerow ( ) #newline#
+( ( ( df ) df ( ) = 1 ) ) inplace = 1 ) #newline#
+mktime mktime ( <unk> ) time . strftime ( ) dt ) #newline#
+self ) , self ) . __init__ ( ) ) #newline#
+[ np np arange ( np np [ : , ( np ) ] ) a ) [ np [ [ 0 , ( [ ) ] ) [ ) ] ] #newline#
+. findall ( <unk> , <unk> , #newline#
+[ [ ( [ [ [ = len ) - #newline#
+) [ [ [ [ ] #newline#
+] ] strip ( ) for line in line ( 'myfile' ] ] #newline#
+[ [ ( [ [ ) k ) for k , v in list . items ( ) ) #newline#
+write write ( fd . fd ) .
+. groupby ( [ <unk> ] df ] . . 'col2' ] . groupby ( ) #newline# to_dict ( ) #newline#
+( [ for is ( <unk> ) for key in [ . #newline#
+] ] key in value in [ ( mydict for split ( ) if if key in startswith ( 'earth' ) ] #newline#
+. series ( df 'fruit_name' : np . series ( df : [ ( series ( ) #newline#
+( ( . <unk> ( <unk> ( <unk> . numbers . ) ) #newline#
+( <unk> . format ( 'utf-8' ) ) #newline#
+#newline# format ( 'utf-8' ) #newline# decode ( 'utf-8' ) #newline#
+( <unk> ( imshow ( img img , height ) , image . antialias ) #newline#
+compile findall ( <unk> , <unk> , #newline#
+( ( ( format ( <unk> / decimal ) ( ) ) #newline#
+) ) ( ) = itemgetter d : ( [ 0 ] ) #newline#
+[ [ ( [ = itemgetter d : x [ 1 ] ) #newline#
+[ sort ( key = itemgetter x : [ [ [ [ ] , [ [ [ ] , [ [ [ ] ) #newline# #newline#
+nlargest nlargest ( n , key ( n ( ranges ) , ) key = itemgetter x : i ( i ( 1 ] ) 1 ) - ] ) ) #newline#
+) beautifulsoup ( text ) ) 'class' : <unk> } ) #newline#
+) close ( 'table_name' , engine , if_exists = #newline# ) #newline#
+#newline# [ . findall ( pattern , '' , '' , #newline#
+b_set roundrobin . b_set roundrobin for : ] ) [ [ for x in b_set [ for items ( ) ) #newline#
+] : rstrip ( ) ) for line in line ( #newline#
+: : i in i in range ( a ( if i [ x ] #newline#
+: : i in i in range ( a ( if i [ x ] #newline#
+in in range i in i in i in range ( a ( if i in x ] #newline# #newline#
+in in range i in i in i in range ( a ( if i in x ) #newline# #newline# #indent# #newline# #newline#
+) ) ) ) i in _ in enumerate ( ) ( if i [ 1 ) #newline#
+( ( ( <unk> ( <unk> ( ) #newline#
+: #newline# #indent# = ( : : find : <unk> ( #newline# #newline#
+( [ ( [ = itemgetter x : ( [ 0 ] ) for 0 ] #newline#
+( ) ( ( = lambda ( 1 ) ) #newline# 0 ] #newline#
+) time ( 1 ) #newline#
+[ join ( [ + [ + join ( [ + for [ #newline# i in range ( #newline#
+) fields . <unk> ( max_length = 100 ) choices = <unk> ) choices ) <unk> ) #newline#
+( [ , sorted : : ( [ ( [ , , key [ , ,
+( [ , ( = lambda : : ( ( , [ , , key ) , #newline#
+) , n , list ( , 2 , 2 , 4 ) ) #newline#
+= [ mask for x , dates in enumerate ( indices . if dates . in indices ] #newline#
+f open open 'file.txt' ) open ) .
+( <str0> ( <str0> ( <str0>
+import import reduce #newline# reduce ( tuple x , b : ( [ ( [ ( b a , [ , ( [ , [ , ( [ , ( , #newline# #newline#
+tuple tuple x , [ , [ ] , [ tuple tuple , [ , ( tuple , [ ) ( [ , [ ) #newline# #newline#
+. <unk> . . groupby ( to_replace , regex , regex = true ) #newline#
+[ [ [ iter * , 'b' , , ( [ , 'c' ) , ( [ , 'd' ) , ( 'a' , 'a' ) ] #newline# #newline#
+[ [ [ iter * , 'b' , , ( [ , 'c' ) , ( [ , 'd' ) , ( 'a' , 'a' ) ] #newline# #newline#
+. [ [ [ a in b in zip ( #newline# [ <unk> ] a in b in zip ) )
+= [ [ [ a , b in zip ) #newline# #newline# [ ) a , b in zip ) #newline#
+[ [ [ ( [ , 'b' , , ( [ , 'c' ) , ( [ , 'd' ) , ( 'a' , 'a' ) ] ( 'a' , 'd' , #newline# #newline#
+( lambda , <unk> <unk> iter itemgetter , 'b' , , ( lambda , 'c' ) , ( 'c' , 'd' ) ] ( 'd' , 'a' ) ) ( 'd' , 'd' ] #newline# #newline#
+dumps dumps ( ) ( ) ) ) #newline#
+( ( , ) [ #newline#
+( ( ( ( ( : [ } ) #newline#
+( ( ( ( ( ( ) dict ) ) #newline#
+( ( ( ( ) dict ) #newline#
+( , - ( - , for i , indices ( , #newline#
+decimal decimal ( decimal ( decimal / - ) ) #newline#
+. urllib . findall ( <unk> , s ) #newline#
+( div ( df ) . transform ( <unk> x : x ( df ) . 0 ) #newline#
+] ] x in line . readlines ( ) : x ] y ] #newline#
+( open ( int , lst ( ) , ) read ( ) ) #newline#
+<unk> <unk> ( ) , plt . ax = plt ) #newline#
+( [ . join ( [ ( ( . ) . values ( ) . #newline# most_common ( ) ) #newline#
+re findall ( <unk> , re , #newline#
+( range . product ( range range , 2 ) 2 ) , ( ) ) #newline#
+now now ( 1970 . timezone ) .
+= [ [ for x in l1 if x is 0 0 #newline# #newline#
+[ [ [ in x in lst if not in #newline#
+render_to_response ( simplejson ( mimetype = 'application/json' ) #newline#
+match findall ( pattern , pattern , #newline#
+match sub ( pattern , pattern , #newline#
+match findall ( <unk> , <unk> , #newline#
+match match ( pattern match match match #newline#
+match compile ( <unk> , <unk> , #newline#
+( ( ( % format ( * . . <unk> in <unk> . #newline#
+popen popen ( cmd 'ls' , stdout ] , #newline#
+] ] ( ] = x in [ ] #newline#
+( ( ( ( ( ( ( for ( ( , ) ) for #newline# #newline#
+( ( ( ( ( , - ) . sum ( ) = 1 ) #newline# mean ( ( ( mean [ 0 ] ) [ 1 ) #newline#
+( <unk> . format ( 'utf8' ) ) decode ( '\\' ) "'" ) #newline# #newline#
+. findall ( ) , sentence . .
+df <unk> . ax = <unk> , ax = true , #newline#
+: : : : : [ : : : : i in [ ( d . keys ( ) ) : #newline#
+] ] i in j ] enumerate ( somelist , if j ( <unk> ] isdigit ( ) if j , [ . replace ( ) ] #newline#
+( if ) ) ) #newline#
+( if ) ) ) #newline#
+) ) ) #newline# not (
+( if ) ) ) #newline#
+( if ) ) ) #newline#
+) <unk> ( [ ) #newline#
+) <unk> ( [ ) #newline#
+) <unk> ( [ ) #newline#
+in in ( in #newline# #indent# #indent# in findall ( ( in #newline#
+[ <unk> ( ( [ ( ( ] ) 1 ] ) [ ( 1 , ) 1 , ) ) #newline#
+debug debug debug <unk> ( = flask #newline#
+dataframe dataframe ( [ , series ( ) ) columns = [ 'col1' ] columns ] ) [ = [ [ index ) #newline#
+] ] x in ( ( 10 ( x ( if if x ( ( ] #newline# x ( #newline#
+) ax ( <unk> ) rotation = <unk> ) #newline#
+sub sub ( <unk> , <unk> , <unk> , #newline#
+. path . path ( path . path . path ( os . path . dirname ( __file__ ) ) ) #newline#
+re re . match ( pattern ) re ) ) #newline#
+sub findall ( <unk> , <unk> , #newline#
+re sub ( <unk> , <unk> , #newline#
+. requests . post ( url , files ) files . files ) files ) files ) true ) #newline#
+filename filename , 'r' ) . read ( filename . #newline#
+] ] <unk> ] . k in sorted ( #newline#
+( 'df' ( [ ) . drop . index ( ) #newline#
+<unk> <unk> , 2 ) #newline#
+( listoflines , key = lambda x : ( . strptime ( x , 0 ] , <unk> ) ) reverse = true ) #newline#
+( ax ( ax , #newline#
+. path . isdir path path . #newline#
+) ) ( d ) items ( ) ) ) #newline#
+( values ( [ ( ) ) ) items ( ) ) count ( ) ) #newline# #newline#
+. groupby ( df df . index ( ) .
+dataframe series ( [ df . df ] ] dataframe ( lambda . series ) . axis . 1 ] ] ] axis = 1 ) #newline#
+<str0> compile ( <str0> , <str0> , #newline#
+for [ ( x ( x for for for item in lst 1 ] item in map _f ] 2 ] 2 ] <unk> ] <unk> ] ) _f
+. popen ( cmd 'ls' , , #newline#
+) ( ( ) ) ) ) ) ) ) #newline#
+) <unk> ( * <unk> ( df = <str0> , df = <str0> ( , = , = ] df , = ] df ] df , ) #newline#
+match match ( pattern , <unk> ( #newline#
+( [ ) #newline#
+arr a arr #newline#
+arr a arr #newline#
+) s ) #newline#
+) s ) #newline#
+#newline# translate ( 'unicode-escape' ) #newline#
+#newline# <unk> ( 'car' , 'v' ) #newline# <unk> ( 'car' , 'v' ) #newline# '*' ( 'car' , 'v' , #newline#
+copy copy ( <unk> , #newline#
+#newline# <unk> ( * df . <unk> ] #newline# <unk> ( lambda x : x . between ( x ) #newline#
+( [ , elements = lambda . most_common ( reverse = true ) #newline#
+( [ ( [ , items ( ) ) ) key = lambda : : ( [ 1 ] ) reverse = true ) #newline#
+[ array ( ( [ [ [ [ ) #newline#
+( np ( ( ( ( np [ ) np = 1 ) ) #newline#
+( np ( ( ( ( np ) ) np = 1 ) ) #newline#
+: np . array [ np : np np , , np ] , np ) 0 np ) ] np ] #newline# #newline#
+. array ( [ [ ( array , , #newline#
+( ( ( socket ( socket ( ( ) ) #newline#
+( ( ( df ( ) = [ ( drop ) [ ) #newline#
+self ( <unk> ) content_type . <unk> ) #newline#
+__name__ __name__ ) static_url_path ) <unk> ) #newline#
+query query ( query query #newline#
+[ sort ( ) = lambda x : ( [ 0 ] , #newline#
+[ sort ( [ = itemgetter l : [ [ [ [ ] ) [ [ [ ] ) [ [ [ ] ) [ #newline#
+[ sort ( [ = itemgetter l : [ [ [ [ ] ) [ [ [ ] ) [ #newline#
+rc rc rc 'font' , <unk> font 'family' rc <unk> ) <unk> : <unk> . ) #newline#
+( ( ( . dt ( pd x : dt . year ( ) ) #newline#
+) element ( 'href' ) #newline#
+df . . values ( '2015-04-25' / #newline#
+. system ( <unk> ) #newline#
+( ( ( ( ( ( [ , ) #newline#
+[ [ [ [
+) <unk> ( ) ( #newline#
+( close ( ( , <unk> ) #newline#
+) <unk> ( , , <unk> ) #newline# <unk> ( 'hex' ) #newline#
+( ( ( ( ( ( 1 ] . #newline#
+( ( [ ( , df , ) <unk> ] [ #newline# #newline# index ( ( ] #newline#
+array array ( [ [ [ , [ , [ , ) [ [ , [ , [ , ) ) #newline#
+) ) ) #newline#
+) ) ) #newline#
+) ) ) #newline#
+) ) ) #newline#
+) ) ) #newline#
+( type ( type ) ) #newline#
+( ( for islice ( it ( n ) , 10 ) 10 ) 1 , ) #newline#
+( format % format ( <unk> ( ) #newline#
+. join ( format ( #newline#
+[ [ [ [ for x in [ ( [ ) if #newline#
+) open ( . readlines ( ) for line in open ( 'myfile' ) 'rb' ) ] #newline#
+join join ( chr chr for char in yourstring if char in char ] for #newline#
+compile compile ( <unk> , <unk> , '' , #newline#
+#newline# translate ( <unk> ) '' ) #newline#
+join join ( filter _f for char in yourstring if char in char ] ) #newline#
+( stores ( ) = [ [ ] ) .
+] ] x in l ( x ] find ] <unk> ] #newline#
+#newline# [ ( ( input ) for x in [ ( #newline#
+str str , list , str ( ) ) ) ) #newline#
+stdout stdout stdout stdout ( line ) #newline#
+( round ( - ( ( ) ) #newline#
+. path ( path ) #newline#
+in in glob . listdir ( folder ) #newline# #newline# #indent# file os . endswith ( '.gif' ) #newline# #newline# #indent# file file #newline#
+in in in in files in files . listdir in walk ) #newline# #newline# #indent# pass line . files = #newline# #indent# file files files . endswith ( <unk> ) #newline# #newline#
+) show ( df ( ax , #newline#
+in in range ( - if : #newline# #indent# pass i in range ( - if #newline# #newline#
+in in in in enumerate ( [ ( range ( - ) ) : - ( range ( - ) ) ) #newline# #newline# #indent# pass #newline#
+) <unk> ) ) ) <unk> ) <unk> ) <unk> ) #newline#
+( ) ) [ * i * ( ) enumerate ( [ ( ) i [ #newline#
+) <unk> ( <unk> ) ( <unk> . ) ) ) ) ) #newline#
+for for y in zip for x for zip [ for y ( x , list ) for [ [ for for for #newline#
+( <unk> . <unk> ( 'utf-8' ) ) #newline#
+join join ( [ ( join ( '#space#' , 1 ) [ #newline#
+- , np , - ) np - 1 - 1 ) ) / np )
+array1 np np 1 ] * ( [ , ( : - * 1 ( ( - 1 ] * [ np )
+= np . array ( ( . <unk> ( <unk> , dtype = np , , dtype = np ) #newline#
+sorted [ ( [ , items = itemgetter ( 1 ) ) reverse = true ) #newline#
+) sorted ( sorted , keys = itemgetter x : ( . 1 ] ) reverse = true ) #newline#
+( ( [ ( , df , . ( ( contains ( <unk> ) #newline# #newline#
+pat sub ( <unk> , <unk> , #newline# search ( 0 ) #newline#
+] . strftime ( '%y-%m-%d' ] #newline# d in date . date ( <unk> , <unk> ] ] #newline#
+) <unk> ( ) ) #newline#
+dumps dumps ( json . dumps ) #newline#
+. request . urlopen . f . f ) #newline#
+re re ( ) #newline#
+) close ( ) ) #newline#
+) re ( ) #newline#
+] . sub ( <unk> , '' , <unk> : for i in s , #newline#
+( [ , <str0> = <unk> x : ( ( elements ( ) ) ) - ] ) )
+. popen ( ( , stdout = true ) #newline#
+] ] element in element for element ( [ ] [ ) ] #newline#
+] ] element in lst ] element in ( tuple ] tuple ) ] #newline#
+= [ [ [ = items = [ d : d [ k ] ) #newline#
+= [ [ [ = items = <unk> ( [ ) ) reverse = true ) #newline#
+) [ ( ) = itemgetter . itemgetter ( [ ) ) #newline#
+) [ ( ) = itemgetter . itemgetter ( [ ) ) #newline#
+. sort ( [ . . index ( ) . sort_values ( ) ) df = [ ) #newline#
+. join ( ( ( ( ] for for
+. join ( [ chr join 'b' ] 'c' ] 'd' ] ) #newline#
+dumps dumps ( jsonfile . parse . parse ( <unk> ) . #newline#
+] ] : in [ for not in ] isalpha ( '#' ] ] not in . endswith ( '#' ) ] #newline#
+start_date objects . filter ( <unk> = . ) .
+) [ ( ) = itemgetter x : ( item [ 1 ] ) reverse [ 0 ] ) ) #newline#
+- , datetime . timedelta . 2012 , 1 , 1 , ) . total_seconds ( ) )
+. compile ( <unk> , <unk> , <unk> , #newline#
+#newline# #newline# imp . reload ( module ) #newline#
+unpack unpack ( <unk> , struct . unpack ( ) , <unk> , ) #newline#
+) [ [ ( float ) for x in my_list ( #newline#
+) close ( 'output.csv' ) writer = false ) #newline#
+#newline# <unk> . dumps ( <unk> ) #newline#
+] ( ord for for i in ( ( len ] if #newline#
+) <unk> ( <unk> . unpack ( '<l' , <unk> ( ) ) #newline#
+escape escape ( <unk> , <unk> , '' , #newline#
+( d . keys ( ) ) #newline# : 1 ] #newline#
+( line ) line . file . #newline#
+f open ( 'file.txt' ) 'r' ) .
+open ( 'file.txt' ) 'w' : as f : #newline# #indent# #indent# : write ( line ) #newline#
+) write ( 'ascii' ) #newline#
+( save <str0> <str0> ( id__in = ) ) #newline# save ( <unk> ) #newline# ( ] #newline#
+match match ( pattern , match , #newline#
+match match ( <unk> , <unk> search #newline#
+. system ( <str0> . <str0> . #newline#
+( ( ( ) = itemgetter x : ( [ 0 ] ) [ ] ) #newline#
+cursor cursor . create . cursor ) fetchall ( cursor ) #newline#
+now now ( now ( year #newline#
+( ( for i for i if enumerate ( if ) if not in ( x , ( ) ) not is [ ) )
+) element in . [ _f word . 1 ) for x in lst . #newline#
+( uniform ( files . choice ( folder ) ) #newline#
+np ) ( arr ( ) , np ( indices ( ) , np = np ( #newline#
+match findall ( <unk> , <unk> , re . findall ) re . dotall ) #newline#
+match findall ( <unk> , <unk> , #newline#
+re re ( re , <unk> ) #newline# split ( ) ) #newline#
+fd 'file.txt' , fd ) #newline#
+] ] ( [ for for item in counter ( * ( [ if #newline# item in values ( * ( ( if #newline#
+( ( np ( x . <unk> ) ] #newline#

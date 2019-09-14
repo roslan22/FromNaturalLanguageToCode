@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#$ -S /bin/bash
+#$ -o $HOME/Thesis/Baselines/output/transformer_rl_no_code.out
+#$ -e $HOME/Thesis/Baselines/output/transformer_rl_no_code.err
+#$ -l tmem=10G
+#$ -l h_rt=04:50:00
+#$ -N openNMT
+
+#export PATH = /home/ribragim/miniconda3/lib/python3.7/site-packages/:$PATH
+
+cd $HOME/Thesis/Baselines/
+
+source /share/apps/examples/source_files/python/python-3.7.0.source
+source /share/apps/examples/source_files/cuda/cuda-9.0.source
+
+python3 seq2seqTransformerRL.py --testing 3

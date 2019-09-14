@@ -1,0 +1,237 @@
+Concatenate elements of a list 'x ' of multiple integers to a single integer
+convert a list of integers into a single integer
+convert a DateTime string back to a DateTime object of format ' % Y- % m- % d % H : % M : % S. % f '
+get the average of a list values for each key in dictionary `d` )
+zip two lists ` [ 1 , 2 ] ` and ` [ 3 , 4 ] ` into a list of two tuples containing elements at the same index in each list
+prepend string 'hello ' to all items in list 'a '
+regex for repeating words in a string `s`
+normalize a pandas dataframe `df` by row
+swap values in a tuple/list inside a list `mylist`
+Swap values in a tuple/list in list `mylist`
+Find next sibling element in Python Selenium ?
+find all occurrences of the pattern '\\ [ [ ^\\ ] ] *\\ ] |\\ ( [ ^\\ ) ] *\\ ) | '' [ ^ '' ] * '' |\\S+ ' within `strs`
+generate the combinations of 3 from a set ` { 1 , 2 , 3 , 4 } `
+add multiple columns `hour` , `weekday` , `weeknum` to pandas data frame `df` from lambda function `lambdafunc`
+BeautifulSoup search string 'Elsie ' inside tag 'a '
+Convert a datetime object `my_datetime` into readable format ` % B % d , % Y`
+parse string `s` to int when string contains a number
+add dictionary ` { 'class ' : { 'section ' : 5 } } ` to key 'Test ' of dictionary `dic`
+transforming the string `s` into dictionary
+How to select element with Selenium Python xpath
+find rows matching ` ( 0,1 ) ` in a 2 dimensional numpy array `vals`
+How to delete a record in Django models ?
+build a dictionary containing the conversion of each list in list ` [ [ 'two ' , 2 ] , [ 'one ' , 1 ] ] ` to a key/value pair as its items
+convert list `l` to dictionary having each two adjacent elements as key/value pair
+assign float 9.8 to variable `GRAVITY`
+separate numbers from characters in string `` 30m1000n20m ''
+separate numbers and characters in string '20M10000N80M '
+separate numbers and characters in string '20M10000N80M '
+Get a list of words from a string `Hello world , my name is ... James the 2nd ! ` removing punctuation
+Convert string '03:55 ' into datetime.time object
+request url 'https : //www.reporo.com/ ' without verifying SSL certificates
+Extract values not equal to 0 from numpy array `a`
+map two lists `keys` and `values` into a dictionary
+map two lists `keys` and `values` into a dictionary
+map two lists `keys` and `values` into a dictionary
+find the string matches within parenthesis from a string `s` using regex
+Enable the SO_REUSEADDR socket option in socket object `s` to fix the error `only one usage of each socket address is normally permitted`
+append the sum of each tuple pair in the grouped list `list1` and list `list2` elements to list `list3`
+converting hex string `s` to its integer representations
+sort list `student_tuples` by second element of each tuple in ascending and third element of each tuple in descending
+get list of duplicated elements in range of 3
+read the contents of the file 'file.txt ' into `txt`
+divide each element in list `myList` by integer `myInt`
+python : dots in the name of variable in a format string
+replace white spaces in dataframe `df` with '_ '
+convert date `my_date` to datetime
+convert tuple `tst` to string `tst2`
+get modified time of file `file`
+get creation time of file `file`
+get modification time of file `filename`
+get modification time of file `path`
+get modified time of file `file`
+get the creation time of file `file`
+get the creation time of file `path_to_file`
+execute os command ''TASKKILL /F /IM firefox.exe ''
+split string `string` on whitespaces using a generator
+Unpack each value in list `x` to its placeholder ' % ' in string ' % .2f '
+match regex pattern ' ( \\d+ ( \\.\\d+ ) ? ) ' with string '3434.35353 '
+replace parentheses and all data within it with empty string '' in column 'name ' of dataframe `df`
+create a list `result` containing elements form list `list_a` if first element of list `list_a` is in list `list_b`
+generate all possible string permutations of each two elements in list ` [ 'hel ' , 'lo ' , 'bye ' ] `
+get a list of items form nested list `li` where third element of each item contains string 'ar '
+Sort lists in the list `unsorted_list` by the element at index 3 of each list
+Log message 'test ' on the root logger .
+Return a subplot axes positioned by the grid definition `1,1,1` using matpotlib
+Sort dictionary `x` by value in ascending order
+Sort dictionary `dict1` by value in ascending order
+Sort dictionary `d` by value in descending order
+Sort dictionary `d` by value in ascending order
+elementwise product of 3d arrays `A` and `B`
+Print a string `card` with string formatting
+Write a comment ` # Data for Class A\n` to a file object `f`
+move the last item in list `a` to the beginning
+Parse DateTime object `datetimevariable` using format ' % Y- % m- % d '
+Normalize line ends in a string 'mixed '
+find the real user home directory using python
+index a list `L` with another list `Idx`
+get a list of words `words` of a file 'myfile '
+Get a list of lists with summing the values of the second element from each list of lists `data`
+summing the second item in a list of lists of lists
+sort objects in `Articles` in descending order of counts of `likes`
+return a DateTime object with the current UTC date
+create a list containing the multiplication of each elements at the same index of list `lista` and list `listb`
+fetch smilies matching regex pattern ' ( ? : :| ; |= ) ( ? : - ) ? ( ? : \\ ) |\\ ( |D|P ) ' in string `s`
+match the pattern ' [ : ; ] [ ) ( ] ( ? ! [ ) ( ] ) ' to the string `str`
+convert a list of objects `list_name` to json string `json_string`
+create a list `listofzeros` of `n` zeros
+decode the string 'stringnamehere ' to UTF-8
+Match regex pattern ' ( ( ? : A|B|C ) D ) ' on string 'BDE '
+Create a key `key` if it does not exist in dict `dic` and append element `value` to value .
+Get the value of the minimum element in the second column of array `a`
+extend dictionary `a` with key/value pairs of dictionary `b`
+removing key values pairs with key 'mykey1 ' from a list of dictionaries `mylist`
+Removing key values pairs from a list of dictionaries
+create 3 by 3 matrix of random numbers
+make new column 'C ' in panda dataframe by adding values from other columns 'A ' and 'B '
+create a list of values from the dictionary `programs` that have a key with a case insensitive match to 'new york '
+append a path `/path/to/main_folder` in system path
+get all digits in a string `s` after a ' [ ' character
+python pickle/unpickle a list to/from a file 'afile '
+Clicking a link using selenium using python
+count unique index values in column 'A ' in pandas dataframe `ex`
+Create a pandas dataframe of values from a dictionary `d` which contains dictionaries of dictionaries
+find out the number of non-matched elements at the same index of list `a` and list `b`
+make all keys lowercase in dictionary `d`
+sort list `list_` based on first element of each tuple and by the length of the second element of each tuple
+trim whitespace in string `s`
+trim whitespace ( including tabs ) in `s` on the left side
+trim whitespace ( including tabs ) in `s` on the right side
+trim characters ' \t\n\r ' in `s`
+trim whitespaces ( including tabs ) in string `s`
+In Django , filter `Task.objects` based on all entities in [ 'A ' , 'P ' , 'F ' ]
+Change background color in Tkinter
+convert dict `result` to numpy structured array
+Concatenate dataframe `df_1` to dataframe `df_2` sorted by values of the column 'y '
+replace the last occurence of an expression ' < /div > ' with ' < /bad > ' in a string `s`
+get the maximum of 'salary ' and 'bonus ' values in a dictionary
+Filter Django objects by `author` with ids `1` and `2`
+split string 'fooxyzbar ' based on case-insensitive matching using string 'XYZ '
+get list of sums of neighboring integers in string `example`
+Get all the keys from dictionary `y` whose value is `1`
+converting byte string `c` in unicode string
+unpivot first 2 columns into new columns 'year ' and 'value ' from a pandas dataframe `x`
+add key `` item3 '' and value `` 3 '' to dictionary `default_data `
+add key `` item3 '' and value `` 3 '' to dictionary `default_data `
+add key value pairs 'item4 ' , 4 and 'item5 ' , 5 to dictionary `default_data`
+Get the first and last 3 elements of list `l`
+reset index to default in dataframe `df`
+For each index `x` from 0 to 3 , append the element at index `x` of list `b` to the list at index `x` of list a .
+get canonical path of the filename `path`
+check if dictionary `L [ 0 ] .f.items ( ) ` is in dictionary `a3.f.items ( ) `
+find all the indexes in a Numpy 2D array where the value is 1
+How to find the index of a value in 2d array in Python ?
+Collapse hierarchical column index to level 0 in dataframe `df`
+create a matrix from a list ` [ 1 , 2 , 3 ] `
+add character ' @ ' after word 'get ' in string `text`
+get a numpy array that contains the element wise minimum of three 3x1 arrays
+add a column 'new_col ' to dataframe `df` for index in range
+set environment variable 'DEBUSSY ' equal to 1
+Get a environment variable `DEBUSSY`
+set environment variable 'DEBUSSY ' to '1 '
+update dictionary `b` , overwriting values where keys are identical , with contents of dictionary `d`
+get all the values in column `b` from pandas data frame `df`
+make a line plot with errorbars , `ebar` , from data `x , y , err` and set color of the errorbars to `y` ( yellow )
+find all files with extension '.c ' in directory `folder`
+add unicode string '1 ' to UTF-8 decoded string '\xc2\xa3 '
+lower-case the string obtained by replacing the occurrences of regex pattern ' ( ? < = [ a-z ] ) ( [ A-Z ] ) ' in string `s` with eplacement '-\\1 '
+Setting stacksize in a python script
+format a string `num` using string formatting
+append the first element of array `a` to array `a`
+return the column for value 38.15 in dataframe `df`
+merge 2 dataframes `df1` and `df2` with same values in a column 'revenue ' with and index 'date '
+load a json data `json_string` into variable `json_data`
+convert radians 1 to degrees
+count the number of integers in list `a`
+replacing '\u200b ' with '* ' in a string using regular expressions
+run function 'SudsMove ' simultaneously
+sum of squares values in a list `l`
+calculate the sum of the squares of each value in list `l`
+Create a dictionary `d` from list `iterable`
+Create a dictionary `d` from list `iterable`
+Create a dictionary `d` from list of key value pairs `iterable`
+round off entries in dataframe `df` column `Alabama_exp` to two decimal places , and entries in column `Credit_exp` to three decimal places
+Make function `WRITEFUNCTION` output nothing in curl `p`
+return a random word from a word list 'words '
+Find a max value of the key `count` in a nested dictionary `d`
+get list of string elements in string `data` delimited by commas , putting `0` in place of empty strings
+split string `s` into a list of strings based on ' , ' then replace empty strings with zero
+regular expression match nothing
+regular expression syntax for not to match anything
+create a regular expression object with a pattern that will match nothing
+drop all columns in dataframe `df` that holds a maximum value bigger than 0
+check if date `yourdatetime` is equal to today 's date
+print bold text 'Hello '
+remove 20 symbols in front of ' . ' in string 'unique12345678901234567890.mkv '
+Define a list with string values ` [ 'a ' , 'c ' , 'b ' , 'obj ' ] `
+substitute multiple whitespace with single whitespace in string `mystring`
+print a floating point number 2.345e-67 without any truncation
+Check if key 'key1 ' in `dict`
+Check if key 'a ' in `d`
+Check if key 'c ' in `d`
+Check if a given key 'key1 ' exists in dictionary `dict`
+Check if a given key `key` exists in dictionary `d`
+create a django query for a list of values `1 , 4 , 7`
+read a binary file 'test/test.pdf '
+insert ' ' between every three digit before ' . ' and replace ' , ' with ' . ' in 12345678.46
+Join pandas data frame `frame_1` and `frame_2` with left join by `county_ID` and right join by `countyid`
+calculate ratio of sparsity in a numpy array `a`
+reverse sort items in default dictionary `cityPopulation` by the third item in each key 's list of values
+Sort dictionary `u` in ascending order based on second elements of its values
+reverse sort dictionary `d` based on its values
+sorting a defaultdict `d` by value
+open a file 'bundled-resource.jpg ' in the same directory as a python script
+open the file 'words.txt ' in 'rU ' mode
+divide the values with same keys of two dictionary `d1` and `d2`
+divide the value for each key `k` in dict `d2` by the value for the same key `k` in dict `d1`
+divide values associated with each key in dictionary `d1` from values associated with the same key in dictionary `d2`
+write dataframe `df` to csv file `filename` with dates formatted as yearmonthday ` % Y % m % d`
+remove a key 'key ' from a dictionary `my_dict`
+replace NaN values in array `a` with zeros
+subprocess run command 'start command -flags arguments ' through the shell
+run command 'command -flags arguments & ' on command line tools as separate processes
+replace percent-encoded code in request `f` to their single-character equivalent
+remove white spaces from the end of string `` xyz ``
+Replace special characters in utf-8 encoded string `s` using the % xx escape
+URL encoding in python
+Create an array containing the conversion of string '100110 ' into separate elements
+convert a string 'mystr ' to numpy array of integer values
+convert an rgb image 'messi5.jpg ' into grayscale `img`
+sort list `lst` in descending order based on the second item of each tuple in it
+How to find all occurrences of an element in a list ?
+execute shell command 'grep -r PASSED *.log | sort -u | wc -l ' with a | pipe in it
+count the number of trailing question marks in string `my_text`
+remove dollar sign ' $ ' from second to last column data in dataframe 'df ' and convert the data into floats
+Merge column 'word ' in dataframe `df2` with column 'word ' on dataframe `df1`
+switch positions of each two adjacent characters in string `a`
+make a window `root` jump to the front
+make a window `root` jump to the front
+Convert list of booleans `walls` into a hex string
+convert the sum of list `walls` into a hex presentation
+print the string `Total score for` , the value of the variable `name` , the string `is` and the value of the variable `score` in one print call .
+print multiple arguments 'name ' and 'score ' .
+print a string using multiple strings `name` and `score`
+print string including multiple variables `name` and `score`
+serve a static html page 'your_template.html ' at the root of a django project
+use a list of values ` [ 3,6 ] ` to select rows from a pandas dataframe `df` 's column 'A '
+How to get the concrete class name as a string ?
+execute python code `myscript.py` in a virtualenv `/path/to/my/venv` from matlab
+django return a QuerySet list containing the values of field 'eng_name ' in model `Employees`
+find all digits in string '6,7 ) ' and put them to a list
+prompt string 'Press Enter to continue ... ' to the console
+print string `` ABC '' as hex literal
+insert a new field 'geolocCountry ' on an existing document 'b ' using pymongo
+Write a regex statement to match 'lol ' to 'lolllll ' .
+BeautifulSoup find all 'tr ' elements in HTML string `soup` at the five stride starting from the fourth element
+reverse all x-axis points in pyplot
+reverse y-axis in pyplot

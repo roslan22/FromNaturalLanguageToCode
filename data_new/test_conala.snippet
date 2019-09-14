@@ -1,0 +1,500 @@
+os . kill ( os . getpid ( ) , signal . SIGUSR1 ) #NEWLINE#
+bytes . fromhex ( <STR0> ) . decode ( 'utf-8' ) #NEWLINE#
+all ( x == <VAR0> [ 0 ] for x in <VAR0> ) #NEWLINE#
+print ( '%*s#SPACE#:#SPACE#%*s' % ( <VAR2> , <VAR0> , <VAR2> , 'Very#SPACE#Good' ) ) #NEWLINE#
+d . decode ( 'cp1251' ) . encode ( 'utf8' ) #NEWLINE#
+res = { k : v for k , v in list ( <VAR0> . items ( ) ) if v is not None } #NEWLINE#
+res = dict ( ( k , v ) for k , v in <VAR0> . items ( ) if v is not None ) #NEWLINE#
+subprocess . check_output ( 'ps#SPACE#-ef#SPACE#|#SPACE#grep#SPACE#something#SPACE#|#SPACE#wc#SPACE#-l' , shell = True ) #NEWLINE#
+"""""" . join ( [ 'a' , 'b' , 'c' ] ) #NEWLINE#
+pd . Series ( list ( set ( <VAR0> ) . intersection ( set ( <VAR1> ) ) ) ) #NEWLINE#
+<VAR0> . send ( 'HTTP/1.0#SPACE#200#SPACE#OK\r\n' ) #NEWLINE#
+then = datetime . datetime . strptime ( <VAR0> , '%Y-%m-%d' ) . date ( ) #NEWLINE#
+<VAR0> . split ( '\n' ) #NEWLINE#
+'#SPACE#a#SPACE#\n#SPACE#b#SPACE#\r\n#SPACE#c#SPACE#' . split ( <VAR0> ) #NEWLINE#
+""":""" . join ( str ( x ) for x in <VAR0> ) #NEWLINE#
+<VAR0> . objects . filter ( ) [ : 1 ] . get ( ) #NEWLINE#
+a . sum ( axis = 1 ) #NEWLINE#
+warnings . simplefilter ( <STR0> ) #NEWLINE#
+print ( '#SPACE#' . join ( map ( str , <VAR0> ) ) ) #NEWLINE#
+subprocess . call ( [ 'python.exe' , <STR0> , <STR0> ] ) #NEWLINE#
+time . strptime ( '30/03/09#SPACE#16:31:32.123' , '%d/%m/%y#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+<VAR1> = float ( <VAR0> . replace ( ',' , '' ) ) #NEWLINE#
+float ( <VAR0> . replace ( ',' , '' ) ) #NEWLINE#
+sys . path . append ( '/path/to/whatever' ) #NEWLINE#
+re . split ( '(\\W+)' , 'Words,#SPACE#words,#SPACE#words.' ) #NEWLINE#
+file = open ( <VAR0> , 'a' ) #NEWLINE#
+urllib . request . urlretrieve ( 'http://www.example.com/songs/mp3.mp3' , 'mp3.mp3' ) #NEWLINE#
+u = urllib . request . urlopen ( <VAR0> ) #NEWLINE# f = open ( <VAR1> , 'wb' ) #NEWLINE# meta = u . info ( ) #NEWLINE# file_size = int ( meta . getheaders ( 'Content-Length' ) [ 0 ] ) #NEWLINE# print ( 'Downloading:#SPACE#%s#SPACE#Bytes:#SPACE#%s' % ( <VAR1> , file_size ) ) #NEWLINE# file_size_dl = 0 #NEWLINE# block_sz = 8192 #NEWLINE# while True : #NEWLINE# #INDENT# buffer = u . read ( block_sz ) #NEWLINE# #INDENT# if not buffer : #NEWLINE# #INDENT# #INDENT# break #NEWLINE# #INDENT# file_size_dl += len ( buffer ) #NEWLINE# #INDENT# f . write ( buffer ) #NEWLINE# #INDENT# status = '%10d#SPACE##SPACE#[%3.2f%%]' % ( file_size_dl , file_size_dl * 100.0 / #NEWLINE# file_size ) #NEWLINE# #INDENT# status = status + chr ( 8 ) * ( len ( status ) + 1 ) #NEWLINE# #INDENT# print ( status , end = '#SPACE#' ) #NEWLINE# f . close ( ) #NEWLINE#
+response = urllib . request . urlopen ( 'http://www.example.com/' ) #NEWLINE# html = response . read ( ) #NEWLINE#
+r = requests . get ( <VAR0> ) #NEWLINE#
+response = requests . get ( <VAR0> , stream = True ) #NEWLINE# with open ( '10MB' , 'wb' ) as handle : #NEWLINE# #INDENT# for data in tqdm ( response . iter_content ( ) ) : #NEWLINE# #INDENT# #INDENT# handle . write ( data ) #NEWLINE#
+<VAR0> . add_argument ( '--version' , action = 'version' , version = '%(prog)s#SPACE#2.0' ) #NEWLINE#
+{ i : <VAR0> [ i ] for i in <VAR0> if i != 'c' } #NEWLINE#
+pd . merge ( <VAR2> , <VAR2> , on = [ 'key' ] , suffixes = ( <VAR2> , <VAR3> ) ) #NEWLINE#
+<VAR0> . split ( '#SPACE#' , <VAR1> ) #NEWLINE#
+input ( 'Enter#SPACE#your#SPACE#input:' ) #NEWLINE#
+<VAR0> . run ( debug = True ) #NEWLINE#
+pickle . dump ( <VAR0> , open ( <STR1> , 'wb' ) ) #NEWLINE#
+scipy . tensordot ( <VAR0> , <VAR1> , axes = [ 1 , 1 ] ) . swapaxes ( 0 , 1 ) #NEWLINE#
+numpy . zeros ( ( 3 , 3 , 3 ) ) #NEWLINE#
+"""#SPACE#""" . join ( <VAR0> . split ( '#SPACE#' ) [ : - 1 ] ) #NEWLINE#
+<VAR0> = np . asarray ( <VAR0> ) . reshape ( 1 , - 1 ) [ ( 0 ) , : ] #NEWLINE#
+sum ( sum ( i ) if isinstance ( i , list ) else i for i in <VAR0> ) #NEWLINE#
+struct . unpack ( '!f' , <STR0> . decode ( 'hex' ) ) [ 0 ] #NEWLINE#
+<VAR1> . update ( ( x , y * <VAR0> ) for x , y in list ( <VAR1> . items ( ) ) ) #NEWLINE#
+subprocess . call ( <STR0> , shell = True ) #NEWLINE#
+""",""" . join ( <VAR0> ) #NEWLINE#
+<VAR0> = ',' . join ( map ( str , <VAR0> ) ) #NEWLINE#
+list ( reversed ( list ( range ( 10 ) ) ) ) #NEWLINE#
+print ( 'lamp,#SPACE#bag,#SPACE#mirror' . replace ( 'bag,' , '' ) ) #NEWLINE#
+""".""" <VAR0> join ( <VAR1> <VAR0> split ( <VAR0> ) [ : : - 1 ] ) #NEWLINE#
+datetime . datetime . fromtimestamp ( <VAR0> ) . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+time . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' , time . gmtime ( <STR0> / 1000.0 ) ) #NEWLINE#
+( datetime . datetime . now ( ) - datetime . timedelta ( days = 7 ) ) . date ( ) #NEWLINE#
+print ( sum ( row [ <VAR0> ] for row in <VAR1> ) ) #NEWLINE#
+[ sum ( row [ i ] for row in <VAR0> ) for i in range ( len ( <VAR0> [ 0 ] ) ) ] #NEWLINE#
+base64 . b64encode ( bytes ( 'your#SPACE#string' , 'utf-8' ) ) #NEWLINE#
+dict ( ( k , [ d [ k ] for d in <VAR0> ] ) for k in <VAR0> [ 0 ] ) #NEWLINE#
+{ <VAR1> : [ d [ <VAR1> ] for d in <VAR0> ] for <VAR1> in <VAR0> [ 0 ] } #NEWLINE#
+request . args [ 'myParam' ] #NEWLINE#
+[ k for k , v in list ( Counter ( <VAR0> ) . items ( ) ) if v > 1 ] #NEWLINE#
+sys . path . insert ( 1 , os . path . join ( os . path . dirname ( <VAR0> ) , <STR0> ) ) #NEWLINE#
+sys . path . append ( os . path . join ( os . path . dirname ( __file__ ) , <VAR0> ) ) #NEWLINE#
+db . execute ( "INSERT#SPACE#INTO#SPACE#present#SPACE#VALUES('test2',#SPACE#?,#SPACE#10)" , ( <STR0> , ) ) #NEWLINE#
+[ image for menuitem in <VAR0> for image in menuitem ] #NEWLINE#
+<VAR1> . extend ( <VAR0> ) #NEWLINE#
+a . extend ( list ( b ) ) #NEWLINE#
+np . savetxt ( 'c:\\data\\np.txt' , <VAR0> . values , fmt = '%d' ) #NEWLINE#
+<VAR0> . to_csv ( 'c:\\data\\pandas.txt' , header = None , index = None , sep = '#SPACE#' , mode = 'a' ) #NEWLINE#
+print ( <VAR0> . rpartition ( <VAR1> ) [ 0 ] ) #NEWLINE#
+print ( x . rsplit ( '-' , 1 ) [ 0 ] ) #NEWLINE#
+ftp . storlines ( 'STOR#SPACE#' + filename , open ( filename , 'r' ) ) #NEWLINE#
+browser . execute_script ( "document.getElementById('XYZ').value+='1'" ) #NEWLINE#
+np . maximum ( [ 2 , 3 , 4 ] , [ 1 , 5 , 2 ] ) #NEWLINE#
+print ( <VAR0> [ 3 : ] + <VAR0> [ : 3 ] ) #NEWLINE#
+for fn in os . listdir ( '.' ) : #NEWLINE# #INDENT# if os . path . isfile ( fn ) : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+for root , dirs , filenames in os . walk ( <VAR0> ) : #NEWLINE# #INDENT# for f in filenames : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+[ int ( 1000 * random . random ( ) ) for i in range ( 10000 ) ] #NEWLINE#
+datetime . datetime . now ( ) . strftime ( '%H:%M:%S.%f' ) #NEWLINE#
+db . GqlQuery ( 'SELECT#SPACE#*#SPACE#FROM#SPACE#Schedule#SPACE#WHERE#SPACE#station#SPACE#=#SPACE#$1' , foo . key ( ) ) #NEWLINE#
+df . b . str . contains ( '^f' ) #NEWLINE#
+print ( '\n' . join ( '\t' . join ( str ( col ) for col in row ) for row in <VAR0> ) ) #NEWLINE#
+<VAR0> . set_index ( list ( 'BC' ) ) . drop ( tuples , errors = 'ignore' ) . reset_index ( ) #NEWLINE#
+"""({:d}#SPACE#goals,#SPACE#${:d})""" . format ( self . goals , self . penalties ) #NEWLINE#
+"""({}#SPACE#goals,#SPACE#${})""" . format ( self . <VAR0> , self . <VAR1> ) #NEWLINE#
+"""({0.goals}#SPACE#goals,#SPACE#${0.penalties})""" . format ( self ) #NEWLINE#
+[ int ( '' . join ( str ( d ) for d in x ) ) for x in <VAR0> ] #NEWLINE#
+[ '' . join ( str ( d ) for d in x ) for x in <VAR0> ] #NEWLINE#
+<VAR0> = [ int ( '' . join ( [ str ( y ) for y in x ] ) ) for x in <VAR0> ] #NEWLINE#
+<VAR1> . write ( <STR1> . join ( <VAR0> ) ) #NEWLINE#
+[ x for x in [ 'AAT' , 'XAC' , 'ANT' , 'TTA' ] if 'X' not in x and 'N' not in x ] #NEWLINE#
+<VAR0> = re . sub ( '\\b(\\w+)(#SPACE#\\1\\b)+' , '\\1' , <VAR0> ) #NEWLINE#
+df . astype ( bool ) . sum ( axis = 1 ) #NEWLINE#
+re . search ( '(?<!Distillr)\\\\AcroTray\\.exe' , 'C:\\SomeDir\\AcroTray.exe' ) #NEWLINE#
+"""QH#SPACE#QD#SPACE#JC#SPACE#KD#SPACE#JS""" . split ( ) #NEWLINE#
+print ( re . search ( '>.*<' , <VAR0> ) . group ( 0 ) ) #NEWLINE#
+open ( <VAR0> , 'w' ) . close ( ) #NEWLINE#
+datetime . datetime . strptime ( string_date , '%Y-%m-%d#SPACE#%H:%M:%S.%f' ) #NEWLINE#
+[ index for index , item in enumerate ( <VAR0> ) if item [ 0 ] == <STR0> ] #NEWLINE#
+re . sub ( '[^\\sa-zA-Z0-9]' , '' , <VAR0> ) . lower ( ) . strip ( ) #NEWLINE#
+re . sub ( '(?!\\s)[\\W_]' , '' , <VAR0> ) . lower ( ) . strip ( ) #NEWLINE#
+plt . plot ( x , y , label = 'H₂O' ) #NEWLINE#
+plt . plot ( x , y , label = '$H_2O$' ) #NEWLINE#
+[ x for x in <VAR0> if len ( x ) == 3 ] #NEWLINE#
+<VAR0> = [ Object ( ) for _ in range ( 100 ) ] #NEWLINE#
+<VAR0> = [ <VAR1> ( ) for i in range ( 100 ) ] #NEWLINE#
+self . driver . find_element_by_css_selector ( '.someclass#SPACE#a' ) . get_attribute ( 'href' ) #NEWLINE#
+<VAR0> . merge ( <VAR1> , on = <STR2> ) #NEWLINE#
+'first#SPACE#string#SPACE#is:#SPACE#%s,#SPACE#second#SPACE#one#SPACE#is:#SPACE#%s' % ( <VAR0> , 'geo.tif' ) #NEWLINE#
+[ x . strip ( ) for x in '2.MATCHES#SPACE#$$TEXT$$#SPACE#STRING' . split ( '$$TEXT$$' ) ] #NEWLINE#
+if not os . path . exists ( <VAR0> ) : #NEWLINE# #INDENT# os . makedirs ( <VAR0> ) #NEWLINE#
+try : #NEWLINE# #INDENT# os . makedirs ( <VAR0> ) #NEWLINE# except OSError : #NEWLINE# #INDENT# if not os . <VAR0> . isdir ( <VAR0> ) : #NEWLINE# #INDENT# #INDENT# raise #NEWLINE#
+distutils . dir_util . mkpath ( <VAR0> ) #NEWLINE#
+try : #NEWLINE# #INDENT# os . makedirs ( <VAR0> ) #NEWLINE# except OSError as exception : #NEWLINE# #INDENT# if exception . errno != errno . EEXIST : #NEWLINE# #INDENT# #INDENT# raise #NEWLINE#
+re . sub ( '\\bH3\\b' , <STR0> , <STR0> ) #NEWLINE#
+re . sub ( '\\D' , '' , <STR0> ) #NEWLINE#
+"""""" . join ( [ x for x in <VAR0> if x . isdigit ( ) ] ) #NEWLINE#
+print ( <VAR0> . find ( 'name' ) . string ) #NEWLINE#
+<VAR0> = dict ( ( record [ '_id' ] , record ) for record in <VAR1> ) #NEWLINE#
+np . concatenate ( ( A , B ) ) #NEWLINE#
+np . vstack ( ( <VAR0> , <VAR1> ) ) #NEWLINE#
+os . stat ( <VAR0> ) . st_size #NEWLINE#
+<VAR0> . count ( 'a' ) #NEWLINE#
+Counter ( <VAR0> ) #NEWLINE#
+[ [ x , <VAR0> . count ( x ) ] for x in set ( <VAR0> ) ] #NEWLINE#
+dict ( ( x , <VAR0> . count ( x ) ) for x in set ( <VAR0> ) ) #NEWLINE#
+<VAR0> . count ( 'b' ) #NEWLINE#
+shutil . copy ( <VAR0> , <VAR1> ) #NEWLINE#
+max ( k for k , v in <VAR0> . items ( ) if v != 0 ) #NEWLINE#
+( k for k , v in <VAR0> . items ( ) if v != 0 ) #NEWLINE#
+max ( k for k , v in <VAR0> . items ( ) if v != 0 ) #NEWLINE#
+file . seek ( 0 ) #NEWLINE#
+<VAR1> [ 'c' ] = np . where ( <VAR1> [ 'a' ] . isnull , <VAR1> [ 'b' ] , <VAR1> [ 'a' ] ) #NEWLINE#
+del <VAR0> [ <STR0> ] #NEWLINE#
+<VAR0> . objects . update ( <VAR1> = F ( <VAR1> ) + timedelta ( days = 36524.25 ) ) #NEWLINE#
+[ <STR0> ] + [ <STR0> ] + [ <STR0> ] #NEWLINE#
+str ( int ( <VAR0> ) + 1 ) . zfill ( len ( <VAR0> ) ) #NEWLINE#
+all ( <VAR0> . index [ : - 1 ] <= <VAR0> . index [ 1 : ] ) #NEWLINE#
+list ( <VAR0> ) #NEWLINE#
+tuple ( l ) #NEWLINE#
+<VAR0> = map ( list , <VAR0> ) #NEWLINE#
+pprint . pprint ( <VAR0> , <VAR1> ) #NEWLINE#
+df . loc [ df [ <STR0> ] ] #NEWLINE#
+<VAR0> . iloc [ np . flatnonzero ( <VAR0> [ <STR0> ] ) ] #NEWLINE#
+df [ df [ <STR0> ] == True ] . index . tolist ( ) #NEWLINE#
+<VAR0> [ <VAR0> [ <STR1> ] ] . index . tolist ( ) #NEWLINE#
+os . chdir ( <VAR0> ) #NEWLINE#
+<VAR1> . execute ( "INSERT#SPACE#INTO#SPACE#test#SPACE#VALUES#SPACE#(?,#SPACE#'bar')" , ( <VAR0> , ) ) #NEWLINE#
+"""\\x89\\n""" . decode ( 'string_escape' ) #NEWLINE#
+<VAR0> . decode ( 'string_escape' ) #NEWLINE#
+<VAR0> . decode ( 'unicode_escape' ) #NEWLINE#
+[ m . group ( 0 ) for m in re . finditer ( '(\\d)\\1*' , <VAR0> ) ] #NEWLINE#
+plt . scatter ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , facecolors = 'none' ) #NEWLINE#
+plt . plot ( np . random . randn ( 100 ) , np . random . randn ( 100 ) , 'o' , mfc = 'none' ) #NEWLINE#
+soup . find ( 'div' , id = <VAR0> ) . decompose ( ) #NEWLINE#
+df [ df [ <VAR1> ] . str . contains ( <VAR0> ) ] #NEWLINE#
+<VAR0> . reset_index ( level = 0 , inplace = True ) #NEWLINE#
+<VAR0> [ <VAR1> ] = <VAR0> . index #NEWLINE#
+df . reset_index ( level = [ 'tick' , 'obs' ] ) #NEWLINE#
+[ x [ : : - 1 ] for x in b ] #NEWLINE#
+np . array ( [ zip ( x , y ) for x , y in zip ( <VAR0> , <VAR1> ) ] ) #NEWLINE#
+np . array ( zip ( <VAR0> . ravel ( ) , <VAR1> . ravel ( ) ) , dtype = 'i4,i4' ) . reshape ( <VAR0> . shape ) #NEWLINE#
+""",""" . join ( [ str ( i ) for i in <VAR0> ] ) #NEWLINE#
+requests . post ( url , data = <VAR0> , headers = HEADERS_DICT , auth = ( <VAR1> , <VAR2> ) ) #NEWLINE#
+"""abcd}def}""" . rfind ( '}' ) #NEWLINE#
+print ( [ item for item in [ 1 , 2 , 3 ] ] ) #NEWLINE#
+[ ( x [ 'x' ] , x [ 'y' ] ) for x in <VAR0> ] #NEWLINE#
+print ( os . path . splitext ( os . path . basename ( <STR0> ) ) [ 0 ] ) #NEWLINE#
+dict ( <VAR0> [ i : i + 2 ] for i in range ( 0 , len ( <VAR0> ) , 2 ) ) #NEWLINE#
+values = sum ( [ [ 'A' , 'B' , 'C' ] , [ 'D' , 'E' , 'F' ] , [ 'G' , 'H' , 'I' ] ] , [ ] ) #NEWLINE#
+<VAR0> = <VAR0> [ ( <VAR0> [ <STR1> ] >= 99 ) & ( <VAR0> [ <STR1> ] <= 101 ) ] #NEWLINE#
+<VAR1> . replace ( { <VAR0> : '<br>' } , regex = True ) #NEWLINE#
+<VAR1> . replace ( { <VAR0> : '<br>' } , regex = True ) #NEWLINE#
+[ ( x + y ) for x , y in zip ( <VAR0> , <VAR0> [ 1 : ] ) ] #NEWLINE#
+list ( map ( lambda x , y : x + y , <VAR0> [ : - 1 ] , <VAR0> [ 1 : ] ) ) #NEWLINE#
+print ( re . findall ( '(https?://[^\\s]+)' , <VAR0> ) ) #NEWLINE#
+print ( re . search ( '(?P<url>https?://[^\\s]+)' , <VAR0> ) . group ( 'url' ) ) #NEWLINE#
+re . sub ( '[^A-Za-z0-9]+' , '' , <VAR0> ) #NEWLINE#
+pd . date_range ( <STR0> , freq = 'WOM-2FRI' , periods = 13 ) #NEWLINE#
+<VAR0> = [ [ a , b ] , [ c , d ] , [ e , f ] ] #NEWLINE#
+mystring . replace ( '#SPACE#' , '_' ) #NEWLINE#
+os . path . abspath ( <STR0> ) #NEWLINE#
+"""#SPACE#""" . join ( <VAR0> . split ( ) ) #NEWLINE#
+os . path . splitext ( <VAR0> ) [ 0 ] #NEWLINE#
+[ sum ( <VAR1> [ : <VAR0> ] ) for <VAR0> , _ in enumerate ( <VAR1> ) ] #NEWLINE#
+"""Docs/src/Scripts/temp""" . replace ( <VAR2> , '/\x00/' ) . split ( '\x00' ) #NEWLINE#
+np . random . shuffle ( np . transpose ( r ) ) #NEWLINE#
+<STR0> [ 'D' ] = <STR0> [ 'B' ] #NEWLINE#
+list ( <STR0> [ 'A' ] [ 'B' ] . values ( ) ) [ 0 ] [ 'maindata' ] [ 0 ] [ 'Info' ] #NEWLINE#
+all ( <VAR1> ( x ) for x in <VAR0> ) #NEWLINE#
+os . statvfs ( '/' ) . f_files - os . statvfs ( '/' ) . f_ffree #NEWLINE#
+cursor . fetchone ( ) [ 0 ] #NEWLINE#
+<VAR1> = [ int ( number ) for number in <VAR0> . split ( ',' ) ] #NEWLINE#
+[ int ( s ) for s in <VAR0> . split ( ',' ) ] #NEWLINE#
+sorted ( list , key = lambda x : ( x [ 0 ] , - x [ 1 ] ) ) #NEWLINE#
+<VAR0> . sort ( key = <VAR1> , reverse = True ) #NEWLINE#
+<VAR0> . sort ( key = lambda x : x . <VAR1> , reverse = True ) #NEWLINE#
+<VAR0> . sort ( key = lambda x : x . <VAR1> , reverse = True ) #NEWLINE#
+driver . find_element_by_partial_link_text ( <STR0> ) . click ( ) #NEWLINE#
+driver . findElement ( By . linkText ( 'Send#SPACE#InMail' ) ) . click ( ) #NEWLINE#
+driver . find_element_by_link_text ( 'Send#SPACE#InMail' ) . click ( ) #NEWLINE#
+<STR1> + str ( <VAR0> ) #NEWLINE#
+df . sort_values ( [ 'System_num' , 'Dis' ] ) #NEWLINE#
+open ( <STR0> , 'w' ) . write ( '#test#SPACE#firstline\n' + open ( <STR0> ) . read ( ) ) #NEWLINE#
+<VAR0> . sort ( key = lambda t : len ( t [ 1 ] ) , reverse = True ) #NEWLINE#
+re . findall ( '\\b(\\w+)d\\b' , <VAR0> ) #NEWLINE#
+bool ( re . search ( 'ba[rzd]' , <VAR1> ) ) #NEWLINE#
+list ( set ( <VAR0> ) ) #NEWLINE#
+list ( set ( <VAR0> ) ) #NEWLINE#
+list ( OrderedDict . fromkeys ( <VAR0> ) ) #NEWLINE#
+numpy . array ( <VAR0> ) . reshape ( - 1 ) . tolist ( ) #NEWLINE#
+numpy . array ( <VAR0> ) [ 0 ] . tolist ( ) #NEWLINE#
+print ( <VAR0> . find ( text = 'Address:' ) . findNext ( <VAR1> ) . contents [ 0 ] ) #NEWLINE#
+"""#SPACE#""" . join ( [ ( '%d@%d' % t ) for t in <VAR0> ] ) #NEWLINE#
+"""#SPACE#""" . join ( [ ( '%d@%d' % ( t [ 0 ] , t [ 1 ] ) ) for t in <VAR0> ] ) #NEWLINE#
+driver . execute_script ( 'return#SPACE#document.documentElement.outerHTML;' ) #NEWLINE#
+[ i for i in <VAR1> if re . search ( '\\d+[xX]' , i ) ] #NEWLINE#
+<VAR0> [ 'A' ] [ ( <VAR0> [ 'B' ] > 50 ) & ( <VAR0> [ 'C' ] == 900 ) ] #NEWLINE#
+sorted ( <VAR0> . items ( ) ) #NEWLINE#
+sorted ( <VAR0> ) #NEWLINE#
+sorted ( d . items ( ) ) #NEWLINE#
+int ( '1' ) #NEWLINE#
+int ( ) #NEWLINE#
+T2 = [ map ( int , x ) for x in <VAR0> ] #NEWLINE#
+subprocess . call ( [ <VAR0> ] ) #NEWLINE#
+subprocess . call ( [ <VAR0> ] ) #NEWLINE#
+[ val for pair in zip ( <VAR0> , <VAR1> ) for val in pair ] #NEWLINE#
+encoded = base64 . b64encode ( 'data#SPACE#to#SPACE#be#SPACE#encoded' ) #NEWLINE#
+encoded = 'data#SPACE#to#SPACE#be#SPACE#encoded' . encode ( <VAR1> ) #NEWLINE#
+lol = list ( csv . reader ( open ( <STR0> , 'rb' ) , delimiter = '\t' ) ) #NEWLINE#
+getattr ( <VAR1> , <VAR0> ) #NEWLINE#
+print ( dict ( zip ( <VAR0> [ 0 ] , zip ( * [ list ( d . values ( ) ) for d in <VAR0> ] ) ) ) ) #NEWLINE#
+sum ( [ pair [ 0 ] for pair in list_of_pairs ] ) #NEWLINE#
+d = ast . literal_eval ( "{'code1':1,'code2':1}" ) #NEWLINE#
+[ word for word in <VAR0> . split ( ) if word . startswith ( '$' ) ] #NEWLINE#
+<VAR0> = re . sub ( '^https?:\\/\\/.*[\\r\\n]*' , '' , <VAR0> , flags = re . MULTILINE ) #NEWLINE#
+np . where ( np . in1d ( <VAR0> , [ 1 , 3 , 4 ] ) . reshape ( <VAR0> . shape ) , <VAR0> , 0 ) #NEWLINE#
+np . mean ( <VAR0> , axis = 1 ) #NEWLINE#
+subprocess . call ( [ '/usr/bin/Rscript' , '--vanilla' , <STR0> ] ) #NEWLINE#
+subprocess . call ( '/usr/bin/Rscript#SPACE#--vanilla#SPACE#/pathto/MyrScript.r' , shell = True ) #NEWLINE#
+writer . writeheader ( ) #NEWLINE#
+<VAR0> . fillna ( <VAR0> . mean ( axis = 1 ) , axis = 1 ) #NEWLINE#
+time . strftime ( '%Y-%m-%d#SPACE#%H:%M:%S' , time . localtime ( <STR0> ) ) #NEWLINE#
+super ( <VAR1> , cls ) . <VAR0> ( a ) #NEWLINE#
+a [ np . where ( ( a [ : , ( 0 ) ] == 0 ) * ( a [ : , ( 1 ) ] == 1 ) ) ] #NEWLINE#
+re . split ( '#SPACE#+' , 'hello#SPACE#world#SPACE#sample#SPACE#text' ) #NEWLINE#
+len ( max ( <VAR0> , key = len ) ) #NEWLINE#
+<VAR0> [ 0 ] [ <STR0> ] #NEWLINE#
+[ line . split ( ) for line in open ( <STR0> ) ] #NEWLINE#
+res = dict ( ( v , k ) for k , v in <VAR0> . items ( ) ) #NEWLINE#
+new_file = open ( <VAR0> , 'w' ) #NEWLINE#
+df . groupby ( [ 'col1' , 'col2' ] ) [ 'col3' ] . nunique ( ) . reset_index ( ) #NEWLINE#
+any ( key . startswith ( 'EMP$$' ) for key in <VAR0> ) #NEWLINE#
+[ value for key , value in list ( <VAR0> . items ( ) ) if key . startswith ( 'EMP$$' ) ] #NEWLINE#
+pd . DataFrame ( { <VAR2> : <VAR0> . index , <VAR3> : <VAR0> . values } ) #NEWLINE#
+print ( <VAR1> . join ( map ( str , <VAR0> ) ) ) #NEWLINE#
+print ( 'Ð¿Ñ\x80Ð¸' . encode ( 'raw_unicode_escape' ) ) #NEWLINE#
+"""SopetÃ³n""" . encode ( 'latin-1' ) . decode ( 'utf-8' ) #NEWLINE#
+<VAR0> = <VAR0> . resize ( ( x , y ) , Image . <VAR1> ) #NEWLINE#
+re . findall ( 'n(?<=[^n]n)n+(?=[^n])(?i)' , <VAR0> ) #NEWLINE#
+print ( '{0:.0f}%' . format ( 1.0 / 3 * 100 ) ) #NEWLINE#
+<VAR0> . sort ( key = lambda x : x [ <VAR1> ] ) #NEWLINE#
+<VAR0> . sort ( key = lambda x : x [ <STR1> ] ) #NEWLINE#
+l . sort ( key = lambda x : ( x [ <STR0> ] , x [ <STR0> ] , x [ <STR0> ] ) ) #NEWLINE#
+heapq . nlargest ( 10 , range ( len ( <VAR0> ) ) , key = lambda i : abs ( <VAR0> [ i ] - <VAR1> [ i ] ) ) #NEWLINE#
+<VAR0> . find_all ( <STR0> , { 'class' : 'starGryB#SPACE#sp' } ) #NEWLINE#
+<VAR0> . to_sql ( <STR1> , engine , schema = <STR1> ) #NEWLINE#
+brackets = re . sub ( '[^(){}[\\]]' , '' , <VAR0> ) #NEWLINE#
+list ( dict ( ( x [ 0 ] , x ) for x in L ) . values ( ) ) #NEWLINE#
+[ line . rstrip ( '\n' ) for line in <VAR0> ] #NEWLINE#
+[ i for i , x in enumerate ( <VAR0> ) if x == 1 ] #NEWLINE#
+[ i for i , x in enumerate ( <VAR0> ) if x == 1 ] #NEWLINE#
+for i in [ i for i , x in enumerate ( <VAR0> ) if x == 1 ] : #NEWLINE# #INDENT# pass #NEWLINE#
+for i in ( i for i , x in enumerate ( <VAR0> ) if x == 1 ) : #NEWLINE# #INDENT# pass #NEWLINE#
+gen = ( i for i , x in enumerate ( <VAR0> ) if x == 1 ) #NEWLINE# for i in gen : #NEWLINE# #INDENT# pass #NEWLINE#
+print ( <VAR1> . index ( <VAR0> ) ) #NEWLINE#
+try : #NEWLINE# #INDENT# print ( <VAR1> . index ( <VAR0> ) ) #NEWLINE# except ValueError : #NEWLINE# #INDENT# pass #NEWLINE#
+max ( <VAR0> , key = lambda item : item [ 1 ] ) [ 0 ] #NEWLINE#
+max ( <VAR0> , key = itemgetter ( 1 ) ) [ 0 ] #NEWLINE#
+time . sleep ( 1 ) #NEWLINE#
+""",#SPACE#""" . join ( '(' + ',#SPACE#' . join ( i ) + ')' for i in <VAR0> ) #NEWLINE#
+<VAR0> = models . CharField ( max_length = 7 , default = <STR1> , editable = False ) #NEWLINE#
+sorted ( <VAR0> , lambda x : ( degree ( x ) , x ) ) #NEWLINE#
+sorted ( list5 , key = lambda vertex : ( degree ( vertex ) , vertex ) ) #NEWLINE#
+( n for n in [ 1 , 2 , 3 , 5 ] ) #NEWLINE#
+newlist = [ v for i , v in enumerate ( <VAR0> ) if i not in <VAR1> ] #NEWLINE#
+f = open ( <VAR0> , 'w' ) #NEWLINE#
+getattr ( <VAR0> , <STR0> ) #NEWLINE#
+from functools import reduce #NEWLINE# reduce ( lambda a , b : a + b , ( ( <STR0> , ) , ( <STR0> , ) , ( <STR0> , ) ) ) #NEWLINE#
+map ( lambda a : a [ 0 ] , ( ( <STR0> , ) , ( <STR0> , ) , ( <STR0> , ) ) ) #NEWLINE#
+df [ 'range' ] . replace ( ',' , '-' , inplace = True ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) ] ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) ] ) #NEWLINE#
+result = [ a for a , b in <VAR0> ] , [ b for a , b in <VAR0> ] #NEWLINE#
+result = ( a for a , b in <VAR0> ) , ( b for a , b in <VAR0> ) #NEWLINE#
+zip ( * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) , ( 'e' , ) ] ) #NEWLINE#
+map ( None , * [ ( 'a' , 1 ) , ( 'b' , 2 ) , ( 'c' , 3 ) , ( 'd' , 4 ) , ( 'e' , ) ] ) #NEWLINE#
+json . dumps ( <VAR0> ( <STR1> ) ) #NEWLINE#
+<VAR0> [ 'mynewkey' ] = 'mynewvalue' #NEWLINE#
+<VAR0> . update ( { 'a' : 1 } ) #NEWLINE#
+<VAR0> . update ( dict ( a = 1 ) ) #NEWLINE#
+<VAR0> . update ( a = 1 ) #NEWLINE#
+max ( [ max ( i ) for i in <VAR0> ] ) #NEWLINE#
+<VAR0> = str ( round ( <VAR0> , 2 ) ) #NEWLINE#
+ip = re . findall ( '[0-9]+(?:\\.[0-9]+){3}' , s ) #NEWLINE#
+<VAR0> . groupby ( <VAR1> ) . filter ( lambda x : len ( x ) > 1 ) #NEWLINE#
+[ x for x in <VAR0> . splitlines ( ) if x != '' ] #NEWLINE#
+<VAR0> = map ( int , open ( <VAR1> ) . readlines ( ) ) #NEWLINE#
+<VAR1> . colorbar ( <VAR0> = <VAR0> , cax = ax3 ) #NEWLINE#
+Counter ( '#SPACE#' . join ( <VAR0> [ <STR0> ] ) . split ( ) ) . most_common ( 100 ) #NEWLINE#
+re . findall ( '(.+?):(.+?)\\b#SPACE#?' , text ) #NEWLINE#
+list ( itertools . combinations ( ( 1 , 2 , 3 ) , 2 ) ) #NEWLINE#
+datetime . now ( pytz . utc ) #NEWLINE#
+list2 = [ x for x in <VAR1> if x != [ ] ] #NEWLINE#
+<VAR0> = [ x for x in <VAR2> if x ] #NEWLINE#
+return HttpResponse ( <VAR0> , mimetype = 'application/json' ) #NEWLINE#
+re . findall ( '(.*?)\\[.*?\\]' , <VAR0> ) #NEWLINE#
+re . findall ( '(.*?)(?:\\[.*?\\]|$)' , <VAR0> ) #NEWLINE#
+re . findall ( '\\(.+?\\)|\\w' , '(zyx)bc' ) #NEWLINE#
+re . findall ( '\\((.*?)\\)|(\\w)' , '(zyx)bc' ) #NEWLINE#
+re . findall ( '\\(.*?\\)|\\w' , '(zyx)bc' ) #NEWLINE#
+<VAR0> = [ '%{0}%' . format ( element ) for element in <VAR0> ] #NEWLINE#
+subprocess . Popen ( [ <STR0> , <STR0> ] ) #NEWLINE#
+[ <STR0> [ x ] for x in <STR0> ] #NEWLINE#
+dict ( [ ( <STR0> , <STR0> ) , ( <STR0> , 22 ) ] ) #NEWLINE#
+<VAR0> . reshape ( - 1 , j ) . mean ( axis = 1 ) . reshape ( <VAR0> . shape [ 0 ] , - 1 ) #NEWLINE#
+print ( <VAR0> . encode ( 'unicode-escape' ) . replace ( '"' , '\\"' ) ) #NEWLINE#
+re . split ( '(\\W+)' , s ) #NEWLINE#
+df . plot ( kind = 'barh' , stacked = True ) #NEWLINE#
+{ i [ 1 ] : i [ 0 ] for i in list ( <VAR0> . items ( ) ) } #NEWLINE#
+[ i for i , j in enumerate ( <STR0> ) if <STR0> in j . lower ( ) or <STR0> in j . lower ( ) ] #NEWLINE#
+isinstance ( <VAR0> , str ) #NEWLINE#
+isinstance ( <VAR0> , str ) #NEWLINE#
+type ( <VAR0> ) is str #NEWLINE#
+isinstance ( <VAR0> , str ) #NEWLINE#
+isinstance ( <VAR0> , str ) #NEWLINE#
+<VAR1> . extend ( <VAR0> ) #NEWLINE#
+<VAR1> . extend ( <VAR0> ) #NEWLINE#
+<VAR1> . extend ( <VAR0> ) #NEWLINE#
+for line in <VAR0> : #NEWLINE# #INDENT# <VAR1> . append ( line ) #NEWLINE#
+<VAR1> . append ( ( <VAR0> [ 0 ] [ 0 ] , <VAR0> [ 0 ] [ 2 ] ) ) #NEWLINE#
+app . config [ <VAR0> ] = <VAR1> #NEWLINE#
+pd . DataFrame ( out . tolist ( ) , columns = [ <STR0> , <STR0> ] , index = out . index ) #NEWLINE#
+[ x for x in range ( len ( <VAR0> ) ) if <VAR0> [ x ] == <STR0> ] #NEWLINE#
+<VAR0> . set_xticklabels ( labels , rotation = <VAR1> ) #NEWLINE#
+re . sub ( '[^\\w]' , '#SPACE#' , <VAR0> ) #NEWLINE#
+os . path . basename ( os . path . dirname ( os . path . realpath ( __file__ ) ) ) #NEWLINE#
+print ( re . findall ( "'\\\\[0-7]{1,3}'" , <VAR0> ) ) #NEWLINE#
+re . split ( '[#SPACE#](?=[A-Z]+\\b)' , <VAR0> ) #NEWLINE#
+re . split ( '[#SPACE#](?=[A-Z])' , <VAR0> ) #NEWLINE#
+r = requests . post ( <VAR1> , <VAR0> = <VAR0> , <VAR2> = <VAR2> , <VAR3> = <VAR3> ) #NEWLINE#
+open ( <VAR1> , 'wb' ) . write ( <VAR0> ) #NEWLINE#
+[ <VAR1> [ k ] for k in <VAR0> ] #NEWLINE#
+<VAR0> . set_index ( <STR0> ) . index . get_duplicates ( ) #NEWLINE#
+round ( 1.923328437452 , 3 ) #NEWLINE#
+sorted ( <VAR1> , key = lambda x : datetime . strptime ( x [ 1 ] , '%d/%m/%Y' ) , reverse = True ) #NEWLINE#
+<VAR0> . set_rlabel_position ( 135 ) #NEWLINE#
+os . path . isabs ( <VAR0> ) #NEWLINE#
+len ( list ( <VAR0> . keys ( ) ) ) #NEWLINE#
+len ( set ( open ( <VAR0> ) . read ( ) . split ( ) ) ) #NEWLINE#
+df . groupby ( <STR0> ) . first ( ) #NEWLINE#
+pd . concat ( [ df [ 0 ] . apply ( pd . Series ) , df [ 1 ] ] , axis = 1 ) #NEWLINE#
+re . findall ( 'src="js/([^"]*\\bjquery\\b[^"]*)"' , <VAR0> ) #NEWLINE#
+sum ( int ( float ( item ) ) for item in [ _f for _f in [ '' , <STR0> , '' , '' , <STR0> ] if #NEWLINE# _f ] ) #NEWLINE#
+subprocess . Popen ( [ 'c:\\Program#SPACE#Files\\VMware\\VMware#SPACE#Server\\vmware-cmd.bat' ] ) #NEWLINE#
+<VAR0> . put ( ( - n , n ) ) #NEWLINE#
+<VAR1> [ <VAR0> ] . plot ( kind = 'bar' , <VAR2> = [ 'r' , 'g' , 'b' , 'r' , 'g' , 'b' , 'r' ] ) #NEWLINE#
+re . findall ( '([a-fA-F\\d]{32})' , <VAR0> ) #NEWLINE#
+len ( <VAR0> ) #NEWLINE#
+len ( <VAR0> ) #NEWLINE#
+len ( <VAR0> ) #NEWLINE#
+len ( <VAR0> ) #NEWLINE#
+len ( <VAR0> ) #NEWLINE#
+"""\\a""" . decode ( 'string_escape' ) #NEWLINE#
+"""obama""" . replace ( 'a' , '%temp%' ) . replace ( 'b' , 'a' ) . replace ( '%temp%' , 'b' ) #NEWLINE#
+shutil . rmtree ( <STR0> ) #NEWLINE#
+<VAR1> [ <VAR0> ] = <VAR1> [ <VAR2> ] . apply ( lambda x : x . <VAR0> ( ) ) #NEWLINE#
+sorted ( <VAR0> , key = <VAR0> . get , reverse = True ) #NEWLINE#
+sorted ( list ( <VAR0> . items ( ) ) , key = lambda pair : pair [ 1 ] , reverse = True ) #NEWLINE#
+np . vstack ( ( a , b ) ) #NEWLINE#
+print ( concatenate ( ( <VAR0> , <VAR1> ) , axis = 0 ) ) #NEWLINE#
+print ( concatenate ( ( <VAR0> , <VAR1> ) , axis = 1 ) ) #NEWLINE#
+c = np . r_ [ <VAR0> [ ( None ) , : ] , <VAR1> [ ( None ) , : ] ] #NEWLINE#
+np . array ( ( <VAR0> , <VAR1> ) ) #NEWLINE#
+print ( socket . getaddrinfo ( <STR0> , 80 ) ) #NEWLINE#
+<VAR0> . xs ( <STR0> , level = <STR0> , drop_level = False ) #NEWLINE#
+return HttpResponse ( 'Unauthorized' , status = 401 ) #NEWLINE#
+Flask ( __name__ , template_folder = <STR0> ) #NEWLINE#
+session . execute ( 'INSERT#SPACE#INTO#SPACE#t1#SPACE#(SELECT#SPACE#*#SPACE#FROM#SPACE#t2)' ) #NEWLINE#
+<STR0> . sort ( key = lambda row : row [ 2 ] ) #NEWLINE#
+c2 . sort ( key = lambda row : ( row [ 2 ] , row [ 1 ] , row [ 0 ] ) ) #NEWLINE#
+c2 . sort ( key = lambda row : ( row [ 2 ] , row [ 1 ] ) ) #NEWLINE#
+matplotlib . rc ( 'font' , ** { 'sans-serif' : <VAR0> , 'family' : 'sans-serif' } ) #NEWLINE#
+<STR0> [ <STR0> ] . apply ( lambda x : x . toordinal ( ) ) #NEWLINE#
+<VAR0> . get_attribute ( 'innerHTML' ) #NEWLINE#
+df . index . get_loc ( <VAR0> ) #NEWLINE#
+os . system ( 'gnome-terminal#SPACE#-e#SPACE#\'bash#SPACE#-c#SPACE#"sudo#SPACE#apt-get#SPACE#update;#SPACE#exec#SPACE#bash"\'' ) #NEWLINE#
+<VAR0> . update ( { <STR0> : 1 } ) #NEWLINE#
+my_list = [ ] #NEWLINE#
+<VAR1> . append ( <VAR0> ) #NEWLINE#
+<VAR0> . insert ( 0 , <STR0> ) #NEWLINE#
+"""\\xF3\\xBE\\x80\\x80""" . replace ( '\\x' , '' ) . decode ( 'hex' ) #NEWLINE#
+<VAR0> [ <VAR0> . columns [ - 1 ] ] #NEWLINE#
+<VAR0> . loc [ <VAR0> [ <STR1> ] == 'C' , <STR1> ] . values [ 0 ] #NEWLINE#
+np . column_stack ( ( [ 1 , 2 , 3 ] , [ 4 , 5 , 6 ] ) ) #NEWLINE#
+type ( <VAR0> ) #NEWLINE#
+type ( <VAR0> ) #NEWLINE#
+type ( <VAR0> ) #NEWLINE#
+type ( <VAR0> ) #NEWLINE#
+type ( <VAR0> ) #NEWLINE#
+print ( type ( <VAR0> ) ) #NEWLINE#
+next ( itertools . islice ( range ( 10 ) , 5 , 5 + 1 ) ) #NEWLINE#
+print ( '"{}"' . format ( <VAR0> ) ) #NEWLINE#
+"""#SPACE#""" . join ( <VAR0> ) #NEWLINE#
+<VAR0> = [ [ ] for n in range ( 2 ) ] #NEWLINE#
+<VAR0> = [ line . strip ( ) for line in open ( 'C:/name/MyDocuments/numbers' , 'r' ) ] #NEWLINE#
+"""""" . join ( [ char for char in 'it#SPACE#is#SPACE#icy' if char != 'i' ] ) #NEWLINE#
+re . sub ( 'i' , '' , 'it#SPACE#is#SPACE#icy' ) #NEWLINE#
+"""it#SPACE#is#SPACE#icy""" . replace ( 'i' , '' ) #NEWLINE#
+"""""" . join ( [ char for char in 'it#SPACE#is#SPACE#icy' if char != 'i' ] ) #NEWLINE#
+<VAR0> . dropna ( subset = [ 1 ] ) #NEWLINE#
+[ x for x in <VAR0> if x . <VAR1> == 30 ] #NEWLINE#
+<VAR1> = [ int ( x ) for x in <VAR0> ] #NEWLINE#
+map ( int , eval ( input ( 'Enter#SPACE#the#SPACE#unfriendly#SPACE#numbers:#SPACE#' ) ) ) #NEWLINE#
+sys . stdout . write ( '.' ) #NEWLINE#
+int ( round ( 2.51 * 100 ) ) #NEWLINE#
+os . chdir ( '/mydir' ) #NEWLINE# for file in glob . glob ( '*.txt' ) : #NEWLINE# #INDENT# pass #NEWLINE#
+for file in os . listdir ( '/mydir' ) : #NEWLINE# #INDENT# if file . endswith ( '.txt' ) : #NEWLINE# #INDENT# #INDENT# pass #NEWLINE#
+for root , dirs , files in os . walk ( '/mydir' ) : #NEWLINE# #INDENT# for file in files : #NEWLINE# #INDENT# #INDENT# if file . endswith ( '.txt' ) : #NEWLINE# #INDENT# #INDENT# #INDENT# pass #NEWLINE#
+<VAR0> . plot ( legend = False ) #NEWLINE#
+for i in range ( 256 ) : #NEWLINE# #INDENT# for j in range ( 256 ) : #NEWLINE# #INDENT# #INDENT# ip = '192.168.%d.%d' % ( i , j ) #NEWLINE# #INDENT# #INDENT# print ( ip ) #NEWLINE#
+for i , j in product ( list ( range ( 256 ) ) , list ( range ( 256 ) ) ) : #NEWLINE# #INDENT# pass #NEWLINE#
+generator = iter_iprange ( '192.168.1.1' , '192.168.255.255' , step = 1 ) #NEWLINE#
+sum ( 1 << i for i , b in enumerate ( <VAR0> ) if b ) #NEWLINE#
+<VAR3> . write ( '%r\n%r\n%r\n' % ( <VAR0> , <VAR1> , <VAR2> ) ) #NEWLINE#
+[ y for x in <VAR0> for y in ( x if isinstance ( x , list ) else [ x ] ) ] #NEWLINE#
+print ( <VAR1> . encode ( 'string_escape' ) ) #NEWLINE#
+"""""" . join ( <VAR0> . rsplit ( ',' , 1 ) ) #NEWLINE#
+( <VAR0> [ 1 : ] + <VAR0> [ : - 1 ] ) / 2 #NEWLINE#
+<VAR0> [ : - 1 ] + ( <VAR0> [ 1 : ] - <VAR0> [ : - 1 ] ) / 2 #NEWLINE#
+<VAR2> = numpy . fromiter ( codecs . open ( <VAR1> , encoding = <VAR0> ) , dtype = '<U2' ) #NEWLINE#
+<VAR0> = sorted ( <VAR0> , key = itemgetter ( <VAR1> ) , reverse = True ) #NEWLINE#
+<VAR0> = sorted ( <VAR0> , key = lambda a : a [ <VAR1> ] , reverse = True ) #NEWLINE#
+<VAR0> . loc [ <VAR0> [ 0 ] . str . contains ( '(Hel|Just)' ) ] #NEWLINE#
+re . search ( '\\[(.*)\\]' , <VAR0> ) . group ( 1 ) #NEWLINE#
+[ d . strftime ( '%Y%m%d' ) for d in pandas . date_range ( '20130226' , '20130302' ) ] #NEWLINE#
+"""The#SPACE#big#SPACE#brown#SPACE#fox#SPACE#is#SPACE#brown""" . count ( <STR0> ) #NEWLINE#
+json . loads ( request . body ) #NEWLINE#
+urllib . request . urlretrieve ( <VAR0> , <VAR1> ) #NEWLINE#
+<VAR0> . split ( ) #NEWLINE#
+<VAR0> . split ( ',' ) #NEWLINE#
+<VAR0> . split ( ) #NEWLINE#
+[ re . sub ( '(?<!\\d)\\.(?!\\d)' , '#SPACE#' , i ) for i in <VAR0> ] #NEWLINE#
+sorted ( <VAR0> , key = lambda <VAR1> : <VAR1> . split ( ',' ) [ 1 ] ) #NEWLINE#
+subprocess . check_call ( 'vasp#SPACE#|#SPACE#tee#SPACE#tee_output' , shell = True ) #NEWLINE#
+[ element for element in <VAR0> if isinstance ( element , int ) ] #NEWLINE#
+[ element for element in <STR0> if not isinstance ( element , str ) ] #NEWLINE#
+newlist = sorted ( <VAR0> , key = lambda k : k [ <VAR1> ] ) #NEWLINE#
+newlist = sorted ( <VAR0> , key = itemgetter ( <VAR1> ) , reverse = True ) #NEWLINE#
+list_of_dicts . sort ( key = operator . itemgetter ( 'name' ) ) #NEWLINE#
+list_of_dicts . sort ( key = operator . itemgetter ( 'age' ) ) #NEWLINE#
+df . groupby ( 'prots' ) . sum ( ) . sort ( 'scores' , ascending = False ) #NEWLINE#
+""",""" . join ( <VAR0> [ <STR0> ] ) #NEWLINE#
+"""""" . join ( [ 'A' , 'B' , 'C' , 'D' ] ) #NEWLINE#
+json . load ( urllib . request . urlopen ( <STR0> ) ) #NEWLINE#
+[ x for x in <VAR0> if not x . startswith ( '@$\t' ) and not x . startswith ( '#' ) ] #NEWLINE#
+Entry . objects . filter ( pub_date__contains = '08:00' ) #NEWLINE#
+<VAR0> . sort ( key = lambda item : ( item [ <VAR1> ] , item [ <VAR2> ] ) ) #NEWLINE#
+( t - datetime . datetime ( 1970 , 1 , 1 ) ) . total_seconds ( ) #NEWLINE#
+re . sub ( '(\\_a)?\\.([^\\.]*)$' , '_suff.\\2' , <VAR1> ) #NEWLINE#
+import imp #NEWLINE# imp . reload ( <VAR0> ) #NEWLINE#
+struct . unpack ( 'H' , struct . pack ( 'h' , <VAR0> ) ) #NEWLINE#
+<VAR0> = [ float ( x ) for x in <VAR0> ] #NEWLINE#
+<VAR0> . to_csv ( filename , index = False ) #NEWLINE#
+<VAR1> = json . loads ( <VAR0> ) #NEWLINE#
+[ chr ( i ) for i in range ( 127 ) ] #NEWLINE#
+<VAR1> . write ( struct . pack ( '5B' , * <VAR0> ) ) #NEWLINE#
+re . sub ( '^[A-Z0-9]*(?![a-z])' , '' , <VAR0> ) #NEWLINE#
+list ( <VAR0> . keys ( ) ) [ - 1 ] #NEWLINE#
+print ( 'hi#SPACE#there' , file = <VAR0> ) #NEWLINE#
+f = open ( <VAR0> , 'w' ) #NEWLINE# f . write ( 'hi#SPACE#there\n' ) #NEWLINE# f . close ( ) #NEWLINE#
+with open ( <VAR0> , 'a' ) as the_file : #NEWLINE# #INDENT# the_file . write ( 'Hello\n' ) #NEWLINE#
+<VAR0> . encode ( 'iso-8859-15' ) #NEWLINE#
+<VAR0> . objects . filter ( group = group ) . order_by ( '-added' ) [ 0 ] #NEWLINE#
+re . findall ( 'Test([0-9.]*[0-9]+)' , <VAR0> ) #NEWLINE#
+re . findall ( 'Test([\\d.]*\\d+)' , <STR0> ) #NEWLINE#
+os . system ( <STR0> , <STR0> ) #NEWLINE#
+<VAR0> . sort ( key = lambda x : x [ 1 ] [ 2 ] ) #NEWLINE#
+list ( <VAR0> . get_range ( ) . get_keys ( ) ) #NEWLINE#
+datetime . datetime . now ( ) #NEWLINE#
+next ( i for i , x in enumerate ( <VAR1> ) if not isinstance ( x , bool ) and x == <VAR0> ) #NEWLINE#
+<VAR0> [ : ] = [ ( x - 13 ) for x in <VAR0> ] #NEWLINE#
+random . choice ( os . listdir ( 'C:\\' ) ) #NEWLINE#
+max ( <VAR0> . min ( ) , <VAR0> . max ( ) , key = abs ) #NEWLINE#
+re . findall ( '"(http.*?)"' , <VAR0> , re . MULTILINE | re . DOTALL ) #NEWLINE#
+re . findall ( 'http://[^t][^s"]+\\.html' , <VAR1> ) #NEWLINE#
+<VAR0> . replace ( '#SPACE#' , '!#SPACE#!' ) . split ( '!' ) #NEWLINE#
+open ( <VAR0> , 'r' ) #NEWLINE#
+[ [ sum ( item ) for item in zip ( * items ) ] for items in zip ( * <VAR0> ) ] #NEWLINE#
+<VAR0> [ : , ( np . newaxis ) ] #NEWLINE#

@@ -1,0 +1,11 @@
+#$ -cwd
+#$ -S /bin/bash
+#$ -j y
+#$ -l tmem=8G
+#$ -l h_rt=12:00:00
+#$ -P gpu
+#$ -l gpu=1
+
+source /share/apps/python/python-3.6.5.source
+
+python3 myscript.py
